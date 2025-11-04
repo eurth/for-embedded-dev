@@ -3987,3 +3987,1134 @@ Local India EMS can also provide these with MOQ negotiation.
   - NXP: Secure JTAG challenge-response  
   Prevents firmware dumping and unsigned flashing.
 
+### 19B. Secure Elements, TPM/HSM & Crypto Co-processors
+
+- **Microchip ATECC608A / 608B (Trust&GO / TrustFLEX / TrustCUSTOM)** — https://www.microchip.com/en-us/solutions/security/authentication  
+  I²C secure element for device identity, TLS client auth, secure boot keys, ECDSA/ECDH, AES, monotonic counters. Free Trust Platform tools, Arduino/C host libs, and PKCS#11.
+
+- **Microchip TA100 (Trust Anchor for Automotive/Industrial)** — https://www.microchip.com/en-us/products/security/cryptoautomotive  
+  I²C secure element with ECC, ECDSA/ECDH, AES-CCM/GCM, secure boot/firmware trust & CAN-FD MACs. Free host libs + security app notes.
+
+- **Microchip Trust Platform (Provisioning)** — https://www.microchip.com/trustplatform  
+  Free tooling + cloud scripts to pre-provision keys/certs into ATECC/TA100 (TNG = pre-loaded certs, TFLX = field-configurable).
+
+- **NXP EdgeLock SE05x (SE050/SE051/SE052)** — https://www.nxp.com/edge/edgelock/se050  
+  I²C secure element with ECC/RSA/Ed25519, AES-GCM/CCM, TLS offload, secure counters, filesystem; Free **Plug & Trust** middleware, PKCS#11, PSA Crypto, Zephyr/FreeRTOS ports.
+
+- **NXP A71CH / A71XX (Legacy but common)** — https://www.nxp.com  
+  Low-power ECC identity SE; free host lib and Arduino/MCU examples (use SE05x for new designs).
+
+- **NXP EdgeLock 2GO (Provisioning)** — https://www.nxp.com/edgelock-2go  
+  Free tier/device tooling to provision keys/certs remotely; sample code + scripts.
+
+- **Infineon OPTIGA™ Trust M / Trust X** — https://www.infineon.com/optiga  
+  I²C secure elements for IoT identity and TLS; ECC, ECDH, AES; free **OPTIGA Trust M host library**, mbedTLS/wolfSSL examples, AWS/BtSIG guides.
+
+- **Infineon OPTIGA™ TPM SLB 9670 (TPM 2.0, SPI)** — https://www.infineon.com/tpm  
+  Discrete TPM 2.0 for Linux/SBCs; secure storage, attestation, measured boot. Free TSS stacks (tpm2-tss), systemd/Kernel integrations.
+
+- **Infineon OPTIGA™ Trust Charge / Authenticate** — https://www.infineon.com/optiga  
+  Secure elements for USB-C PD/auth and accessory authentication; free host libs, reference code.
+
+- **ST STSAFE-A110 / STSAFE-TPM** — https://www.st.com/stsafe  
+  I²C secure elements (ECC identity, TLS, message auth) and TPM options. Free X-CUBE-STSAFE middleware and application notes.
+
+- **Renesas (IDT) Secure Authenticators / RA TSIP** — https://www.renesas.com  
+  Secure elements & MCU crypto IP (TSIP) with free drivers: AES, RSA/ECC, secure boot, key wrap.
+
+- **Ambiq / Silabs / Nordic “Secure Vault/ARM CryptoCell”** — vendor docs  
+  MCU-integrated H/W crypto (AES/SHA/ARC4/ECC), true RNG, secure key storage, anti-rollback; free SDK APIs (nRF Crypto/CC310/CC312, Silabs Secure Vault, Ambiq Secure).
+
+- **Trusted Platform Module (TPM2) Software Stack (tpm2-tss)** — https://github.com/tpm2-software/tpm2-tss  
+  Free OSS user-space stack for TPM2.0 (Linux/embedded). Includes tools (tpm2-tools) and PKCS#11.
+
+- **wolfCrypt / wolfBoot + PKCS#11** — https://www.wolfssl.com  
+  Free/open (GPLv2) crypto library + secure boot; hardware offload, TPM2/SE adapters, FIPS-ready options.
+
+- **mbedTLS (ARM)** — https://github.com/Mbed-TLS/mbedtls  
+  Free lightweight TLS/crypto with PSA Crypto API; many vendor SE/TPM integrations.
+
+- **libsodium (NaCl)** — https://libsodium.org  
+  Free modern crypto (Ed25519/X25519, AEAD) with embedded-friendly builds; refs for SE offload.
+
+- **TinyCrypt / micro-ecc** — https://github.com/intel/tinycrypt / https://github.com/kmackay/micro-ecc  
+  Free tiny ECC/AES/SHA libs for Cortex-M; commonly combined with secure elements for key isolation.
+
+- **PKCS#11 for MCUs (ref impls)** —  
+  - **AWS IoT Device SDK (Free)** with PKCS#11 ports (ATECC, SE05x, OPTIGA)  
+  - **NXP Plug & Trust** PKCS#11  
+  - **Infineon OPTIGA Host Lib** PKCS#11  
+  Free C examples to bind TLS stacks to SE/TPM.
+
+- **PSA Crypto / TF-M (TrustZone-M)** — https://www.trustedfirmware.org/projects/tf-m/  
+  Free secure services (crypto, attestation, secure storage) for ARMv8-M; integrates MCUboot, mbedTLS, Zephyr/FreeRTOS.
+
+- **OP-TEE (TrustZone-A)** — https://www.op-tee.org  
+  Free TEE for ARMv7-A/v8-A SoCs; secure key storage, trusted apps, measured boot; U-Boot/Linux integration.
+
+- **Secure Provisioning Services (Cloud-assisted)** —  
+  - **Microchip Trust Platform** — scripts & free tools for cert/key injection  
+  - **NXP EdgeLock 2GO** — device on-boarding & cert lifecycle, free tier  
+  - **Infineon CIRRENT™ Cloud ID** — pre-provisioned X.509, free SDKs  
+  - **ST SAFE Provisioning Guides** — scripts & X-CUBE packages
+
+- **Reference TLS Integrations (Free)** —  
+  - **ESP-IDF** mbedTLS with ATECC608/flash-enc/secure boot  
+  - **Zephyr**: PSA + MCUboot + SE05x/OPTIGA samples  
+  - **Linux**: OpenSSL engine for TPM2 (tpm2-engine), pkcs11-engine, systemd-cryptsetup with TPM
+
+### 19C. Trusted Execution, Secure Debug/JTAG, Anti-Tamper & Physical Security
+
+#### ✅ Trusted Execution Environments (TEE) & Isolation
+
+- **ARM TrustZone-M (Free Docs & Code)** — https://developer.arm.com  
+  Hardware isolation on Cortex-M33/M23 enabling “Secure” vs “Non-secure” partitions, secure boot keys, protected crypto, secure GPIO/flash/RAM.
+
+- **TrustedFirmware-M (TF-M) (Open Source)** — https://www.trustedfirmware.org/projects/tf-m/  
+  PSA-certified secure services: crypto, secure storage, attestation, protected APIs. Integrates with MCUboot, Zephyr, FreeRTOS.
+
+- **OP-TEE (Open Source)** — https://www.op-tee.org  
+  Trusted Execution Framework on Cortex-A SoCs. Used on NXP i.MX, TI AM335/AM6. Supports secure apps, key storage, secure boot + Linux.
+
+- **M-bed PSA Crypto API (Free)** — https://github.com/Mbed-TLS/mbedtls  
+  Abstract API for crypto & secure storage. Works with SE05x, OPTIGA, TPM, MCUboot.
+
+- **RISC-V PMP / HSM Extensions (Docs & Open Examples)**  
+  Physical Memory Protection, enclave-style isolation; open implementations in Tock OS and LiteX SoCs.
+
+- **Tock OS (Open Source)** — https://www.tockos.org  
+  Embedded OS with process isolation + capability-based kernel. Ideal for multi-tenant IoT devices.
+
+- **Zephyr “TrustZone + Secure Storage + MCUboot” (Free)** — https://zephyrproject.org  
+  Ready-made secure execution reference for STM32L5, NRF5340, NXP LPC55Sxx, Silabs EFR32.
+
+#### ✅ Secure Debug, JTAG Lock, Flash Read-out Protection
+
+- **ESP32 Secure JTAG/eFuse Lock (Free Docs)** — https://docs.espressif.com  
+  JTAG can be locked using challenge-response; anti-rollback and flash encryption integrated.
+
+- **STM32 RDP Levels (Free)** — https://www.st.com  
+  Readout Protection Level 1/2 to block flash dumping; with SBSFU and OTP key storage.
+
+- **NXP Secure JTAG (i.MX, LPC)** — https://www.nxp.com  
+  Challenge-response “SJTAG” protecting debug access and memory readout.
+
+- **Microchip PIC/AVR/SAM Lockbits (Free)** — https://www.microchip.com  
+  Fuse bits prevent debug attach and flash reads.
+
+- **Nordic nRF “APPROTECT” (Free)** — https://www.nordicsemi.com  
+  Protects flash & memory regions; used in wearables, BLE beacons.
+
+- **Raspberry Pi / Linux SBC Secure Boot + Signed Kernel**  
+  With U-Boot + Verified Boot; combines TPM2 or secure element for measured boot.
+
+- **Segger J-Link Secure Flash Loader Templates (Free)** — https://www.segger.com  
+  Protects production firmware from being read during programming.
+
+#### ✅ Anti-Tamper & Hardware Protection
+
+- **Tamper Switches (Free Reference Designs)**  
+  Open examples for micro-switch, membrane switch, Hall or light-sense tamper detection. Often tied to secure RTC or SE counter.
+
+- **Secure Storage in SE/Microcontroller OTP**  
+  ESP eFuse, STM32 OTP, NXP CAAM/OCOTP, NRF KMS — free docs on storing keys + monotonic counters.
+
+- **Voltage/Clock Fault Injection Mitigation (Free Application Notes)**  
+  - NXP, Microchip, ST publish ANs on glitch detection, voltage monitors and reset traps.  
+  - On Linux SoCs: secure watchdog + tamper GPIO + monotonic counters.
+
+- **Physical Anti-Probe Mesh (Free Guides)**  
+  Application notes from Microchip/NXP/Infineon on PCB shield meshes, metal can enclosures, RF shielding, conformal coating.
+
+- **Conformal Coating / Potting (Free Guides)**  
+  Protects MCU & flash from probing; vendor free docs (HumiSeal, MG Chemicals) list PCB rules, thickness and safe compounds.
+
+- **Secure Real-Time Clock with Tamper Inputs**  
+  MCUs with RTC tamper pins can detect case opening or probing — free STM32/NXP examples.
+
+#### ✅ Key Management & Provisioning Security
+
+- **Provisioning Guides from Microchip/NXP/Infineon (Free)**  
+  End-to-end provisioning, X.509 key injection, cert chaining, secure personalization at factory.
+
+- **PSA Root-of-Trust Architecture Docs (Free)** — https://www.psacertified.org  
+  Defines device identity, secure boot, firmware lifecycle, secure debug, attestation tokens.
+
+- **MCU Key Derivation from PUF (Free)**  
+  Intrinsic ID (PUF) whitepapers & open-source examples using SRAM startup patterns to derive device-unique keys.
+
+- **Open-Source PKCS#11 & mbedTLS Demos**  
+  Offload key storage to secure elements; prevents extraction via flash dumping or debug attach.
+
+#### ✅ Anti-Cloning & Counterfeit Prevention
+
+- **Unique IDs (Free Examples)**  
+  STM32 UID, ESP32 MAC/EFUSE, nRF FICR UID → used as part of key derivation or licensing.
+
+- **Message Authentication Codes**  
+  Use ECC/AES keys in Secure Element for device-to-cloud authentication (free AWS/Azure/MCU SDK examples).
+
+- **Encrypted Firmware Images**  
+  ESP flash encryption, STM32 SBSFU, wolfBoot AES → free examples to protect IP.
+
+- **Secure Boot Chains**  
+  MCUboot, TF-M, U-Boot Verified Boot + OP-TEE → prevent cloned devices from running unsigned firmware.
+
+#### ✅ Production-Level Security Checklists (Free)
+
+- NXP, ST, Espressif, Microchip publish secure manufacturing checklists:
+  - Disable debug & secure erase keys after programming  
+  - Lock fuses and read-out protection  
+  - Use secure OTA with signatures + anti-rollback  
+  - Unique per-device keys, not shared keys  
+  - Rotate certs, maintain revocation lists  
+  - Protect serial ports/UART bootloaders in production
+
+### 19D. Post-Quantum Crypto (PQC) Libraries, Tooling & Patterns
+
+- **PQClean** — https://github.com/PQClean/PQClean  
+  Free, audited, portable C implementations of NIST PQC finalists/winners (Kyber/ML-KEM, Dilithium/ML-DSA, SPHINCS+), machine-generated bindings.
+
+- **liboqs (Open Quantum Safe)** — https://github.com/open-quantum-safe/liboqs  
+  Free C library implementing KEMs (ML-KEM/Kyber, Classic McEliece, HQC) & signatures (ML-DSA/Dilithium, SPHINCS+); easy to wrap for embedded Linux gateways.
+
+- **OQS-OpenSSL / oqs-provider** — https://github.com/open-quantum-safe/openssl  
+  Free OpenSSL 3 provider to use PQC algos in TLS/X.509/CMS; supports **hybrid** key exchange/certs (e.g., X25519+ML-KEM, ECDSA+ML-DSA).
+
+- **pqm4 (Cortex-M PQC)** — https://github.com/mupq/pqm4  
+  Free, size/speed-optimized PQC implementations for ARM Cortex-M (benchmark harness + reference builds).
+
+- **Mbed TLS (PQC forks / PSA)** — https://github.com/Mbed-TLS/mbedtls  
+  Free TLS/crypto; community forks + PSA Crypto make it straightforward to plug liboqs or vendor PQC into PSA drivers.
+
+- **wolfSSL + wolfCrypt (PQC builds)** — https://github.com/wolfSSL/wolfssl  
+  Free GPL builds; commercial also available. PQC KEX/sign support via OQS integrations; good MCU footprint and FIPS options.
+
+- **TinyCrypt / micro-ecc (classical fallback)** — https://github.com/intel/tinycrypt / https://github.com/kmackay/micro-ecc  
+  Free tiny ECC/AES/SHA for hybrid deployments (classical + PQC) on very small MCUs.
+
+- **Kyber (ML-KEM) / Dilithium (ML-DSA) / SPHINCS+ (SLH-DSA)** — https://pq-crystals.org / https://sphincs.org  
+  Free reference code and papers for the NIST-standardized KEM/signature suites used in PQ TLS/OTA.
+
+- **Classic McEliece (KEM)** — https://classic.mceliece.org  
+  Free reference for code-based KEM (large pubkeys, strong long-term security; fits gateways more than tiny MCUs).
+
+- **IETF COSE + CBOR for PQC** — https://datatracker.ietf.org/wg/cose/  
+  Free specs enabling PQC signatures in COSE/CBOR (used in SUIT manifests, LwM2M objects, CBOR Web Tokens).
+
+- **CTest/Wycheproof (classical vectors)** — https://github.com/google/wycheproof  
+  Free test vectors for classical crypto; use alongside liboqs test suites for regression.
+
+#### Practical patterns (production-friendly)
+- **Hybrid TLS now:** do **X25519 + ML-KEM** key exchange and **ECDSA + ML-DSA** certs on gateways/SBCs (OQS-OpenSSL).  
+- **MCUs today:** keep **classical TLS** on constrained nodes; terminate **hybrid PQ** at your **gateway** (edge proxy).  
+- **Signing/OTA:** sign firmware with **ML-DSA** (or classical+PQC dual signatures) inside **COSE/SUIT**; verify on gateway/SMU or on MCU if budget allows.
+
+### 19D. Embedded TLS & Secure Transport (MCU-friendly, Free)
+
+- **Mbed TLS** — https://github.com/Mbed-TLS/mbedtls  
+  Free, small TLS 1.2/1.3 with PSA Crypto; widely ported (Zephyr, FreeRTOS, ESP-IDF, MCUboot).
+
+- **wolfSSL** — https://github.com/wolfSSL/wolfssl  
+  Free GPL; tiny footprint TLS 1.3, DTLS 1.2, hardware crypto offload, FIPS ready; PQ via OQS integration.
+
+- **BearSSL** — https://bearssl.org  
+  Free minimal TLS for small MCUs, constant-time primitives, good for memory-tight designs (classical crypto).
+
+- **tinyDTLS** — https://github.com/eclipse/tinydtls  
+  Free DTLS 1.2 for CoAP/UDP constrained devices.
+
+- **gnutls / OpenSSL (SBC/Gateway)** — https://www.gnutls.org / https://www.openssl.org  
+  Free full-fat TLS for embedded Linux; use **OQS-OpenSSL** to enable PQC/hybrid.
+
+- **Noise Protocol Framework (C)** — https://github.com/rweather/noise-c  
+  Free lightweight AKE for device-to-device links; classical today, easy to adapt to PQ KEMs in gateways.
+
+### 19D. IoT Security Frameworks, Manifests & Identity (Free)
+
+- **IETF SUIT Manifests (Firmware Updates)** — https://datatracker.ietf.org/wg/suit/  
+  Free standard for signed firmware metadata (COSE/CBOR), rollback protection; works with MCUboot/Zephyr/Mender/RAUC.
+
+- **PSA Certified / TF-M** — https://www.psacertified.org / https://www.trustedfirmware.org  
+  Free secure-by-design framework (Root of Trust, attestation, secure storage) for Cortex-M; integrates MCUboot + Mbed TLS.
+
+- **FDO (FIDO Device Onboard)** — https://fidoalliance.org  
+  Free/on-prem provisioning protocol for zero-touch onboarding; device credentials + supply-chain integrity.
+
+- **LwM2M (OMA) + Security Objects** — https://www.openmobilealliance.org  
+  Free device management with DTLS/OSCORE and SUIT integration; supports cert-based or PSK flows, CBOR payloads.
+
+- **Matter / Thread Security** — https://csa-iot.org  
+  Free specs for smart-home with CASE/PASE, operational certs (PAI/DA model); good reference for consumer IoT identity.
+
+- **OPC UA (open62541)** — https://github.com/open62541/open62541  
+  Free industrial protocol with security profiles, certs, and PubSub; usable on gateways/SBCs.
+
+- **OSCORE / EDHOC (IETF)** — https://datatracker.ietf.org/wg/lake/  
+  Free object security for CoAP (OSCORE) and lightweight AKE (EDHOC); ideal for constrained nodes with CBOR/COSE.
+
+### 19D. Key Management, APIs & Secure Storage (Free)
+
+- **PKCS#11** — ubiquitous C API for keys/certs; vendor SE/TPM stacks provide free PKCS#11 modules.
+
+- **PSA Crypto API** — unified crypto/key store interface for MCUs (TF-M, Mbed TLS); makes swapping classical→PQC easier later.
+
+- **TPM2-TSS + tpm2-tools** — https://github.com/tpm2-software/tpm2-tss  
+  Free user-space stack/tools for TPM 2.0 (attestation, sealed storage, measured boot) on gateways.
+
+- **Secure Elements (SE05x / OPTIGA / ATECC)** — free host libs & PKCS#11 adaptors; isolate TLS/PQC keys from MCU flash.
+
+### 19D. Migration Playbook (concise)
+
+1) **Segment:** keep tiny MCUs on classical TLS; terminate **hybrid PQ TLS** at an **edge gateway**.  
+2) **Manifests:** move firmware signing to **COSE/SUIT**; pilot **ML-DSA** signatures alongside ECDSA.  
+3) **Identity:** use **PKCS#11/PSA** so keys can live in **SE/TPM**; plan for PQ certs later (OQS-X.509).  
+4) **Transport:** enable **OQS-OpenSSL** on Linux gateways (hybrid KEX today).  
+5) **Bench:** use **pqm4** + **PQClean** to measure MCU timing/flash; define per-SKU cut-offs (which devices can verify PQC on-device).  
+6) **Rollout:** start with **gateway-only PQC**, then migrate higher-resource endpoints; retain rollback-safe classical fallback.  
+
+
+### 19D. Post-Quantum Cryptography (PQC), Secure Elements & Hardware Root-of-Trust
+
+#### ✅ Post-Quantum Crypto Libraries (Free & Open-Source)
+
+- **Open Quantum Safe (OQS) Project** — https://openquantumsafe.org  
+  Open-source PQC algorithms (Dilithium, Kyber, Falcon) integrated with OpenSSL and liboqs for MCUs, Linux gateways and cloud backends.
+
+- **CRYSTALS-Kyber & Dilithium (NIST PQC Winners)** — https://pq-crystals.org  
+  Reference C implementations, test vectors, KEM + signatures. Free for academic and commercial use.
+
+- **PQClean (Portable C Implementations)** — https://github.com/PQClean/PQClean  
+  Clean, portable, auditable implementations of all NIST Round 3 PQC schemes, targeting small microcontrollers.
+
+- **MBedTLS + PQC (Community Ports)** — https://github.com/Mbed-TLS/mbedtls  
+  Community extensions to integrate PQC KEMs/signatures into TLS/DTLS, suitable for constrained nodes.
+
+- **WolfSSL PQC Support (Free Tier / GPL)** — https://www.wolfssl.com  
+  Falcon/Kyber integrated into TLS 1.3, DTLS, secure boot examples for embedded Linux and RTOS devices.
+
+---
+
+#### ✅ Secure Elements & Hardware Roots of Trust (Free SDKs)
+
+- **NXP SE050 & EdgeLock SE** — https://www.nxp.com  
+  PQC-ready key storage, ECDSA/ECDH, AES/GCM, TLS offload. Free host libraries + reference firmware.
+
+- **Infineon OPTIGA Trust M / Trust X** — https://www.infineon.com  
+  Secure key storage, attestation, X.509 handling. Free Arduino, STM32, ESP32 libraries.
+
+- **Microchip ATECC608A** — https://www.microchip.com  
+  Crypto co-processor with secure key storage, ECC, TLS, JWT. Free CryptoAuthLib, I2C secure element drivers.
+
+- **Intel TPM2 / Linux TPM Software Stack (TSS)** — https://github.com/tpm2-software  
+  Full open-source TPM2 stack for Linux SBCs, gateways and edge servers.
+
+- **Azure / AWS Secure Element Reference Designs**  
+  Free MCU SDKs showing secure onboarding and attestation via ATECC/SE05x.
+
+---
+
+#### ✅ Secure Bootloaders with PQC or Modern Crypto
+
+- **MCUboot (Open Source)** — https://www.mcuboot.com  
+  Image authentication, anti-rollback, RSA/ECC support; community PQC forks emerging.
+
+- **wolfBoot (Open Source)** — https://www.wolfssl.com/products/wolfboot/  
+  Lightweight bootloader for Cortex-M, RISC-V. Secure boot, encrypted images, rollback protection. GPL + commercial license.
+
+- **ARM TF-M + Bootloader Stack** — https://www.trustedfirmware.org  
+  Secure boot chain + attestation + protected storage, runs on TrustZone-M MCUs.
+
+- **U-Boot Verified Boot (Open Source)** — https://source.denx.de/u-boot/u-boot  
+  Signed kernels, FIT images, measured boot with TPM2 on Linux SBCs and gateways.
+
+---
+
+#### ✅ PQC in IoT Protocols (MQTT, CoAP, TLS/DTLS)
+
+- **mosquitto + OQS-OpenSSL (Free)** — https://mosquitto.org  
+  MQTT broker compiled with PQC-OpenSSL adds PQC-TLS for IoT device authentication.
+
+- **mbedTLS + PQC (Community Ports)** — https://github.com/Mbed-TLS/mbedtls  
+  Used with Zephyr/FreeRTOS to build PQC-TLS clients for MCUs (<256KB RAM cases shown).
+
+- **WolfSSL PQC-TLS** — https://www.wolfssl.com  
+  PQC handshake + hybrid modes (ECDH + Kyber) for embedded Linux and gateways.
+
+- **Zephyr + OQS** — https://github.com/zephyrproject-rtos  
+  Community integrations for PQC-TLS with constrained IoT endpoints.
+
+---
+
+#### ✅ Device Attestation & Identity
+
+- **FIDO Device Onboard (FDO) Open Source** — https://fidoalliance.org  
+  Secure onboarding for IoT devices without shared secrets. Free specs + reference stacks.
+
+- **DICE (Device Identity Composition Engine)** — https://trustedcomputinggroup.org  
+  Hardware-anchored identity for MCUs without TPMs. Free open specifications + C examples.
+
+- **EAT / CWT Token Attestation** — https://www.ietf.org  
+  Free IETF standards for attestation tokens on constrained devices (CBOR based).
+
+---
+
+#### ✅ Open Hardware HSM / Crypto Projects
+
+- **Tillitis TKey (Open Hardware)** — https://tillitis.se  
+  Open-source hardware security token with verifiable firmware.
+
+- **Nitrokey (Open Hardware)** — https://www.nitrokey.com  
+  Secure storage, FIDO2, encrypted mass storage. Open firmware + schematics.
+
+- **SoloKey (Open Hardware)** — https://solokeys.com  
+  FIDO2/U2F keys with open MCU firmware and USB interfaces.
+
+---
+
+#### ✅ Reference Threat Models & Security Guidance (Free)
+
+- **PSA Certified Threat Models** — https://www.psacertified.org  
+  Free security models for IoT endpoints, gateways and industrial devices.
+
+- **IoT Security Foundation Best Practices** — https://iotsecurityfoundation.org  
+  Free compliance checklists, secure lifecycle guidance.
+
+- **ENISA Hardware Security Guidelines (Free PDF)** — https://www.enisa.europa.eu  
+  Guidance on supply chain, PCB probing, side-channel, secure debug, fault injection.
+
+- **NIST 800-193 Platform Firmware Resilience** — https://csrc.nist.gov  
+  Free guidance on secure boot, measured boot and recovery.
+
+
+### 20A. TinyML Frameworks & Libraries
+
+- **TensorFlow Lite for Microcontrollers (TFLM)** — https://www.tensorflow.org/lite/microcontrollers  
+  Google’s ultra-light inference engine for MCUs (as low as ~16–32KB RAM). Free, open-source, supports CMSIS-NN, ESP32, NRF, STM32, RP2040.
+
+- **Edge Impulse Open-Source Inference SDK** — https://docs.edgeimpulse.com  
+  Fully free inference SDK with DSP blocks for audio, vibration, IMU, keyword spotting and vision. Runs on Cortex-M, ESP32, K210, Linux.
+
+- **microTVM (Apache TVM Project)** — https://tvm.apache.org  
+  Compiler stack that generates highly optimized MCU inference code for NPUs/DSPs. Open-source, Python toolchain for edge deployment.
+
+- **CMSIS-NN (Arm)** — https://github.com/ARM-software/CMSIS-NN  
+  Optimized neural network kernels for Cortex-M DSP extensions, improving inference speed and memory footprint. 100% free.
+
+- **uTensor (Arm Mbed)** — https://github.com/uTensor/uTensor  
+  Minimalistic inference engine for ARM Cortex-M with static memory allocation. Integrated with Mbed. Completely open-source.
+
+- **STM X-CUBE-AI** — https://www.st.com/en/embedded-software/x-cube-ai.html  
+  Model converter generating C inference code for STM32 MCUs. Free ST toolchain, supports Keras/TFLite/ONNX.
+
+- **Espressif ESP-DL** — https://github.com/espressif/esp-dl  
+  Optimized NN operators and quantizers for ESP32 series (ESP32-S3 vector acceleration). Open-source, TinyML friendly.
+
+- **Sony Neural Network Console for Microcontrollers** — https://dl.sony.com/  
+  Free model conversion tool for Sony Spresense (CXD5602). Generates MCU-optimized inference code.
+
+- **NXP eIQ ML Software** — https://www.nxp.com/design/software/development-software/eiq-ml-software:eIQ  
+  Free inference runtime for i.MX RT and MCUs; integrates TFLM and CMSIS-NN. Supports voice/vision pipelines.
+
+- **Himax WE-I Plus SDK** — https://www.himax.com.tw/products/ai-sensing/  
+  Always-on low-power vision MCU with free SDK + sample TinyML vision models.
+
+- **Kendryte K210 / MaixPy AI Runtimes** — https://github.com/kendryte  
+  RISC-V SoC with hardware KPU accelerator; free SDK, examples for face detection, KWS, object recognition.
+
+### 20C. AutoML, Edge Training, Quantization & Optimization Tools (Free tiers)
+
+- **Edge Impulse Studio (Free Tier)** — https://edgeimpulse.com  
+  Cloud AutoML for signal processing + classification + regression. Free tier: unlimited projects, dataset tools, DSP blocks, on-device deployment (MCU, ESP32, K210, Linux).
+
+- **SensiML Analytics Toolkit (Community Edition)** — https://sensiml.com  
+  Free tier for small datasets and IMU/gesture recognition pipelines. Export firmware for Cortex-M & ESP32.
+
+- **Qeexo AutoML (Trial/Academic Tier)** — https://qeexo.com  
+  Drag-and-drop sensor pipeline, feature extraction, and model training. Deploy to Cortex-M0/M3/M4/M7.
+
+- **ONNX Runtime for Mobile (Free)** — https://onnxruntime.ai  
+  Compress and optimize models (quantization, pruning) for ARM Cortex-A/Linux SBCs. Free + open-source.
+
+- **NVIDIA TAO Toolkit (Community)** — https://developer.nvidia.com/tao  
+  Transfer learning and AutoML with edge deployments. Free for Jetson devices.
+
+- **OpenVINO Toolkit (Free)** — https://docs.openvino.ai  
+  Optimizes TFLite/ONNX models for Intel edge devices with quantization, pruning, NPU acceleration. Free, open-source tools.
+
+- **TensorFlow Model Optimization Toolkit** — https://www.tensorflow.org/model_optimization  
+  Quantization-aware training, pruning, clustering to reduce size for MCUs and NPUs. Fully free.
+
+- **TensorFlow Lite Model Maker** — https://www.tensorflow.org/lite/models/modify/model_maker  
+  No-code transfer learning for image/audio/text datasets. Exports TFLite & TFLite Micro models free.
+
+- **MLIR (Compiler for Edge Inference Optimization)** — https://mlir.llvm.org  
+  Open-source compiler used in TFLite and TVM to reduce RAM/flash footprints for edge hardware.
+
+- **Apache TVM AutoScheduler / Autoscaling (Free)** — https://tvm.apache.org  
+  Automatically produces optimized inference kernels for ARM MCUs, NPUs, DSPs. Fully open-source.
+
+- **Google Model Search (AutoML - Open Source)** — https://github.com/google/model_search  
+  Automatic architecture search to generate compressed models for edge. Open-source.
+
+- **Larq / BNN Quantization (Free)** — https://larq.dev  
+  Binarized neural networks (1-bit weights) for ultra-low-memory inference on MCUs. Fully open-source.
+
+- **Neural Magic Deepsparse (Free Community)** — https://neuralmagic.com  
+  Model sparsification + quantization for edge CPUs. Free tier + open-source runtime.
+
+- **Hummingbird (Microsoft)** — https://github.com/microsoft/hummingbird  
+  Converts ML models (sklearn/xgboost) into tensor operations for efficient MCU/SBC inference. Free + open-source.
+
+- **Micromlgen (Arduino + TinyML)** — https://micromlgen.surigao.xyz  
+  Auto-generates MicroPython/C code from scikit-learn models. Free.
+
+- **Neuton TinyML (Free Tier)** — https://neuton.ai  
+  No-code AutoML that generates tiny neural networks (<10KB). Free plan allows unlimited MCUs.
+
+- **AIfES (Artificial Intelligence for Embedded Systems)** — https://github.com/Fraunhofer-IMS/AIfES  
+  Train small neural networks directly on microcontrollers. Open-source.
+
+- **OpenML Datasets & AutoML Tools** — https://www.openml.org  
+  Free datasets, AutoML runners, pre-processing pipelines for TinyML research.
+
+- **Google Colab (Free GPU/CPU notebooks)** — https://colab.google  
+  Free cloud compute for training quantized TinyML models and exporting TFLite Micro binaries.
+
+- **NXP eIQ Portal (Free with NXP Boards)** — https://www.nxp.com  
+  Model training, quantization, dataset tools for i.MX and RT MCUs. Free when using NXP devkits.
+
+- **ST-AI Model Zoo + STM32 AIRunner (Free)** — https://www.st.com/en/embedded-software/x-cube-ai.html  
+  Auto quantization + C code generator for STM32 MCUs. Free for ST hardware.
+
+### 20D. AI-Optimized Hardware / Accelerators (Free SDKs, Toolchains & Model Compilers)
+
+- **Google Coral Edge TPU (USB, PCIe, SOM)** — https://coral.ai  
+  Ultra-low-power TPU for edge vision and NN inference. Free TensorFlow compiler + Python/C++ runtime.
+
+- **Kendryte K210 / Sipeed MAiX** — https://github.com/kendryte  
+  RISC-V SoC with KPU NPU accelerator. Free SDK, NN compilers, and MaixPy firmware for image/audio ML.
+
+- **Espressif ESP32-S3 / ESP32-C6 AI Acceleration** — https://github.com/espressif/esp-dl  
+  Vector instructions for vision/audio ML. Free ESP-DL library + TFLM example models.
+
+- **Himax WE-I Plus AI MCU** — https://www.himax.com.tw/products/ai-sensing/  
+  Ultra-low-power always-on vision/audio MCU. Free SDK, sample models, and open reference firmware.
+
+- **STM32H7 + STM32 X-CUBE-AI** — https://www.st.com/en/embedded-software/x-cube-ai.html  
+  Converts Keras/TF/ONNX models into optimized STM32 inference C code. Free tool with ST boards.
+
+- **NXP i.MX RT + eIQ ML** — https://www.nxp.com  
+  MCU/MPU inference with DSP acceleration and quantization. Free eIQ SDK & model zoo for i.MX RT/MPUs.
+
+- **Hailo-8 / Hailo-10 Edge AI Modules** — https://hailo.ai  
+  PCIe and SOM accelerators with free compiler + model zoo. Efficient for real-time vision and detection.
+
+- **Intel Movidius Myriad X (Neural Compute Stick 2)** — https://software.intel.com/openvino  
+  USB edge inference accelerator. Free OpenVINO toolkit, quantization and high-performance CV kernels.
+
+- **Nordic Thingy:53 + Edge Impulse** — https://www.nordicsemi.com  
+  BLE/IMU platform with nRF5340 dual-core + free Edge Impulse deployment.
+
+- **Sipeed RV Boards with K210/K510** — https://wiki.sipeed.com  
+  Affordable RISC-V NPUs. Free MaixPy + NNCase model converter.
+
+- **Sony Spresense (CXD5602)** — https://developer.sony.com  
+  Multi-core MCU with DSP audio pipeline. Free Neural Network Console for model export.
+
+- **Qualcomm QCS610/QCS612 Snapdragon Edge Kits** — https://developer.qualcomm.com  
+  AI camera modules for low-power vision. Free Snapdragon Neural Processing SDK.
+
+- **OpenMV H7 / RT / K210 Boards** — https://openmv.io  
+  Vision-focused MCU boards with free OpenMV IDE, NN support (TFLM/KPU) and camera drivers.
+
+- **Raspberry Pi + HW NN Accelerators**  
+  Pi + Coral USB/PCIe + Myriad X, all with free compilers and TFLite/ONNX support.
+
+- **Microchip PolarFire SoC FPGA** — https://www.microchip.com  
+  RISC-V + FPGA fabric enables hardware ML accelerators. Free Libero IDE (base edition) + open reference designs.
+
+- **GreenWaves GAP8/GAP9** — https://greenwaves-technologies.com  
+  Ultra-low-power parallel compute MCUs for vision/audio TinyML. Free GAP SDK and NN toolchains.
+
+- **Rockchip RK3588 / RK3399 NPU Boards**  
+  Vision NPUs with free RKNN Toolkit to convert ONNX/TFLite/PyTorch to NPU kernels.
+
+- **Kneron KL520 Edge AI Modules** — https://www.kneron.com  
+  Low-power vision recognition accelerators. Free model compiler + SDK.
+
+- **ADI MAX78000 AI MCU** — https://www.analog.com  
+  Ultra-low-power MCU with CNN accelerator. Free Model Compiler and reference CNNs.
+
+- **Syntiant NDP120 Always-On Audio AI Chips** — https://www.syntiant.com  
+  Tiny always-on speech/wake-word acceleration. Free SDK for supported devkits.
+
+- **ENSEMBLE / Sipeed RVV Boards (RVV Vector AI)** — https://sipeed.com  
+  RISC-V Vector ISA acceleration for ML. Free toolchains + demos.
+
+### 21A. Robotics Frameworks, OS & Control Stacks (Free / Open-Source)
+
+- **ROS 2 (Robot Operating System)** — https://ros.org  
+  Industry-standard robotics framework with navigation, SLAM, sensor fusion, path planning, ROS middleware (DDS). Free + open-source.
+
+- **micro-ROS (ROS2 for MCUs)** — https://micro-ros.github.io  
+  ROS 2 client stack for Cortex-M & RTOS systems (Zephyr, FreeRTOS, NuttX). Free; integrates with STM32, ESP32, NXP, Microchip.
+
+- **PX4 Autopilot** — https://px4.io  
+  Open-source flight-control stack for drones, ground vehicles and marine robots. Supports GPS/IMU fusion, autopilot, MAVLink. Free.
+
+- **ArduPilot** — https://ardupilot.org  
+  Autopilot/robotics firmware for fixed-wing, multicopters, cars, boats, submarines. Open-source, runs on STM32 and Linux SBCs.
+
+- **Open Robotics Navigation Stack** — https://navigation.ros.org  
+  Full ROS2 navigation system: localization, obstacle avoidance, mapping, path planning. Free.
+
+- **MoveIt! Motion Planning** — https://moveit.ros.org  
+  Robot arm manipulation, IK, planning, collision detection. Free ROS2 integration.
+
+- **Gazebo / Ignition Robotics Simulator** — https://gazebosim.org  
+  Free, open-source 3D physics simulator for robots, SLAM, testing motor control and sensor systems.
+
+- **Webots Robotics Simulator** — https://cyberbotics.com  
+  Professional robotics simulator with physics, sensors, ROS — free open-source edition.
+
+- **MAVSDK & MAVROS** — https://mavsdk.mavlink.io  
+  MAVLink-based control libraries for drones/UGVs. Free C++/Python APIs.
+
+- **Open-RMF (Robotics Middleware Framework)** — https://open-rmf.org  
+  Fleet management for AMRs, AGVs, delivery robots — traffic control, maps, routing. Free & open-source.
+
+- **OpenCV Robotics Modules** — https://opencv.org  
+  Computer vision for robotics: feature detection, optical flow, SLAM components, stereo depth. Fully open-source.
+
+- **Orocos Kinematics & Control** — https://orocos.org  
+  Real-time robot control & kinematics framework used in industrial arms. Free & open-source.
+
+- **Cartographer (Google SLAM)** — https://cartographer.io  
+  2D/3D SLAM, LIDAR mapping and localization. Free open-source library.
+
+- **RPLIDAR & Slamtec Toolchains (Free)** — https://www.slamtec.com  
+  Free SDKs for cheap LIDAR sensors used in robotics and SLAM.
+
+- **TurtleBot 3 Ecosystem** — https://turtlebot3.robotis.com  
+  Open-source mobile robot platform based on ROS. Free firmware, CAD, and control stacks.
+
+- **OpenManipulator** — https://emanual.robotis.com/docs/en/platform/openmanipulator/  
+  Open-source robotic arm with free firmware, ROS interfaces and kinematics.
+
+- **NVIDIA Isaac ROS (Free Container Images)** — https://developer.nvidia.com/isaac-ros  
+  Optimized ROS2 packages for Jetson robots: perception, depth mapping, SLAM, DNN inference acceleration.
+
+### 21B. Motor Drivers, BLDC/Stepper Control & FOC Libraries (Free / Open-Source)
+
+- **SimpleFOC (Arduino + STM + ESP)** — https://simplefoc.com  
+  Open-source FOC motor control for BLDC, gimbal and stepper motors. Free drivers for AS5600, MA730, and common motor drivers.
+
+- **ST Motor Control SDK (X-CUBE-MCSDK)** — https://www.st.com  
+  Free FOC, sensorless control, PMSM/BLDC, auto-tuning + GUI Workbench. Runs on STM32F0/F3/F4/F7/G4/H7.
+
+- **TI InstaSPIN-FOC (LaunchPad)** — https://www.ti.com/tool/INSTASPIN-MOTION  
+  Sensorless FOC with auto-ID of motor parameters. Free for TI C2000 LaunchPads.
+
+- **Microchip MotorBench Development Suite** — https://www.microchip.com  
+  Free tool for PMSM parameters, sensorless tuning and code generation for dsPIC & SAM MCUs.
+
+- **Trinamic TMC Drivers (Eval Tools & APIs)** — https://www.analog.com/en/parametricsearch/11776#/  
+  Free stepper/servo control tools, SPI/UART config, FOC drivers. Widely used in 3D printers, robotics.
+
+- **Odrive Firmware (Open-Source)** — https://odriverobotics.com  
+  High-performance BLDC servo controller firmware. Supports robotics, CNC, mobility robots.
+
+- **FOC with Field-Oriented Library (NXP FreeMASTER)** — https://www.nxp.com  
+  Free PMSM/BLDC control with FreeMASTER real-time tuning and motor observer algorithms.
+
+- **DRV8xxx EVM Firmware (TI)** — https://www.ti.com  
+  Free firmware + MCC scripts for TI motor drivers (stepper/brushless/BDC) for robotics and gimbals.
+
+- **Mechaduino Open-Source Servo Stepper** — https://github.com/jcchurch/Mechaduino-Firmware  
+  Turns stepper motors into closed-loop servos using STM32. Free firmware and hardware files.
+
+- **Hoverboard BLDC Open Firmware** — https://github.com/EmanuelFeru/hoverboard-firmware-hack  
+  Open BLDC controller for hoverboard motors (FOC, torque mode, steering). Used by DIY robots and AGVs.
+
+- **VESC Tool (Benjamin Vedder)** — https://vesc-project.com  
+  Open-source BLDC/FOC motor control for e-bikes, robotics, skates, AGVs. Free tuning + telemetry.
+
+- **DRV8313/DRV8305/DRV8323 Sensorless FOC Examples** — https://www.ti.com  
+  Free TI example firmware + motor SDK integration for BLDCs.
+
+- **ST B-GW-FOC Reference Designs** — https://www.st.com  
+  Hardware + firmware reference for drone BLDCs, PMSM robotics, and gimbal stabilization.
+
+- **TMCStepper (Arduino Library)** — https://github.com/teemuatlut/TMCStepper  
+  Open-source SPI/UART control for Trinamic drivers (TMC2130/2209/5160). Free for 3D printers and robots.
+
+- **DRVStep (Open Source Stepper Control)** — https://github.com/DRV-STEP  
+  Community project for precise stepper control with microstepping and stall detection.
+
+- **OpenServo (Open Firmware for Hobby Servos)** — https://github.com/lnlp/OpenServo  
+  Replaces hobby servo firmware with open closed-loop control.
+
+- **Gimbal-FOC Open Firmware** — https://github.com/simplefoc/  
+  Lightweight FOC control for camera gimbals and stabilization systems.
+
+- **Roboteq Free Evaluation Firmware** — https://www.roboteq.com  
+  Free firmware for BLDC/DC motor controllers used in AGVs and mobile robots.
+
+- **Infineon Motor Control ICs (Free ModusToolbox SDK)** — https://www.infineon.com  
+  Free firmware libraries for BLDC, stepper, PFC stages, with FOC support.
+
+- **Atmel/Microchip Motor Control Apps** — https://www.microchip.com  
+  Free app notes + code examples for dsPIC, SAMD, and AVR BLDC/FOC/stepper control.
+
+- **OpenModelica + Motor Simulation (Free)** — https://openmodelica.org  
+  Simulate motor dynamics and control loops before firmware deployment.
+
+### 21C. Servo Control, Encoders, Kinematics & Trajectory Libraries (Free / Open-Source)
+
+- **ROS-Control & ros2_control** — https://github.com/ros-controls/ros2_control  
+  Standardized hardware abstraction for servo drives, joint control, feedback loops, PID, and trajectory controllers. Free and widely used in robots/AMRs.
+
+- **MoveIt Kinematics + IKFast** — https://moveit.ros.org  
+  Generates kinematic solvers (FK/IK) from robot geometry. Free solver code for manipulators and robotic arms.
+
+- **OROCOS KDL (Kinematics and Dynamics Library)** — https://orocos.org/kdl.html  
+  High-performance forward and inverse kinematics, Jacobians, dynamics, chain solvers. Open-source, C++.
+
+- **Ruckig (Real-time Motion Planner)** — https://github.com/pantor/ruckig  
+  Real-time jerk-limited trajectory generation for robotic arms, CNC, 3D printers, and AGVs. Free MIT license.
+
+- **Trapezoidal & S-curve Profiling (OpenLib)** — https://github.com/madcowswe/ODrive  
+  ODrive firmware includes free motion profiling for smooth servo moves.
+
+- **EtherCAT Servo Stack (SOEM)** — https://github.com/OpenEtherCATsociety/SOEM  
+  Free EtherCAT master used for industrial servo drives, CNC, humanoid robots.
+
+- **SimpleFOC Encoder + Magnetic Sensor Drivers** — https://simplefoc.com  
+  Free AS5048, AS5600, MT6701, ABI, SPI encoder libraries for BLDC and stepper feedback.
+
+- **AS5600/AS5048 Arduino Libraries (Free)** — https://github.com/ajfisher  
+  Free open-source magnetic encoder drivers, used in robotics and manipulators.
+
+- **OpenServo** — https://github.com/lnlp/OpenServo  
+  Open-source firmware replacing RC servo internals with closed-loop control.
+
+- **Dynamixel SDK (Free)** — https://emanual.robotis.com  
+  Free cross-platform SDK for Dynamixel servos: torque control, PID, synchronous multi-servo motion.
+
+- **Mechaduino Servo Firmware** — https://github.com/jcchurch/Mechaduino-Firmware  
+  Stepper → servo conversion with encoder feedback and closed-loop control. Free hardware + firmware.
+
+- **Teensy Encoder / FastEncoder libs** — https://github.com/PaulStoffregen/Encoder  
+  Free, high-speed quadrature decoding for robotic wheels and CNC spindles.
+
+- **OpenIMU API** — https://developers.aceinna.com  
+  Real-time orientation and INS, used for balancing robots and navigation. Free API + calibration tools.
+
+- **Trajectory Planner for 3D Printers & CNC (Marlin / Klipper)** — https://github.com/MarlinFirmware/Marlin  
+  Open-source jerk-limited motion planner used in 3D printers and CNC bots.
+
+- **Open Motion Planning Library (OMPL)** — https://ompl.kavrakilab.org  
+  Sampling-based motion planning: RRT, PRM, etc. Free and widely integrated with ROS.
+
+- **Realtime EtherCAT for Linux (Free)** — https://github.com/OpenEtherCATsociety/SOEM  
+  Allows multi-axis industrial servo drives and synchronized motion.
+
+- **SymPy Robotics Kinematics Toolkit (Python)** — https://github.com/cdsousa/SymPyBotics  
+  Symbolic FK/IK for robotic arms. Open-source.
+
+- **OpenRAVE** — http://openrave.org  
+  Full motion planning + IK library for manipulators. Open-source.
+
+- **Robotics Toolbox for Python (Peter Corke)** — https://github.com/petercorke/robotics-toolbox-python  
+  Kinematics, trajectory generation, dynamics, simulation. Free & research-grade.
+
+### 22A. IMU, AHRS, Orientation & Sensor Fusion (Free / Open-Source)
+
+- **Madgwick AHRS Filter (MIT License)** — https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/  
+  Ultra-lightweight quaternion-based AHRS for IMUs. Works on 8-bit/32-bit MCUs. Free source in C/C++/Python.
+
+- **Mahony Filter (Open-Source)** — https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/  
+  Low-compute AHRS for robots, gimbals, drones. Free implementations for ARM/Arduino.
+
+- **OpenIMU (Aceinna)** — https://developers.aceinna.com  
+  INS fusion, GPS, IMU calibration, open C firmware, and free web tools for data logging + tuning.
+
+- **ST MotionFX Library (Free)** — https://www.st.com  
+  Free orientation, 6-axis/9-axis fusion, pedometer, tilt, quaternion outputs for STM32.
+
+- **Bosch BNO055 & BHI260 + BSEC Lite** — https://www.bosch-sensortec.com/software-tools  
+  On-sensor fusion with free drivers + BSEC Lite for air quality / CO2-equivalent fusion. Free SDK.
+
+- **Google Cartographer IMU Integration (Open-Source)** — https://cartographer.io  
+  Real-time 2D/3D SLAM using IMU, LIDAR and wheel odometry. Free C++ library.
+
+- **Open-source PX4 EKF2 / IMU Fusion** — https://px4.io  
+  Extended Kalman Filter for drones and mobile robots. Free code for IMU + GPS + barometer fusion.
+
+- **Kalman Filter Library in C (Free)** — https://github.com/insane-adding-machines/kalman  
+  Lightweight KF implementations for embedded IMU fusion and smoothing.
+
+- **TinyEKF (C)** — https://github.com/simondlevy/TinyEKF  
+  Small-footprint EKF library for IMU and INS on MCUs/Arduino/STM32.
+
+- **uNav INS / Fusion for UAVs (Open-Source)** — https://github.com/rosflight  
+  IMU + barometer + GPS fusion for flight controllers. Free C/C++ implementation.
+
+- **RTIMULib (Open-Source) IMU Fusion** — https://github.com/richards-tech/RTIMULib2  
+  Sensor fusion, IMU calibration, magnetometer offsets. Works on Linux SBCs and embedded.
+
+- **Arduino_LSM9DS1 / LSM6DS3 / BMI160 Drivers (Free)** — https://github.com/arduino-libraries  
+  Sensor fusion and orientation examples for Arduino boards.
+
+- **MSP430 + TI Sensor Fusion Library (Free)** — https://www.ti.com  
+  IMU sensor fusion and tilt detection for low-power robotics and wearables.
+
+- **InvenSense MotionDriver & DMP Firmware** — https://invensense.tdk.com  
+  Free SDK with on-chip fusion for MPU6050/9250/ICM-20xxx; calibrations and quaternion output.
+
+- **ROS IMU Tools** — https://github.com/ccny-ros-pkg/imu_tools  
+  Free IMU filters, calibration and data conversion for ROS robots.
+
+- **OpenSensorHub (OSH)** — https://opensensorhub.org  
+  Distributed sensor fusion platform for UAVs, robots and geospatial sensors; free and open-source.
+
+- **OpenRTK (Aceinna)** — https://developers.aceinna.com  
+  Open-source RTK-GNSS + IMU fusion for ground robots and AGVs. Free reference software.
+
+- **FilterPy (Python)** — https://github.com/rlabbe/filterpy  
+  KF, EKF, UKF implementations used for IMU and INS prototyping. Free MIT license.
+
+- **IMU Calibration Tool (Free)** — https://github.com/zulns  
+  Open-source IMU calibration scripts for bias, scale, alignment, magnetometer distortion.
+
+### 22B. Environmental, Air Quality, Gas, Industrial Sensors (Free SDKs, Docs, Tools)
+
+- **Bosch BSEC Lite (Environmental Fusion)** — https://www.bosch-sensortec.com/software-tools  
+  Free SDK for BME680/BME688 providing IAQ, CO2-equivalent, humidity, temperature, breath/VOC detection.
+
+- **Bosch BME AI-Studio for BME688** — https://www.bosch-sensortec.com/software-tools  
+  Free machine-learning tool for gas classification (cooking, smoke, VOC patterns). Export C firmware for MCUs.
+
+- **Sensirion Environmental Sensor SDKs** — https://sensirion.com  
+  Free drivers and calibration code for SHT humidity, SPS PM2.5, SCD CO2 sensors. Open-source C/C++.
+
+- **SGP40/SGP30 Air Quality Reference Drivers (MIT)** — https://github.com/Sensirion  
+  Free C drivers + algorithms for VOC index and air quality estimation.
+
+- **Plantower PMS / Nova PM Lidar Sensors** — https://github.com/avaldebe/AQmon  
+  Free open-source PMS/PM1006/PM5003 drivers and data logging tools.
+
+- **Honeywell Air Quality Sensor SDKs (Free)** — https://sensing.honeywell.com  
+  Free Python/C driver examples for CO2, PM, toxic gas sensors.
+
+- **Amphenol CCS811 + iAQ-Core Drivers** — https://github.com/adafruit/Adafruit_CCS811  
+  Free, open-source drivers for low-power CO2/VOC sensors used in smart indoor systems.
+
+- **MQ Series Gas Sensors (Open Libraries)** — https://github.com/swatish17/MQSensorLib  
+  Free calibration + heater compensation libraries for MQ-2/3/4/7/135 etc.
+
+- **Infineon XENSIV Sensors** — https://github.com/Infineon  
+  Free SDKs for PAS CO2, DPS barometric sensors, radar presence sensors.
+
+- **Texas Instruments HDC3xxx & TMP Series** — https://www.ti.com  
+  Free code examples for humidity/temperature with calibration and drift correction.
+
+- **ST HTS221 / LPS22HB Drivers** — https://github.com/STMicroelectronics  
+  Official free drivers for humidity, pressure, temperature sensors.
+
+- **SparkFun / Adafruit Sensor Libraries (Open-Source)** — https://github.com/sparkfun / https://github.com/adafruit  
+  Free Arduino + Python drivers for hundreds of environmental sensors (TVOC, eCO2, PM2.5, barometer, UV).
+
+- **UV Index / Radiation Sensor Drivers (Open-Source)**  
+  VEML6075, SI1133, GUVA-S series — free drivers on GitHub for Arduino/STM32/ESP32.
+
+- **Weather Station Reference Projects (Free)** — https://github.com/adafruit/Adafruit_Weather_Station  
+  Free firmware + sensor examples for met stations using BME280 + wind/rain gauges.
+
+- **Industrial Temperature & PT100/RTD Amplifier Libraries** — https://github.com/adafruit/MAX31865  
+  Free open-source libraries for MAX31865/RTD/PT100/PT1000 amplifiers.
+
+- **Gas & Industrial Sensing Datasets (Free)** — https://archive.ics.uci.edu  
+  Open datasets (gas leakage, air quality, VOC patterns) for calibration and TinyML training.
+
+- **Water Quality Sensor Libraries (pH/ORP/TDS)** — https://github.com/DFRobot  
+  Free C/C++/Arduino drivers for pH, conductivity, dissolved oxygen, turbidity.
+
+- **SEAL Environmental Sensor Suite (Open Tools)** — https://github.com/SEAL-Project  
+  Open-source environmental sensing and calibration toolchain.
+
+- **Smart Dustbin / IAQ Open-Source Projects**  
+  Free ESP32/Arduino IAQ systems: PMS5003 + CCS811 + BME680 dashboards.
+
+- **Modbus Industrial Sensor Examples (Free)** — https://github.com/arduino-libraries/ArduinoModbus  
+  Open-source drivers to read industrial air-quality probes via RS485.
+
+- **OpenLog Environmental Logging Tools** — https://github.com/sparkfun/OpenLog_Artemis  
+  Free data logger firmware for PM + CO2 + weather sensors.
+
+### 22C. Vision, Depth Cameras & Edge CV SDKs (Free / Open-Source)
+
+- **OpenCV (Computer Vision Library)** — https://opencv.org  
+  The standard CV toolkit: object tracking, feature detection, SLAM building blocks, OCR, DNN. Free and open-source (C++/Python/MCU ports).
+
+- **OpenMV Camera Boards** — https://openmv.io  
+  STM32- and K210-based AI camera with free OpenMV IDE and MicroPython CV libraries (face detect, color track, QR, AprilTag).
+
+- **Intel RealSense Depth Cameras** — https://github.com/IntelRealSense/librealsense  
+  Free cross-platform SDK for depth, RGB-D, SLAM, skeleton tracking. Works on Linux SBCs + ROS.
+
+- **Luxonis / OpenCV AI Kit (OAK-D)** — https://github.com/luxonis/depthai  
+  Free DepthAI SDK for Myriad-X-based stereo + AI inference. Spatial AI, object detection, tracking.
+
+- **Raspberry Pi Camera + Libcamera** — https://libcamera.org  
+  Free camera stack with CSI cameras, HDR, ISP, Python/C++ APIs. Works on all Pi boards.
+
+- **NVIDIA Jetson + VisionWorks / DeepStream (Free SDK)** — https://developer.nvidia.com  
+  Free CV/DNN accelerated pipelines for Jetson Nano/Xavier. Supports object detection, multi-cam, tracking.
+
+- **Arducam Open-Source Drivers** — https://www.arducam.com  
+  Free drivers for CSI/MIPI cameras on Raspberry Pi, ESP32-S3, Jetson, and STM32.
+
+- **ESP32-S3 / ESP32-CAM (Free SDK)** — https://github.com/espressif  
+  Free ESP-IDF drivers and examples for JPEG, face-detection, streaming, high-res PSRAM cameras.
+
+- **OpenMV AprilTag & QR Libraries** — https://github.com/openmv/openmv  
+  Free on-board tag detection, marker tracking and object recognition for robotics.
+
+- **V4L2 (Video for Linux 2)** — https://linuxtv.org  
+  Standard free Linux camera framework. Works with USB webcams, CSI cameras, industrial cameras.
+
+- **Open3D (Free 3D Vision Library)** — http://www.open3d.org  
+  Free SLAM, point cloud filtering, ICP, voxel mapping. Works with RealSense, OAK-D, LIDAR.
+
+- **ZED Stereo Camera (Free Python/C++ SDK)** — https://www.stereolabs.com  
+  Free SDK for depth, tracking and spatial mapping (Jetson + Linux).
+
+- **Pixy2 CMUcam (Open Firmware + SDKs)** — https://pixycam.com  
+  Small vision system with free firmware, color tracking, object detection.
+
+- **Pylon SDK for Basler Industrial Cameras (Free)** — https://www.baslerweb.com  
+  Free SDK + GenICam support for high-speed machine vision applications.
+
+- **Allied Vision / Vimba SDK (Free)** — https://www.alliedvision.com  
+  Free C/C++/Python SDK for GigE and USB3 machine vision cameras.
+
+- **OpenVINO Toolkit (Free)** — https://docs.openvino.ai  
+  Free DNN acceleration on Intel edge platforms. Converts ONNX/TFLite models for cameras + SBCs.
+
+- **GStreamer (Free multimedia framework)** — https://gstreamer.freedesktop.org  
+  Free pipeline for camera capture, streaming, analysis and video encoding.
+
+- **Dlib Vision Toolkit (Free)** — http://dlib.net  
+  Open-source face recognition, landmark tracking, HOG detectors. Works on SBCs.
+
+- **OpenPose (Community Edition)** — https://github.com/CMU-Perceptual-Computing-Lab/openpose  
+  Free human pose estimation for robotics, AI cameras and Jetson.
+
+- **Open Source Motion Tracking Tools (Free)** — https://github.com/CMU-Perceptual-Computing-Lab  
+  CV pipelines for activity recognition and motion capture.
+
+- **CSI/USB Cameras with Python (OpenCV + Libcamera)**  
+  Full open-source pipeline for embedded AI cameras on Pi/Jetson/AMD Xilinx edge boards.
+
+### 22D. Radar, ToF, Lidar & UWB Sensors (Free SDKs, Drivers & Tools)
+
+#### ✅ Lidar & 2D/3D Scanners
+
+- **RPLIDAR (A1/A2/A3/S1) SDK** — https://github.com/Slamtec/rplidar_sdk  
+  Free C++ SDK for 360° laser scanners used in robots, AMRs, mapping. Works on Linux, Windows, ROS, microcontrollers.
+
+- **Hokuyo URG/UST Open-Source Drivers** — https://github.com/ros-drivers/urg_node  
+  Free ROS + C/C++ drivers for industrial safety Lidar sensors (2D mapping and SLAM).
+
+- **Ouster OS-Series Lidar SDK (Free)** — https://github.com/ouster-lidar/ouster_example  
+  Free Python/C++ drivers for 3D Lidar, point clouds, multi-return intensity.
+
+- **Livox Lidar SDK (Free)** — https://github.com/Livox-SDK/Livox-SDK  
+  Free SDK for Livox Mid/Avia series. Supports SLAM, mapping, ROS2.
+
+- **Velodyne LiDAR Drivers (Open-Source)** — https://github.com/ros-drivers/velodyne  
+  Free ROS + C++ drivers for Velodyne 3D scanners.
+
+- **LIDAR-Lite v4 Drivers (Free)** — https://github.com/garmin/LIDARLite_Arduino_Library  
+  Free Arduino/C drivers for Garmin’s low-cost ToF lidar.
+
+- **LD06 / LD19 Budget Lidar Drivers (Open-Source)** — https://github.com/iliasam  
+  Free C++/Python drivers for low-cost scanning Lidars used in robots and mapping bots.
+
+
+#### ✅ Time-of-Flight (ToF) Distance Sensors
+
+- **STM VL53L0X / VL53L1X / VL53L5CX ToF Drivers** — https://github.com/STMicroelectronics  
+  Free C/C++ drivers and ranging algorithms for ToF distance & multi-zone sensors.
+
+- **Benewake TFmini / TFMicro (Free SDK)** — https://github.com/budryerson/TFMini-Plus  
+  Free Arduino & ROS drivers for small ToF modules used in drones and AGVs.
+
+- **VL6180X Ranging + Ambient Light Drivers** — https://github.com/adafruit/Adafruit_VL6180X  
+  Free open-source drivers for ToF ranging + ALS.
+
+
+#### ✅ UWB (Ultra-Wideband) Ranging & Localization
+
+- **Decawave / Qorvo DW1000 / DW3000 DWM1001 SDK (Free)** — https://github.com/Decawave  
+  Free UWB ranging, TDoA/ToF, RTLS, and indoor positioning firmware.
+
+- **MDEK1001 RTLS Tools (Free)** — https://www.qorvo.com  
+  Free Python + gateway tools for UWB anchors and tags.
+
+- **Pozyx UWB SDK (Community)** — https://www.pozyx.io  
+  Free SDK/API for UWB localization on Linux SBCs, Python, and ROS.
+
+- **ESP32 + UWB (Decawave-based)** — https://github.com/sparkfun/Qwiic_UWB  
+  Free C++ libraries for ESP32-based UWB positioning modules.
+
+
+#### ✅ mmWave & Radar (Doppler / Range / Presence / Safety)
+
+- **TI mmWave Radar (IWR/LWR series) SDK** — https://www.ti.com  
+  Free mmWave Studio + SDK for presence detection, Doppler, range, angle estimation. Used in robotics, safety and industrial sensing.
+
+- **Infineon XENSIV Radar (BGT60TR13C / BGT60LTR11)** — https://github.com/Infineon  
+  Free radar fusion SDKs for presence detection, people counting, speed sensing.
+
+- **Acconeer A111 Pulsed Radar SDK (Free Tier)** — https://developer.acconeer.com  
+  Free Python + C SDK for distance, gesture and breathing-rate radar.
+
+- **OpenRadar (GNU Radio Based)** — https://github.com/OpenRadarGuru/OpenRadar  
+  Free radar processing blocks for SDR + simulated mmWave systems.
+
+- **mmWave ROS Drivers (Open-Source)** — https://github.com/robosavvy/ti_mmwave_rospkg  
+  ROS1/ROS2 drivers for TI radar sensors.
+
+
+#### ✅ Automotive-Grade ADAS (Free Toolchains)
+
+- **OpenPilot Radar Interfaces (Comma.ai)** — https://github.com/commaai/openpilot  
+  Open-source ADAS stack, includes radar fusion, tracking and lane-level perception.
+
+- **OpenFusion Radars (Free)** — https://github.com/ArduPilot  
+  Radar + IMU + GPS fusion for autonomous drones.
+
+
+#### ✅ Point Cloud Processing, SLAM & Visualization
+
+- **PCL (Point Cloud Library)** — https://pointclouds.org  
+  Free C++ library for filtering, segmentation, plane fitting, clustering and 3D SLAM.
+
+- **Open3D** — http://www.open3d.org  
+  Free 3D vision tool for point clouds, mesh reconstruction, ICP mapping.
+
+- **CloudCompare** — https://www.cloudcompare.org  
+  Free point cloud viewer, segmentation, registration & mesh processing.
+
+- **RTAB-Map SLAM** — https://introlab.github.io/rtabmap  
+  Graph-based SLAM supporting stereo, RGB-D, Lidar, UWB. Free ROS tools.
+
+- **Cartographer (Google SLAM)** — https://cartographer.io  
+  free 2D/3D SLAM with IMU + Lidar fusion.
+
+### 22E. Calibration Tools, Datasets & Benchmark Suites (Free / Open-Source)
+
+#### ✅ Sensor Calibration Tools (IMU, Lidar, Cameras, UWB)
+
+- **Kalibr (Camera-IMU Calibration)** — https://github.com/ethz-asl/kalibr  
+  Industry-standard calibration for camera intrinsics/extrinsics, IMU parameters, rolling shutter, time offsets. Free and open-source.
+
+- **OpenCV Camera Calibration Toolkit** — https://opencv.org  
+  Free chessboard/homography-based calibration for lens distortion, intrinsics & stereo setup.
+
+- **AprilTag Calibration Tools** — https://github.com/AprilRobotics/apriltag  
+  Free fiducial-based calibration for robotics localization, precision pose estimation.
+
+- **ROS Camera Calibration** — https://github.com/ros-perception/camera_calibration  
+  Free GUI tool for mono/stereo camera calibration in ROS robots and drones.
+
+- **IMU Calibration Scripts (Free)** — https://github.com/zulns  
+  Open-source calibration for bias, noise, soft/hard iron magnetometer distortion.
+
+- **Lidar-Camera Calibration (Autoware)** — https://github.com/autowarefoundation  
+  Free tools to align Lidar point clouds with RGB cameras for autonomous robots.
+
+- **UWB Anchor/Tag Calibration Tools** — https://github.com/Decawave/dwm1001-examples  
+  Free UWB RTLS calibration & positioning reference projects.
+
+- **OpenVINS Calibration** — https://github.com/rpng/open_vins  
+  Visual-Inertial calibration and SLAM evaluation tools. Free C++.
+
+- **Lidar to IMU Extrinsic Calibration (Free)** — https://github.com/irapkaist/lidar_mapping  
+  Used in drones and autonomous mapping robots.
+
+---
+
+#### ✅ Open Datasets for TinyML, Robotics & IoT Sensors
+
+- **UCI Machine Learning Repository** — https://archive.ics.uci.edu  
+  Hundreds of free datasets used for IMU classification, anomaly detection, industrial sensors, gas/VOC datasets.
+
+- **Google’s Speech Commands Dataset** — https://arxiv.org/abs/1804.03209  
+  Free keyword spotting dataset for microphones and TinyML audio models.
+
+- **DCASE Audio Classification Datasets** — http://dcase.community  
+  Free environmental sound datasets for tiny audio models (machines, alarms, human activity).
+
+- **HAR / IMU Activity Recognition Datasets** — https://archive.ics.uci.edu/ml/datasets  
+  Free IMU datasets for gesture, activity, health and wearable ML.
+
+- **Edge Impulse Public Datasets** — https://edgeimpulse.com/publicprojects  
+  Community open datasets for vibration, motors, fall detection, audio, agriculture, air quality.
+
+- **RobustML (Adversarial Sensor Datasets)** — https://github.com/RobustBench  
+  Free datasets for evaluating model robustness on embedded/edge hardware.
+
+- **OpenRadar Dataset** — https://github.com/OpenRadar/Opendataset  
+  Free mmWave radar raw data for learning range-Doppler/angle.
+
+- **KITTI Vision Benchmark** — http://www.cvlibs.net/datasets/kitti  
+  Widely used open dataset for autonomous driving (Lidar + camera + IMU).
+
+- **TUM RGB-D Dataset** — https://vision.in.tum.de/data/datasets/rgbd-dataset  
+  Free indoor depth + IMU sequences for SLAM and visual inertial odometry.
+
+- **CMU Motion Capture Dataset** — http://mocap.cs.cmu.edu  
+  Free human motion capture data for robotics/gesture models.
+
+---
+
+#### ✅ Synthetic Data & Simulation Suites (Free)
+
+- **Gazebo / Ignition Robotics** — https://gazebosim.org  
+  Free physics + sensor simulation (Lidar, depth, IMU, radar) for robots and drones.
+
+- **Unity Perception Toolkit** — https://github.com/Unity-Technologies/com.unity.perception  
+  Free synthetic data generator for object detection, segmentation with metadata.
+
+- **CARLA Autonomous Driving Simulator** — https://carla.org  
+  Free, open-source autonomous driving simulation for Lidar/camera/radar evaluation.
+
+- **AirSim (Microsoft)** — https://github.com/Microsoft/AirSim  
+  Free drone/ground vehicle simulator with camera + IMU/Lidar data logging.
+
+- **OpenRobotSimulation + Webots** — https://cyberbotics.com  
+  Free data capture from virtual sensors for ML training and calibration.
+
+---
+
+#### ✅ Benchmark Suites & Evaluation Kits (Free)
+
+- **MLPerf Tiny Benchmark (Free)** — https://mlcommons.org  
+  Free benchmark for MCUs and TinyML inference (audio, vision, anomaly detection).
+
+- **MCU MicroML Benchmarks (Open-Source)** — https://github.com/mlcommons  
+  Evaluate RAM/flash usage and inference time on microcontrollers.
+
+- **RoboticsSLAM Benchmarks (TUM / KITTI)**  
+  Free SLAM benchmarks for evaluating odometry, visual-inertial performance.
+
+- **EEMBC ULPMark (Free Specs & Results)** — https://www.eembc.org/ulpmark  
+  Free benchmarking for ultra-low-power MCUs used in IoT.
+
+- **DVS Neuromorphic Datasets (Free)** — https://research.ibm.com  
+  Event-based camera datasets for low-power vision.
+
