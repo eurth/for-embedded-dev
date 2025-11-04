@@ -7925,3 +7925,1081 @@ Local India EMS can also provide these with MOQ negotiation.
 - **TFMicro (Free/Open)** — MCU-level inference for predictive sensors.
 
 ---
+
+### 29A. Documentation Generators & Technical Writing Tools (Free / Open-Source)
+
+#### ✅ Code & API Documentation
+
+- **Doxygen (Free/Open-Source)** — https://www.doxygen.nl  
+  Industry-standard documentation generator for C/C++/Python/Java. UML diagrams, call graphs, HTML/PDF output.
+
+- **Sphinx (Free/Open-Source)** — https://www.sphinx-doc.org  
+  Documentation generator for Python and embedded Python tooling. Supports C/C++ API docs using Breathe + Doxygen.
+
+- **MkDocs (Free/Open-Source)** — https://www.mkdocs.org  
+  Markdown → static documentation with search, themes, navigation. Excellent for project docs and firmware manuals.
+
+- **MkDocs Material Theme (Free/Open)** — https://squidfunk.github.io/mkdocs-material  
+  Most popular theme for engineering docs: tabs, TOC, mermaid diagrams, versioning, dark mode.
+
+- **Doxybook2 (Free/Open)** — https://github.com/matusnovak/doxybook2  
+  Converts Doxygen XML output into MkDocs or GitBook-style Markdown docs. Perfect for embedded API + docs websites.
+
+- **Breathe (Free/Open)** — https://breathe.readthedocs.io  
+  Bridge between Doxygen and Sphinx for documenting C/C++ APIs with Python developers.
+
+- **JSDoc (Free/Open)** — https://jsdoc.app  
+  JavaScript documentation generator for embedded tools, dashboards and cloud backends.
+
+- **Rustdoc (Free/Open)** — built into Rust toolchain  
+  Auto-generate docs from embedded Rust crates with examples, code snippets and search.
+
+---
+
+#### ✅ Markdown → Documentation Sites (Free)
+
+- **GitBook Open-Source Templates** — community static site generators for Markdown docs (fully free self-host).  
+- **Docsify (Free/Open)** — https://docsify.js.org  
+  Turns Markdown files into an instant documentation website with no build step.
+
+- **Starlight (Free/Open)** — https://starlight.astro.build  
+  Easy docs site generator with MDX, search, navigation and components.
+
+- **Hugo (Free/Open)** — https://gohugo.io  
+  Large static site generator with themes for technical documentation.
+
+---
+
+#### ✅ Architecture & Diagram Tools (Free/Open)
+
+- **Mermaid (Free/Open)** — https://mermaid.js.org  
+  Generate diagrams from text: sequence, flowcharts, class diagrams, state machines, Gantt, ERD — embedded docs friendly.
+
+- **PlantUML (Free/Open)** — https://plantuml.com  
+  UML, state, activity, sequence diagrams via plaintext. Integrates with Doxygen, MkDocs, Sphinx.
+
+- **Graphviz (Free/Open)** — https://graphviz.org  
+  Render block diagrams, call-graphs, state machines. Used in Doxygen output.
+
+- **Draw.io / Diagrams.net (Free)** — https://app.diagrams.net  
+  Browser-based diagramming stored as SVG/PNG/JSON in Git repos. Widely used for hardware architecture.
+
+- **Krocus / Mermaid for MkDocs** — plugins for embedding diagrams in static sites.
+
+---
+
+#### ✅ Writing + Versioning Combo (Free/Open)
+
+- **Obsidian (Free)** — https://obsidian.md  
+  Markdown knowledge base for firmware and hardware docs, stored locally with Git sync.
+
+- **Zettlr (Free/Open)** — https://www.zettlr.com  
+  Markdown editor with citation management, PDF export, engineering note-keeping.
+
+- **Typora (Free Trial)** — visual Markdown editor for clean documentation.
+
+- **VSCode Markdown Preview / Mermaid** — write docs alongside code with live preview.
+
+---
+
+#### ✅ Books, PDFs & Manuals (Static Output)
+
+- **Pandoc (Free/Open)** — https://pandoc.org  
+  Convert Markdown → PDF/Word/HTML/LaTeX for user manuals, datasheets and API guides.
+
+- **LaTeX (Free/Open)** — https://www.latex-project.org  
+  High-quality technical reports, engineering papers and hardware documentation.
+
+- **TeXstudio (Free/Open)** — https://www.texstudio.org  
+  Popular LaTeX editor for structured reports.
+
+---
+
+#### ✅ Documentation Site Hosting (Free Tiers)
+
+- **GitHub Pages (Free)** — static hosting of MkDocs, Sphinx, Doxygen and Markdown sites.
+
+- **Netlify Free Tier** — deploy MkDocs/Hugo/Gatsby docs from GitHub.
+
+- **Vercel Free Tier** — deploy documentation websites with SSL + CDN.
+
+---
+
+#### ✅ Bonus – Internal Hardware/Firmware Wiki (Free/Open)
+
+- **Wiki.js (Free/Open)** — https://wiki.js.org  
+  Markdown-based wiki for engineering teams with Git integration and diagrams.
+
+- **BookStack (Free/Open)** — https://www.bookstackapp.com  
+  Clean documentation platform used as internal wiki for hardware and firmware teams.
+
+- **MediaWiki (Free/Open)** — https://www.mediawiki.org  
+  Same engine as Wikipedia; useful for deep technical knowledge bases in R&D teams.
+
+---
+### 29B. Version Control, CI/CD for Embedded (Free / Open-Source)
+
+#### ✅ Source Code Repositories (Free)
+
+- **GitHub Free Tier** — https://github.com  
+  Unlimited public repos, private repos, GitHub Actions (CI), project boards, issues. Widely used for firmware/hardware projects.
+
+- **GitLab Community Edition (Free/Open-Source)** — https://gitlab.com  
+  Self-hostable DevOps platform with Git repos, runners, CI/CD pipelines, artifacts, issue tracking and wiki.
+
+- **Gitea (Free/Open-Source)** — https://gitea.io  
+  Lightweight self-hosted Git server. Perfect for small hardware teams, local labs, air-gapped networks.
+
+- **Codeberg (Free/Open-Source hosting)** — https://codeberg.org  
+  Privacy-friendly Git hosting for open hardware and firmware projects.
+
+- **SourceHut (Free/Open Tier)** — https://sourcehut.org  
+  Minimal Git hosting with CI and email-based patch workflows.
+
+---
+
+#### ✅ CI/CD for Embedded (Free/Open)
+
+- **GitHub Actions (Free Tier)** — Linux/Windows/macOS runners for building firmware, running unit tests, static analysis, building containers.
+
+- **GitLab CI/CD (Free CE + Free Hosted Tier)** — pipelines for compiling firmware, unit tests, coverage reports, building documentation.
+
+- **CircleCI (Free Tier)** — supports ARM cross-compilers, Docker, build matrices for embedded toolchains.
+
+- **Drone CI (Free/Open-Source)** — https://www.drone.io  
+  Container-native CI for self-hosted labs, automotive and aerospace teams.
+
+- **Woodpecker CI (Free/Open)** — https://woodpecker-ci.org  
+  Drone-compatible, lightweight CI for small embedded teams.
+
+- **Jenkins (Free/Open-Source)** — https://www.jenkins.io  
+  Classic CI server, heavily used in manufacturing/enterprise to build firmware and test pipelines.
+
+- **Buildbot (Free/Open-Source)** — https://buildbot.net  
+  Python-based CI for long-running hardware tests, automated firmware builds, regression tests.
+
+- **Zuul (Free/Open)** — https://zuul-ci.org  
+  CI gate system used in telecom and cloud infrastructure; works well with complex hardware/firmware repos.
+
+---
+
+#### ✅ Artifact Management & Firmware Distribution (Free/Open)
+
+- **JFrog Artifactory OSS** — https://jfrog.com/open-source  
+  Host firmware binaries, Docker images, packages and artifacts. Free self-hosted OSS edition.
+
+- **Nexus Repository OSS** — https://www.sonatype.com  
+  Store firmware updates, bootloader images, package feeds for Yocto/Ubuntu.
+
+- **GitHub Releases / Packages (Free Tier)** — distribute firmware artifacts, build logs and release notes.
+
+- **GitLab Packages / Container Registry (Free)** — store firmware packages, Docker images, OTA binaries.
+
+---
+
+#### ✅ Code Review & Collaboration (Free/Open)
+
+- **Gerrit (Free/Open-Source)** — https://www.gerritcodereview.com  
+  Code review used extensively in Android, automotive and Linux kernel workflows.
+
+- **Phabricator (Free/Open-Source)** — https://phacility.com (archived but open)  
+  Code reviews, task boards and build pipelines for complex hardware/firmware repos.
+
+- **Review Board (Free/Open)** — https://www.reviewboard.org  
+  Code reviews for patches, diff-based workflow for embedded teams.
+
+- **GitHub/GitLab code review tools (Free)** — comments, suggestions, PR approvals, branch protections.
+
+---
+
+#### ✅ Build Automation & Tooling
+
+- **CMake (Free/Open)** — https://cmake.org  
+  Standard build system for embedded C/C++ projects. Integrates with Ninja, GCC, Clang, etc.
+
+- **Meson + Ninja (Free/Open)** — https://mesonbuild.com  
+  Fast build system for modern embedded firmware projects.
+
+- **Bazel (Free/Open)** — https://bazel.build  
+  Used in robotics, automotive and large firmware builds with reproducible pipelines.
+
+- **Yocto Project BitBake (Free/Open)** — https://yoctoproject.org  
+  Build system for embedded Linux, images, toolchains and custom packages.
+
+---
+
+#### ✅ Self-Host CI/CD for Air-Gapped Labs
+
+- **GitLab CE + Runners (Free/Open)** — complete DevOps with offline runners for manufacturing plants.
+
+- **Drone / Woodpecker CI (Free/Open)** — container-based CI for local networks.
+
+- **Jenkins (Free/Open)** — integrate hardware-in-loop test rigs, serial flashing, power-cycle testers.
+
+- **Buildbot (Free/Open)** — used for long hardware cycles (RF tests, functional QA, power tests).
+
+---
+
+#### ✅ YAML-Pipeline Generators for Embedded
+
+- **Renovate (Free/Open)** — auto-update dependencies, docker images, toolchains.
+
+- **GitHub Dependabot (Free Tier)** — firmware repo security updates (if using Python/CMake/containers).
+
+- **pre-commit (Free/Open)** — enforce code formatting, linting, commit scans before CI runs.
+
+---
+
+#### ✅ Extras: Versioned Documentation & Releases
+
+- **MkDocs + GitHub Pages (Free)** — publish versioned docs per firmware release.
+
+- **Sphinx + ReadTheDocs (Free)** — continuous docs build on new commits.
+
+- **Changelogger / Conventional Commits (Free)** — structured release notes for embedded.
+
+---
+
+### 29C. Agile & Hardware Workflow Tools (Free / Open-Tier)
+
+#### ✅ Agile / Kanban / Scrum for Hardware & Firmware Teams
+
+- **Trello (Free Tier)** — https://trello.com  
+  Visual Kanban boards for sprint planning, backlog, QA, release tracking. Useful for hardware BOM tasks, firmware tickets, PCB iterations.
+
+- **Jira Free Plan** — https://www.atlassian.com/software/jira  
+  Free plan for small teams: agile boards, sprints, epics, bug tracking. Firmware + hardware task management.
+
+- **ClickUp Free Tier** — https://clickup.com  
+  Agile boards, docs, sprint points, time tracking, automation. Works well for cross-functional hardware teams.
+
+- **Taiga (Free/Open-Source)** — https://taiga.io  
+  Agile project management platform supporting Scrum & Kanban. Self-host free and perfect for R&D hardware labs.
+
+- **OpenProject Community Edition (Free/Open)** — https://www.openproject.org  
+  Self-host agile boards, Gantt charts, requirements, documentation and releases.
+
+- **Wekan (Free/Open-Source)** — https://wekan.github.io  
+  Trello-like Kanban board, self-hostable, used widely in internal hardware labs.
+
+- **GitHub Projects / Boards (Free)** — https://github.com  
+  Kanban + Issues + CI/CD pipeline integration for firmware/EDA repos.
+
+- **GitLab Boards (Free CE)** — https://gitlab.com  
+  Integrated boards, issues, epics, dependencies for hardware-firmware workflows.
+
+---
+
+#### ✅ Requirements / Specs / Traceability (Free/Open)
+
+- **Doorstop (Free/Open-Source)** — https://doorstop.readthedocs.io  
+  Requirements management stored as files in Git. Perfect for firmware specs, PCB requirements and traceability.
+
+- **ReqView Free Plan** — https://reqview.com  
+  Document requirements, traceability links, exports. Free local version available.
+
+- **Alloy (Formal Modeling – Free/Open)** — https://alloytools.org  
+  Formal specification and constraint modeling for safety-critical hardware/firmware.
+
+- **PlantUML + Markdown (Free/Open)** — embed sequence, state and block diagrams inside requirement docs.
+
+- **Mermaid in GitHub/GitLab (Free)** — requirements + workflows + pipelines in docs.
+
+---
+
+#### ✅ BOM, Change Management & Hardware Workflows (Free/Open)
+
+- **PartKeepr (Free/Open-Source)** — http://www.partkeepr.org  
+  Inventory + parts tracking for PCB design and lab stock.
+
+- **OpenBOM Free Personal** — https://www.openbom.com  
+  Cloud-based BOM management, part lists, change logs and costing.
+
+- **KiCad + BOM Plugins (Free/Open)** — auto-generate BOM + placement files + change logs for manufacturing.
+
+- **OpenPDN / OMT Tools** — community open hardware lifecycle management.
+
+---
+
+#### ✅ Team Collaboration / Documentation (Free/Open)
+
+- **Wiki.js (Free/Open)** — https://wiki.js.org  
+  Internal engineering wiki with Markdown, diagrams and Git sync.
+
+- **BookStack (Free/Open)** — https://www.bookstackapp.com  
+  Used to maintain hardware guides, firmware release manuals, SOPs for testing teams.
+
+- **Notion Free Tier** — https://notion.so  
+  Knowledge base, SOP repository, checklists, BOM change logs.
+
+- **Obsidian (Free)** — https://obsidian.md  
+  Markdown note-taking with Git for schematics, debug logs, test results.
+
+---
+
+#### ✅ Sprint Reporting, Issues & QA
+
+- **Redmine (Free/Open-Source)** — https://www.redmine.org  
+  Issue tracking, Gantt charts, wikis, release planning for hardware/testing cycles.
+
+- **MantisBT (Free/Open)** — https://www.mantisbt.org  
+  Bug tracker for firmware and validation logs.
+
+- **Trac (Free/Open)** — https://trac.edgewall.org  
+  Lightweight wiki + issue tracker for embedded R&D teams.
+
+- **GitHub Issues (Free)** — default option for firmware teams with Actions for CI, labeling, milestones.
+
+---
+
+#### ✅ Hardware Change / Revision Control
+
+- **Git + KiCad (Free/Open)** — diff-able hardware repo with revision tracking.
+
+- **OpenHardware Repository CI Templates** — free community workflows for Gerbers, 3D, BOM auto-generation.
+
+- **GitLab Releases & Artifacts (Free)** — version hardware output files per commit.
+
+---
+
+#### ✅ Cloud-Enabled Collaboration (Free Tier)
+
+- **Figma Free Tier** — mechanical enclosure collaboration diagrams and UI mockups for HMIs.
+
+- **Diagrams.net (Free)** — block diagrams, wiring, harness diagrams committed to Git repos.
+
+- **Google Docs/Sheets (Free)** — shareable design docs, BOMs and quality checklists.
+
+---
+
+### 29D. Requirements Tracking, FMEA, Issue Tracking (Free / Open)
+
+#### ✅ Requirements Management (Free / Open-Source / Free Tier)
+
+- **Doorstop (Free/Open-Source)** — https://doorstop.readthedocs.io  
+  Store requirements as plain text in Git. Full traceability between specs, tests, firmware commits and releases.
+
+- **ReqView (Free Local Edition)** — https://reqview.com  
+  Requirement documents, traceability matrices, export to Word/PDF. Free for single-user projects.
+
+- **Polarion XTRIAL (Free Trial / Academic)** — widely used in automotive/embedded for requirements & traceability.
+
+- **OpenProject Community Edition (Free/Open)** — https://www.openproject.org  
+  Self-hosted requirements, tasks, Gantt, baselines, docs.
+
+- **GitLab Issues + Epics (Free)** — requirements as issues with labels, milestones, CI checks.
+
+- **GitHub Projects + Issues (Free)** — lightweight requirements tracking with PR reviews and automated checks.
+
+- **Alloy (Formal Spec – Free/Open)** — https://alloytools.org  
+  Model safety-critical requirements and system constraints formally.
+
+---
+
+#### ✅ FMEA, Risk Analysis, Safety Tools (Free/Open)
+
+- **Xfmea Free Templates (Community)** — community Excel/Sheets templates for FMEA & DFMEA workflows.
+
+- **OpenFTA (Free/Open)** — https://www.openfta.com  
+  Fault tree analysis for safety-critical hardware and firmware systems.
+
+- **Cafta (Free Academic)** — used for reliability and fault tree analysis.
+
+- **ISO 26262 / DO-178C Checklists (Free Community)** — open sets of safety checklist docs maintained by universities/communities.
+
+- **YEd Graph Editor (Free)** — model block diagrams, event trees, failure paths visually and export to PDF/SVG.
+
+- **Mermaid / PlantUML (Free/Open)** — generate fault trees, block diagrams and event sequences directly in docs.
+
+- **FTA Tools in Python (Free/Open)** — multiple GitHub repos performing failure modeling and Monte-Carlo reliability analysis.
+
+---
+
+#### ✅ Issue Tracking & Test Tracking (Free/Open)
+
+- **Redmine (Free/Open-Source)** — https://www.redmine.org  
+  Complete issue tracking, Gantt, wiki, release planning. Used in firmware labs and manufacturing QA.
+
+- **MantisBT (Free/Open)** — https://www.mantisbt.org  
+  Lightweight bug tracker for firmware issues, validation logs, QA feedback loops.
+
+- **Trac (Free/Open)** — https://trac.edgewall.org  
+  Wiki + tickets + revision linking for embedded R&D teams.
+
+- **Taiga (Free/Open)** — https://taiga.io  
+  Agile boards + backlog + sprint issues. Free for small teams and open-source projects.
+
+- **Phabricator (Free/Open)** — https://phacility.com  
+  Code review + ticket system + wiki for hardware/firmware collaboration.
+
+- **Fossil SCM (Free/Open)** — https://fossil-scm.org  
+  Built-in wiki, ticketing and version control in one binary. Compact tool for labs.
+
+- **Jira Free Plan** — https://www.atlassian.com/software/jira  
+  Limited free tier for small teams with boards, epics and bug tracking.
+
+---
+
+#### ✅ Traceability / Verification (Free/Open)
+
+- **Robot Framework (Free/Open)** — https://robotframework.org  
+  Test automation for embedded, REST APIs, UI, hardware-in-loop setups.
+
+- **PyTest (Free/Open)** — unit testing framework often used with firmware simulators and hardware abstraction.
+
+- **CTest (Free/Open)** — part of CMake; integrates with CI for firmware unit testing.
+
+- **GitHub Actions / GitLab CI (Free)** — automated verification on each commit, traceable to requirements.
+
+- **Check (C unit testing – Free/Open)** — https://libcheck.github.io/check  
+  Unit test framework for C code in embedded projects.
+
+---
+
+#### ✅ Safety / Compliance Documentation Generators (Free/Open)
+
+- **Pandoc + LaTeX** — generate compliance docs, safety manuals, hardware validation reports.
+
+- **MkDocs Material + Versioning** — versioned hardware requirements + trace logs.
+
+- **Sphinx + Breathe** — combine code/API docs with requirements for complete traceability.
+
+---
+
+### 29E. PCB & Firmware Quality, Linting, Static Analysis Tools (Free / Open-Source)
+
+#### ✅ Firmware Linting, Code Quality & Static Analysis (Free/Open)
+
+- **Cppcheck (Free/Open)** — http://cppcheck.sourceforge.net  
+  Static analysis for C/C++: detects memory leaks, null dereferences, bounds issues. Widely used in embedded CI pipelines.
+
+- **Clang-Tidy (Free/Open)** — https://clang.llvm.org/extra/clang-tidy  
+  Code style, bug detection, MISRA-ish checks, modern C++ guidelines. Integrates with CMake and GitHub Actions.
+
+- **Clang Static Analyzer (Free/Open)** — https://clang-analyzer.llvm.org  
+  Deep path analysis for C/C++ firmware. Finds real defects, nulls, leaks, logic pitfalls.
+
+- **PVS-Studio Free for FOSS** — https://pvs-studio.com  
+  Advanced analysis for C/C++/C#/Java. Free for open-source firmware and academic use.
+
+- **SonarQube Community Edition (Free/Open)** — https://www.sonarqube.org  
+  Quality dashboards for C/C++/Python. Detects bugs, smells, complexity. Self-hostable and works with CI.
+
+- **Flawfinder (Free/Open)** — https://dwheeler.com/flawfinder  
+  Security vulnerability scanner for C/C++ firmware.
+
+- **Infer (Free/Open)** — https://fbinfer.com  
+  Facebook static analyzer used in mobile and systems code. Detects concurrency bugs, nulls, logic issues.
+
+- **cpp-lint / cpplint (Free/Open)** — Google C++ style checker. Works with microcontroller repos.
+
+- **ESLint / Pylint / Rust Clippy (Free/Open)** — free linters for embedded dashboards, Python scripts, Rust firmware.
+
+---
+
+#### ✅ MISRA, CERT, Safety Compliance – Free Tools
+
+- **clang-tidy MISRA Profiles (Community Free)** — unofficial rule checks for MISRA-C.
+
+- **cppcheck MISRA addons (Community)** — rule checks for safety-critical firmware.
+
+- **SuperTest Community Suites (Free limited)** — MISRA, AUTOSAR rule validation (academic/open).
+
+- **Open-Source MISRA checkers in GitHub CI** — multiple action templates applying MISRA & CERT scans.
+
+---
+
+#### ✅ Unit Testing Frameworks (Free/Open)
+
+- **Unity (Free/Open)** — http://www.throwtheswitch.org/unity  
+  Microcontroller-focused C unit test framework. Works with CMock and Ceedling.
+
+- **Ceedling (Free/Open)** — http://www.throwtheswitch.org/ceedling  
+  Full embedded test harness with mocks, runners, reports.
+
+- **CMock (Free/Open)** — auto mock generator for C interfaces and drivers.
+
+- **GoogleTest (Free/Open)** — https://github.com/google/googletest  
+  C++ unit testing for embedded host-side tests.
+
+- **CTest (Free/Open)** — part of CMake; CI-friendly test runner.
+
+- **PyTest (Free/Open)** — Python test automation for HAL simulators, hardware-in-loop scripts.
+
+---
+
+#### ✅ Code Coverage & Profiling (Free/Open)
+
+- **gcov / lcov (Free/Open)** — GCC code coverage and HTML reporting. Ideal for embedded unit tests.
+
+- **GProf (Free/Open)** — profiling CPU time and hotspots in firmware running on host/sim.
+
+- **Valgrind (Free/Open)** — detect memory corruption, leaks, undefined behavior in host builds.
+
+---
+
+#### ✅ Hardware/PCB Quality & Rule Checking (Free/Open)
+
+- **KiCad DRC/ERC (Free/Open)** — https://kicad.org  
+  Electrical rule checking, net violations, clearances, differential pairs. Free for PCB design quality.
+
+- **OpenDRC / Gerbv (Free/Open)** — https://gerbv.github.io  
+  Gerber viewer and rule checks for PCB manufacturing validation.
+
+- **LibrePCB (Free/Open)** — https://librepcb.org  
+  Open PCB CAD with DRC, BOM, lattice checking.
+
+- **FreeDFM by OSHpark (Free)** — https://oshpark.com  
+  Upload Gerbers and run manufacturing DFM checks free.
+
+- **PCBWay DFM Test (Free)** — free manufacturability checks online.
+
+- **JLCPCB Gerber Analyzer (Free)** — free fabrication rule validation.
+
+- **KiCad StepUp (Free)** — mechanical clearance validation with FreeCAD.
+
+---
+
+#### ✅ Hardware Test Automation (Free/Open)
+
+- **OpenHTF (Free/Open)** — https://google.github.io/openhtf  
+  Production test automation for boards, fixtures, DUT stimulus, functional validation.
+
+- **pytest + PyVisa + SCPI (Free/Open)** — automate oscilloscopes, PSUs, loads for PCB bring-up.
+
+- **OpenAPS / Hardware-in-loop scripts** — community frameworks for automated device testing.
+
+---
+
+#### ✅ Continuous Quality Dashboards (Free)
+
+- **SonarQube Community + GitHub Actions** — free quality gates for C/C++ firmware.
+
+- **GitLab Code Quality Reports** — pipeline that flags defects on MR/PR.
+
+- **Codecov Free Tier** — uploads gcov/lcov coverage to dashboards (public repos free).
+
+- **Coveralls Free Tier** — free code coverage for open-source firmware.
+
+---
+### 30A. Free Embedded Books / PDFs / Online Material
+
+#### ✅ MCU & Embedded Systems Books (Free/PDF)
+
+- **“The Definitive Guide to ARM Cortex-M0/M3/M4” (Free PDFs online via vendors)**  
+  Vendor-distributed editions covering architecture, registers, interrupts, firmware and RTOS basics.
+
+- **“The Art of Assembly Language” (Free/Open PDF)** — https://www.plantation-productions.com/Webster/  
+  Classic deep guide to assembly and low-level CPU operations.
+
+- **“Dive Into Systems” (Free/Open PDF)** — https://diveintosystems.org  
+  Beginner-friendly book on computer architecture and low-level programming.
+
+- **“Mastering Microcontrollers (on AVR/PIC)” (Community PDFs)**  
+  Free educational editions from multiple universities; covers C programming & peripherals.
+
+- **“BeagleBone Cookbook” (Free Online)** — various open chapters for Linux-based embedded systems.
+
+- **“Operating Systems: Three Easy Pieces (OSTEP)” (Free PDF)** — https://pages.cs.wisc.edu/~remzi/OSTEP  
+  Great OS fundamentals for embedded Linux engineers.
+
+- **“Control Systems Lectures (K. Ogata)” – Free educational slides/PDFs**  
+  Found in many university portals, covers control fundamentals for robotics and drives.
+
+- **“Digital Design” (M. Mano) – University-provided PDFs**  
+  Widely shared for logic design fundamentals.
+
+---
+
+#### ✅ Linux, IoT & Networking Books (Free)
+
+- **“Linux From Scratch (LFS)” (Free/Open)** — https://www.linuxfromscratch.org  
+  Step-by-step instructions to build Linux from source. Perfect for embedded Linux developers.
+
+- **“The Linux Command Line” (Free PDF)** — http://linuxcommand.org  
+  Beginner to advanced shell guidance — must-read for embedded Linux.
+
+- **“Beej’s Guide to Network Programming” (Free)** — https://beej.us/guide/bgnet  
+  Socket programming and TCP/UDP fundamentals used in IoT firmware & gateways.
+
+- **“Beej’s Guide to C Programming” (Free)** — https://beej.us/guide/bgc  
+  Excellent free C guide for MCU programmers.
+
+- **“Beej’s Guide to Pipe/Pipe2/IPC” — free complementary networking material.**
+
+- **“Embedded Linux Primer” (Free excerpts)** — several free legally hosted chapters online.
+
+---
+
+#### ✅ RTOS, Firmware Architecture & Drivers
+
+- **FreeRTOS Reference Manual (Free PDF)** — https://www.freertos.org  
+  Official kernel API documentation, task scheduling, memory, MCU ports.
+
+- **Zephyr Project Documentation (Free/Open)** — https://docs.zephyrproject.org  
+  Driver model, device tree, subsystems — open documentation for modern embedded systems.
+
+- **“μC/OS-III Real-Time Kernel Book” (Free Download from Micrium)**  
+  Detailed RTOS internals, scheduling, synchronization and porting.
+
+- **LVGL Documentation (Free/Open)** — https://docs.lvgl.io  
+  Graphics and UI stack for embedded displays.
+
+- **STM32, NXP, TI, Renesas, Infineon Training PDFs (free vendor portals)**  
+  Driver tutorials, HAL examples, power modes, bootloaders.
+
+---
+
+#### ✅ Electronics, Power & PCB Design (Free)
+
+- **“All About Circuits” (Free Online Book)** — https://www.allaboutcircuits.com  
+  Electronics fundamentals, circuits, microcontrollers and PCB basics.
+
+- **“Lessons in Electric Circuits” (Free/Open Book)** — https://www.ibiblio.org/kuphaldt/electricCircuits/  
+  Full electronics textbook series, completely open.
+
+- **“The Free Range VHDL Book / Verilog Book” (Free PDFs)** — widely used in FPGA basics.
+
+- **“Chua’s Circuit & Nonlinear Electronics Books” (Free/Open)** — advanced analog material online.
+
+- **Switching Power Supply Design (TI/NXP/ADI Free Guides)** — vendor reference books on SMPS, DC-DC, EMI.
+
+---
+
+#### ✅ Robotics & Control (Free)
+
+- **“Modern Robotics” (MIT Press) – Free PDF** — http://hades.mech.northwestern.edu/index.php/Modern_Robotics  
+  Kinematics, dynamics, motion planning, control — gold standard.
+
+- **ROS Tutorials & Books (Free/Open)** — https://www.ros.org  
+  Full open robot middleware documentation.
+
+- **MIT Control Theory Notes (Free PDFs)** — openly hosted lecture collections.
+
+---
+
+#### ✅ Cybersecurity, IoT Security & Cryptography (Free)
+
+- **“Crypto101” (Free/Open Book)** — https://crypto101.io  
+  Introduction to cryptography, ciphers, MAC, hashes, crypto attacks.
+
+- **“The Joy of Cryptography” (Free PDF)**  
+  Academic-style walkthrough of crypto fundamentals.
+
+- **Free IoT Security Training PDFs (ENISA, OWASP IoT, NIST)** — official open reports and best practices.
+
+- **WolfSSL / MBedTLS Docs (Free/Open)** — embedded TLS, secure boot, crypto APIs.
+
+---
+
+#### ✅ MCU Vendor Training Books & Handbooks
+
+- **STM32 Blue Pill & Nucleo Labs (Free PDFs & Guides)** — community manuals & HAL tutorials.
+
+- **ESP-IDF Programming Guides (Free)** — https://docs.espressif.com  
+  Networking, drivers, Wi-Fi/BLE stacks, OTA.
+
+- **Nordic DevAcademy (Free)** — BLE, Zephyr, nRF52 SDKs.
+
+- **TI MCU Academy (Free)** — C2000, MSP430, driver/RTOS training.
+
+- **Microchip Developer Help (Free)** — PIC/AVR/ARM tutorials, app notes, books.
+
+---
+
+### 30B. Free MCU Vendor Training / Learning Portals
+
+#### ✅ ESP32 / ESP-IDF / RISC-V (Espressif)
+
+- **Espressif ESP-IDF Docs & API Guides (Free)** — https://docs.espressif.com  
+  Full SDK documentation, examples, Wi-Fi/BLE stacks, OTA, drivers, secure boot, partitioning.
+
+- **Espressif Training Portal (Free)** — https://www.espressif.com/en/support/training  
+  Official training videos, hands-on labs and certification pathways.
+
+- **ESP Academy (Community Free)** — curated lectures + practical firmware labs for ESP32/ESP8266.
+
+---
+
+#### ✅ STMicroelectronics (STM32 / STM8)
+
+- **STM32Cube MCU Training (Free)** — https://www.st.com/en/development-tools/stm32cubemx.html  
+  HAL drivers, CubeMX, power modes, middleware, bootloaders, X-CUBE stacks.
+
+- **STM University Program (Free PDFs & Labs)** — open training courseware for embedded teachers and students.
+
+- **STM32 MOOC (Free)** — official free video courses on ARM Cortex-M, RTOS, connectivity and security.
+
+---
+
+#### ✅ Nordic Semiconductor (nRF5x / nRF52 / BLE / Zephyr)
+
+- **Nordic DevAcademy (Free Online Courses)** — https://academy.nordicsemi.com  
+  BLE, Zephyr RTOS, power profiling, security, DFU/OTA, sensor integration.
+
+- **nRF Connect SDK Docs (Free)** — https://developer.nordicsemi.com  
+  BLE Mesh, Thread/Matter, secure boot, OpenThread, LTE-M/NB-IoT examples.
+
+---
+
+#### ✅ Texas Instruments (TI – MSP430, C2000, Sitara)
+
+- **TI “MCU Academy” (Free)** — https://dev.ti.com  
+  Deep training for MSP430, C2000, real-time motor control, DSP, power systems.
+
+- **TI University Program (Free)** — lecture slides, lab manuals, student books.
+
+- **Power Electronics Training (Free)** — reference designs & SMPS training for industrial/automotive.
+
+---
+
+#### ✅ Microchip (PIC / AVR / SAM / PIC32)
+
+- **Microchip Developer Help (Free)** — https://microchipdeveloper.com  
+  Tutorials for PIC, AVR, ARM SAM, Harmony, MPLAB X IDE, bootloaders, drivers.
+
+- **MPLAB X University Courses (Free)** — complete labs for timers, ADC, UART, SPI, I2C.
+
+- **Atmel Software Framework Legacy Docs (Free)** — still widely used for AVR and Cortex-M0+.
+
+---
+
+#### ✅ NXP (Kinetis, LPC, i.MX, FreeRTOS)
+
+- **NXP eLearning Portal (Free)** — https://nxp.com  
+  Cortex-M firmware, security, Matter, MCUXpresso, FreeRTOS and USB stacks.
+
+- **MCUXpresso SDK + Examples (Free)** — device drivers, middleware, RTOS examples, power modes, TrustZone.
+
+---
+
+#### ✅ Renesas (RL78, RX, RA, Synergy)
+
+- **Renesas Online Training (Free)** — https://www.renesas.com  
+  Modules on RTOS, security, power efficiency, toolchains, Bluetooth LE.
+
+- **RA Smart Configurator Labs (Free)** — drag-and-drop peripheral setup plus code gen.
+
+- **Renesas University Program (Free)** — slides, labs and teaching kits.
+
+---
+
+#### ✅ Infineon (PSoC, XMC, Aurix, Wi-Fi/BLE)
+
+- **Infineon Developer Training (Free)** — https://www.infineon.com/cms/en/training  
+  PSoC, XMC motor control, Wi-Fi, BLE, Matter, hardware security.
+
+- **ModusToolbox Code Examples (Free)** — drivers, connectivity, OTA, cloud.
+
+---
+
+#### ✅ Silicon Labs (EFR32, Zigbee, Matter)
+
+- **Silabs Training Portal (Free)** — https://silabs.com  
+  Zigbee, Matter, Thread, OpenThread, RTOS, Secure Boot, PSA-Level security.
+
+- **Simplicity Studio Labs (Free)** — onboarding for EFR32 with full examples.
+
+---
+
+#### ✅ Raspberry Pi & RP2040 (Pico)
+
+- **Pico C SDK Book (Free PDF)** — https://www.raspberrypi.com/documentation/microcontrollers  
+  GPIO, PIO, DMA, C/C++ firmware development.
+
+- **Pico Python SDK Docs (Free)** — MicroPython training for beginners.
+
+---
+
+#### ✅ STM32, ESP32, nRF & TI Community Labs (Free)
+
+- Thousands of open GitHub labs + tutorials teaching drivers, RTOS, MQTT, BLE, OTA and cloud integration.
+
+---
+
+### 30C. Free IoT Security Courses, Bootcamps & Certifications
+
+#### ✅ Official / Government / Standards Bodies
+
+- **ENISA IoT Security Training (Free PDFs & Videos)** — https://www.enisa.europa.eu  
+  Courses and guidelines on embedded security, secure update, key management, supply-chain risks.
+
+- **NIST IoT Security Guidelines (Free PDFs, Reference Frameworks)** — https://www.nist.gov  
+  Best practices, secure boot, crypto, IoT lifecycle, device identity, patching, vulnerability disclosure.
+
+- **OWASP IoT Security Project (Free/Open)** — https://owasp.org/www-project-internet-of-things  
+  Free labs, top-10 IoT vulnerabilities, testing guides and firmware security checklists.
+
+- **IoT Security Foundation (Free Resources)** — https://iotsecurityfoundation.org  
+  Free rules, checklists, compliance overviews, secure design principles for embedded devices.
+
+---
+
+#### ✅ Embedded Security Courses (Free / Open)
+
+- **CyberSecurityBase (Free Course)** — University of Helsinki  
+  Covers secure software development, threat modeling, crypto mistakes and mitigations.
+
+- **Crypto101 (Free/Open Book & Course)** — https://crypto101.io  
+  Beginner to intermediate cryptography for firmware and hardware engineers.
+
+- **Let’s Encrypt Ciphers / TLS Academy (Free Online Modules)** — TLS basics for embedded Linux / IoT gateways.
+
+- **MBedTLS / WolfSSL Docs (Free)** — secure TLS, ECC, X.509, DTLS for constrained devices.
+
+- **Nordic Semiconductor Security Training (Free)** — pairing, bonding, BLE security, confidentiality and OTA DFU signing.
+
+---
+
+#### ✅ Firmware & Reverse Engineering Training (Free)
+
+- **Ghidra Courses (Free/Open)** — https://ghidra-sre.org  
+  Reverse engineering basics for firmware, ELF binaries, RTOS images.
+
+- **Intro to Embedded Security (Free YouTube Courses)** — exploitation of UART, JTAG, SWD, bootloaders and unsigned firmware.
+
+- **IoT Pentesting Online Labs (Free/Open)** — firmware extraction, UART consoles, emulators, binwalk, QEMU.
+
+- **Project Zero Write-ups (Free)** — deep dives into real firmware vulnerabilities, secure boot bypasses.
+
+---
+
+#### ✅ Wireless Security (Free)
+
+- **HackRF & SDR Security Tutorials (Free/Open)** — replay attacks, protocol fuzzing, sub-GHz IoT traffic.
+
+- **WPA3/WPA2 Security Labs (Free)** — Wi-Fi encryption, certificates, EAP-TLS, authentication flows.
+
+- **BLE Security Tutorials (Free)** — MITM, pairing, bonding, GATT exploits, sniffer tools.
+
+---
+
+#### ✅ Secure Boot, TPM, PQC (Free/Open)
+
+- **PQShield & NIST PQC Resources (Free)** — post-quantum crypto overviews, open reference code.
+
+- **OpenTitan Docs (Free/Open)** — hardware root-of-trust, secure boot chain.
+
+- **MCUboot Docs (Free/Open)** — signing, AES encryption, rollback prevention.
+
+- **Trusted Firmware-M (Free/Open)** — PSA Certified security framework for Cortex-M.
+
+---
+
+#### ✅ University-Level Cybersecurity Courses (Free/PDF)
+
+- **Stanford CS155 Notes (Free)** — security engineering fundamentals.  
+- **MIT OCW Cybersecurity Courses (Free)** — threat modeling, crypto, secure coding.  
+- **Georgia Tech OMSCS “Intro to Information Security” (Free Videos)** — overview of applied security.
+
+---
+
+### 30D. Free Academic Repositories & Research Papers (Embedded / IoT / Electronics)
+
+#### ✅ University Research Paper Libraries (Free Access / Open Repos)
+
+- **arXiv (Free/Open)** — https://arxiv.org  
+  World’s largest open repository of academic papers. Huge sections on embedded systems, IoT security, signal processing, robotics, ML on microcontrollers.
+
+- **HAL Archives (Free)** — https://hal.science  
+  European open archive for research in electronics, wireless sensing, CPS, embedded computing and energy systems.
+
+- **CERN Document Server (Free/Open)** — https://cds.cern.ch  
+  Deep research on electronics, FPGAs, radiation-tolerant hardware, particle detector embedded systems.
+
+- **NASA Technical Reports Server (Free)** — https://ntrs.nasa.gov  
+  Aerospace electronics, high-reliability embedded systems, radiation effects, fault-tolerant computing, power electronics.
+
+- **MIT OpenCourseWare (Free)** — https://ocw.mit.edu  
+  Full lecture modules, PDFs, assignments on digital systems, control theory, operating systems, embedded robotics.
+
+- **Stanford Online / CS Resources (Free Notes)** — free slides & PDFs on computer architecture, networks, security.
+
+---
+
+#### ✅ IoT Security, Wireless & Protocol Research
+
+- **IACR ePrint (Free/Open)** — https://eprint.iacr.org  
+  Latest crypto research including PQC, ECC, secure boot, signatures for embedded devices.
+
+- **NIST PQC & Lightweight Crypto Submissions (Free)** — all algorithm specs, reference code, and papers for post-quantum candidates.
+
+- **LoRa/LPWAN Academic Papers (Public Free Links)** — IEEE preprints and university-backed open datasets on LoRa, ChirpStack, gateways, localization.
+
+- **ResearchGate (Free Access Papers)** — many authors share PDFs of embedded, IoT, power electronics research.
+
+- **OpenWSN Papers & Theses (Free)** — 6TiSCH, TSCH, low-power wireless stacks for industrial IoT.
+
+---
+
+#### ✅ Robotics, SLAM & Digital Twin Research
+
+- **IEEE RAS Open Access Papers (Free)** — robotics algorithms, SLAM, kinematics, motion planning.
+
+- **Open Robotics Research Library** — ROS, Gazebo, multi-robot planning papers uploaded by researchers.
+
+- **CARLA & AirSim Papers (Free/Open)** — open research on autonomous systems, digital twins, photorealistic simulation.
+
+- **OpenDSS / GridLAB-D Papers** — energy digital twin research, smart grid control, forecasting.
+
+---
+
+#### ✅ Embedded AI / TinyML Research & Datasets
+
+- **TinyML Foundation Resources (Free)** — presentations, whitepapers, model benchmarks, MCU case-studies.
+
+- **MLCommons / MLPerf Tiny (Free/Open)** — performance benchmarks and open datasets for embedded ML.
+
+- **UCI Machine Learning Repository (Free)** — datasets for classification and sensor-time-series (faults, vibrations, environmental).
+
+- **NASA Turbofan / Bearing Datasets (Free)** — classic predictive maintenance datasets.
+
+---
+
+#### ✅ Hardware Security, Fault Injection & Side-Channel (Free Repos)
+
+- **OpenTitan (Free/Open)** — https://opentitan.org  
+  Open silicon root-of-trust; full research papers, hardware security architecture.
+
+- **ChipWhisperer Research (Free)** — https://chipwhisperer.io  
+  Side-channel attack papers, labs, firmware injection, power analysis.
+
+- **Side-Channel Analysis Repositories (Community Open)** — multiple free datasets & tools for CPA/DPA.
+
+- **Trusted Firmware Docs (Free/Open)** — secure boot, PSA Certified architecture for Cortex-M.
+
+---
+
+#### ✅ FPGA, VLSI & Open Hardware Research
+
+- **OpenROAD Project Papers (Free/Open)** — autonomous RTL-to-GDSII flow research.
+
+- **RISC-V Papers (Free/Open)** — specs, ISA docs, extensions, hardware verification.
+
+- **FPGA4Student / Academic VHDL/Verilog (Free)** — open projects, labs and research references.
+
+- **Open-Core designs (Free/Open)** — academic CPU, AI accelerators, SoC papers.
+
+---
+
+#### ✅ Archive Collectors & Search Engines (Free)
+
+- **Semantic Scholar (Free)** — https://www.semanticscholar.org  
+  AI-powered paper search, PDF links, citation graphs for embedded/IoT/robotics.
+
+- **CORE.ac.uk (Free/Open)** — aggregates millions of free-access research papers globally.
+
+- **Directory of Open Access Journals (DOAJ)** — https://doaj.org  
+  Journals with open-access electronics and engineering publications.
+
+---
+
+### 30E. Free Simulators & Sandboxes for Learning (Embedded, IoT, Networks)
+
+#### ✅ Microcontroller & Firmware Simulators (Free / Open)
+
+- **Wokwi (Free Online MCU Simulator)** — https://wokwi.com  
+  Browser-based simulation for Arduino, ESP32, STM32, sensors, displays, logic analyzers. Great for quick prototyping and teaching.
+
+- **SimulIDE (Free/Open-Source)** — https://simulide.com  
+  Real-time MCU + electronics simulator supporting AVR, PIC, Arduino and digital circuits.
+
+- **EdSim51 (Free)** — http://edsim51.com  
+  8051 microcontroller simulator with peripherals, LCD, ADC, serial port.
+
+- **Online GDB / Compiler Explorer (Free)** — https://compiler-explorer.com  
+  Compile C/C++ firmware, inspect assembly and optimization outputs.
+
+- **Proteus Demo (Free Limited)** — valuable for education: MCU + circuit simulation, virtual instruments.
+
+- **MCU8051IDE (Free/Open)** — integrated 8051 simulator for academics.
+
+- **Tinkercad Circuits (Free)** — https://www.tinkercad.com  
+  Beginner-friendly electronics + Arduino simulation with circuit editor.
+
+---
+
+#### ✅ Industrial Protocol & SCADA Sandboxes (Free)
+
+- **Conpot (Free/Open)** — https://github.com/mushorg/conpot  
+  SCADA/PLC honeypot for learning industrial protocols, cyber-security, Modbus, S7.
+
+- **OpenPLC Runtime (Free)** — https://www.openplcproject.com  
+  Experimental SoftPLC to test ladder logic, Modbus TCP/RTU and digital IO virtually.
+
+- **QModMaster (Free)** — Modbus master simulator with register browser.
+
+- **ModRSsim2 (Free)** — Modbus slave simulator to test SCADA clients, HMIs and PLCs.
+
+- **nodered.org (Free)** — live browser sandbox for industrial flows, MQTT and dashboards.
+
+---
+
+#### ✅ Networking & IoT Protocol Simulators (Free/Open)
+
+- **NS-3 (Free/Open-Source)** — https://www.nsnam.org  
+  Network simulator for Wi-Fi, LTE, 5G, TCP/UDP, TSN and IoT protocols.
+
+- **OMNeT++ (Free/Open)** — https://omnetpp.org  
+  Powerful IoT networking simulation with plugins for LoRa, Zigbee, 6LoWPAN, TSCH.
+
+- **Cooja (Free/Open)** — https://github.com/contiki-ng/cooja  
+  IoT simulator for Contiki-NG. Emulates low-power wireless stacks and sensor motes.
+
+- **TOSSIM (Free/Open)** — TinyOS network simulator for low-power sensor networks.
+
+- **Riverbed Modeler Academic Edition (Free)** — network behavior modeling used in educational IoT labs.
+
+---
+
+#### ✅ Robotics, Machine Vision & Digital Twin Sandboxes (Free/Open)
+
+- **Gazebo / Ignition Robotics (Free/Open)** — https://gazebosim.org  
+  3D dynamic robot + sensor simulator with HD cameras, LiDAR, IMU. Perfect for AGVs, warehouse robots and twins.
+
+- **Webots (Free/Open)** — https://cyberbotics.com  
+  Real-time robotics simulator with ROS integrations, controllers and sensors.
+
+- **CARLA (Free/Open)** — https://carla.org  
+  Autonomous driving simulator — sensor fusion, SLAM, perception, control.
+
+- **AirSim (Free/Open)** — https://github.com/microsoft/AirSim  
+  Drone + ground robot simulator with depth cameras, IMUs, GPS and physics.
+
+- **OpenCV Playground (Free)** — online notebooks for beginner computer vision tasks.
+
+---
+
+#### ✅ Embedded Linux & Cloud IoT Sandboxes
+
+- **AWS Free Tier IoT Core sandbox** — MQTT, rules engine, shadow devices for IoT learning.
+
+- **Azure Free Tier IoT Hub sandbox** — device registry, telemetry ingestion, digital twins.
+
+- **Google Cloud Free Tier IoT Core (legacy examples)** — MQTT ingestion demos, cloud functions.
+
+- **Balena Free Tier** — deploy containers to Raspberry Pis for practical IoT training.
+
+- **QEMU (Free/Open)** — emulate ARM/RISC-V boards, Linux boot, kernel drivers, custom OS for embedded Linux learning.
+
+---
+
+#### ✅ Power Electronics & Motor Control Simulators (Free)
+
+- **LTspice (Free)** — SMPS, converters, gate drivers, motor drivers, thermal analysis.
+
+- **PLECS / PSIM Student Editions (Free)** — converter + motor drive simulation with waveforms.
+
+- **EMotorSim (Free)** — basic motor models and inverter control for education.
+
+---
+
+#### ✅ Drones & Wireless Labs (Free)
+
+- **ArduPilot SITL (Free/Open)** — https://ardupilot.org  
+  Drone flight controller simulation, sensor models, MAVLink telemetry.
+
+- **PX4 SITL (Free/Open)** — https://px4.io  
+  UAV autopilot simulator supporting Gazebo and AirSim.
+
+---
