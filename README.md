@@ -5118,3 +5118,2810 @@ Local India EMS can also provide these with MOQ negotiation.
 - **DVS Neuromorphic Datasets (Free)** — https://research.ibm.com  
   Event-based camera datasets for low-power vision.
 
+### 23A. Embedded & Local Databases (Free / Open-Source)
+
+- **SQLite (Public Domain)** — https://sqlite.org  
+  Zero-config embedded SQL database used in millions of devices. Fits in <500KB, supports transactions, journaling, encryption extensions.
+
+- **LittleFS + Wear-Levelled KV Stores** — https://github.com/ARMmbed/littlefs  
+  Free, flash-friendly file system with small KV database patterns for MCUs (config, logs, counters).
+
+- **UnQLite (NoSQL Embedded DB)** — https://unqlite.org  
+  Zero-conf NoSQL store for embedded Linux & SBC gateways. In-memory or flash-backed, BSD license.
+
+- **RocksDB (Facebook)** — https://rocksdb.org  
+  Fast key-value storage for edge gateways and rugged IoT servers. SSD/flash optimized, free & open-source.
+
+- **LevelDB (Google)** — https://github.com/google/leveldb  
+  Lightweight NoSQL KV store for local caching, telemetry buffering and offline IoT apps.
+
+- **LiteDB (C# Embedded DB)** — https://www.litedb.org  
+  BSON document DB for .NET applications running on edge devices or Windows/Linux gateways. MIT license.
+
+- **Realm (Open-Source Edition)** — https://github.com/realm/realm-core  
+  Local database for mobile/edge apps with sync capability. Free community edition for embedded Android gateways.
+
+- **DuckDB (In-Process OLAP DB)** — https://duckdb.org  
+  Embedded analytics engine for edge logs and local queries. Free & open-source.
+
+- **PicoDB (Tiny NoSQL DB)** — https://github.com/orestisf1993/picoDB  
+  Very small KV database for microcontrollers and wearables.
+
+- **TInyDB (Python TinyDB)** — https://tinydb.readthedocs.io  
+  JSON-based embedded database for Python edge apps on Raspberry Pi / Jetson.
+
+- **LiteX BIOS + FlashFS (Open-Source SoC Framework)** — https://github.com/enjoy-digital/litex  
+  Tiny filesystem and storage blocks for RISC-V SoCs, FPGA SoCs, and soft processors.
+
+- **Ignition / Gazelle Log Replay (Free)** — https://gazebosim.org  
+  Local data logging & query for robotics sensor data; used for debugging and playback.
+
+- **Zephyr & FreeRTOS KV Stores (Open-Source Samples)** — https://github.com/zephyrproject-rtos  
+  Free embedded KV databases for logs, configs and firmware state.
+
+- **MCU Flash-Based Ring Buffers (Open Implementations)** — https://github.com/embeddedartistry/libcircular  
+  Free circular/ring buffer libraries for log persistence and fault events.
+
+- **TinyCDB (Constant DB)** — https://www.corpit.ru/mjt/tinycdb.html  
+  Minimal C DB for tiny embedded Linux systems. Public domain.
+
+- **File-backed MQTT Store (Mosquitto Persistence)** — https://mosquitto.org  
+  Free built-in persistent offline storage for MQTT gateways and edge brokers.
+
+### 23B. Time-Series & IoT Databases / MQTT Query Engines (Free / Open-Source)
+
+- **InfluxDB (Open-Source Edition)** — https://www.influxdata.com  
+  Popular time-series DB for sensor telemetry. Local edge installation is free, supports retention policies and dashboards.
+
+- **TimescaleDB (Community Edition)** — https://timescale.com  
+  PostgreSQL extension for time-series + IoT analytics. Free CE version supports compression and continuous aggregates.
+
+- **CrateDB (Open-Source)** — https://crate.io  
+  Distributed SQL database optimized for IIoT data ingestion. Free community edition for edge servers/SBCs.
+
+- **QuestDB (Open-Source)** — https://questdb.io  
+  Ultra-fast SQL time-series engine. Free CE with real-time ingestion and Grafana support.
+
+- **Prometheus (Free, CNCF)** — https://prometheus.io  
+  Time-series scraping + alerting for gateways and on-prem IoT servers. Works with exporters and Grafana.
+
+- **RRDTool (Free)** — https://oss.oetiker.ch/rrdtool  
+  Classic ring-buffer time-series database for resource-limited Linux gateways. Zero cost, low footprint.
+
+- **Graphite (Open-Source)** — https://graphiteapp.org  
+  Metrics and time-series monitoring for edge clusters and industrial servers.
+
+- **VictoriaMetrics (Free OSS)** — https://victoriametrics.com  
+  Time-series database with high compression; free OSS server ideal for IoT telemetry.
+
+- **OpenTSDB** — http://opentsdb.net  
+  Time-series data over HBase; free and used in industrial/logging scenarios.
+
+- **EMQX MQTT Broker (Open Source)** — https://www.emqx.io  
+  Free clustered MQTT broker with rule engine to store messages into InfluxDB, MySQL, PostgreSQL, MongoDB.
+
+- **Mosquitto MQTT Broker (Free)** — https://mosquitto.org  
+  Small-footprint MQTT broker with file persistence. Suitable for gateways and low-cost servers.
+
+- **HiveMQ CE (Free)** — https://github.com/hivemq/hivemq-community-edition  
+  Free MQTT broker with WebSockets support and plugin API.
+
+- **Mainflux (Open-Source IoT Cloud)** — https://mainflux.com  
+  MQTT/CoAP HTTP ingestion + storage into Postgres/Influx. Fully open-source and edge-friendly.
+
+- **ThingsBoard Community Edition** — https://thingsboard.io  
+  Free IoT backend with rule engine, ingestion pipelines, time-series DB, dashboards and OTA.
+
+- **NanoMQ (Lightweight MQTT) — Nanomq** — https://nanomq.io  
+  Very small MQTT broker for embedded Linux and RT-OS gateways. Free & open-source.
+
+- **KubeEdge Edge-Storage/SQL Lite** — https://kubeedge.io  
+  Edge-native storage for devices and telematics; open-source under CNCF.
+
+- **NoSQL for Gateways: MongoDB Community Edition** — https://www.mongodb.com  
+  Free CE supports IoT telemetry, document storage and offline-first edge apps.
+
+- **Druid (Open-Source)** — https://druid.apache.org  
+  Real-time analytics DB for streaming sensor data; used in industrial IoT.
+
+- **ReductStore (Open-Source TSDB)** — https://www.reduct.store  
+  Simple time-series blob store for edge logging. Free to self-host.
+
+### 23C. Real-Time Streaming & Analytics on the Edge (Free / Open-Source)
+
+- **Apache Kafka (Free Community Edition)** — https://kafka.apache.org  
+  High-throughput event streaming platform for IoT gateways and industrial servers. Free Kafka Connect + KSQL for stream queries.
+
+- **Apache NiFi (Free)** — https://nifi.apache.org  
+  Drag-and-drop real-time data pipelines for IoT ingestion, transformation, routing. Runs on SBCs and edge servers.
+
+- **Node-RED (Open-Source)** — https://nodered.org  
+  Visual flow programming for MQTT/HTTP/serial data. Free dashboards, rules, alerts. Runs on Raspberry Pi, Jetson, gateways.
+
+- **EMQX Rule Engine (Free Open-Source Edition)** — https://www.emqx.io  
+  Real-time streaming SQL rules on MQTT messages. Push to DBs, HTTP, Kafka, InfluxDB. Free to self-host.
+
+- **Mosquitto + Telegraf (Free)** — https://mosquitto.org / https://www.influxdata.com  
+  Mosquitto for MQTT + Telegraf for edge processing, metrics, filtering and data export to TSDBs.
+
+- **EdgeX Foundry (LF Edge, Open-Source)** — https://www.edgexfoundry.org  
+  Industrial edge framework: device services, real-time pipelines, rules engine. Completely open-source.
+
+- **KubeEdge (CNCF Project)** — https://kubeedge.io  
+  Kubernetes at the edge with real-time data sync, device twin, MQTT bridge and local analytics. Open-source.
+
+- **Flink (Open-Source)** — https://flink.apache.org  
+  Real-time stream analytics with low-latency processing. Works on edge clusters + industrial servers.
+
+- **Spark Structured Streaming (Free)** — https://spark.apache.org  
+  Batch + streaming analytics for industrial IoT. Runs on edge x86 or ARM servers.
+
+- **FastAPI with MQTT & WebSockets (Free)** — https://fastapi.tiangolo.com  
+  Lightweight Python real-time pipelines for notifications, dashboards, telemetry APIs.
+
+- **KSQL / ksqlDB (Free)** — https://ksqldb.io  
+  SQL queries over Kafka streams. Used in IoT pipelines for filtering, aggregation and anomaly detection.
+
+- **Benthos Stream Processor (Free, MIT-licensed)** — https://www.benthos.dev  
+  Single binary stream processor for MQTT/Kafka/AMQP/HTTP. Extremely lightweight for edge deployments.
+
+- **MQTT to InfluxDB / Postgres Gateways (Free)** — https://github.com  
+  Open-source bridges converting MQTT sensor streams to SQL/TSDB storage.
+
+- **OpenFaaS (Free)** — https://www.openfaas.com  
+  Run serverless functions at the edge to process sensor events, alerts, ML inference.
+
+- **OpenWhisk (Apache)** — https://openwhisk.apache.org  
+  Event-driven functions for IoT pipelines and analytics. Free and open-source.
+
+- **StreamSets Data Collector (Free Core Edition)** — https://streamsets.com  
+  Visual pipelines for IoT/log ingestion, MQTT connectors, transformations.
+
+- **Logstash (Elastic Stack Free)** — https://www.elastic.co/logstash  
+  Real-time ingestion and parsing of IoT logs and telemetry. Free open-source pipeline.
+
+- **Fluentd / Fluent Bit (Free CNCF)** — https://fluentbit.io  
+  Lightweight log & metrics streaming on Embedded Linux, routers, gateways. Free & open-source.
+
+- **Eclipse Streamsheets (Free)** — https://www.eclipse.org/streamsheets  
+  Excel-like real-time data processing for MQTT industrial systems.
+
+### 23D. Dashboards & Visualization Tools (Free / Open-Source)
+
+- **Grafana (Open-Source Edition)** — https://grafana.com  
+  Industry-standard dashboard for timeseries, MQTT, InfluxDB, Prometheus, PostgreSQL. Free plugins and alerting.
+
+- **ThingsBoard Community Edition** — https://thingsboard.io  
+  Free IoT dashboard and rule engine with widgets, charts, maps, real-time telemetry, OTA and device management.
+
+- **Node-RED Dashboard (Free)** — https://nodered.org  
+  Drag-and-drop UI panels for MQTT/HTTP sensors, switches, gauges and charts.
+
+- **Kibana (Free / Elastic OSS)** — https://www.elastic.co/kibana  
+  Visualization for logs, metrics, security events and dashboards. Works with Elasticsearch and Beats on edge.
+
+- **Chronograf (Open-Source)** — https://docs.influxdata.com/chronograf  
+  InfluxDB dashboards and alerting. Free and lightweight for Raspberry Pi / gateway servers.
+
+- **Metabase (Open-Source)** — https://metabase.com  
+  Easy SQL dashboards for PostgreSQL, MySQL, Timescale, CrateDB, SQLite. Free for on-prem/self-host.
+
+- **Redash (Free, Open-Source)** — https://redash.io  
+  Dashboards and query editor for SQL, InfluxDB, JSON, REST and MQTT backends.
+
+- **Superset (Apache)** — https://superset.apache.org  
+  Modern web BI dashboard for SQL/NoSQL timeseries and IoT data warehouses. Free, open-source.
+
+- **Freeboard / Freeboard.io (Open-Source)** — https://github.com/Freeboard/freeboard  
+  IoT-focused dashboards: charts, gauges, maps. Free and lightweight for small embedded projects.
+
+- **EMQX Dashboard (Free OSS)** — https://www.emqx.io  
+  Free MQTT broker dashboard with real-time subscription/device monitoring, metrics, rule engine UI.
+
+- **Mainflux UI (Open-Source)** — https://mainflux.com  
+  Free web UI for IoT devices, channels, events and subscriptions.
+
+- **OpenHAB (Free)** — https://www.openhab.org  
+  Smart home / IoT dashboards with MQTT, Modbus, KNX, BACnet. Open-source.
+
+- **Homer Dashboard (Free OSS)** — https://github.com/bastienwirtz/homer  
+  Lightweight static dashboard for gateway servers with links to services, metrics and logs.
+
+- **Shiny (R/Open-Source)** — https://shiny.rstudio.com  
+  Web dashboards for sensor data analytics and plotting. Free and open-source.
+
+- **Plotly Dash (Community)** — https://plotly.com/dash  
+  Python dashboards for real-time IoT charts. Free open-source edition.
+
+- **Streamlit (Open-Source)** — https://streamlit.io  
+  Build sensor dashboards with Python in minutes. Free to self-host on SBCs or x86 edge servers.
+
+- **Grafana Loki + Promtail (Free)** — https://grafana.com/oss/loki  
+  Free log dashboard for embedded Linux / gateways.
+
+- **Eclipse Streamsheets (Free)** — https://www.eclipse.org/streamsheets  
+  Spreadsheet-style dashboard for MQTT, Kafka, Modbus. Runs on PCs and edge servers.
+
+## 24. Test Equipment, RF Analyzers & Open Hardware Tools
+
+### 24A. Logic Analyzers & Protocol Tools (Open Hardware / Free SDKs)
+
+- **Sigrok + PulseView (Open-Source)** — https://sigrok.org  
+  Free multi-platform logic analyzer UI with I2C/SPI/UART/CAN/LIN/1-Wire decoders. Supports dozens of USB analyzers.
+
+- **Saleae Logic (Free Basic Software)** — https://www.saleae.com  
+  High-quality analyzers; free software for protocol decode and measurements (full features with hardware).
+
+- **DSLogic Open-Source Analyzer** — https://www.dreamsourcelab.com  
+  Affordable open hardware logic analyzers with free Sigrok/PulseView support.
+
+- **Bus Pirate (Open Hardware)** — http://dangerousprototypes.com  
+  Free, open-source multi-protocol tool for SPI, I2C, UART, SWD sniffing and scripting.
+
+- **GreatFET One (Open Hardware)** — https://greatscottgadgets.com/greatfet/  
+  USB hardware hacking tool for GPIO, SPI/I2C sniffing, glitching, logic capture.
+
+- **Logic Sniffer (OLA, Open Logic Analyzer)** — https://github.com/OpenLogicSniffer  
+  Open-source FPGA-based logic analyzer with Sigrok support.
+
+- **Arduino as Logic Analyzer (Free Firmware)** — https://github.com/felhr85/USB-Serial-Analyzer  
+  Turns Arduino boards into basic logic analyzers for UART/SPI debugging.
+
+- **ESP32 Logic Analyzer Firmware (Free)** — https://github.com/ESP32DE/ESP32-logic-analyzer  
+  ESP32 firmware to capture GPIO and decode common serial protocols.
+
+- **fx2lafw (Open Firmware for FX2LA USB)** — https://github.com/sigrokproject/fx2lafw  
+  Free firmware enabling cheap FX2-based analyzers to work with Sigrok/PulseView.
+
+- **Beagle USB/I2C Protocol Analyzers (Free SDK)** — https://www.totalphase.com  
+  Commercial hardware, but free software & protocol analyzers usable without license.
+
+### 24B. Digital Oscilloscopes, Mixed-Signal Scopes & Open-Source Firmware / Tools
+
+- **OpenHantek (Open-Source Oscilloscope UI)** — https://github.com/OpenHantek  
+  Free PC software for many Hantek USB scopes. Better UI, FFT, protocol decode without vendor software.
+
+- **PulseView (Sigrok GUI)** — https://sigrok.org  
+  Free visualization of oscilloscope & logic traces. Protocol decode for UART/I2C/SPI/CAN. Works with many USB PC scopes.
+
+- **Owon/UNI-T/ATTEN USB Scope Support (Sigrok)** — https://sigrok.org/wiki/Supported_hardware  
+  Many budget PC USB scopes work with Sigrok for free decoding and capture.
+
+- **FrogScope (Open-Source FPGA Oscilloscope)** — https://github.com/RobertBaruch/frogscope  
+  DIY FPGA-based oscilloscope with free HDL + PC UI.
+
+- **Scoppy (Android Oscilloscope via ESP32/RPI Pico/STM32)** — https://github.com/fhdm-dev/Scoppy  
+  Turns ESP32 or Raspberry Pi Pico into a basic oscilloscope + logic analyzer using an Android phone. Free and open-source.
+
+- **Arduino Oscilloscope Projects (Free)** — https://github.com/yoggy/arduino-oscilloscope  
+  Multiple open projects turning Arduino into a sampling oscilloscope with PC UI.
+
+- **Siglent SDS/MSO (Free SCPI/Remote Software)** — https://www.siglent.com  
+  Free remote PC control, SCPI automation, CSV/trace exports, Bode plots.
+
+- **Rigol UltraScope (Free)** — https://rigolna.com/software  
+  Free PC control software for Rigol DS/MSO scopes. Automates captures, measurements, screenshots.
+
+- **Hantek DSO2000/5000/6000 Open Tools** — https://github.com/OpenHantek/openhantek  
+  Open-source analysis, waveform capture, exporting and scripting.
+
+- **PicoScope Software (Free, No License)** — https://www.picotech.com  
+  PC oscilloscope UI for PicoScopes — free decoding, math channels, FFT. Runs on Windows/Linux/Raspberry Pi.
+
+- **Red Pitaya (Open-Source Oscilloscope/Analyzer)** — https://redpitaya.com  
+  STEMlab boards with free open-source oscilloscope, spectrum analyzer, logic analyzer + FPGA templates.
+
+- **Analog Discovery 2 (WaveForms – Free Software)** — https://digilent.com  
+  Mixed-signal USB scope & analyzer. Free WaveForms software (logic, spectrum, protocol decode).
+
+- **OpenScope MZ (Digilent — Open Firmware)** — https://digilent.com  
+  Wi-Fi oscilloscope + logic analyzer with open-source firmware and PC/web UI.
+
+- **LabNation SmartScope (Open-Source)** — https://lab-nation.com  
+  Open-source FPGA oscilloscope with free cross-platform UI + protocol decoding.
+
+- **BitScope Micro (Free Software)** — https://bitscope.com  
+  Low-cost USB mixed-signal scope; free PC software for waveform capture & logic decode.
+
+- **Scilab + Serial/DAQ Oscilloscope Plugins (Free)** — https://www.scilab.org  
+  Free numerical oscilloscope using USB/DAQ devices for signal capture and math processing.
+
+- **Jupyter Notebook + PyVisa Automation (Free)** — https://pyvisa.readthedocs.io  
+  Free automation for Rigol/Siglent/Keysight scopes via VISA/SCPI for automated testing & logging.
+
+- **LabTool (Open-Source MSO by Xilinx Students)** — https://github.com/mrk-its/labtool  
+  FPGA-based MSO with open PC UI and protocol decode.
+
+- **STM32 Discovery + OpenMSO Firmware** — https://github.com/azonenberg/openfpga/tree/master/tools/openmso  
+  Turns STM32 discovery boards into very basic oscilloscopes/signal capture tools.
+
+- **Real-time Web Oscilloscopes (Free)**  
+  - WebUSB/WebSerial tools for ESP32/STM32 pico-scopes  
+  - Open-source dashboards streaming ADC data to browser UI
+
+- **OscLogger / OscExport Tools** — https://github.com  
+  Open-source utilities for exporting scope CSVs, converting to VCD, Matplotlib, Excel.
+
+### 24C. RF Spectrum Analyzers, SDR Platforms & RF Toolchains (Free / Open-Source)
+
+#### ✅ SDR Hardware (Open Hardware or Free SDK Support)
+
+- **RTL-SDR (USB SDR)** — https://www.rtl-sdr.com  
+  Cheapest SDR platform (24 MHz – ~1700 MHz). Free drivers + support for GNU Radio, SDR#, GQRX.
+
+- **HackRF One (Open Hardware SDR)** — https://greatscottgadgets.com/hackrf/  
+  1 MHz – 6 GHz half-duplex SDR. Free firmware, gateware, host tools. Ideal for RF labs and education.
+
+- **LimeSDR / LimeSDR Mini (Open Hardware)** — https://limemicro.com  
+  Full-duplex up to 3.8 GHz with FPGA access. Free LimeSuite for tuning, calibration, streaming.
+
+- **BladeRF (Open Hardware)** — https://www.nuand.com  
+  300 MHz – 3.8 GHz SDR with FPGA fabric. Free host drivers, FPGA gateware, GNU Radio blocks.
+
+- **PlutoSDR (Analog Devices)** — https://wiki.analog.com/university/tools/pluto  
+  325 MHz – 3.8 GHz SDR. Free libiio drivers and GNU Radio support.
+
+- **USRP (Ettus Research)** — https://github.com/EttusResearch  
+  Free UHD drivers, open FPGA reference designs. Works with GNU Radio & RFNoC.
+
+- **KerberosSDR (4-channel coherent SDR)** — https://www.rtl-sdr.com/kerberossdr  
+  Free direction-finding software + beamforming tools.
+
+- **OpenWiFi SDR (FPGA Open Source)** — https://github.com/open-sdr/openwifi  
+  Full open-source Wi-Fi PHY on FPGA. Free Verilog implementation.
+
+- **SatNOGS Ground Station (Open Hardware)** — https://satnogs.org  
+  Free open-source satellite ground station SDR with antenna rotator, tracking, demodulation.
+
+---
+
+#### ✅ RF & SDR Software (Free Tools)
+
+- **GNU Radio (Open-Source)** — https://gnuradio.org  
+  Standard SDR toolkit. Modular blocks for FM/AM, ADS-B, GSM/LTE, satellite reception.
+
+- **GQRX (GUI Spectrum Analyzer)** — https://gqrx.dk  
+  Free waterfall and spectrum UI for RTL-SDR/HackRF/PlutoSDR.
+
+- **QSpectrumAnalyzer** — https://github.com/xmikos/qspectrumanalyzer  
+  Free RF spectrum analyzer UI that runs on Linux, supports RTL-SDR/HackRF/Pluto/LimeSDR.
+
+- **SDR# (SDRSharp)** — https://airspy.com  
+  Free Windows SDR software with FM/AM/Digital decode, ADS-B plugins.
+
+- **CubicSDR** — http://cubicsdr.com  
+  Multi-platform SDR & waterfall visualizer. Free and simple for beginners.
+
+- **Fosphor (GPU accelerated spectrum)** — https://github.com/osmocom/gr-fosphor  
+  Real-time GPU spectrum visualization for SDRs. Open-source.
+
+- **Dump1090 (ADS-B Aircraft Tracking)** — https://github.com/flightaware/dump1090  
+  Free ADS-B decoder for RTL-SDR; aircraft position & telemetry.
+
+- **GQRX + GSM Receivers** — https://github.com/ptrkrysik/gr-gsm  
+  Open-source GSM decoding on SDR for educational/demonstration purposes.
+
+- **OpenWebRX (Web-based SDR Receiver)** — https://github.com/jketterl/openwebrx  
+  Stream SDR radio over the web. Free, open-source.
+
+---
+
+#### ✅ SDR Toolchains for SATCOM, GPS, Radio Astronomy
+
+- **Pypredict + GNURadio SATCOM** — https://github.com/EA4GPZ/pypredict  
+  Free satellite modem + ground telemetry tooling.
+
+- **SatDump (Open-Source)** — https://github.com/altillimity/SatDump  
+  Free multi-satellite signal decoder (NOAA, METEOR, GOES). Uses RTL-SDR & LimeSDR.
+
+- **GNU Radio GPS SDR** — https://github.com/osqzss/gps-sdr-sim  
+  GPS signal simulation and analysis. Open-source.
+
+- **Radio Astronomy with SDR (Open Tools)** — https://github.com/0xCoto/RadioSky  
+  Free tools for hydrogen line, pulsar, and solar SDR experiments.
+
+---
+
+#### ✅ Antenna Analysis, Network Tools, RF Calculators
+
+- **RTLSDR Scanner** — https://github.com/EliasOenal/rtl-sdr-scanner  
+  Free spectrum sweep and level measurement for cheap SDRs.
+
+- **OpenVNA / LibreVNA** — https://github.com/jankae/LibreVNA  
+  Open-source Vector Network Analyzer firmware + PC UI. Sweeps S11/S21, antenna tuning.
+
+- **NanoVNA (Open Firmware + Tools)** — https://nanovna.com  
+  Very cheap VNA with open-source analyzer software.
+
+- **RFSim99 (Free)** — https://rf-tools.com  
+  Free RF circuit simulation for filters and matching networks.
+
+- **RTL Power** — https://github.com/keenerd/rtl_power  
+  Wideband power scanning & CSV exports for RF characterization.
+
+- **SatNOGS Network Dashboard** — https://network.satnogs.org  
+  Free open satellite observations from global SDR ground stations.
+
+- **PySDR (Free SDR Textbook)** — https://pysdr.org  
+  Free digital signal processing lessons & code for SDR experiments.
+
+---
+
+#### ✅ RF Gateware, FPGA & PHY Layers (Open-Source)
+
+- **Open5GS / srsRAN (LTE/NR Stack)** — https://open5gs.org / https://github.com/srsran/srsRAN  
+  Full open-source 4G/5G core + PHY. Can run with SDR hardware (USRP/BladeRF/LimeSDR).
+
+- **OpenWiFi SDR (Verilog)** — https://github.com/open-sdr/openwifi  
+  Full open PHY for Wi-Fi 802.11 on FPGA. End-to-end open-source.
+
+- **Osmocom (SDR GSM/ TETRA Tools)** — https://osmocom.org  
+  Open-source SDR implementations of GSM, TETRA, SDR PHY layers.
+
+- **FPGA-DSP SDR Cores (Free)** — https://github.com  
+  Many free HDL building blocks: FIR filters, CIC decimators, mixers, FFT cores.
+
+### 24D. Network Analyzers, Antenna Tuning, Signal Generators & EMC Tools
+
+#### ✅ Vector Network Analyzers (VNA) & Antenna Test Tools
+
+- **NanoVNA (Open Firmware + Free PC Tools)** — https://nanovna.com  
+  Ultra-low-cost VNA with open-source firmware + free PC software for S11/S21, antenna tuning, impedance, SWR plots.
+
+- **LibreVNA (Open Hardware)** — https://github.com/jankae/LibreVNA  
+  True 2-port VNA with open firmware + open-source desktop GUI. Exports Touchstone files for RF simulation.
+
+- **OpenVNA (OSS PC Software)** — https://github.com/zirias/openvna  
+  Free VNA analyzer UI for NanoVNA clones & open hardware devices.
+
+- **VNA Windows/Linux Tools (Sigrok support)** — https://sigrok.org/wiki/Supported_hardware  
+  Free VNA data capture, CSV logs, sweep exports, antenna plots.
+
+- **Antenna Analyzer using RTL-SDR (Free)** — https://github.com  
+  Open scripts that sweep RTL-SDR tuning range to approximate antenna resonances.
+
+- **Open Source TDR (Time-Domain Reflectometry)** — https://github.com/gogo2/tiny-tdr  
+  Free DIY TDR tool for cable/antenna debugging, impedance mismatch detection.
+
+- **SatNOGS Ground Station (Open Hardware)** — https://satnogs.org  
+  Includes free antenna build files, rotator control, satellite signal evaluation.
+
+- **ADIF & Touchstone File Viewers (Free)** — https://github.com  
+  Open-source antenna data visualizers compatible with NanoVNA/LimeSDR logs.
+
+
+#### ✅ Signal Generators, RF Sources & Calibration Tools
+
+- **RFSim99 (Free)** — https://rf-tools.com  
+  Free RF circuit simulator for filters, matching networks, and impedance design.
+
+- **NWT (NetzWekT) Signal Analyzer Tools (Free)** — https://github.com  
+  Open-source UI for low-cost NWT/FA-NWT RF sweepers.
+
+- **Open-Source SIGGEN Python Tools** — https://github.com/pavel-demin/red-pitaya-notebooks  
+  Convert RedPitaya into signal generator, frequency sweep, Bode plotter.
+
+- **Arduino Signal Gen Projects (Free)** — https://github.com/bborncr/AD9850  
+  Free waveform generator code for DDS chips (AD9850/51, Si5351, AD9833).
+
+- **Siglent/Rigol SCPI Control (Free)** — https://github.com/labters/labrador  
+  Automate sine/square/RF sweeps with free Python libraries.
+
+
+#### ✅ Impedance, S-Parameters & RF Simulation
+
+- **QUCS / QucsStudio (Free RF Simulation)** — https://qucs.sourceforge.io  
+  Free GNU RF circuit simulator for S-parameters, filters, Smith charts.
+
+- **SimSmith (Free)** — https://www.ae6ty.com  
+  Free Smith chart analysis tool for RF matching networks and coax tuning.
+
+- **ADS Touchstone Analyzers (Free Scripts)** — https://github.com  
+  Open-source Python tools to plot S11/S21 from VNA data.
+
+- **RF Toolbox for Octave (Free)** — https://gnu.org/software/octave  
+  Open MATLAB-like RF modeling for filters, antennas, and microwave elements.
+
+
+#### ✅ EMC / RF Compliance Test Utilities (Free)
+
+- **EMCview Free Edition (Tekbox)** — https://www.tekbox.com  
+  Free near-field EMI scanning software with low-cost probes.
+
+- **OpenEMS (Free FDTD Simulator)** — https://www.openems.de  
+  Full 3D EM simulation for antennas, shielding, waveguides, PCB EMI fields.
+
+- **NEC2 Antenna Simulator (Free)** — https://www.qsl.net  
+  Free antenna EM solver; widely used by RF hobbyists and professionals.
+
+- **EM Field Visualizer (Free)** — https://github.com/thliebig/emfield  
+  Open-source EM simulation/visualization tools for research.
+
+- **KiCad RF Tools (Free)** — https://kicad.org  
+  Includes free PCB impedance calculators, differential pair tuning, RF routing helpers.
+
+
+#### ✅ Open RF Test Projects / DIY Hardware
+
+- **Red Pitaya (Open FPGA Oscilloscope/VNA/SA)** — https://redpitaya.com  
+  Free open-source signal analyzer, VNA, and RF scope apps + FPGA code.
+
+- **LimeSDR Calibration Tools (Free)** — https://github.com/myriadrf  
+  Automatic IQ balance, filter calibration, RF gain levelers.
+
+- **TinySA (Open Firmware)** — https://tinysa.org/wiki/pmwiki.php  
+  Handheld spectrum analyzer with free firmware + PC UI.
+
+- **RTL-SDR Noise Source Calibration (Free)** — https://github.com  
+  Open projects for building & calibrating noise sources to measure filter bandwidth and LNA gain.
+
+- **Open Hardware RF Switch/Attenuator** — https://github.com  
+  Community-designed RF switch/step-attenuator boards for SDR test rigs.
+
+
+#### ✅ RF Reference Calculators (Free)
+
+- **RF Tools Online Calculator Suite** — https://rf-tools.com  
+  Free microstrip calculator, impedance, power, VSWR, LC filter design.
+
+- **Mini-Circuits Calculator Tools (Free)** — https://www.minicircuits.com  
+  Free coax loss calculator, S-parameter models, Smith chart tools.
+
+- **Microwave Office Student Tools (Free)** — academic free license available on request.
+
+### 24E. Power Analyzers, Battery Profiling, HIL Testing & Device Emulators (Free / Open-Source)
+
+#### ✅ Power & Energy Measurement Tools (Free Software / Open Hardware)
+
+- **Monsoon Power Monitor (Free Software)** — https://www.msoon.com  
+  Hardware is commercial, but software + APIs are free. Used for MCU and IoT power profiling (µA–A range).
+
+- **Otii Arc Software (Free Tier)** — https://www.qoitech.com  
+  Free UI for energy debugging, current logging, and power vs. time plots with Otii hardware.
+
+- **Joulescope (Open Software)** — https://joulescope.com  
+  High-precision current measurement (nA to A). Free open-source UI and Python automation.
+
+- **Texas Instruments EnergyTrace (Free)** — https://www.ti.com  
+  Free real-time MCU power profiling with TI LaunchPads (MSP430/CC13xx/CC26xx).
+
+- **ST Power Profiler (Free)** — https://www.st.com  
+  Free GUI for STM32 platforms measuring average/run/sleep power.
+
+- **Nordic Power Profiler Kit II (Free Software)** — https://www.nordicsemi.com  
+  Free PC UI + automation for BLE/802.15.4 low-power systems.
+
+- **INA219/INA226 Open-Source Logs** — https://github.com/TheKitty  
+  Free Python/Arduino tools for current logging and battery profiling.
+
+
+#### ✅ Battery Testing, Charge/Discharge Profiling, Fuel Gauges
+
+- **BQ Studio (Texas Instruments)** — https://www.ti.com  
+  Free GUI for TI fuel gauges and battery monitor ICs. Data logging + cell optimization.
+
+- **OpenBMS Projects (Free, Open Hardware)** — https://github.com/LibreSolar/bms-firmware  
+  Open-source BMS firmware, logging tools and Coulomb counting.
+
+- **Battery Cycler Tools (Community)** — https://github.com/OpenBattery  
+  Free C/Python cycler software for Li-Ion/NiMH discharge & lifetime tests.
+
+- **Adafruit Battery Tester Firmware (Free)** — https://github.com/adafruit  
+  Arduino-based battery logging, capacity tests, curve plots.
+
+
+#### ✅ HIL (Hardware-In-the-Loop) Testing & Simulation
+
+- **OpenSTF (Smartphone/Device Farm)** — https://github.com/openstf  
+  Free device farm framework for testing embedded Android devices remotely.
+
+- **Renode (Open-Source HIL Simulator)** — https://renode.io  
+  Free MCU/SoC emulator with networked peripherals for CI and hardware-in-the-loop testing.
+
+- **QEMU (Open-Source System Emulator)** — https://www.qemu.org  
+  Free emulation of ARM, RISC-V, x86 MCUs/SBCs. Used in IoT CI pipelines.
+
+- **Robot Framework (Free Test Automation)** — https://robotframework.org  
+  Free automation for embedded Linux testing via SSH/Shell/Serial/UART.
+
+- **PyTest + PySerial (Free)** — https://github.com/pyserial  
+  Free Python framework to automate UART/CAN/I2C tests and golden-sample comparisons.
+
+- **Mbed Greentea (Free)** — https://os.mbed.com  
+  Free automated firmware test framework for Cortex-M boards.
+
+
+#### ✅ Device Emulators & Virtual Boards
+
+- **ESP-IDF QEMU Emulator (Free)** — https://github.com/espressif/qemu  
+  Free QEMU port for ESP32; runs firmware without hardware.
+
+- **Zephyr QEMU Targets (Free)** — https://github.com/zephyrproject-rtos  
+  Emulate Cortex-M boards, Nordic nRF, STM32, RISC-V for CI testing.
+
+- **Linux User Mode Networking (Free)** — https://www.kernel.org  
+  Test network code without real hardware. Good for gateway prototypes.
+
+
+#### ✅ Fault Injection, Fuzzing, Security Testing
+
+- **PULP Platform (Open Hardware RISC-V)** — https://pulp-platform.org  
+  Fault-tolerant RISC-V research cores with open test benches.
+
+- **gr-bladeRF / gr-hackrf Clock/Glitch Tools** — https://github.com/osmocom  
+  Fault injection experiments for side-channel research. Free with SDRs.
+
+- **AFL / libFuzzer for Embedded Linux** — https://github.com/google/AFL  
+  Free fuzzing for IoT gateway services and parsers.
+
+- **MCUboot + Crypto Fuzz Tests (Free)** — https://github.com/mcuboot/mcuboot  
+  Free fuzzing for bootloader image validation.
+
+
+#### ✅ Production & Regression Test Frameworks (Free)
+
+- **pytest-embedded (Free)** — https://github.com/esp-rs/pytest-embedded  
+  Automates embedded device tests via serial, JTAG, logging comparison.
+
+- **OpenHTF (Google)** — https://github.com/google/OpenHTF  
+  Free Python test framework for factory production lines and automated test jigs.
+
+- **TestStand Alternatives (Free/Open)** —  
+  - Robot Framework (Python scripts)  
+  - PyTest with serial/CAN logs  
+  - LabVIEW Community Edition for personal/educational use
+
+
+#### ✅ USB, BLE, Wi-Fi Testing
+
+- **Wireshark (Free)** — https://wireshark.org  
+  Free packet analyzer for Wi-Fi, BLE, Ethernet. With BLE decoders and USBCAP Wi-Fi capture.
+
+- **nRF Sniffer (Free)** — https://www.nordicsemi.com  
+  Free BLE sniffer software for Nordic dongles.
+
+- **PacketSquirrel / USB Armory (Open Hardware)** — https://github.com/inversepath  
+  Pen-test and traffic capture tools for embedded testing.
+
+
+### 24F. Production Jigs, Programming Tools, Boundary-Scan & Functional Test Rigs (Free / Open-Source)
+
+#### ✅ Production Programming & Flashing Tools
+
+- **OpenOCD (Open-Source Debug & Flash Tool)** — http://openocd.org  
+  Free flashing/debugging for ARM Cortex-M, RISC-V, ESP32, STM32, NXP, Nordic with SWD/JTAG. Works on low-cost probes (ST-Link, J-Link EDU, FT2232).
+
+- **PyOCD (Free)** — https://github.com/pyocd/pyOCD  
+  Python-based flashing & debug for Cortex-M microcontrollers. Ideal for automated production scripts.
+
+- **esptool.py (Free)** — https://github.com/espressif/esptool  
+  Free ESP8266/ESP32 flashing, secure boot provisioning, eFuse burning, encryption, production batch tools.
+
+- **STM32CubeProgrammer (Free)** — https://www.st.com  
+  Free flashing over UART/SWD/JTAG/USB-DFU. Works in scripts for automated factory programming.
+
+- **nRF Util & Programmer (Free)** — https://www.nordicsemi.com  
+  Scriptable DFU, JTAG/SWD flashing, secure boot signing and mass production programming.
+
+- **Renesas Flash Programmer (Free tier)** — https://www.renesas.com  
+  Free tool for RA/RL/RX MCUs, supports secure boot signing and OTP programming.
+
+- **UF2 Bootloader (Open-Source)** — https://github.com/microsoft/uf2  
+  Mass-production friendly drag-and-drop firmware flashing for RP2040, SAMD, nRF, ESP32-S3.
+
+- **Teensy Loader / TyCommander (Free)** — https://github.com/Koromix/tytools  
+  Automates programming and serial log capture for PJRC Teensy in production.
+
+
+#### ✅ Boundary-Scan, JTAG Chains & Board Bring-Up
+
+- **UrJTAG (Open-Source)** — http://urjtag.org  
+  Open JTAG/boundary-scan for testing solder joints, reading IDCODE, toggling GPIO pins on many MCUs/FPGAs.
+
+- **OpenOCD JTAG Chain Scans** — built-in support  
+  Detects JTAG chains, IDs multiple devices, verifies soldering in production.
+
+- **JTAGenum (Open-Source)** — https://github.com/cyphunk/JTAGenum  
+  Finds unknown JTAG pinouts on PCBs — useful when reverse-engineering boards.
+
+- **Boundary Scan with BSDL Files (Free)**  
+  Many vendors provide BSDL files free for continuity & net testing (NXP, ST, TI, Microchip).
+
+
+#### ✅ Automated Production Test Frameworks
+
+- **OpenHTF (Google)** — https://github.com/google/OpenHTF  
+  Python-based automated test stations for factories. Logging, USB/UART control, sensor verification, pass/fail reports.
+
+- **pytest + pySerial Test Rigs (Free)** — https://github.com/pyserial  
+  Automate UART/CAN/I2C/USB tests, compare golden sample logs, verify responses.
+
+- **Robot Framework (Free)** — https://robotframework.org  
+  Scriptable test automation for gateways, embedded Linux and serial devices.
+
+- **LabVIEW Community Edition (Free for Personal/Non-Commercial)** — https://www.ni.com  
+  Full drag-and-drop test automation for hobby / non-profit labs.
+
+
+#### ✅ Bed-of-Nails, Test Fixtures & Probe Boards (Open Designs)
+
+- **Open Fixture Project** — https://github.com/OpenFixture  
+  Open-source mechanical designs for spring-pin bed-of-nails jigs.
+
+- **KiCad Testpad Generators** — https://kicad.org  
+  Free plugins to auto-generate test pads, pogo-pin interfaces and net coverage checks.
+
+- **OpenJig (Community Project)** — https://github.com/DoESLiverpool/OpenJig  
+  Open mechanical fixture library for PCBs, pogo pin layouts, clamps and alignment pins.
+
+- **3D-Printed Test Cages / Pogo Fixtures (Free CAD)** — https://github.com  
+  Hundreds of open designs for alignment jigs, multi-board testing frames.
+
+
+#### ✅ Device Provisioning, Serial Numbering & Logging
+
+- **OpenHTF + SQLite/CSV Logging (Free)**  
+  Store serial numbers, MAC addresses, test results, firmware versions in local DB.
+
+- **Python Barcode & QR Generators (Free)** — https://github.com/lincolnloop/python-qrcode  
+  Auto-generate QR labels for serial tracking and manufacturing traceability.
+
+- **Zebra label printing scripts (Free)** — https://github.com  
+  Free Python scripts to print production labels via ZPL.
+
+- **OTP & Secure Key Injection Tools (Vendor Free SDKs)**  
+  - ESP32: eFuse + secure boot provisioning via esptool.py  
+  - STM32: SBSFU + OTP programming via CubeProgrammer  
+  - Microchip: CryptoAuthLib for ATECC secure element injection
+
+
+#### ✅ Firmware Validation, Golden Sample & Regression Testing
+
+- **Serial Test Harness (Free)** — Python + PyTest + OpenHTF  
+  Compare real device output vs. golden reference automatically.
+
+- **Power-on Self-Test Logging (Free Samples)** — https://github.com  
+  Open-source POST templates for verifying Flash, RAM, sensors on boot.
+
+- **AteCC608A / SE05x Secure Element Test Kits (Free SDK)** — https://github.com/MicrochipTech / https://github.com/NXPMicro  
+  Verify crypto signatures, cert chains, secure boot provisioning in production.
+
+
+#### ✅ Commercial Hardware Supported by Free Software
+
+- **SEGGER J-Link (Free J-Flash Lite)** — https://www.segger.com  
+  Free programming tool (no license) for single-image flash on STM32, Nordic, NXP, etc.
+
+- **ChipWhisperer-Lite (Open Hardware)** — https://chipwhisperer.io  
+  Hardware-level glitching and side-channel testing with free software.
+
+- **LibUSB Open Flashers (Free)** — https://libusb.info  
+  Control USB programmers and load firmware in automated CI.
+
+## 25. Hobbyist-Friendly Prototyping Ecosystems
+
+### 25A. Rapid Prototyping Boards, Ecosystems & Kits (Free SDKs / IDEs / Tutorials)
+
+- **Arduino Ecosystem (Free IDE + Libraries)** — https://arduino.cc  
+  Massive open-source ecosystem for rapid firmware prototyping. Free IDE, libraries, drivers, bootloaders, and examples.
+
+- **ESP32 / ESP-IDF (Free SDK)** — https://www.espressif.com  
+  Low-cost Wi-Fi/BLE embedded SoC. Free RTOS-based SDK, Arduino core, cloud examples, OTA, secure boot, crypto.
+
+- **Raspberry Pi + Raspberry Pi OS (Free)** — https://www.raspberrypi.com  
+  Single-board Linux computers with GPIO, SPI, I2C, CSI/DSI. Free OS, Python libraries, camera support.
+
+- **Raspberry Pi Pico (RP2040) + Free C SDK** — https://github.com/raspberrypi/pico-sdk  
+  Dual-core M0+ MCU, free C SDK and MicroPython. Excellent for low-cost prototyping.
+
+- **MicroPython (Free)** — https://micropython.org  
+  Python on MCUs (STM32, ESP32, RP2040, NRF52). Free firmware, REPL, sensor drivers.
+
+- **CircuitPython (Adafruit, Free)** — https://circuitpython.org  
+  Python for STEM/prototypes. 300+ free libraries for sensors, displays, BLE.
+
+- **Adafruit Feather Ecosystem** — https://adafruit.com  
+  Wide range of MCU/LoRa/BLE/GPS/RTC “Feather” boards. Free CircuitPython & Arduino libraries.
+
+- **SparkFun Qwiic Ecosystem** — https://sparkfun.com  
+  I2C plug-and-play sensors and modules. Free Arduino/Python drivers + PCB KiCad files for many boards.
+
+- **Seeed Studio Grove Ecosystem** — https://wiki.seeedstudio.com  
+  Plug-and-play sensors and actuators with free Arduino, Python, and ESP32 examples.
+
+- **Particle Photon / Argon (Free Particle Cloud Tier)** — https://particle.io  
+  Wi-Fi/LTE IoT modules with free cloud tier, OTA, dashboards, and open-source DFU tools.
+
+- **STM32 Nucleo/Discovery (Free STM32Cube Tools)** — https://www.st.com  
+  Nucleo boards with Arduino headers + free HAL/LL drivers, CubeMX code gen, USB, sensors.
+
+- **Nordic nRF52 DKs (Free SDK)** — https://www.nordicsemi.com  
+  BLE/Thread/Matter prototyping boards with free SDK, secure DFU, power profiler tools.
+
+- **M5Stack (Extensible ESP32 System)** — https://m5stack.com  
+  ESP32-based modular stackable IoT kits with free UIFlow, Arduino and ESP-IDF support.
+
+- **OpenMV Cam (Free IDE)** — https://openmv.io  
+  Tiny AI camera for prototypes. Free IDE, face/object detection, ML, AprilTags, I/O.
+
+- **PyCom Boards (Free MicroPython SDK)** — https://pycom.io  
+  Wi-Fi + BLE + LoRa + LTE NBIoT modules for IoT prototypes with Python APIs.
+
+- **BBC micro:bit (MakeCode Free)** — https://microbit.org  
+  Education-friendly ARM MCU with free block coding, Python and Bluetooth support.
+
+- **Wio Terminal (Seeed, Free)** — https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/  
+  Arduino + MicroPython with LCD, sensors, BLE/Wi-Fi add-ons. Free drivers/projects.
+
+- **BeagleBone Black/AI (Free)** — https://beagleboard.org  
+  Open hardware Linux SBCs with PRUs, industrial I/O, robotics libraries.
+
+- **Coral Dev Board (Google, Free Edge TPU SDK)** — https://coral.ai  
+  TensorFlow Lite acceleration on-device, free compiler + model zoo.
+
+- **Jetson Nano Developer Kit (Free JetPack SDK)** — https://developer.nvidia.com/embedded  
+  Linux SBC with CUDA and DeepStream. Free AI vision pipelines.
+
+- **PYNQ FPGA Boards (Free Python + FPGA Overlays)** — http://www.pynq.io  
+  Python control of FPGA accelerators. Free overlays for CV, crypto, DSP.
+
+- **Tinkerforge Ecosystem (Open-Source)** — https://www.tinkerforge.com  
+  Modular industrial-grade plug modules with free APIs (Python/C/C#/MATLAB).
+
+- **Tessel 2 (Open Hardware)** — https://tessel.io  
+  JavaScript on embedded Linux; GPIO, I2C, SPI with free Node.js libraries.
+
+- **OpenEnergyMonitor (Free Hardware + Firmware)** — https://openenergymonitor.org  
+  Arduino/RPi-based energy monitoring ecosystem with free dashboards, power libraries.
+
+- **Eurorack modular electronics DIY (Open Designs)** — https://github.com  
+  Hundreds of free schematics/firmware for hobby electronics & synthesis modules.
+
+- **TinyPICO / FeatherS3 (Open Source)** — https://github.com/UnexpectedMaker  
+  ESP32-S3 boards with open-source hardware, Arduino & ESP-IDF support.
+
+### 25B. Plug-and-Play HATs, Shields, Click Boards & Modular Sensor Ecosystems (Free Drivers/Libraries)
+
+- **Raspberry Pi HAT Ecosystem (Free Drivers)** — https://www.raspberrypi.com  
+  Huge collection of open HATs for displays, sensors, motor control, PoE, LoRa, SDR. Free Linux drivers, Device Tree overlays.
+
+- **Arduino Shields (Open-Source Hardware + Libraries)** — https://arduino.cc  
+  Motor shields, sensor shields, Ethernet/Wi-Fi, GPS, GSM, relay boards — all with free Arduino libraries.
+
+- **micro:bit Edge Connectors + Shields** — https://microbit.org  
+  Plug-and-play expansion boards for LEDs, motors, sensors. Free MakeCode + MicroPython drivers.
+
+- **micro:bit Grove Shield + Qwiic Adapters** — https://wiki.seeedstudio.com  
+  Connect Grove/Qwiic sensors directly to micro:bit with free example codes.
+
+- **Adafruit FeatherWings (Open-Source)** — https://adafruit.com  
+  Modular stackable wings: OLEDs, motor drivers, GPS, LoRa, sensors. Free CircuitPython/Arduino libraries.
+
+- **SparkFun Qwiic System** — https://sparkfun.com  
+  I²C plug-and-play sensors (IMU/ENV/GPS/PM). Free Arduino/Python drivers, KiCad files available for many modules.
+
+- **Seeed Grove Plug-and-Play System** — https://wiki.seeedstudio.com  
+  Simple connectors for hundreds of sensors/actuators. Free drivers in Arduino, MicroPython, ESP32, STM32.
+
+- **MikroElektronika Click Boards (Open Drivers)** — https://www.mikroe.com/click  
+  1000+ Click modules (BLE, LoRa, GNSS, ENV sensors). Free MikroSDK & Arduino/ESP32 libraries.
+
+- **Pimoroni Breakout Garden** — https://shop.pimoroni.com  
+  Slot-based plug boards for Pi, Pico, ESP32. Free MicroPython/Arduino drivers.
+
+- **Pimoroni PICO HAT-based Ecosystem**  
+  IMU, ToF, RGB, motor drivers for RP2040 and ESP32 boards. Fully open-source firmware.
+
+- **M5Stack Units & HATs** — https://m5stack.com  
+  Modular sensors, LoRa, RFID, UWB, GPS with UIFlow, Arduino, ESP-IDF drivers.
+
+- **Grove Industrial Sensors (4-20 mA / RS485)** — https://wiki.seeedstudio.com  
+  Free Modbus RTU and 4–20 mA interface examples (Arduino, STM32, ESP32).
+
+- **Qwiic-to-Feather & Grove-to-Pi Bridges** — free open hardware adapters  
+  Let you mix ecosystems — all with free example code.
+
+- **SparkFun MicroMod Ecosystem** — https://sparkfun.com/micromod  
+  Swappable processor boards (ESP32 / NRF52 / RPi RP2040). Free Arduino/Python drivers.
+
+- **Pololu Robotics Plug-In Modules** — https://pololu.com  
+  Motor controllers, IMU, regulators — all with free Arduino/C libraries.
+
+- **Adafruit STEMMA / STEMMA-QT** — https://learn.adafruit.com  
+  USB-C + Qwiic/Grove-compatible sensors with free open-source drivers.
+
+- **Adafruit Crickit (Robotics HAT)** — https://learn.adafruit.com/adafruit-crickit  
+  Robotics I/O: motors, servos, capacitive touch, speaker. Free CircuitPython/Arduino SDKs.
+
+- **Open-Source Motor Shields (L298N/TB6612FNG)** — https://github.com  
+  Free Arduino/ESP32 code and PCB files widely available.
+
+- **Dragino LoRa I/O HATs & Shields (Free SDK)** — https://www.dragino.com  
+  LoRaWAN modules for Pi, Arduino, ESP32 with free AT/OpenWRT SDKs.
+
+- **Seeed LoRa-E5 Dev Boards + Grove Modules** — https://wiki.seeedstudio.com  
+  LoRaWAN + STM32WLE MCUs with free LoRaMac-node stack and HAL drivers.
+
+- **Particle Feather Wings (Free Particle Cloud Tier)** — https://particle.io  
+  BLE/LTE/WiFi wings with OTA, cloud rules, free developer tier.
+
+- **Waveshare HATs/Breakouts (Free Libraries)** — https://www.waveshare.com  
+  E-Ink, displays, sensors, motor drivers — free C/Python examples for Pi/Pico/ESP.
+
+- **Open-Source CANBus & OBD-II Shields** — https://github.com  
+  MCP2515, MCP2551 CAN modules with free drivers.
+
+- **Open-Source RS485 Modbus Shields** — https://github.com  
+  Free libraries for industrial sensor integration (Modbus RTU).
+
+- **USB-C PD Trigger / Power Boards (Open Designs)** — https://github.com  
+  Open hardware Type-C power modules for prototyping power systems.
+
+- **IKEA VINDRIKTNING / TRÅDFRI Hacks (Open Firmware)** — https://github.com  
+  Open-source firmware and sensor expansions turning consumer gadgets into prototyping modules.
+
+- **Wio Terminal + Grove Sensors (Free Drivers)** — https://github.com/Seeed-Studio  
+  LCD-equipped rapid prototyping platform with drag-and-drop sensor kits.
+
+- **OpenEnergyMonitor Shields** — https://openenergymonitor.org  
+  Energy monitoring shields and nodes with free firmware + dashboards.
+
+- **NCD Industrial I/O boards (Free Libraries)** — https://ncd.io  
+  RS485, MQTT, I2C industrial sensor modules with free cloud dashboards.
+
+### 25C. Hobby-Grade Robotics Stacks & Maker-Friendly Robot Kits (Free Firmware / Libraries)
+
+- **TurtleBot 3 (Open-Source Robot)** — https://turtlebot3.robotis.com  
+  Affordable modular ROS robot platform with LiDAR + SLAM. Free ROS1/ROS2 firmware, CAD, navigation stacks, teleop.
+
+- **TurtleBot 4 (With Raspberry Pi + ROS2)** — https://turtlebot4.ros.org  
+  Budget ROS2 AMR with Nav2, OpenCV, SLAM, depth camera. Free mapping & navigation packages.
+
+- **Open Source Rover (JPL / NASA)** — https://github.com/nasa-jpl/open-source-rover  
+  Full 6-wheel rocker-bogie Mars Rover clone. Free CAD, BOM, firmware, Python control, vision modules.
+
+- **OpenMower (DIY Robot Lawn Mower)** — https://github.com/ClemensElflein/OpenMower  
+  Free RTK GPS robot mower platform with open firmware, CAD and motor control.
+
+- **DIY “DonkeyCar” (Autonomous RC Car)** — https://www.donkeycar.com  
+  Raspberry Pi + camera self-driving RC car platform. Free Python, deep-learning steering model, datasets.
+
+- **OpenDog / SpotMicro (Quadruped Robot, Open Hardware)** — https://github.com/spotmicro/spotmicro  
+  Open-source quadruped hardware + servo drivers + ROS support.
+
+- **OpenCat (Nyanko/Max)** — https://github.com/PetoiCamp  
+  Open-source robotic cat using ESP32/Arduino servos. Free locomotion firmware and Mobile app.
+
+- **3DoT / Romi / Mini-Sumo Robot Kits (Free Code)** — https://pololu.com  
+  Small wheeled robots with free Arduino/Nucleo sample firmware and line-following/IMU sensors.
+
+- **OTTO DIY Humanoid / Biped Robots (Open Firmware)** — https://ottodiy.com  
+  Fully open-source 3D printable humanoid robots with free Arduino libraries and servo control.
+
+- **M5Stack RoverC / M5CardPrinter / ServoBots** — https://m5stack.com  
+  ESP32 robots with free drivers, UIFlow, micropython control, and expansion kits.
+
+- **ESP32 Line-Follower & Maze Solvers (Free Reference Projects)** — https://github.com  
+  Open codebases for PID line following, optical encoding, wall following.
+
+- **PiCar-X / PiCar-S (SunFounder)** — https://github.com/sunfounder  
+  Raspberry Pi autonomous robotics kits with free Python/ROS examples and camera tracking.
+
+- **Raspberry Pi “Arducam PTZ Camera Robot” (Free)** — https://github.com/ArduCAM  
+  PTZ robot rover with face tracking and streaming code.
+
+- **JetBot (NVIDIA Jetson Nano)** — https://github.com/NVIDIA-AI-IOT/jetbot  
+  Open-source autonomous robot with free AI modules for object avoidance, person tracking.
+
+- **Arduino Control of Continuous Rotation Servos (Free Libraries)** — https://github.com/arduino-libraries  
+  Free libraries for servo robotics, wheel encoders, IMU balancing.
+
+- **L298N/TB6612 Motor Driver Shields (Open Libraries)** — https://github.com  
+  Free motor control libraries for line bots, robot arms, mobile robots.
+
+- **OpenMV Robot Kits** — https://openmv.io  
+  Vision-enabled robots with face/object detection, line tracking. Free MicroPython firmware.
+
+- **DFRobot Robot Platforms (Free Sample Code)** — https://github.com/DFRobot  
+  Track robots, mecanum wheels, line followers with free Arduino/ESP32 libraries.
+
+- **Seeed JetRacer & JetBot Kits (Free ROS/AI)** — https://wiki.seeedstudio.com  
+  Free ROS / AI inference notebooks for racing robots and autonomous navigation.
+
+- **Open-Source Balancing Robot Libraries** — https://github.com  
+  Free PID control implementations for 2-wheel self-balancing bots with MPU6050/BMI160.
+
+- **Raspberry Pi Pico “TinyRobot” Projects (Free)** — https://github.com  
+  Free MicroPython + motor driver examples for cheap robot builds.
+
+- **Lego Mindstorms EV3dev (Linux + Python, Free)** — https://www.ev3dev.org  
+  Turn Mindstorms into open Linux-based robot platform with Python + ROS tools.
+
+- **Blockly / MakeCode Robots (Free)** — https://makecode.microbit.org  
+  Block-based robotics coding for micro:bit, ESP32, Adafruit, Lego.
+
+- **Robot Operating System on Pi/ESP32 (micro-ROS, Free)** — https://micro-ros.github.io  
+  Run ROS2 nodes directly on micro-controllers for hobby robotics.
+
+- **Open-Source Robotic Arm Kits (uArm, EEZYBotARM)** — https://github.com  
+  3D printable robotic arms with free Python/Arduino/ROS control.
+
+### 25D. Multi-Sensor Data Loggers, Wearables & Maker-IoT Boards (Free Firmware / SDKs)
+
+#### ✅ Multi-Sensor Data Loggers (Environmental, Motion, GPS)
+
+- **OpenLog / OpenLog Artemis (SparkFun)** — https://github.com/sparkfun/OpenLog_Artemis  
+  Low-power IMU/environmental data logger with free open-source firmware, CSV logging to microSD, Arduino IDE support.
+
+- **SparkFun 9DoF IMU + Datalogger Shields (Free Code)** — https://github.com/sparkfun  
+  Plug-and-play IMU logging for Arduino/ESP32/Pi; free libraries for MADGWICK/Mahony fusion and CSV output.
+
+- **StratoLogger / High-Altitude Logger (Open Projects)** — https://github.com  
+  Open-source altimeter + IMU loggers for balloons and drones.
+
+- **OpenEnergyMonitor emonTx / emonPi** — https://openenergymonitor.org  
+  Open-source electricity + environmental logging with free dashboards and MQTT/Influx publishers.
+
+- **Adafruit Feather + Data Logging Wing (Free Libraries)** — https://learn.adafruit.com  
+  MicroSD + RTC plug-in wings with open-source firmware for sensor data collection.
+
+- **OpenDAQ Projects (Free)** — https://github.com  
+  Community dataloggers for CO2, PM2.5, IMU, GPS with Arduino/ESP32 code.
+
+- **Balena Sense (Free)** — https://github.com/balena-io-projects/balena-sense  
+  Raspberry Pi multi-sensor logger with free dashboard + InfluxDB + Grafana in Docker, zero code required.
+
+- **Wio Terminal Data Logger (Free Example Codes)** — https://wiki.seeedstudio.com  
+  LCD + IMU + environmental sensors + microSD with ready logging firmware.
+
+- **Qwiic/Grove Sensor Loggers (Free)** — https://sparkfun.com / https://wiki.seeedstudio.com  
+  One-line examples to log any I2C sensor to CSV/JSON using ESP32 or RP2040.
+
+---
+
+#### ✅ GPS / GNSS / Tracker Boards
+
+- **Adafruit Ultimate GPS + Datelogger (Free Libraries)** — https://learn.adafruit.com  
+  Free Arduino/Python libraries, NMEA parsing, time stamping, SD storage.
+
+- **uBlox GPS Modules (Free u-Center Tools)** — https://www.u-blox.com  
+  NMEA logging, GNSS configuration, Bluetooth/GPS experiments with free u-center PC software.
+
+- **ESP32 + A9G/A7 GPS Tracker Projects (Free)** — https://github.com  
+  Open-source firmware for low-cost GPS+GSM trackers, MQTT uploads, SD logging.
+
+- **Pi + GPS HATs (Free Drivers)** — https://github.com/raspberrypi  
+  Open-source Linux drivers and PPS timing support.
+
+- **OpenNTRIP / RTKLIB (Free)** — https://rtklib.com  
+  Open-source RTK + GPS/GLONASS/Galileo correction logging for high-accuracy survey/robotics.
+
+---
+
+#### ✅ Wearables & Health Sensor Platforms (Free Firmware)
+
+- **Arduino Nicla Sense ME** — https://store.arduino.cc  
+  Bosch environmental + IMU + pressure sensors with free Edge-ML examples and logging code.
+
+- **Xiao nRF52 / Xiao ESP32S3 (Seeed)** — https://wiki.seeedstudio.com  
+  Super-tiny wearable boards with free sensor libraries, BLE, battery support, IMU logging.
+
+- **LilyGO T-Watch Series (Free ESP-IDF/Arduino Code)** — https://github.com/Xinyuan-LilyGO  
+  Open-source smartwatch platforms with IMU, GPS, BLE, Wi-Fi and SD logging.
+
+- **DFRobot Beetle BLE & Beetle ESP32C3** — https://github.com/DFRobot  
+  Tiny wearable IoT boards with free drivers and Arduino libraries.
+
+- **MyOpenEEG / OpenBCI (Open Hardware)** — https://openbci.com  
+  Open-source EEG/biometric wearable logging with free Python/GUI tools.
+
+- **MAX30102 / MAX86150 Wearable Bio-Sensor Libraries** — https://github.com/oxullo  
+  Free SpO2 + heart-rate logging libraries for ESP32/Arduino.
+
+- **Xsens DOT (Free SDK)** — https://www.xsens.com  
+  Bluetooth inertial wearables with free mobile/PC SDK for IMU streaming and logging.
+
+---
+
+#### ✅ BLE / Wireless IoT Boards for Field Logging
+
+- **ESP32-C3 / ESP32-S3 (Free ESP-IDF & Arduino)** — https://github.com/espressif  
+  Wi-Fi+BLE logging, OTA updates, HTTPS cloud uploads, SD card data logging.
+
+- **nRF52840 DK (Free nRF Connect SDK)** — https://www.nordicsemi.com  
+  BLE/Thread/Matter with low-power IMU/ENV loggers, secure DFU, free power profiler.
+
+- **Particle Argon/Boron (Free Cloud Tier)** — https://particle.io  
+  BLE/LTE/Wi-Fi boards with free OTA, console logs, dashboards, rule engine.
+
+- **Helium/LoRa Tracker Nodes (Free Arduino/LMIC)** — https://github.com  
+  Open-source LoRa trackers with GPS + IMU + SD card.
+
+---
+
+#### ✅ Open-Source Wearable OS / Frameworks
+
+- **FreeRTOS Wearable Templates** — https://github.com/FreeRTOS  
+  Free RTOS + sensor + BLE logging templates.
+
+- **Zephyr SensorHub (Free)** — https://github.com/zephyrproject-rtos  
+  Free driver stack for IMU/ENV sensors, BLE logging, power optimization.
+
+- **Espruino (Free JavaScript on MCU)** — https://www.espruino.com  
+  Wearable-friendly JavaScript firmware with free logging libraries.
+
+---
+
+#### ✅ Companion Dashboards & Mobile Apps (Free)
+
+- **Blynk (Free Community Tier)** — https://blynk.io  
+  Mobile dashboards for BLE/WiFi IoT loggers (ESP32, Arduino, STM).
+
+- **Adafruit IO (Free Tier)** — https://io.adafruit.com  
+  Free cloud logging dashboards for Feather, ESP32, Raspberry Pi.
+
+- **Grafana (Open-Source)** — https://grafana.com  
+  Free dashboards for long-term sensor logging (InfluxDB, MQTT, SQLite).
+
+- **Node-RED Dashboard (Free)** — https://nodered.org  
+  Real-time charts for BLE/WiFi/GPS loggers.
+
+### 25E. DIY Electronics Essentials — Power Modules, Prototyping PCBs, Soldering & Lab Tools (Free/Open)
+
+#### ✅ Breadboard Power Modules & Safe Power Supplies
+
+- **Open-Source Breadboard PSU (LM1117/AMS1117 designs)** — https://github.com  
+  5V/3.3V regulated plug-in PSU modules; open PCB + BOM for beginners.
+
+- **USB-C PD Trigger Boards (Open Hardware)** — https://github.com  
+  Power breadboard circuits from USB-C chargers (5V/9V/12V/15V/20V). Free open-source KiCad files.
+
+- **Open DC-DC Buck Boost Modules (MT3608/MP1584)** — https://github.com  
+  Free PCB designs and test code for adjustable 3.3V/5V rails in prototyping.
+
+- **Open UPS for Raspberry Pi (Free Designs)** — https://github.com  
+  UPS HATs with supercaps/Li-ion charging, free firmware + PCB.
+
+- **USB Safety Testers (Open)** — https://github.com/ava702  
+  Open USB-C/USB-A power measurement dongles for current/voltage logging.
+
+- **Open-Source Lithium Charging Boards (TP4056/MCP73831)** — https://github.com  
+  Free PCB layouts and safe-charge firmware examples for IoT prototypes.
+
+---
+
+#### ✅ Universal Prototyping PCBs & Adapter Boards
+
+- **Open-Source Breakout Boards (KiCad)** — https://github.com  
+  Thousands of free footprints: QFN → DIP, QFP → DIP, SOIC → DIP for breadboard testing.
+
+- **Proto Hat / Proto Shield (Free Designs)** — https://github.com  
+  Open HATs/shields with GPIO breakout, SD, power rails for Raspberry Pi / ESP32 / Arduino.
+
+- **Open Breadboard PCB (Free KiCad)** — https://github.com/ai03-2725/OpenBreadboard  
+  Open hardware PCB that routes like a soldered breadboard.
+
+- **Feather/Qwiic/Grove Adapter Boards (Free Hardware)** — https://github.com  
+  Convert between ecosystems; free KiCad + BOM.
+
+- **Solderable Breadboards (Stripboard/Perfboard CAD)** — https://github.com  
+  Open Perfboard/Veroboard footprint files for planning production-ready prototypes.
+
+---
+
+#### ✅ Soldering, Hot-Air, Reflow & Rework (Open Tools)
+
+- **TS100 / TS80P Open Firmware (IronOS)** — https://github.com/Ralim/IronOS  
+  Open-source firmware for portable soldering irons with PID control, sleep mode, OLED UI.
+
+- **Miniware Hot-Air & Iron Tools (Open Firmware)** — https://github.com/DmytroBashativ  
+  Free open firmware for temperature control and profiles.
+
+- **Reflow Oven Controller (Open Hardware)** — https://github.com/UnifiedEngineering/Reflowduino  
+  Open-source PID temperature controller for converting toaster ovens into SMT reflow ovens.
+
+- **OpenPnP (Free Pick-and-Place Software)** — https://openpnp.org  
+  Free machine vision-based PnP software for DIY small-run PCB assembly machines.
+
+- **USB Microscope Open-Source Software** — https://github.com  
+  Free capture + measurement tools compatible with cheap USB microscopes.
+
+---
+
+#### ✅ Hand Tools, Test Jigs, Fixtures & CAD
+
+- **3D-Printed PCB Holders / Solder Jigs (Free STL)** — https://thingiverse.com  
+  Open mechanical fixtures for soldering headers, pogo pins, programming connectors.
+
+- **Open-Source PCB Clamps & Third-Hand Tools** — https://github.com  
+  Fully printable clamps for rework, soldering and strain relief.
+
+- **Cable Harness & Crimp Tools (Free Guides)** — https://github.com  
+  Open wiring guides + pinout libraries for JST, Dupont, Molex, automotive connectors.
+
+- **Open Test-Point & Pogo-Pin Holders** — https://github.com  
+  Free designs for test cages, hinge jigs, alignment fixtures.
+
+- **Open-Source Wire Strippers & Mini Tools (STL files)** — https://thingiverse.com  
+  Printable cable cutters, wire gauges and dispensers.
+
+---
+
+#### ✅ Open Multimeter & Instrument Firmware/Tools
+
+- **Sigrok Meter Support (Free)** — https://sigrok.org  
+  Many low-cost DMMs supported for PC logging, CSV export, calibration UI.
+
+- **Open-Hardware Multimeter Projects** — https://github.com/OpenDMM  
+  Open-source DMM with KiCad schematics and firmware.
+
+- **USB-to-UART/RS485 Breakouts (Free Designs)** — https://github.com  
+  Open FT232/CH340/CP2102 adapter boards for breadboards and test rigs.
+
+---
+
+#### ✅ Breadboard-Friendly Microcontrollers & ISP Tools
+
+- **CH552/CH32, ATTiny, STM32 “Blue Pill” Open Toolchains** — https://github.com  
+  Free compilers, Arduino cores, USB bootloader scripts.
+
+- **PICkit 3/4 Open-Source Alternatives (Free)** — https://github.com  
+  DIY programmers for PIC/AVR devices with open firmware.
+
+- **AVR ISP + USBasp (Open Hardware)** — https://github.com/obdev/usbasp  
+  Open-source USB programmer for AVR chips, widely used by hobbyists.
+
+---
+
+#### ✅ Quick Prototyping Adapters & Debug Tools
+
+- **Logic Level Shifter Boards (Open PCBs)** — https://github.com  
+  Free PCBs for 1.8V ↔ 3.3V ↔ 5V I/O translation, open KiCad files.
+
+- **SWD/JTAG Breakout Adapters (Free PCB Files)** — https://github.com  
+  SWD pogo adapters, ST-Link headers, ESP32 programming docks.
+
+- **Clip-On SOIC/SOP Test Clips (Community Firmware)** — https://github.com  
+  Free SPI flash dump/program scripts for SOIC clips + flashrom.
+
+- **flashrom (Open-Source)** — https://flashrom.org  
+  Free command-line flashing tool for SPI NOR chips using USB programmers.
+
+## 26. Open-Source Cloud Backend Templates for IoT
+
+### 26A. Ready-to-Deploy Open-Source IoT Backends (Self-Host / Free)
+
+- **ThingsBoard Community Edition (Open-Source)** — https://thingsboard.io  
+  Fully-featured IoT backend: MQTT/HTTP/CoAP ingestion, dashboards, OTA, alarms, rule engine, device provisioning. Free CE for self-host and on Raspberry Pi.
+
+- **Node-RED + Mosquitto + InfluxDB + Grafana Stack (All Free)** — https://nodered.org  
+  Classic free open-source IoT backend combo. Real-time dashboards, MQTT flow-control, DB storage and alerts. Runs on Pi, Docker, VM.
+
+- **EMQX Community Edition (Free)** — https://www.emqx.io  
+  Enterprise-grade MQTT broker with clustering, MQTT5, rule engine, SQL-based routing and dashboards. Free CE up to unlimited devices.
+
+- **ChirpStack (LoRaWAN Stack, Open-Source)** — https://www.chirpstack.io  
+  Free LoRaWAN Network Server + device registry + gateway management + MQTT integration + dashboards.
+
+- **Mainflux (Cloud-Native IoT Platform, Open-Source)** — https://mainflux.com  
+  Secure, microservices-based IoT backend with MQTT/HTTP/CoAP, dashboards, device management, and integrations.
+
+- **Kaa IoT Platform CE (Open-Source)** — https://www.kaaiot.io  
+  Production-quality IoT platform with device twins, telemetry, dashboards, firmware updates. Free Community Edition.
+
+- **OpenRemote (Open-Source, Smart City + BMS + IoT)** — https://openremote.io  
+  Complete IoT suite with rules, dashboards, multi-tenant support. Free Manager for self-host.
+
+- **Home Assistant (Open-Source)** — https://www.home-assistant.io  
+  IoT automation and dashboards for smart building/edge. MQTT, Modbus, Zigbee, BLE. Free and self-hostable.
+
+- **OpenHAB (Free, Open-Source)** — https://openhab.org  
+  Local-first IoT backend for automation and dashboards. Supports MQTT, KNX, Modbus, Zigbee.
+
+- **Thingspeak (MathWorks – Free tier)** — https://thingspeak.com  
+  Free cloud analytics + MATLAB scripting. Ideal for sensor dashboards and ML.
+
+- **Eclipse Ditto (Digital Twin Backend, Free)** — https://www.eclipse.dev/ditto  
+  Open-source digital twin platform with MQTT/REST/WS APIs for device management and shadows.
+
+- **Eclipse Hono (IoT Messaging Platform, Free)** — https://www.eclipse.org/hono  
+  Device connectivity and telemetry ingestion for HTTP/MQTT/CoAP/AMQP. Free and cloud-native.
+
+- **Eclipse Kapua (IoT Management)** — https://www.eclipse.org/kapua  
+  Open-source IoT cloud platform with device provisioning, telemetry, dashboards.
+
+- **FIWARE IoT Backend Framework (Free)** — https://www.fiware.org  
+  Modular smart city/edge IoT platform with context brokers and open APIs.
+
+- **OpenIoT Platform (Research Grade, Free)** — https://github.com/OpenIoTOrg/openiot  
+  Cloud-native IoT stack for device data, queries, analytics and cloud storage.
+
+- **Domoticz (Free, Open-Source)** — https://www.domoticz.com  
+  Lightweight IoT automation server with dashboards and scripting.
+
+- **Mosquitto MQTT Broker (Free)** — https://mosquitto.org  
+  Ultra-light MQTT broker for millions of devices; integrates with Node-RED & Grafana for a free backend.
+
+- **VerneMQ (Free Community Edition)** — https://vernemq.com  
+  Open-source MQTT broker with clustering and high concurrency.
+
+- **CrateDB (Free Community)** — https://crate.io  
+  Edge-friendly, time-series DB with SQL for IoT ingestion. Works with MQTT/REST.
+
+- **Grafana + Loki Stack (Free OSS)** — https://grafana.com/oss  
+  Dashboards + logs for IoT gateways or Linux edge devices.
+
+- **devicehub.net (Open-Source Build)** — https://github.com/OpenIoTHub  
+  Lightweight IoT backend for Raspberry Pi and ESP devices.
+
+- **WiFiManager + Firebase DIY Backend (Free)** — https://github.com  
+  Open templates for ESP32/ESP8266 logging to free Firebase tier.
+
+- **InfluxDB Community Edition** — https://www.influxdata.com  
+  Free time-series database, MQTT/MQTT-Telegraf ingestion, dashboards and alerts.
+
+- **Prometheus (Free)** — https://prometheus.io  
+  Metric-based IoT backend for embedded Linux devices, with Grafana dashboards.
+
+- **OpenTSDB / RRDTool (Free)** — https://github.com/OpenTSDB  
+  Time-series database for low-resource IoT gateways with free visualization.
+
+- **Kubernetes IoT Edge Templates (Free Helm Charts)** — https://artifacthub.io  
+  Ready-to-deploy Helm charts for MQTT brokers, InfluxDB, Grafana, Node-RED.
+
+- **BalenaCloud (Free Tier for Developers)** — https://balena.io  
+  OTA + container orchestration for Pi & edge nodes. Free tier for personal projects.
+
+- **Open Horizon (IBM – Open-Source)** — https://github.com/open-horizon/anax  
+  Distributed IoT/Edge orchestration with zero-trust and secure OTA. Free to self-host.
+
+- **ThingsBoard Microservices Helm (Free)** — https://github.com/thingsboard/thingsboard-helm  
+  Self-deploy IoT platform on Kubernetes with dashboards, OTA, rule engine.
+
+- **NATS.io (Free)** — https://nats.io  
+  Extremely fast MQTT-like messaging for IoT. Free, small-footprint, clusterable.
+
+- **MQTT Sparkplug B (Open-Standard)** — https://www.eclipse.org/tahu  
+  Open interoperability framework for industrial MQTT SCADA.
+
+- **Open Source Zigbee2MQTT** — https://www.zigbee2mqtt.io  
+  Free Zigbee gateway exposing sensors to MQTT/Node-RED/InfluxDB.
+
+- **OpenThread Border Router** — https://openthread.io  
+  Thread/Matter low-power mesh with free cloud integration.
+
+- **OpenMQTTGateway** — https://github.com/1technophile/OpenMQTTGateway  
+  Free gateway bridging BLE, LoRa, IR, RF433 to MQTT dashboards.
+
+- **MySensors Gateway (Free)** — https://www.mysensors.org  
+  Arduino sensor mesh to MQTT, Grafana, Influx.
+
+- **Homebridge (Free)** — https://homebridge.io  
+  IoT automation backend with NodeJS plugins.
+
+- **IoTivity (Open-Source, OCF)** — https://iotivity.org  
+  Secure IoT communication stack with free device identity & provisioning.
+
+### 26B. MQTT + Dashboards + Device Management Bundles (Free / Open-Source / Self-Host)
+
+#### ✅ Complete IoT Bundles (MQTT + DB + Dashboards + Rules)
+
+- **ThingsBoard CE (MQTT + OTA + Rules + Dashboards)** — https://thingsboard.io  
+  Out-of-the-box IoT platform with MQTT, CoAP, HTTP ingestion, OTA, alarms, device provisioning, rule engine, dashboards. Free Community Edition.
+
+- **EMQX + Node-RED + InfluxDB + Grafana Stack (All Free)** — https://www.emqx.io  
+  Production-grade MQTT5 broker with free rule engine → Node-RED for flows → InfluxDB for time-series → Grafana dashboards. Runs on Raspberry Pi or Docker in minutes.
+
+- **ChirpStack + Mosquitto + Grafana (Open-Source)** — https://www.chirpstack.io  
+  LoRaWAN server + MQTT broker + dashboard stack, free and self-hostable. Supports gateways, device registry, uplink/downlink rules.
+
+- **Mainflux (MQTT/HTTP/CoAP + Dashboard)** — https://mainflux.com  
+  Microservices-based IoT backend with device management, data persistence, JWT auth, and MQTT routing. Full open-source.
+
+- **OpenRemote (MQTT + Dashboards + Rules Engine)** — https://openremote.io  
+  Self-hosted cloud with automation rules, asset management, and MQTT broker integration. Used in smart cities & buildings. Fully open-source.
+
+- **Kaa IoT Platform CE** — https://www.kaaiot.io  
+  Device twins, dashboards, time-series storage, OTA, alerts. Fully free Community Edition.
+
+- **Home Assistant + Mosquitto + InfluxDB + Grafana** — https://www.home-assistant.io  
+  Local-first free IoT stack: MQTT broker, automation, dashboards, data logging and alerts. Works on Pi and Docker.
+
+- **OpenHAB + Mosquitto** — https://openhab.org  
+  Free automation & dashboard platform with MQTT binding. Stores sensor data, events, and charts.
+
+- **FIWARE Smart IoT Stack** — https://www.fiware.org  
+  Open-source context broker + MQTT ingestion + dashboards + analytics. Used in smart-city deployments.
+
+- **Eclipse Kapua (MQTT + Device Mgmt + Analytics)** — https://www.eclipse.org/kapua  
+  Free modular IoT cloud platform with messaging, dashboards, device registry, OTA options.
+
+---
+
+#### ✅ Lightweight Bundles for Raspberry Pi / Gateways
+
+- **Balena Sense (MQTT + InfluxDB + Grafana)** — https://github.com/balena-io-projects/balena-sense  
+  Runs sensors → MQTT → time-series DB → dashboards. One-click install on Pi.
+
+- **Grafana + Loki (Logs) + Mosquitto (MQTT) + Telegraf** — https://grafana.com/oss  
+  Fully open-source metrics + logs + MQTT ingestion for IoT gateways.
+
+- **InfluxDB + Telegraf + Grafana (TIG Stack)** — https://github.com/influxdata  
+  Very common free stack: MQTT → Telegraf → InfluxDB → Grafana dashboards.
+
+- **Zigbee2MQTT → Node-RED → Grafana** — https://www.zigbee2mqtt.io  
+  Free Zigbee bridge producing MQTT sensor events + visual dashboards.
+
+- **Tasmota (MQTT-native firmware)** — https://tasmota.github.io  
+  Free open-source firmware for ESP8266/ESP32 smart devices, integrates directly with MQTT brokers.
+
+- **OpenMQTTGateway** — https://github.com/1technophile/OpenMQTTGateway  
+  BLE, LoRa, IR, RF433 → MQTT gateway bridging many wireless devices into dashboards.
+
+- **MySensors Gateway (MQTT-first)** — https://www.mysensors.org  
+  Arduino sensor mesh → MQTT → dashboards.
+
+---
+
+#### ✅ Device Management, Provisioning & Twin Models (Free)
+
+- **Eclipse Ditto (Digital Twin)** — https://www.eclipse.dev/ditto  
+  MQTT/HTTP/WS Digital twins with JSON shadow storage, rules, and real-time updates.
+
+- **Eclipse Hono** — https://www.eclipse.org/hono  
+  MQTT/HTTP ingestion + identity + device credentials + device-to-cloud messaging. Free to self-host.
+
+- **AWS IoT Greengrass Local (Free Local Mode)** — https://aws.amazon.com/greengrass  
+  Local MQTT and rules engine on edge devices for free when operating offline.
+
+- **Azure IoT Edge (Free Local Mode)** — https://azure.com/iotedge  
+  Free for local message routing, MQTT ingestion, and containerized edge logic.
+
+- **NATS.io (MQTT-like Broker + Streaming)** — https://nats.io  
+  High-speed lightweight messaging for IoT; free clustering, ACL, TLS.
+
+---
+
+#### ✅ Docker-Compose Templates / Ready Deployments
+
+- **Awesome IoT Stack (Free Templates)** — https://github.com/hobbyquaker/awesome-mqtt  
+  Docker templates for MQTT + automation + visualization + storage.
+
+- **IOTstack for Raspberry Pi** — https://github.com/gcgarner/IOTstack  
+  Easy menu-driven installer: Mosquitto, Node-RED, InfluxDB, Grafana, ESPHome, Zigbee2MQTT.
+
+- **Awesome Home Assistant Add-Ons (Free)** — https://github.com/home-assistant/addons  
+  Free MQTT, Influx, Grafana, Prometheus, ESPHome, Zigbee2MQTT.
+
+- **Node-RED Boilerplates (Free)** — https://github.com/node-red/node-red-docker  
+  Quick-deploy MQTT + HTTP ingestion + dashboards + user auth.
+
+---
+
+#### ✅ Bonus: Free Cloud MQTT Brokers for Testing
+
+- **Test.Mosquitto.org (Free Public Broker)** — https://test.mosquitto.org  
+  Free public MQTT test broker for developers.
+
+- **Hivemq Public Broker (Free)** — mqtt://broker.hivemq.com  
+  Free MQTT 3.1.1 testing for devs.
+
+- **EMQX Public Cloud Broker (Free Sandbox)** — https://www.emqx.com/en/mqtt/public-mqtt5-broker  
+  Free MQTT5 sandbox with WebSocket support.
+
+- **Shiftr.io Free Sandbox** — https://shiftr.io  
+  Free visual MQTT dashboard for testing prototypes.
+
+- **flespi MQTT Broker (Free Tier)** — https://flespi.com  
+  Free MQTT broker + REST API for up to limited messages/devices.
+
+### 26C. OTA Servers, Provisioning & Secure Firmware Distribution (Free / Open-Source)
+
+#### ✅ Open-Source OTA Servers (Self-Host)
+
+- **Eclipse hawkBit (Free/Open-Source)** — https://www.eclipse.org/hawkbit  
+  Production-ready OTA server for embedded Linux & MCU devices. Campaign management, staged rollouts, rollback, device groups. Self-host for free.
+
+- **Mender Community Edition (Open-Source)** — https://mender.io  
+  Full OTA for Linux-based devices: A/B updates, delta updates, rollback, device inventory, fleet management. Entire server stack is free for self-host.
+
+- **SWUpdate (Open-Source)** — https://sbabic.github.io/swupdate  
+  OTA installer for embedded Linux: dual-bank, rollback, secure images, signed updates. Works with hawkBit or standalone.
+
+- **RAUC (Open-Source)** — https://rauc.io  
+  Robust A/B update system for embedded Linux with cryptographic signing & rollback. Can integrate with hawkBit.
+
+- **BalenaCloud (Free Developer Tier)** — https://www.balena.io  
+  OTA for fleets of Raspberry Pis & Linux gateways. Free tier for personal/development use with container-based updates.
+
+- **OpenWRT + opkg Sysupgrade (Free)** — https://openwrt.org  
+  Free OTA-like sysupdate system for IoT routers and gateways. Signed images, rollback scripts available.
+
+- **Eclipse Kura (Free)** — https://eclipse.org/kura  
+  IoT gateway platform with remote application updates via MQTT/REST.
+
+- **ResinOS (Open) + balenaEngine** — https://github.com/balena-os  
+  Open source OS enabling Docker OTA on embedded devices.
+
+---
+
+#### ✅ MCU / RTOS-Level Secure OTA
+
+- **MCUboot (Open-Source)** — https://mcuboot.com  
+  Cryptographically signed boot / OTA loader used by Zephyr, Mynewt, ESP32 ports, Nordic nRF Connect SDK.
+
+- **Zephyr OS OTA (Free)** — https://zephyrproject.org  
+  Built-in support for MCUBoot, DFU over BLE, USB, UART, and encrypted image updates.
+
+- **Mynewt BLE Secure DFU (Free)** — https://mynewt.apache.org  
+  Signed, encrypted DFU for BLE/MCU devices.
+
+- **ESP-IDF OTA (Free)** — https://docs.espressif.com  
+  A/B OTA partitions, HTTPS secure download, anti-rollback and image signing. Full open-source tooling.
+
+- **ESP HTTP OTA + AWS IoT Core** (Free local mode) — https://github.com/espressif  
+  ESP32 OTA via HTTPS + S3/mirror servers. Free CLI tools.
+
+- **Nordic nRF Secure DFU (Open-Source)** — https://github.com/NordicSemiconductor/pc-nrfutil  
+  Signed and encrypted updates over BLE, USB, serial. Works with nRF52832/840/9160.
+
+- **STM32 SBSFU (Secure Boot & Secure Firmware Update)** — https://www.st.com  
+  Free reference implementation for signed/encrypted OTA and secure boot.
+
+- **MCUXpresso Secure OTA (NXP, Free)** — https://www.nxp.com  
+  Free OTA, secure boot and image authentication in LPC/i.MX RT SDK.
+
+- **Tuya Open-Source MCU OTA (Free)** — https://github.com/tuya  
+  Free OTA firmware and tools for Tuya-ESP/Gateway MCUs.
+
+---
+
+#### ✅ Linux-Based Device Management With OTA
+
+- **MENDER-ARTIFACT (Free CLI)** — https://github.com/mendersoftware  
+  Create signed OTA images for Mender CE. A/B and delta updates.
+
+- **HAWKBIT-UPDATER Agents (Free)** — https://github.com/eclipse/hawkbit  
+  Free device-side updater for Linux SBCs and embedded gateways.
+
+- **SWUpdate + CAN/RS485 Updates** — https://github.com/sbabic/swupdate  
+  Free field-update templates over Ethernet, 4G, CAN, RS485.
+
+- **RAUC + Yocto/Buildroot Integration** — https://rauc.readthedocs.io  
+  Free integration into industrial Linux systems.
+
+- **Debian APT + Repo-Signing (Free)** — https://wiki.debian.org/SecureApt  
+  Fleet OTA through signed packages and private repos.
+
+---
+
+#### ✅ Device Provisioning / Key Injection (Free Tools)
+
+- **mcumgr (Open-Source)** — https://github.com/apache/mynewt-mcumgr  
+  Secure image management for MCUBoot, DFU, and key provisioning over UART/BLE.
+
+- **esptool.py (Free)** — https://github.com/espressif/esptool  
+  Burn secure boot keys, eFuses, flash encryption, encrypted OTA partitions.
+
+- **nrfutil (Free)** — https://github.com/NordicSemiconductor/pc-nrfutil  
+  Key generation, signing, DFU ZIP packages and device provisioning.
+
+- **STM32CubeProgrammer CLI (Free)** — https://www.st.com  
+  Scripted provisioning, OTP/fuses, secure-boot enabling, encrypted image flashing.
+
+- **Microchip CryptoAuthLib (Free)** — https://github.com/MicrochipTech  
+  Key injection and certificate provisioning to ATECC/Trust-Flex SEs.
+
+- **TPM2-TSS Tools (Free)** — https://github.com/tpm2-software  
+  Secure key provisioning, sealed storage, signing for Linux gateways.
+
+---
+
+#### ✅ Cloud + OTA (Free Tier Options)
+
+- **Particle Cloud (Free Tier)** — https://particle.io  
+  Free OTA for small fleets, device diagnostics, logs, variables, functions.
+
+- **Tuya IoT Platform (Free Tier)** — https://developer.tuya.com  
+  Free OTA updates, provisioning, cloud links for Tuya MCUs and Wi-Fi/BLE modules.
+
+- **Golioth Developer Tier (Free)** — https://golioth.io  
+  Zephyr-native cloud: OTA, logs, data streams. Free tier for development.
+
+- **Blynk (Free Community Tier)** — https://blynk.io  
+  Free OTA for ESP32/Arduino via Blynk.Air (limited dev tier).
+
+---
+
+#### ✅ Industrial / Fleet OTA (Open-Source Engines)
+
+- **OTA Update with Kubernetes + balenaEngine** — https://github.com/balena-os  
+  Container-based OTA for fleets of embedded Linux devices.
+
+- **Yocto + RAUC + hawkBit** (Open-Source)  
+  De-facto industrial pipeline for automotive/industrial devices. All free.
+
+- **SWUpdate + U-Boot Verified Boot**  
+  Secure chain-of-trust + signed A/B OTA images for ECUs, robotics, gateways.
+
+### 26D. Low-Code / No-Code IoT Cloud Templates (Free / Open-Source / Free Tier)
+
+#### ✅ Drag-and-Drop IoT Dashboards & Automation
+
+- **Node-RED (Open-Source, Self-Host Free)** — https://nodered.org  
+  Drag-and-drop flows for MQTT/HTTP/WebSockets/Modbus. Built-in dashboards, alerts, logging, APIs. Runs on Raspberry Pi, Docker.
+
+- **Blynk (Free Community Tier)** — https://blynk.io  
+  Mobile app + dashboards + over-the-air control for ESP32, Arduino, Raspberry Pi. Free tier for hobbyists.
+
+- **ThingsBoard CE (Open-Source)** — https://thingsboard.io  
+  Low-code rule engine, dashboards, OTA, alarms, device provisioning. Fully free to self-host.
+
+- **Home Assistant (Free / Local-First)** — https://www.home-assistant.io  
+  Drag-and-drop automation for MQTT, BLE, Zigbee, Modbus, KNX. Free dashboards and automations.
+
+- **OpenHAB (Open-Source)** — https://openhab.org  
+  Visual automation + rules for sensors, relays, HVAC, smart home IoT. Free dashboards and MQTT integration.
+
+- **Freeboard (Open-Source)** — https://github.com/Freeboard/freeboard  
+  Browser-based drag-and-drop IoT dashboard for MQTT, REST APIs, sensors. Fully free.
+
+- **FRED – Cloud Node-RED (Free Tier)** — https://fred.sensetecnic.com  
+  Node-RED hosted in the cloud with free tier for small flows and dashboards.
+
+---
+
+#### ✅ Device-to-Dashboard “No-code” Cloud Platforms
+
+- **Thingspeak (Free)** — https://thingspeak.com  
+  No-code dashboards + charts + MATLAB analytics. Free for academic/hobby use.
+
+- **io.adafruit.com (Adafruit IO — Free Tier)** — https://io.adafruit.com  
+  No-code dashboards, MQTT/Webhooks, triggers, data logs. Great for ESP32/Arduino.
+
+- **Ubidots STEM (Generous Free Tier)** — https://ubidots.com/stem  
+  Drag-and-drop dashboards, alerts, device management. Free tier for DIY/students.
+
+- **MQTT Dash (Free App)** — Android MQTT dashboard app, no coding. Graphs, gauges, control switches.
+
+- **MyDevices Cayenne (Free Maker Tier)** — https://developers.mydevices.com  
+  No-code widgets for ESP32, Raspberry Pi, LoRaWAN. Drag-and-drop automation.
+
+- **Grafana Cloud Free Tier** — https://grafana.com  
+  Free limited dashboards + alerts for small projects. Works with MQTT → InfluxDB.
+
+- **Tally + Webhooks + MQTT (Free Templates)** — https://tally.so  
+  Zero-code dashboards & forms that ingest MQTT data through webhook adapters.
+
+---
+
+#### ✅ Automation + Webhooks + Integrations
+
+- **IFTTT Maker Webhooks (Free Tier)** — https://ifttt.com  
+  Trigger emails, SMS, Google Sheets, Telegram, based on sensor events.
+
+- **Zapier Free Tier (Limited)** — https://zapier.com  
+  MQTT → email → Slack → Google Sheets automation without code.
+
+- **n8n.io (Open-Source)** — https://n8n.io  
+  Fully free self-host workflow automation connecting MQTT/REST/Email/DB.
+
+- **Huginn (Open-Source)** — https://github.com/huginn/huginn  
+  Automation agents that watch MQTT feeds, APIs, weather, alerts — all free to self-host.
+
+- **Node-RED + Telegram Bot (Free)**  
+  Chatbot control for IoT devices using no-code flow templates.
+
+---
+
+#### ✅ No-code Apps / Visual Builders for Hardware
+
+- **Arduino Cloud Free Tier** — https://cloud.arduino.cc  
+  No-code dashboards, widgets, OTA, variables, and charts for Arduino/ESP32.
+
+- **MIT App Inventor (Free)** — https://appinventor.mit.edu  
+  Drag-and-drop Android app builder for IoT control over BLE/Wi-Fi/MQTT.
+
+- **Kodular (Free Android App Builder)** — https://kodular.io  
+  No-code Android apps connecting to MQTT/HTTP devices.
+
+- **ESP RainMaker (Free)** — https://rainmaker.espressif.com  
+  No-code provisioning + dashboards + Alexa/Google control for ESP32.
+
+- **Tuya Cloud (Free Tier)** — https://developer.tuya.com  
+  Zero-code provisioning, dashboards, OTA for Tuya Wi-Fi/BLE devices.
+
+---
+
+#### ✅ One-Click Deployable Templates (Docker Compose / Raspberry Pi)
+
+- **IOTstack (Free)** — https://github.com/gcgarner/IOTstack  
+  One-click installer for Mosquitto, Node-RED, InfluxDB, Grafana, Zigbee2MQTT.
+
+- **BalenaBlocks (Free)** — https://www.balena.io/blocks  
+  Pre-built Docker blocks for MQTT, dashboards, database, fleet OTA.
+
+- **Awesome Home Assistant Add-Ons (Free)** — https://github.com/home-assistant/addons  
+  One-click install: MQTT → Influx → Grafana → ESPHome → Zigbee2MQTT.
+
+- **Mosquitto + Node-RED + Grafana Docker Bundle (Free)** — https://github.com  
+  Community docker-compose templates for full IoT backend in one command.
+
+---
+
+#### ✅ Mobile Dashboards for Sensors (Free)
+
+- **IoT MQTT Panel (Android — Free Tier)** — https://play.google.com  
+  Live MQTT charts, gauges, controls for ESP32/RPi.
+
+- **MQTT Explorer (Free)** — https://mqtt-explorer.com  
+  GUI monitor for MQTT brokers with tree view and history.
+
+- **Ruffy / BLE Serial Apps (Free)** — https://github.com  
+  Quick BLE dashboard for hobby IoT.
+
+### 26E. Self-Hostable Analytics & Visualization Bundles (Free / Open-Source)
+
+#### ✅ Time-Series Databases (IoT-Friendly / Free)
+
+- **InfluxDB Community Edition (Free & Open-Source)** — https://www.influxdata.com  
+  High-performance time-series DB for sensor data. MQTT → Telegraf → Influx → Grafana is the classic free IoT stack.
+
+- **TimescaleDB (Free Community Edition)** — https://www.timescale.com  
+  PostgreSQL with time-series superpowers. Free community license; IoT metrics + SQL dashboards.
+
+- **CrateDB (Free/Open)** — https://crate.io  
+  Distributed SQL database optimized for IoT telemetry. Free community edition.
+
+- **OpenTSDB (Free/Open)** — https://github.com/OpenTSDB  
+  Time-series storage on top of HBase. Used for large-scale logging and IoT metrics.
+
+- **RRDTool (Free)** — https://oss.oetiker.ch/rrdtool  
+  Embedded-friendly round-robin DB for small gateways and SBCs.
+
+- **Prometheus (Free/Open-Source)** — https://prometheus.io  
+  Time-series metrics for embedded Linux/edge gateways. Often paired with Grafana free dashboards.
+
+- **Druid (Apache)** — https://druid.apache.org  
+  Fast columnar time-series DB with free SQL and dashboard plugins.
+
+- **QuestDB (Free/Open-Source)** — https://questdb.io  
+  SQL time-series engine with grafana support. Very fast ingestion.
+
+---
+
+#### ✅ BI Dashboards & Visualization Tools (Self-Host Free)
+
+- **Grafana OSS (Free)** — https://grafana.com/oss  
+  Industry-standard dashboarding for time-series. Free plugins, alerts, MQTT via Influx/Telegraf.
+
+- **Apache Superset (Free/Open-Source)** — https://superset.apache.org  
+  Modern BI dashboard for PostgreSQL, MySQL, Timescale, CrateDB, Mongo, etc.
+
+- **Metabase (Free/Open-Source)** — https://metabase.com  
+  Self-host dashboards and analytics for SQL/NoSQL. Ideal for internal, client or ops dashboards.
+
+- **Redash (Free/Open-Source)** — https://redash.io  
+  Lightweight SQL + charting dashboards for IoT telemetry. Works with InfluxDB, PostgreSQL, Timescale.
+
+- **Chronograf (Free + Part of TICK stack)** — https://docs.influxdata.com/chronograf  
+  Native InfluxDB dashboard and alert engine for IoT.
+
+- **Kibana (Free / Elastic OSS)** — https://www.elastic.co/kibana  
+  Visualization of logs, metrics, sensor traces. Pairs with Elasticsearch, beats, Logstash.
+
+- **Loki + Grafana (Free/Open)** — https://grafana.com/oss/loki  
+  Log storage and visualization for IoT gateways + edge computing.
+
+- **Plotly Dash (Open-Source)** — https://plotly.com/dash  
+  Self-host visual dashboards using Python.
+
+- **Streamlit (Open-Source)** — https://streamlit.io  
+  Build custom IoT dashboards with Python. Free to run locally or Docker.
+
+---
+
+#### ✅ Full “Analytics Bundles” (Plug-and-Play / Docker)
+
+- **TIG Stack (Telegraf + InfluxDB + Grafana)** — https://github.com/influxdata  
+  Free IoT monitoring bundle: MQTT ingestion, dashboards, alerts. Runs on Pi, PC, servers.
+
+- **ELK Stack (Elasticsearch + Logstash + Kibana OSS)** — https://www.elastic.co  
+  Open-source edition supports logs, metrics, dashboards for IoT & gateways.
+
+- **MELT Stack (MongoDB + Express + Logstash + Telegraf + Grafana)** — https://github.com  
+  Free Mongo-centric IoT logging and dashboards.
+
+- **OpenTelemetry Collector (Free)** — https://opentelemetry.io  
+  Free telemetry pipeline: ingest MQTT, gRPC, REST, export to Prometheus/Grafana.
+
+- **QuestDB + Grafana Bundle** — docker-compose from QuestDB team  
+  High-performance database + free dashboards for high-rate IoT sensors.
+
+- **Druid + Superset Bundle** — https://github.com/apache/druid  
+  Open-source analytic engine + BI dashboard for billions of events.
+
+---
+
+#### ✅ Self-Hosted MQTT + DB + Dashboard Starters
+
+- **IOTstack (Free)** — https://github.com/gcgarner/IOTstack  
+  Menu-based deployment for Mosquitto, Node-RED, Influx, Grafana, Zigbee2MQTT.
+
+- **Awesome IoT Docker Templates (Free)** — https://github.com/hobbyquaker/awesome-mqtt  
+  Turnkey stack: MQTT broker, DB, dashboards, automation.
+
+- **Node-RED + Influx + Grafana (Free)** — https://github.com/node-red/node-red-docker  
+  Classic OSS IoT pipeline deployable with a single docker-compose.
+
+- **Mosquitto + Telegraf + TimescaleDB + Grafana** — free docker compose projects on GitHub.
+
+---
+
+#### ✅ Data Science + ML Tooling (Self-Host Free)
+
+- **Jupyter Notebook/Lab (Free)** — https://jupyter.org  
+  Local analytics, ML, visualization; can attach to MQTT and query DBs.
+
+- **Apache Spark (Free/Open-Source)** — https://spark.apache.org  
+  Big data analytics for large IoT datasets; works with Hadoop, S3, Kafka.
+
+- **MLFlow (Free/Open-Source)** — https://mlflow.org  
+  Model training, versioning and experiment tracking for IoT data science.
+
+---
+
+#### ✅ Embedded-Friendly Storage Options
+
+- **SQLite (Free/Open-Source)** — https://sqlite.org  
+  Lightweight DB ideal for gateways, SBCs, offline IoT data logging.
+
+- **LiteFS (Free)** — https://fly.io/docs/litefs  
+  SQLite replication for distributed edge nodes.
+
+- **RRDTool for SBC / MCU gateways** — https://oss.oetiker.ch/rrdtool  
+  Extremely small logger for memory-constrained devices.
+
+### 27A. OPC-UA, Modbus, BACnet, PROFINET Free Stacks
+
+#### ✅ OPC-UA (Free / Open-Source)
+
+- **open62541 (Free & Open-Source C Stack)** — https://open62541.org  
+  IEC62541-compliant OPC-UA SDK for embedded Linux and industrial gateways. Supports Client/Server, Pub/Sub, security, and address space modeling.
+
+- **FreeOpcUa / python-opcua (Open-Source)** — https://github.com/FreeOpcUa/python-opcua  
+  Python-based OPC-UA client/server implementation with certificates, subscriptions and historian support. Perfect for SCADA + cloud connectors.
+
+- **Node-OPCUA (JavaScript OPC-UA)** — https://node-opcua.github.io  
+  Full OPC-UA client/server in NodeJS. Ideal for industrial data pipelines, PubSub and edge-to-cloud bridging.
+
+- **S2OPC (Secure & Safety OPC-UA)** — https://gitlab.com/systerel/s2opc  
+  Security-focused OPC-UA C stack used in high-reliability and nuclear-grade systems. Free and safety-oriented.
+
+- **OpenDS-OPC (Java OPC-UA SDK)** — https://github.com/opends/opends-opc  
+  OPC-UA tools and Java SDK with discovery, security and address model support.
+
+---
+
+#### ✅ Modbus (RTU/TCP) — Free Stacks & Tools
+
+- **libmodbus (Free/Open-Source)** — https://libmodbus.org  
+  C library for Modbus TCP/RTU. Runs on embedded Linux, RTOS and SBC gateways.
+
+- **pymodbus (Python Modbus)** — https://github.com/pymodbus-dev/pymodbus  
+  Async Modbus TCP/RTU implementation with client/server support. Perfect for polling industrial sensors and PLCs.
+
+- **MinimalModbus (Python)** — https://minimalmodbus.readthedocs.io  
+  Simplified Modbus RTU/TCP client for Raspberry Pi and Linux edge nodes.
+
+- **Jamod (Java Modbus)** — http://jamod.sourceforge.net  
+  Java Modbus client/server stack for SCADA, industrial gateways and virtual PLCs.
+
+- **FreeModbus (Embedded Master/Slave)** — https://github.com/armink/FreeModbus_Slave-Master-RTT-STM32  
+  Lightweight Modbus RTU/TCP implementation for STM32 and RT-Thread RTOS.
+
+---
+
+#### ✅ BACnet (Building Automation / HVAC)
+
+- **BACnet-Stack (Open-Source C)** — https://github.com/bacnet-stack/bacnet-stack  
+  Full BACnet/IP stack in C for embedded controllers, HVAC and building automation.
+
+- **OpenBACnet (Python)** — https://github.com/OpenBACnet/OpenBACnet  
+  BACnet/IP toolkit for simulation, testing, and research.
+
+- **BACnet-SC Tools (Secure BACnet)** — https://github.com/bacnet-stack/bacnet-sc  
+  Implements BACnet Secure Connect (BACnet/SC) with secure TLS tunnels for modern building automation.
+
+---
+
+#### ✅ Wireless M-Bus / Smart Metering
+
+- **OpenMBUS (Free/Open-Source)** — https://www.openmbus.org  
+  Wireless M-Bus (EN13757/OMS) open-source stack for smart metering, sub-GHz radios and gateways.
+
+---
+
+#### ✅ Industrial MQTT (Sparkplug-B)
+
+- **Eclipse Tahu / Sparkplug-B (Free/Open-Source)** — https://github.com/eclipse/tahu  
+  Industry-standard MQTT payload specification for SCADA/HMI data models and edge-to-cloud interoperability.
+
+---
+
+#### ✅ PROFINET / PROFIBUS Tools
+
+- **PROFINET Packet Sniffer (Free)** — https://github.com/klonyyy/profinet-sniffer  
+  Open-source PROFINET packet analyzer for debugging and industrial protocol diagnostics.
+
+### 27B. SCADA Dashboards (Free / Community Editions)
+
+- **ScadaBR (Free/Open-Source)** — http://www.scadabr.com.br  
+  Web-based SCADA built on Java. Supports Modbus, OPC, BACnet, MQTT and charts. Self-host friendly for industrial monitoring.
+
+- **OpenEMS UI (Free/Open-Source)** — https://github.com/OpenEMS/openems  
+  Modular energy management SCADA with dashboards, alarms, PLC logic, MQTT/Modbus. Runs on edge gateways + servers.
+
+- **Rapid SCADA (Community Edition – Free)** — https://rapidscada.org  
+  Complete SCADA suite with device polling, storage, trending and alarms. Modbus TCP/RTU, SNMP, MQTT supported.
+
+- **OpenPLC HMI (Free / Web-Based HMI)** — https://www.openplcproject.com  
+  Built-in HMI for OpenPLC runtime. Free visual dashboard with ladder logic integration and Modbus/OPC-UA.
+
+- **Ignition Perspective (Maker Edition Free)** — https://inductiveautomation.com/ignition  
+  Maker Edition free for personal/home/education SCADA. Dashboards, tags, MQTT Sparkplug-B, scripting.
+
+- **Mycodo (Free/Open)** — https://github.com/kizniche/Mycodo  
+  Python-based automation + dashboard + control loops. Works for PLC-lite industrial automation on Raspberry Pi.
+
+- **Grafana OSS (SCADA Use-Case)** — https://grafana.com/oss  
+  Not a SCADA engine, but widely used as free HMI/dashboard for Modbus/MQTT/Influx/Sparkplug-B pipelines.
+
+- **Nodered Dashboard (Free/Open-Source)** — https://github.com/node-red/node-red-dashboard  
+  Visual web dashboard on top of Node-RED flows. Commonly used for small SCADA/HMI and asset dashboards.
+
+- **PyScada (Free/Open-Source)** — https://github.com/pyscada/pyscada  
+  Web SCADA and logging platform using Python + Django. Supports Modbus, BACnet, OPC-UA, MQTT and PostgreSQL.
+
+- **ThingsBoard Community Edition** — https://thingsboard.io  
+  Full open-source IoT/SCADA suite with dashboards, alarms, rules engine and MQTT/CoAP/HTTP device connectivity.
+
+- **OpenHAB (Free/Open-Source)** — https://www.openhab.org  
+  Automation + dashboards for industrial labs and buildings. Supports Modbus, KNX, MQTT, BACnet via addons.
+
+- **Eclipse Kapua (Open-Source)** — https://www.eclipse.org/kapua  
+  Industrial IoT management + dashboards, telemetry store, device management.
+
+- **OpenIndustrial.io Projects (Free)** — https://openindustrial.io  
+  Collection of open SCADA/HMI tools, Modbus/OPC-UA gateways, edge visualization components.
+
+- **Conpot SCADA Honeypot (Free/Open)** — https://github.com/mushorg/conpot  
+  Not for production dashboards, but useful for training, research, security testing of SCADA environments.
+
+- **PVServer / OpenEMS UI** — part of OpenEMS ecosystem  
+  Web SCADA dashboard for DER, microgrid and industrial energy systems.
+
+### 27C. PLC Simulators, Ladder Logic & Virtual PLCs (Free / Open-Source)
+
+- **OpenPLC (Free/Open-Source Virtual PLC)** — https://www.openplcproject.com  
+  Fully open-source IEC 61131-3 runtime supporting Ladder, ST, FBD, and Modbus. Works on Linux, Windows, Raspberry Pi and ESP32.
+
+- **PLC Ladder Simulator (Android – Free)** — https://play.google.com/store/apps/details?id=com.mango_apps.plc_ladder_sim  
+  Mobile-based ladder logic simulator for education and quick testing. Good for teaching PLC basics.
+
+- **LDmicro (Free/Open-Source)** — http://cq.cx/ladder.pl  
+  Generates firmware from ladder logic for microcontrollers (AVR, PIC, ARM). Turns MCUs into mini-PLCs.
+
+- **Do-more Designer Simulator (Free)** — https://www.automationdirect.com  
+  Full ladder logic IDE + PLC simulator for AutomationDirect Do-more PLCs. Completely free software mode.
+
+- **Codesys (Free Runtime Simulation Mode)** — https://www.codesys.com  
+  Free SoftPLC simulation mode allows ladder/FBD/ST testing without hardware. Supports Modbus, OPC-UA, MQTT via add-ons.
+
+- **Factory I/O (Free Trial / Education mode)** — https://factoryio.com  
+  3D virtual factory with PLC connections (Modbus, OPC-UA). Limited free use for training and education.
+
+- **LogixPro SLC-500 Simulator (Free Trial / Academic)** — https://www.thelearningpit.com/logixpro  
+  Rockwell-compatible ladder training and system simulations. Widely used in industrial training labs.
+
+- **QModMaster (Free)** — https://sourceforge.net/projects/qmodmaster  
+  Modbus master simulator with register visualization. Good companion tool for PLC and HMI testing.
+
+- **MBSim (Free/Open)** — https://github.com/mbsim-env/mbsim  
+  Multibody simulation used for robotics and PLC-driven mechanical systems.
+
+- **Beremiz (Free/Open-Source IEC 61131 IDE)** — https://beremiz.org  
+  IEC 61131 programming with SoftPLC, Modbus & CANopen support. Free ladder logic editor and runtime.
+
+- **MATIEC (Free/Open – IEC Compiler)** — https://github.com/beremiz/matiec  
+  Open-source IEC 61131-3 compiler used with Beremiz and custom SoftPLC solutions.
+
+- **Classic Ladder (Free/Open-Source)** — https://github.com/ClassicLadder/ClassicLadder  
+  Lightweight ladder logic editor and runtime for Linux and embedded platforms.
+
+- **Open-Virtual-PLC (Experimental/Open-Source)** — https://github.com/Open-Virtual-PLC  
+  Research-grade virtual PLC used for testing IEC logic and cyber-security scenarios.
+
+- **FUXA (Open-Source HMI/SCADA + PLC Simulator)** — https://github.com/frangoteam/FUXA  
+  Free HMI designer with tags, alarms, trends and Modbus simulator for small SCADA/PLC systems.
+
+- **ModRSsim2 (Free)** — https://sourceforge.net/projects/modrssim2  
+  Modbus RTU/TCP slave simulator for testing PLC masters, HMIs and SCADA polling.
+
+### 27D. IIoT Edge Gateways & Industrial Protocol Tools (Free / Open-Source)
+
+#### ✅ Edge Gateway Frameworks (Linux / SBC / Industrial PCs)
+
+- **EdgeX Foundry (Free/Open-Source)** — https://www.edgexfoundry.org  
+  Full edge platform: device services, MQTT, Modbus, BACnet, REST, rules engine, storage and dashboards. Runs on Pi, x86, industrial gateways.
+
+- **ThingsBoard Gateway (Free/Open-Source)** — https://thingsboard.io  
+  Industrial gateway supporting MQTT, OPC-UA, Modbus, BLE and LCD displays. Connects edge devices to ThingsBoard or any MQTT broker.
+
+- **KubeEdge (Free/Open-Source)** — https://kubeedge.io  
+  Kubernetes for the edge. Run containers, analytics, and ML on gateways or factories with offline tolerance.
+
+- **OpenEMS Edge (Free/Open-Source)** — https://github.com/OpenEMS/openems  
+  Industrial energy + microgrid management gateway with Modbus, MQTT, storage, scheduling and HMI.
+
+- **FIWARE Edge Components (Free)** — https://www.fiware.org  
+  Open-source building blocks for IIoT – context broker, device adapters, MQTT ingestion, dashboards, AI analytics.
+
+- **balenaOS + balenaEngine (Free/Open)** — https://www.balena.io  
+  Docker-based embedded Linux OS for edge gateways and industrial Raspberry Pi fleets with free-tier device management.
+
+- **OpenWRT (Free/Open-Source)** — https://openwrt.org  
+  Embedded Linux for routers & gateways. Add MQTT, Modbus, BACnet, WireGuard, VPN, Prometheus exporters.
+
+- **Home Assistant OS (Free/Open)** — https://www.home-assistant.io  
+  Popular automation OS but also used in industrial labs: Modbus, BACnet, KNX, Zigbee, MQTT, dashboards.
+
+---
+
+#### ✅ IIoT Protocol Adapters & Translators
+
+- **Node-RED (Free/Open-Source)** — https://nodered.org  
+  Low-code automation, MQTT, Modbus, BACnet, OPC-UA, CAN, BLE. Most popular IIoT gateway tool.
+
+- **nodered-contrib-opcua (Free)** — https://github.com/mikakaraila/node-red-contrib-opcua  
+  Full OPC-UA support on Node-RED: clients, servers, subscriptions, browse, history.
+
+- **MQTT Sparkplug-B Tools (Free/Open)** — https://github.com/eclipse/tahu  
+  Reference implementation for industrial MQTT interoperability (ISA-95, SCADA, EFM).
+
+- **Modbus-Gateway Templates (Free)** — thousands of docker-compose repos to map Modbus → MQTT, OPC-UA → MQTT, etc.
+
+- **BACpypes (Free/Open-Source BACnet)** — https://github.com/JoelBender/bacpypes  
+  BACnet/IP application layer toolkit in Python. Used for building custom BACnet gateways.
+
+- **OpenCAN / SocketCAN (Free)** — https://github.com/linux-can/can-utils  
+  Linux CAN bus gateway utilities for industrial CAN controllers, motor drives and robotics.
+
+- **Knx.js (Free)** — https://github.com/knx-js/knx.js  
+  KNX/IP interface in NodeJS for industrial building automation.
+
+- **OpenZWave (Free/Open)** — https://github.com/OpenZWave/open-zwave  
+  Z-Wave stack for industrial labs, smart building automation and gateways.
+
+- **Zigbee2MQTT (Free/Open-Source)** — https://github.com/Koenkk/zigbee2mqtt  
+  Bridge thousands of Zigbee devices into MQTT/SCADA systems. Runs on Raspberry Pi and industrial gateways.
+
+- **LoRaWAN Packet Forwarder (Free/Open)** — Semtech UDP forwarder + Chirpstack gateway OS for industrial LoRa gateways.
+
+---
+
+#### ✅ Industrial Protocol Drivers (Free Stacks)
+
+- **libiec61850 (Free/Open)** — https://libiec61850.com/libiec61850  
+  Free IEC 61850 stack for substation automation, IEDs, SCADA, GOOSE and MMS.
+
+- **OpenDNP3 (Free/Open-Source)** — https://www.dnp3.org  
+  DNP3 stack for power systems, utilities and substations. Secure authentication supported.
+
+- **OpenFMB (Open Microgrid Interop)** — https://github.com/openenergymonitor/openfmb  
+  Publish/subscribe framework for energy assets, DER, switches and SCADA.
+
+- **Open62541 + MQTT/Sparkplug Bridge Projects** — community repositories linking OPC-UA → SCADA brokers.
+
+---
+
+#### ✅ Edge Database & Data Historian Tools (Free)
+
+- **InfluxDB OSS + Telegraf** — free time-series logging on edge gateways.  
+- **TimescaleDB Community Edition** — SQL historian for IIoT assets.  
+- **QuestDB OSS** — real-time time-series DB used in high-speed telemetry.
+
+---
+
+#### ✅ Edge ML / Predictive Maintenance Tools (Free/Open)
+
+- **TensorFlow Lite (Free/Open)** — edge on Linux gateways + MCUs.  
+- **OpenVINO Toolkit (Free/Open)** — Intel edge inference for cameras + industrial inspection.  
+- **Edge Impulse Self-Host** — free Docker deployment for small teams.  
+- **MLFlow (Free/Open)** — model versioning + inference pipelines on factories.
+
+---
+
+#### ✅ Industrial Gateway OS & Firmware Platforms
+
+- **ChirpStack Gateway OS (Free/Open)** — https://www.chirpstack.io  
+  LoRaWAN gateway OS with MQTT, TLS and packet forwarders.
+
+- **ResinOS / balenaOS (Free Tier)** — reliable fleet update system for edge Linux.
+
+- **Ubuntu Core (Free)** — https://ubuntu.com/core  
+  Secure snap-based OS for industrial gateways and IIoT appliances.
+
+- **Yocto Project (Free/Open)** — https://www.yoctoproject.org  
+  Build custom Linux for industrial gateways with OPC-UA, Modbus, WireGuard, MQTT, TSDB and drivers.
+
+- **Industrial Doppelganger Images (Free)** — many vendors provide Yocto-built images with Modbus/MQTT drivers (Codesys, OpenPLC integration).
+
+---
+
+#### ✅ Industrial Network Sniffers & Diagnostics (Free/Open)
+
+- **Wireshark (Free/Open)** — https://wireshark.org  
+  Decodes PROFINET, EtherCAT, Modbus, IEC104, DNP3, MQTT, BACnet and CAN.
+
+- **Scapy (Python – Free/Open)** — https://scapy.net  
+  Custom packet analysis for industrial protocols and fuzzing.
+
+- **profinet-sniffer (Free/Open)** — https://github.com/klonyyy/profinet-sniffer  
+  Dedicated PROFINET diagnostic capture tool.
+
+- **OpenPOWERLINK Wireshark Plugins** — free to inspect POWERLINK traffic.
+
+---
+
+#### ✅ Industrial Edge Automation / Rules Engines (Free)
+
+- **Node-RED (Open-Source)** — flows, alarms, dashboards, MQTT/Modbus/OPC-UA.  
+- **Eclipse Kura (Free/Open)** — full industrial gateway stack with VPN, OPC-UA, watchdogs, mDNS, MQTT, digital IO.  
+- **ThingsBoard Rule Engine (Community)** — alarms, triggers, scripting at edge.
+
+---
+
+#### ✅ Small Enterprise / Startup-Friendly Free Tiers
+
+- **Balena Cloud Free Tier** — deploy up to a few devices for free.  
+- **AWS IoT Greengrass (Free Tier)** — edge compute + ML inference.  
+- **Azure IoT Edge (Free Tier)** — containerized edge modules, OPC-UA, Modbus, MQTT connectors.  
+- **HiveMQ Edge (Free)** — OPC-UA → MQTT gateway.
+
+---
+### 27E. MQTT Sparkplug-B, Industrial Data Historians & Asset Modeling (Free / Open-Source)
+
+#### ✅ MQTT Sparkplug-B Stacks & Gateways (Free/Open)
+
+- **Eclipse Tahu (Sparkplug-B Reference Implementation)** — https://github.com/eclipse/tahu  
+  Official Sparkplug-B payload + state model. Used by SCADA, historians, PLC gateways and IIoT platforms.
+
+- **HiveMQ Edge (Free Edition)** — https://www.hivemq.com/editions/edge  
+  Free edge broker + OPC-UA → MQTT → Sparkplug-B bridging. Ideal for brownfield PLC modernisation.
+
+- **Ignition Maker Edition (Free – Personal/Training)** — https://inductiveautomation.com/ignition  
+  Fully functional Ignition with Sparkplug-B support for education/labs. Dashboards, tags, historians.
+
+- **ThingsBoard Gateway + Sparkplug (Free/Open)** — https://thingsboard.io  
+  Community plugins allow Sparkplug-B ingestion, device registry and alarms.
+
+- **Node-RED Sparkplug Nodes (Free)** — https://flows.nodered.org/node/node-red-contrib-sparkplug  
+  MQTT Sparkplug-B encoder/decoder nodes for building custom industrial bridges and asset models.
+
+- **MQTT-Engine for Ignition (Free Community)** — Adds intelligent Sparkplug-B tag handling on gateways and servers.
+
+---
+
+#### ✅ Industrial Historians / Time-Series Storage (Free/Open)
+
+- **InfluxDB OSS (Time-Series Historian)** — https://www.influxdata.com  
+  Classic free historian for IIoT: MQTT/Modbus → Telegraf → Influx → Grafana.
+
+- **TimescaleDB Community Edition** — https://www.timescale.com  
+  SQL historian with retention policies, compression and Grafana support.
+
+- **QuestDB OSS** — https://questdb.io  
+  Ultra-fast ingestion for vibration, power-quality, energy meters and PLC telemetry.
+
+- **Apache Druid (Open-Source)** — https://druid.apache.org  
+  Industrial-scale analytics on billions of telemetry datapoints. Used in utility/energy monitoring.
+
+- **RRDTool (Embedded Historian)** — https://oss.oetiker.ch/rrdtool  
+  Round-robin DB ideal for edge gateways, ARM boards and low-storage devices.
+
+- **OpenTSDB (Free/Open)** — https://github.com/OpenTSDB  
+  Time-series on top of HBase for large utility/substation logging projects.
+
+---
+
+#### ✅ Industrial Asset Models / Semantics (Free/Open)
+
+- **Asset Administration Shell (AASX / Eclipse BaSyx)** — https://www.eclipse.org/basyx  
+  Open-source Industry 4.0 digital asset modeling, OPC-UA, REST, dashboards and simulators.
+
+- **OPC-UA Information Modeling Tools (Free)** — multiple open-source code generators for UA nodesets, assets and complex object types.
+
+- **Eclipse Volttron (Free/Open)** — https://volttron.org  
+  Industrial distributed control platform with semantic metadata for building/energy assets.
+
+- **Eclipse Kapua Device Registry (Free/Open)** — https://www.eclipse.org/kapua  
+  Open-source fleet and asset manager with telemetry history and dashboards.
+
+- **OpenHAB Semantic Model** — https://www.openhab.org  
+  Semantic tagging of industrial/building entities, alarms and automation flows.
+
+---
+
+#### ✅ Industrial ETL / Telemetry Pipelines (Free)
+
+- **OpenTelemetry Collector (Free/Open)** — https://opentelemetry.io  
+  Collect sensor data via MQTT/REST, transform and push to timeseries DBs. Free and self-hostable.
+
+- **Logstash OSS (Free)** — https://github.com/elastic/logstash  
+  ETL for Modbus/MQTT/REST → Elasticsearch/Influx. Works as plant data bridge.
+
+- **Fluent Bit (Free/Open)** — https://fluentbit.io  
+  Lightweight collector for edge devices with 1–2 MB memory footprint.
+
+- **Telegraf (Free/Open)** — https://github.com/influxdata/telegraf  
+  250+ plugins including Modbus, MQTT, OPC-UA, SNMP, BACnet. Gold standard for edge ingestion.
+
+- **NiFi (Free/Open)** — https://nifi.apache.org  
+  Industrial ETL and streaming pipelines for high-volume telemetry and historian feeds.
+
+---
+
+#### ✅ Industrial Analytics / Predictive Tools (Free/Open)
+
+- **Grafana OSS** — https://grafana.com/oss  
+  Free dashboards, alarms and drilling for historians.
+
+- **Chronograf (Free)** — https://docs.influxdata.com/chronograf  
+  Native UI for InfluxDB with alerts and dashboards.
+
+- **Superset (Apache Free)** — https://superset.apache.org  
+  SQL BI dashboards for Timescale/QuestDB/Druid.
+
+- **Metabase (Free/Open)** — https://metabase.com  
+  Self-host analytics for PLC, sensor and SCADA data.
+
+- **Redash (Free/Open)** — https://redash.io  
+  Visual builder + charts for historians and SQL backends.
+
+- **Open-Source Predictive Maintenance Repos** — Python notebooks + models for vibration, anomaly detection, power quality forecasting (GitHub community).
+
+---
+
+#### ✅ Complete IIoT Historian Bundles (Self-Host)
+
+- **TIG Stack (Telegraf + InfluxDB + Grafana)** — free docker templates for SCADA historians.  
+- **Druid + Superset** — open-source analytics for grid, energy and utility telemetry.  
+- **QuestDB + Grafana** — high-speed historian with dashboards.  
+- **OpenTelemetry + Prometheus + Grafana** — free metric logging + visualization.
+
+---
+
+### 28A. Digital Twin Frameworks (Open-Source / Free Cloud Tiers)
+
+#### ✅ Full Digital Twin Platforms (Free / Open-Source)
+
+- **Eclipse Ditto (Free/Open-Source)** — https://www.eclipse.org/ditto  
+  Digital twin platform for IoT devices, sync state, commands, MQTT/HTTP/WS APIs. Used with Kubernetes and edge gateways.
+
+- **FIWARE Digital Twin Components (Free/Open)** — https://www.fiware.org  
+  Context broker + twins + NGSI-LD semantic models. Open-source framework powering EU smart city and industrial projects.
+
+- **Eclipse BaSyx AAS (Free/Open-Source)** — https://www.eclipse.org/basyx  
+  Industry 4.0 Asset Administration Shell (AAS) twins with OPC-UA, REST, dashboards and simulators.
+
+- **OpenDSS (Electric Grid Digital Twin)** — https://github.com/dss-extensions/OpenDSS  
+  Open-source electric power distribution system simulator. Used in smart-grid planning and digital twin research.
+
+- **OpenModelica (Free/Open)** — https://openmodelica.org  
+  Equation-based modeling for digital twins, physics simulation, cyber-physical systems and real-time co-simulation.
+
+- **OpenEMS Digital Twin Layer** — https://github.com/OpenEMS/openems  
+  Create digital twins of energy assets with forecasting, scheduling and SCADA/HMI integration.
+
+- **Gazebo / Ignition Robotics (Free/Open-Source)** — https://gazebosim.org  
+  High-fidelity physics simulation for robots, AGVs and mobile industrial systems – often used for digital twins of factories.
+
+---
+
+#### ✅ Industrial Cloud Digital Twins (Free Community / Free Tiers)
+
+- **Azure Digital Twins (Free Tier)** — https://azure.microsoft.com  
+  Graph-based digital twin modeling for factories, sensors, telemetry and BACnet/OPC-UA ingestion. Free transactions/month.
+
+- **AWS IoT TwinMaker (Free Tier)** — https://aws.amazon.com/iot-twinmaker  
+  Build 3D scenes, tags, alarms, historian links. Free tier for prototyping digital twins.
+
+- **Siemens/Mindsphere Free Developer Tier** — limited digital twin & IoT data modeling for education and pilot use.
+
+- **Bosch IoT Things (Free Developer Tier)** — https://bosch-iot-suite.com  
+  Digital twins, device registry, semantics and MQTT connectivity on a free developer account.
+
+---
+
+#### ✅ Simulation + Digital Twin Integration (Free/Open)
+
+- **Simulink Community Models (Free Examples)** — many open-source industrial models for co-simulation and digital twins.
+
+- **OpenAI Gym + ROS (Free/Open)** — https://www.ros.org  
+  Robotics/AGV twins with reinforcement learning, sensor fusion and multi-robot factories.
+
+- **CARLA (Free/Open-Source)** — https://carla.org  
+  Automotive digital twin simulator used in ADAS testing, LIDAR/camera simulation and autonomous vehicle R&D.
+
+- **AirSim (Microsoft Open-Source)** — https://github.com/microsoft/AirSim  
+  Realistic digital twin simulator for drones, AGVs and autonomous robots.
+
+- **OpenROAD / OpenEDA Twins** — open-source chip design digital twins for EDA workflows and hardware verification.
+
+---
+
+#### ✅ AAS, Semantics, Industry 4.0 Digital Twin Tools
+
+- **AASX Package Explorer (Free/Open)** — https://github.com/admin-shell-io/aasx-package-explorer  
+  Create, edit and validate Industry 4.0 Asset Administration Shell digital twins.
+
+- **Eclipse AAS Toolchain (Free/Open)** — Companion editors, simulators, OPC-UA gateways and dashboards for digital twins.
+
+- **NGSI-LD Tools (Free/Open)** — semantic digital twin modeling for smart factories and cities (used in FIWARE ecosystem).
+
+- **JPS Base Library (Knowledge Graph Twins)** — https://github.com/cambridge-cares/TheWorldAvatar  
+  Knowledge-graph based digital twins for industrial plants and smart cities.
+
+---
+
+#### ✅ Real-Time Co-Simulation (Free/Open)
+
+- **Open Simulation Platform (OSP)** — https://opensimulationplatform.com  
+  Co-simulation for maritime, mechanical and cyber-physical digital twins.
+
+- **FMU / FMI Standard Tools (Free/Open)** — https://fmi-standard.org  
+  Functional Mock-up Interface to connect physics models, PLC logic and control systems.
+
+- **mosaik (Free/Open-Source)** — https://mosaik.offis.de  
+  Large-scale co-simulation for energy grids and smart-factory digital twins.
+
+---
+
+#### ✅ Physics-Based 3D Twin Engines (Free/Open)
+
+- **Bullet Physics (Free/Open)** — https://github.com/bulletphysics/bullet3  
+  Real-time physics engine used in Gazebo, robotics and industrial digital twins.
+
+- **PyBullet (Free/Open)** — python bindings for Bullet used in control, robotics and digital twin research.
+
+- **OpenCascade (Free/Open)** — https://www.opencascade.com  
+  3D CAD kernel used to simulate geometry and kinematics in mechanical twins.
+
+---
+### 28B. Physics-Based Simulation Tools (Free / Open-Source)
+
+#### ✅ Multi-Physics Simulation (Thermal, Mechanical, EM, Fluids)
+
+- **OpenFOAM (Free/Open-Source CFD)** — https://openfoam.org  
+  Industry-grade computational fluid dynamics for airflow, cooling, thermal simulations, aerodynamics and HVAC twins.
+
+- **Elmer FEM (Free/Open-Source)** — https://www.csc.fi/web/elmer  
+  Multiphysics FEM solver: heat, structural mechanics, electromagnetics, acoustics. Used in industrial digital twin modeling.
+
+- **FreeFEM (Free/Open)** — https://freefem.org  
+  FEM framework for mechanical, thermal and electromagnetic simulation with scripting-style workflow.
+
+- **CalculiX (Free/Open-Source)** — http://www.calculix.de  
+  Structural mechanics and thermal FEM, alternative to Abaqus for small-scale mechanical simulations.
+
+- **SU2 (Free/Open)** — https://su2code.github.io  
+  Aerospace-grade CFD + adjoint optimization. Used in academic/industrial design and digital twins of moving systems.
+
+---
+
+#### ✅ Electromagnetic / RF / Power Systems Simulation (Free / Open)
+
+- **ngspice (Free/Open-Source SPICE)** — http://ngspice.sourceforge.net  
+  Circuit-level simulation for analog, power electronics, SMPS and EMI analysis.
+
+- **OpenEMS (Free/Open)** — https://www.openems.de  
+  Electromagnetic field solver for antennas, waveguides, RF twins, PCB EMC and near-field coupling studies.
+
+- **Qucs-S (Free/Open)** — https://ra3xdh.github.io  
+  RF and microwave circuit simulator integrating SPICE, S-parameters and harmonic balance.
+
+- **OpenDSS (Free/Open)** — https://github.com/dss-extensions/OpenDSS  
+  Power systems simulator for distribution networks, PV, EV, storage and substation digital twins.
+
+- **PowerFactory Education Edition (Free Academic)** — limited free edition for grid and power system studies.
+
+---
+
+#### ✅ Robotics & Cyber-Physical Simulation
+
+- **Gazebo / Ignition Robotics (Free/Open)** — https://gazebosim.org  
+  3D physics engine with sensors, actuators, SLAM and robot control. Used for digital twins of AGVs and factory robots.
+
+- **Webots (Free/Open)** — https://cyberbotics.com  
+  Real-time robot simulation: mobile platforms, robotic arms, machine vision, conveyor systems.
+
+- **V-REP / CoppeliaSim (Free Educational)** — https://www.coppeliarobotics.com  
+  Advanced robot simulator: ROS interfaces, path planning, kinematics, physics modeling.
+
+- **Open Dynamics Engine (Free/Open)** — http://www.ode.org  
+  Rigid-body physics engine used in robotics, industrial twins and control algorithm prototyping.
+
+---
+
+#### ✅ Mechanical & Kinematics Simulation
+
+- **MBDyn (Free/Open-Source)** — http://www.mbdyn.org  
+  Multibody dynamics simulator for mechanical systems, linkages, vehicles, manipulators.
+
+- **OpenModelica (Free/Open)** — https://openmodelica.org  
+  Supports hybrid modeling: mechanical + electrical + thermal co-simulation. Used for complex industrial twins.
+
+- **Scilab Xcos (Free/Open)** — https://www.scilab.org  
+  Block-diagram modeling and co-simulation for mechanical and control systems.
+
+- **Dynawo (Free/Open)** — https://dynawo.github.io  
+  Power system dynamic simulations for grid and industrial energy management twins.
+
+---
+
+#### ✅ Real-Time Simulation / HIL (Free & Community)
+
+- **OpenRTI (HLA RTI – Free/Open)** — https://github.com/open-rti/openrti  
+  Real-time infrastructure for distributed co-simulation (HLA standard). Used for cyber-physical twin research.
+
+- **FMI/FMU Tools (Free/Open)** — https://fmi-standard.org  
+  Functional mock-up interface for connecting PLC models, power converters, drives and simulators.
+
+- **RT-LAB Community (Free Limited)** — real-time simulation for control and power electronics education.
+
+---
+
+#### ✅ Digital Manufacturing / Factory Flow Simulation
+
+- **FlexSim Express (Free Edition)** — https://www.flexsim.com  
+  Factory layout, conveyor flow, warehouse simulation — limited free but useful for prototyping twins.
+
+- **JaamSim (Free/Open)** — https://jaamsim.com  
+  Process and factory workflow simulator, discrete-event twin modeling.
+
+- **SimPy (Free/Open)** — https://simpy.readthedocs.io  
+  Python discrete-event simulation for modeling industrial processes, queues, conveyors and AGVs.
+
+---
+
+#### ✅ Thermal + Mechanical for Electronics
+
+- **OpenRadioss (Free/Open)** — https://www.openradioss.org  
+  Structural and crash simulation, used in mechanical shock/vibration digital twins.
+
+- **Thermal Desktop Lite / Open Source Heat Transfer Tools** — community tools for heat flow modeling in electronics & enclosures.
+
+---
+### 28C. IT/OT Integration Tools (Open-Source / Free-Tier) for Digital Twins
+
+#### ✅ OT → IT Bridges (OPC-UA, Modbus, BACnet, CAN → Cloud)
+
+- **Node-RED (Free/Open-Source)** — https://nodered.org  
+  Industry-favorite low-code integration for Modbus, BACnet, OPC-UA, MQTT, Sparkplug-B, REST, SQL and dashboards.
+
+- **Eclipse Kura (Free/Open-Source)** — https://www.eclipse.org/kura  
+  Industrial gateway platform with Modbus, OPC-UA, watchdogs, VPN, cellular failover, MQTT and digital IO drivers.
+
+- **ThingsBoard Community Gateway (Free/Open)** — https://thingsboard.io  
+  Collects Modbus, BLE, OPC-UA, MQTT and pushes to cloud/backends. Fully open-source with rule-engine.
+
+- **FIWARE IoT Agents (Free/Open)** — https://github.com/FIWARE  
+  Bridges industrial devices into NGSI-LD digital twins. Supports MQTT, OPC-UA, CoAP, HTTP and Modbus agents.
+
+- **OpenHAB (Free/Open)** — https://www.openhab.org  
+  Industrial building automation gateway with KNX, Modbus, BACnet, Zigbee, Z-Wave, MQTT and semantic models.
+
+- **BACpypes (Free/Open)** — https://github.com/JoelBender/bacpypes  
+  Python BACnet/IP toolkit for building automation and IT/OT bridging.
+
+- **Zigbee2MQTT (Free/Open)** — https://github.com/Koenkk/zigbee2mqtt  
+  Bridge thousands of Zigbee endpoints into MQTT/SCADA or digital twin platforms.
+
+- **Can-utils / SocketCAN (Free/Open)** — https://github.com/linux-can/can-utils  
+  Linux CAN bus interface for logging, control, gateways and simulation.
+
+---
+
+#### ✅ Data Pipelines for Telemetry → Digital Twins
+
+- **OpenTelemetry Collector (Free/Open)** — https://opentelemetry.io  
+  Moves telemetry from edge devices to cloud historians, Prometheus, Grafana, Timescale, etc.
+
+- **Telegraf (Free/Open)** — https://github.com/influxdata/telegraf  
+  Plugin-based ingestion for Modbus, MQTT, OPC-UA, BACnet, SNMP. The de-facto industrial pipeline tool.
+
+- **Logstash OSS (Free)** — https://github.com/elastic/logstash  
+  Ingest industrial telemetry and forward to Elasticsearch, Influx, Kafka or cloud.
+
+- **Fluent Bit (Free/Open)** — https://fluentbit.io  
+  Very lightweight OT-to-IT pipeline (1–2 MB RAM). Ideal for edge-gateways.
+
+- **Apache NiFi (Free/Open)** — https://nifi.apache.org  
+  Drag-drop data flow builder for OT → cloud, SCADA → historians, large data ingestion.
+
+- **MQTT Sparkplug-B (Eclipse Tahu)** — https://github.com/eclipse/tahu  
+  Standard payload for industrial telemetry, gateway health, alarms and digital twin state sync.
+
+---
+
+#### ✅ Industrial Connectors & Middleware
+
+- **HiveMQ Edge (Free Edition)** — https://www.hivemq.com/editions/edge  
+  OPC-UA → MQTT bridge, Sparkplug-B support, secure edge-to-cloud messaging.
+
+- **ChirpStack Gateway OS (Free/Open)** — https://www.chirpstack.io  
+  LoRa/LoRaWAN packet forwarder with MQTT pipeline to digital twins and cloud apps.
+
+- **Eclipse Vorto (Free/Open)** — https://github.com/eclipse/vorto  
+  Semantic information modeling for IoT devices, creates OT → IT model adapters.
+
+- **Eclipse Hono (Free/Open)** — https://www.eclipse.org/hono  
+  Device messaging platform for MQTT, HTTP, AMQP. Bridges OT messages to cloud microservices.
+
+- **Greybus (Free/Open)** — https://github.com/projectara/greybus  
+  Protocol to bridge Linux and embedded systems for modular hardware, sensors and hot-swap devices.
+
+- **Eclipse Mita / Edgex Device Services** — OT connectors for various sensors and PLCs.
+
+---
+
+#### ✅ Industrial Identity, Registry, Digital Thread
+
+- **Eclipse Ditto (Free/Open)** — https://www.eclipse.org/ditto  
+  Sync device shadows, commands and asset state; ideal twin integration from field data.
+
+- **Eclipse Kapua (Free/Open)** — https://www.eclipse.org/kapua  
+  Device registry + telemetry integration + dashboards for industrial fleets.
+
+- **FIWARE Orion-LD Context Broker (Free/Open)** — https://fiware-orion.readthedocs.io  
+  Standardized semantic context layer for IT/OT data, enabling large-scale digital twins.
+
+- **Asset Administration Shell Tooling (Free)** — Industry 4.0 AAS metadata exchange, OPC-UA gateways, REST endpoints.
+
+---
+
+#### ✅ Cloud-Free / Air-Gapped IT/OT Integration
+
+- **Node-RED on Industrial SBCs / IPCs** — full offline workflows for Modbus → SQLite → Grafana dashboards.
+
+- **InfluxDB OSS + Grafana** — offline historian + dashboards in power plants, factories, labs.
+
+- **Mosquitto MQTT (Free/Open)** — secure broker for OT networks; integrate SCADA/HMI → edge DBs.
+
+- **OpenPBS / SLURM** — job scheduling and compute orchestration in private industrial clusters (HPC digital twins).
+
+---
+
+#### ✅ Protocol Simulators for IT/OT Testing
+
+- **ModRSsim2 (Free)** — Modbus slave simulator for SCADA/PLC testing.  
+- **QModMaster (Free/Open)** — Modbus master simulator + register visualization.  
+- **open62541 Server/Client Simulators** — OPC-UA test servers for OT pipelines.  
+- **bacnet-stack tools** — BACnet/IP simulators and routers.
+
+---
+
+### 28D. Cyber-Physical Modeling Tools (Free / Open-Source)
+
+#### ✅ Cyber-Physical Systems (CPS) Modeling & Co-Simulation
+
+- **OpenModelica (Free/Open-Source)** — https://openmodelica.org  
+  Unified modeling of mechanics, electronics, thermal and control systems. Core CPS tool for co-simulation and real-time twins.
+
+- **FMI / FMU Standard Tools (Free/Open)** — https://fmi-standard.org  
+  Functional Mock-up Units to exchange models between PLC simulators, SPICE, MATLAB, Modelica, etc. Core building block of CPS workflows.
+
+- **mosaik (Free/Open-Source)** — https://mosaik.offis.de  
+  Co-simulation framework for complex distributed systems — smart grids, industrial plants, microgrids, renewable twins.
+
+- **Open Simulation Platform (OSP) (Free/Open)** — https://opensimulationplatform.com  
+  Maritime + industrial CPS co-simulation framework. Supports FMU/FMI and real-time controllers.
+
+- **ROS (Robot Operating System – Free/Open)** — https://www.ros.org  
+  Standard middleware for cyber-physical robotics and AGVs. Works with Gazebo, AirSim, MoveIt for real-world CPS validation.
+
+- **Gazebo / Ignition Robotics (Free/Open)** — https://gazebosim.org  
+  Real-time physics simulator with sensors, actuators, digital I/O and control loops. Used heavily for factory automation CPS.
+
+- **CoppeliaSim / V-REP (Free Educational)** — https://www.coppeliarobotics.com  
+  CPS simulator with robotic arms, conveyors, AGVs, machine vision and PLC/ROS interfaces.
+
+- **Webots (Free/Open)** — https://cyberbotics.com  
+  Real-time robot + CPS simulations for automated handling, AMRs and cyber-physical factories.
+
+---
+
+#### ✅ Control Systems Simulation (Free/Open)
+
+- **Scilab + Xcos (Free/Open-Source)** — https://www.scilab.org  
+  Block-diagram control modeling similar to Simulink. Used to model CPS involving motors, drives, converters and PLC logic.
+
+- **Octave-Control (Free/Open)** — https://octave.org  
+  MATLAB-compatible CPS + control loops, PID tuning, signal processing for cyber-physical plants.
+
+- **PyControl / Python-Control (Free/Open)** — https://python-control.readthedocs.io  
+  Control theory library for CPS, modeling, linear systems, Bode/Root-locus design.
+
+- **FREEMAT (Free)** — MATLAB-like environment used in teaching control + CPS math.
+
+---
+
+#### ✅ Discrete-Event & System-Level CPS Simulation
+
+- **SimPy (Free/Open)** — https://simpy.readthedocs.io  
+  Discrete-event CPS simulator for manufacturing flows, conveyor automation, machine coordination, transport & AGV fleets.
+
+- **JaamSim (Free/Open)** — https://jaamsim.com  
+  Factory + logistics CPS simulator, visual modeling of bottlenecks, stations, sensor triggers, queueing and control decisions.
+
+- **OMNeT++ (Free/Open-Source)** — https://omnetpp.org  
+  Network + CPS simulator used for wireless sensor networks, industrial IoT, TSN scheduling and cyber-security experiments.
+
+- **NS-3 (Free/Open)** — https://www.nsnam.org  
+  Accurate network simulation for CPS where latency, jitter, TSN, Wi-Fi, LTE/5G and industrial protocols matter.
+
+- **SUMO (Free/Open)** — https://www.eclipse.org/sumo  
+  Traffic and mobility simulator for autonomous cyber-physical systems, AV fleets and logistics twins.
+
+---
+
+#### ✅ Energy Systems & Power Electronics CPS
+
+- **OpenDSS (Free/Open)** — https://github.com/dss-extensions/OpenDSS  
+  Cyber-physical twin of distribution networks, DER, EVs, storage, microgrids and substations.
+
+- **GridLAB-D (Free/Open-Source)** — https://www.gridlabd.org  
+  CPS simulator for smart-grid decision systems, forecasting, demand response and renewable integration.
+
+- **PSCAD Free Educational** — limited free licenses used for power-electronics CPS and protection relays.
+
+- **PLECS Free Student Edition** — simplified CPS simulation for converters, inverters, SMPS, drives and controllers.
+
+---
+
+#### ✅ CPS Security, Pen-Testing & Fault Simulation (Free/Open)
+
+- **Conpot (Free/Open-Source SCADA Honeypot)** — https://github.com/mushorg/conpot  
+  Emulates PLC/SCADA devices for cyber-attack simulation, digital twin of industrial control systems.
+
+- **MiniCPS (Free/Open)** — https://github.com/scy-phy/minicps  
+  CPS security simulator integrating network, sensors, actuators and control logic for cyber-attack modeling.
+
+- **S3 (System Security Simulator) (Free)** — open tools for simulating CPS failures, cyber events and resiliency testing.
+
+- **OpenPLC + Attack Repos (Free)** — virtual PLC with cyber-security scenarios and CPS threat research.
+
+---
+
+#### ✅ Hardware-in-the-Loop & Real-Time CPS (Community / Free)
+
+- **OpenRTI (Free/Open)** — https://github.com/open-rti/openrti  
+  Real-time distributed CPS simulation based on HLA standard.
+
+- **OPAL-RT Community Models (Free Examples)** — free HIL sample models for power electronics / drives education.
+
+- **FMI-based co-simulation with Python** — multiple open repositories connecting PLC logic <--> physics models <--> control loops.
+
+---
+### 28E. Predictive Maintenance & Analytics (Free / Open-Source)
+
+#### ✅ Vibration, Fault Detection & Machine Health (Free/Open)
+
+- **Edge Impulse (Self-Host Free Tier / Open Models)** — https://edgeimpulse.com  
+  Build vibration and anomaly detection models for motors, pumps, compressors. Free tier + on-prem Docker for small teams.
+
+- **TensorFlow Lite + Audio/Vibration Models (Free/Open)** — https://www.tensorflow.org/lite  
+  ML models for bearing faults, FFT, anomaly detection on edge gateways and MCUs.
+
+- **pyOD (Python Outlier Detection – Free/Open)** — https://github.com/yzhao062/pyod  
+  40+ anomaly detection algorithms for predictive maintenance pipelines.
+
+- **sktime (Free/Open)** — https://www.sktime.net  
+  Time-series fault prediction, forecasting, feature extraction on machine sensor data.
+
+- **river (Online ML – Free/Open)** — https://riverml.xyz  
+  Real-time machine learning for streaming sensor data — ideal for continuous-condition monitoring.
+
+- **tsfresh (Free/Open)** — https://github.com/blue-yonder/tsfresh  
+  Automatic extraction of time-series features from vibration, current, temperature logs.
+
+- **Darts (Free/Open)** — https://github.com/unit8co/darts  
+  Forecasting toolkit for equipment wear, remaining useful life (RUL) and predictive analytics.
+
+- **Merlin (Free/Open)** — https://github.com/NVIDIA/Merlin  
+  GPU-accelerated feature engineering + anomaly detection for large industrial datasets.
+
+- **OpenEIS (Open Energy Information System)** — https://github.com/openEIS/openEIS  
+  Analytics for HVAC, industrial energy systems, fault detection and optimization.
+
+---
+
+#### ✅ Data Pipelines: Ingestion → Feature Extraction → Models
+
+- **OpenTelemetry Collector (Free/Open)** — https://opentelemetry.io  
+  Collect PLC/MQTT/REST sensor data and route to Prometheus, Influx, Kafka or ML services.
+
+- **Telegraf (Free/Open)** — https://github.com/influxdata/telegraf  
+  250+ plugins: Modbus, OPC-UA, MQTT → InfluxDB → Grafana for analytics and maintenance dashboards.
+
+- **Kafka Community Edition (Free/Open)** — https://kafka.apache.org  
+  Streaming pipelines for high-rate vibration, power-quality and telemetry logs.
+
+- **Fluent Bit (Free/Open)** — https://fluentbit.io  
+  Lightweight log collector for embedded gateways and industrial PCs.
+
+---
+
+#### ✅ Time-Series / Predictive Maintenance Databases (Free/Open)
+
+- **InfluxDB OSS** — https://www.influxdata.com  
+  Classic historian for vibration, thermal, current sensors with retention and queries.
+
+- **TimescaleDB Community Edition** — https://www.timescale.com  
+  SQL + time-series compression + continuous aggregates for predictive maintenance pipelines.
+
+- **QuestDB OSS** — https://questdb.io  
+  Very high-throughput ingestion for high-frequency accelerometer data.
+
+- **Prometheus (Free/Open)** — https://prometheus.io  
+  Metrics + alerts for process control, motors, compressors, valves.
+
+---
+
+#### ✅ Analytics & Visualization for Maintenance
+
+- **Grafana OSS (Free)** — https://grafana.com/oss  
+  Dashboards, alarms, FFT plots, trends, thresholds for equipment monitoring.
+
+- **Superset (Apache Free)** — https://superset.apache.org  
+  BI dashboards for SQL historians, quality analytics, uptime and RUL predictions.
+
+- **Metabase (Free/Open)** — https://metabase.com  
+  Simple queries, charts, drill-down for factory maintenance teams.
+
+- **Redash (Free/Open)** — https://redash.io  
+  SQL visualizations for failure logs and SCADA telemetry.
+
+---
+
+#### ✅ Asset Monitoring Frameworks (Free / Open-Source)
+
+- **Eclipse Kapua (Free/Open)** — https://www.eclipse.org/kapua  
+  Asset registry, telemetry ingestion, dashboards — supports offline plants and edge deployments.
+
+- **Eclipse Ditto (Free/Open)** — https://www.eclipse.org/ditto  
+  Digital twin state sync + rules for anomaly detection.
+
+- **OpenEMS (Free/Open)** — https://github.com/OpenEMS/openems  
+  Predictive analytics for energy storage, inverters, microgrids, utility assets.
+
+---
+
+#### ✅ Open Datasets & Research Repos (Free)
+
+- **NASA Bearing Vibration Datasets** — widely used for predictive maintenance research.  
+- **Case Western Reserve Bearing Dataset** — classic vibration failure dataset.  
+- **SEU Machine Fault Database** — motor/gearbox failure signals.  
+- **PHM Society Datasets** — turbofan, battery health, industrial failures.
+
+---
+
+#### ✅ Edge ML Deployment (Free/Open)
+
+- **TensorFlow Lite** — deploy vibration & anomaly detection on SBCs.  
+- **ONNX Runtime (Free/Open)** — fast inference on ARM/Linux gateways.  
+- **OpenVINO Toolkit (Free/Open)** — Intel acceleration for cameras and defect inspection.  
+- **TFMicro (Free/Open)** — MCU-level inference for predictive sensors.
+
+---
