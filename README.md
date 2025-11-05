@@ -7,95 +7,101 @@ Add entries under the correct category with a one-line description and official 
 
 ---
 
-## A) Hardware Design
-
-### 1. Schematic & PCB Design Tools
-### 2. Simulation & Circuit Analysis
-### 3. Mechanical / Enclosure / CAD Tools
-### 4. BOM, DFM, DFA & Manufacturing Tools
-### 5. Electronics References & Calculators
-### 6. Component Search & Datasheets
-### 7. Reference Designs & Open Hardware
-
----
-
-## B) Firmware & Embedded Software
-
-### 8. MCU SDKs & Toolchains
-### 9. RTOS / Operating Systems
-### 10. Drivers, Stacks & Middleware
-### 11. Firmware Debugging & Reverse Engineering
-### 12. Bootloaders & OTA Update Systems
-### 13. Memory / Flash / Filesystem Utilities
+##  A) Hardware Design
+1. **Schematic & PCB Design Tools**  
+2. **Simulation & Circuit Analysis**  
+3. **Mechanical / Enclosure / CAD Tools**  
+4. **BOM, DFM, DFA & Manufacturing Tools**  
+5. **Electronics References & Calculators**  
+6. **Component Search & Datasheets**  
+7. **Reference Designs & Open Hardware**
 
 ---
 
-## C) Connectivity & Networking
-
-### 14. On-Device Communication Protocols  
-(UART, I2C, SPI, CAN, Modbus, RS-485, BLE stacks etc.)
-
-### 15. Network & IoT Protocols  
-(MQTT, CoAP, HTTP, WebSockets, DDS, OPC-UA)
-
-### 16. LPWAN / LoRa / Cellular IoT
-
-### 17. Gateways, Packet Brokers & Network Servers
+##  B) Firmware & Embedded Software
+8. **MCU SDKs & Toolchains**  
+9. **RTOS / Operating Systems**  
+10. **Drivers, Stacks & Middleware**  
+11. **Firmware Debugging & Reverse Engineering**  
+12. **Bootloaders & OTA Update Systems**  
+13. **Memory / Flash / Filesystem Utilities**
 
 ---
 
-## D) Debugging, Testing & Measurement
-
-### 18. Logic Analyzers & Protocol Decoders
-### 19. Emulators / Simulators / Virtual Labs
-### 20. Power Measurement & Energy Profiling
-### 21. Firmware-Hardware Bring-Up & Validation Checklists
-
----
-
-## E) Cloud, Dashboards & DevOps
-
-### 22. Hosted Backends / Serverless / APIs
-### 23. MQTT Brokers / Pub-Sub Platforms
-### 24. Databases / Object Storage / Time-Series Storage
-### 25. OTA Device Management Platforms
-### 26. Dashboards / Monitoring / Telemetry
-### 27. CI/CD, Code Hosting & Artifacts
+##  C) Connectivity & Networking
+14. **On-Device Communication Protocols** (UART, I²C, SPI, CAN, Modbus, RS-485, BLE, etc.)  
+15. **Network & IoT Protocols** (MQTT, CoAP, HTTP, WebSockets, DDS, OPC-UA)  
+16. **LPWAN / LoRa / Cellular IoT**  
+17. **Hardware Design Resources, Reference Designs & Free Samples**
 
 ---
 
-## F) Security
-
-### 28. Crypto Libraries & Secure Boot
-### 29. Post-Quantum & Hardware Security
-### 30. Certificate, Key & TLS Tools
-
----
-
-## G) Compliance & Certification
-
-### 31. EMI/EMC Pre-Compliance Tools
-### 32. Safety Standards & Testing References
-### 33. Battery & Environmental Certification
-### 34. RF Certification & Spectrum Resources
+##  D) Debugging, Testing & Measurement
+18. **Regulatory Certifications, Safety Standards & Compliance** (CE, FCC, BIS, WPC, UL, RoHS, etc.)  
+19. **Secure Hardware Design, Cryptography, Secure Boot & MCU Security**  
+20. **TinyML Frameworks & Libraries**  
+21. **Free & Open-Source Robotics, Motor Control & Kinematics Ecosystem**
 
 ---
 
-## H) Edge AI / TinyML
-
-### 35. Model Training & Conversion
-### 36. MCU Inference Runtimes
-### 37. Datasets & Testing Tools
+##  E) Cloud, Dashboards & DevOps
+22. **Free & Open-Source Sensor, Vision & Perception Ecosystem** (IMU, LiDAR, Radar, Camera, Calibration & Datasets)  
+23. **Embedded Data Management, Streaming & Visualization Stack for IoT & Edge Systems**  
+24. **Test Equipment, RF Analyzers & Open Hardware Tools**  
+25. **Hobbyist-Friendly Prototyping Ecosystems**  
+26. **IoT Backend, Device Management & Analytics Stack for Edge & Cloud Systems**  
+27. **Industrial IoT, SCADA & Edge Automation Frameworks**
 
 ---
 
-## I) Learning & Reference Resources
+##  F) Simulation, Digital Twin & Documentation
+28. **Digital Twin, Simulation & Predictive Analytics Frameworks**  
+29. **Documentation, DevOps & Quality Tools for Embedded & Hardware Systems**  
+30. **Free Learning, Research & Simulation Resources for Embedded & IoT Systems**
 
-### 38. Electronics Learning Platforms
-### 39. Firmware & Protocol Learning
-### 40. Datasheet Libraries & Application Notes
-### 41. RF / Signal Integrity / Power Design Guides
-### 42. Community Tools, Forums & Repositories
+---
+
+##  G) Compliance & Certification
+31. **EMI / EMC Pre-Compliance Tools** (Free / Open-Source / Free-Tier)  
+32. **Safety Standards & Testing References**  
+33. **Battery & Environmental Certification**  
+34. **RF Certification & Spectrum Resources**
+
+---
+
+##  H) Edge AI, Robotics & Advanced Hardware
+35. **Automotive / ISO 26262 / Functional Safety** (Free / Open Resources)  
+36. **Medical / IEC 60601 / FDA / Pharma Device Compliance** (Free / Public Resources)  
+37. **Cybersecurity Certification** (PSA Certified, ETSI EN 303 645, UL 2900, Common Criteria)  
+38. **Functional Safety Test Tools / SIL / PLC Safety** (Free / Open-Source)  
+39. **Automotive Diagnostic Tools & Telematics** (Free / Open-Source / Free-Tier)  
+40. **Open Hardware Security & Fault Injection Benches**  
+41. **Post-Silicon Validation & Chip Debug Tools**  
+42. **Open-Source Robotics / AGV / Warehouse Automation Stacks**  
+43. **Satellite & Space-Grade Hardware Tools**  
+44. **FPGA / ASIC Open Toolchains**  
+45. **Semiconductor Failure Analysis & Reliability Tools**  
+46. **Space-Grade RF & Antenna Design Tools**  
+47. **Open-Source DSP / SDR ASIC Cores**  
+48. **High-Voltage & Power Electronics Simulation Tools**  
+49. **Open Embedded Operating Systems for Space / Defense / Safety-Critical**  
+50. **Advanced Semiconductor Packaging & Assembly Tools**  
+51. **Acoustic / Ultrasonic / Piezo Simulation Tools**  
+52. **LiDAR / Radar Development Stacks** (Free / Open)  
+53. **Industrial Imaging / Computer Vision Toolkits** (Free / Open)  
+54. **Autonomous Drones / UAV Firmware & Ground Systems**  
+55. **Audio / Vibration Analysis & Condition Monitoring Stacks** (Free / Open)
+
+---
+
+##  I) Learning & Reference Resources  
+*(This section is part of the 55 main topics; kept unnumbered for clarity)*  
+
+- **Electronics Learning Platforms**  
+- **Firmware & Protocol Learning**  
+- **Datasheet Libraries & Application Notes**  
+- **RF / Signal Integrity / Power Design Guides**  
+- **Community Tools, Forums & Repositories**
 
 ---
 
@@ -1002,7 +1008,8 @@ Add entries under the correct category with a one-line description and official 
   Free networking, OTA and cloud SDK extension on top of FreeRTOS.
 
 ### 10. Drivers, Stacks & Middleware
-#### 10A. Connectivity & Networking Stacks
+
+#### I. Connectivity & Networking Stacks
 
 - **LWIP (Lightweight IP)** — https://savannah.nongnu.org/projects/lwip  
   Free TCP/IP stack for MCUs with sockets, DHCP, DNS, PPP. Used in ESP32, STM32, TI, NXP, etc.
@@ -1097,7 +1104,7 @@ Add entries under the correct category with a one-line description and official 
 - **libesphttpd** — https://github.com/Spritetm/libesphttpd  
   Free tiny HTTP server for embedded devices.
 
-### 10B. USB, HID, Audio & Video Stacks
+#### II. USB, HID, Audio & Video Stacks
 
 - **TinyUSB** — https://github.com/hathach/tinyusb  
   Free USB Device stack for ESP32-S2/S3, RP2040, STM32, NRF, and more. Supports CDC, HID, MSC, MIDI, WebUSB.
@@ -1171,7 +1178,7 @@ Add entries under the correct category with a one-line description and official 
 - **minimp3 / tiny-audio-codec** — https://github.com/lieff/minimp3  
   Tiny free MP3 decoder for MCUs.
 
-### 10C. Sensor, Display & Peripheral Driver Libraries
+#### III. Sensor, Display & Peripheral Driver Libraries
 
 - **Adafruit Sensor Libraries (Free/Open-Source)** — https://github.com/adafruit  
   Huge free collection of I2C/SPI sensor drivers for IMUs, gas sensors, ADCs, current sensors, temperature, displays, GPS, and more.
@@ -1278,7 +1285,7 @@ Add entries under the correct category with a one-line description and official 
 - **DHT11/DHT22 Temp/Humidity Drivers** — https://github.com/adafruit/DHT-sensor-library  
   Free temperature/humidity sensor drivers for IoT.
 
-### 10D. File Systems, Storage & Memory Middleware
+#### IV. File Systems, Storage & Memory Middleware
 
 - **LittleFS** — https://github.com/littlefs-project/littlefs  
   Free fault-tolerant filesystem for NOR flash and SPI/QSPI storage; power-loss safe, wear-levelling, very small footprint.
@@ -1361,7 +1368,7 @@ Add entries under the correct category with a one-line description and official 
 - **heatshrink** — https://github.com/atomicobject/heatshrink  
   Free lightweight compression for MCUs with <16 KB RAM.
 
-### 10E. DSP, Math, Control & Motor Libraries
+#### V. DSP, Math, Control & Motor Libraries
 
 - **CMSIS-DSP** — https://github.com/ARM-software/CMSIS-DSP  
   Free optimized DSP library for Cortex-M MCUs: FFT, FIR/IIR filters, PID, matrix/vector math, statistical ops.
@@ -1444,7 +1451,7 @@ Add entries under the correct category with a one-line description and official 
 - **micro-hal FFT/IIR kernels** — https://github.com/microHAL  
   Free signal processing kernels for small Cortex-M GPS/IMU fusion.
 
-### 10F. Compression, Serialization, Logging & Utilities
+#### VI. Compression, Serialization, Logging & Utilities
 
 - **nanopb (Protocol Buffers for MCUs)** — https://github.com/nanopb/nanopb  
   Free tiny Protocol Buffers implementation for Cortex-M and 8-bit MCUs. Extremely low RAM usage.
@@ -1533,7 +1540,9 @@ Add entries under the correct category with a one-line description and official 
 - **minIni (Tiny INI Parser)** — https://github.com/compuphase/minini  
   Free configuration parser for small MCUs.
 
-### 11A. IDEs & Code Editors
+### 11. Firmware Debugging & Reverse Engineering
+
+#### I. IDEs & Code Editors
 
 - **VS Code (Free)** — https://code.visualstudio.com  
   Most popular free editor for embedded development; supports PlatformIO, Cortex-Debug, CMake, Zephyr, ESP-IDF, STM32, Docker, SSH.
@@ -1601,7 +1610,7 @@ Add entries under the correct category with a one-line description and official 
 - **CLion (Free Student/Edu or Open-Source Projects)** — https://www.jetbrains.com/clion  
   Paid IDE, but **free for students or open-source firmware development**; great for CMake-based embedded builds.
 
-### 11B. Firmware Debugging & Hardware Debug Tools
+#### II. Firmware Debugging & Hardware Debug Tools
 
 - **OpenOCD** — http://openocd.org  
   Free JTAG/SWD debug server supporting STM32, ESP32, NRF, RISC-V, NXP, TI and dozens of probes.
@@ -1663,7 +1672,7 @@ Add entries under the correct category with a one-line description and official 
 - **Arm Keil ULINK2/plus Tools (Free Utils)** — https://developer.arm.com  
   Some debug utilities free without full license; useful for cortex-M boards.
 
-### 11C. Reverse Engineering, Disassembly & Protocol Analysis
+#### III. Reverse Engineering, Disassembly & Protocol Analysis
 
 - **Ghidra** — https://ghidra-sre.org  
   Free disassembler/decompiler for ARM, AVR, RISC-V, MIPS, Xtensa. Professional-grade (NSA open source).
@@ -1719,7 +1728,9 @@ Add entries under the correct category with a one-line description and official 
 - **OpenOCD TCL Scripting** — http://openocd.org  
   Free scripting interface for automated reverse-engineering and boundary scan.
 
-### 12A. General & Secure Bootloaders
+### 12. Bootloaders & OTA Update Systems
+
+#### I. General & Secure Bootloaders
 
 - **MCUboot** — https://github.com/mcu-tools/mcuboot  
   Free, secure, hardware-agnostic bootloader supporting signed images, rollback, fail-safe upgrade, and DFU for Cortex-M, ESP32, and Zephyr RTOS.
@@ -1760,7 +1771,7 @@ Add entries under the correct category with a one-line description and official 
 - **uC/OS-III Bootloader (Free GPL)** — https://github.com/weston-embedded/uCOS-III  
   GPL bootloader for many Cortex-M MCUs with CRC checks.
 
-### 12B. Vendor Bootloaders & Update Tools
+#### II. Vendor Bootloaders & Update Tools
 
 - **STM32 ROM Bootloader (Free)** — https://www.st.com/resource/en/application_note/cd00167594.pdf  
   Every STM32 ships with a factory bootloader supporting UART, USB DFU, CAN, I2C, SPI — no programmer required.
@@ -1810,7 +1821,7 @@ Add entries under the correct category with a one-line description and official 
 - **BeagleBone SPL/U-Boot (Free)** — https://www.beagleboard.org  
   Free bootloaders supporting SD, eMMC, USB, and network boot.
 
-### 12C. Wireless OTA Update Systems
+#### III. Wireless OTA Update Systems
 
 - **ESP-IDF OTA (HTTPS + A/B + rollback)** — https://github.com/espressif/esp-idf  
   First-class OTA for ESP32 over HTTPS, MQTT, webserver, or local network. Secure boot + flash encryption optional.
@@ -1854,7 +1865,7 @@ Add entries under the correct category with a one-line description and official 
 - **NanoMQ / Mosquitto OTA examples** — https://mosquitto.org  
   Free MQTT servers that support firmware delivery.
 
-### 12D. Embedded Linux OTA Systems
+#### IV. Embedded Linux OTA Systems
 
 - **Mender (Free Community Edition)** — https://mender.io  
   Free OTA platform for Linux devices with A/B partitions, delta updates, rollback and fleet management.
@@ -2005,7 +2016,11 @@ Add entries under the correct category with a one-line description and official 
 - **memfault coredump storage (Free Tier)** — https://github.com/memfault/memfault-firmware-sdk  
   Free tools to store MCU crash dumps in flash and upload on restart.
 
-### 14A. UART / I2C / SPI / GPIO Utilities & Drivers
+## C) Connectivity & Networking
+
+### 14. On-Device Communication Protocols  
+(UART, I2C, SPI, CAN, Modbus, RS-485, BLE stacks etc.)
+#### I. UART / I2C / SPI / GPIO Utilities & Drivers
 
 - **libopencm3 Peripheral Drivers** — https://libopencm3.org  
   Free HAL for UART, USART, SPI, I2C, DMA, timers, GPIO on ARM Cortex-M (STM32, LPC, Kinetis, EFM32).
@@ -2064,7 +2079,7 @@ Add entries under the correct category with a one-line description and official 
 - **FPGA-based bit-bang analyzers (sigrok)** — https://sigrok.org  
   Free logic & bus decoding tools (UART, SPI, I2C, 1-Wire, I2S, SWD).
 
-### 14B. CAN / LIN / RS-485 / Industrial Buses
+#### II. CAN / LIN / RS-485 / Industrial Buses
 
 - **CANopenNode** — https://github.com/CANopenNode/CANopenNode  
   Free CANopen stack for STM32, ESP32, Linux and many MCUs.
@@ -2111,7 +2126,7 @@ Add entries under the correct category with a one-line description and official 
 - **LIN Sniffer / Analyzers (Free)** — https://sigrok.org/wiki/Decoders  
   Supports CAN, LIN, Modbus, UART, SPI, I2C.
 
-### 14C. Modbus / Industrial Protocol Stacks
+#### III. Modbus / Industrial Protocol Stacks
 
 - **libmodbus** — https://libmodbus.org  
   Free Modbus TCP/RTU library for Linux/MCU gateways.
@@ -2137,7 +2152,7 @@ Add entries under the correct category with a one-line description and official 
 - **OpenDLMS / COSEM** — https://www.dlms.com  
   Free smart-meter protocol used in utility metering.
 
-### 14D. I²S / Audio / Sensor-Bus & Timing Utilities
+#### IV. I²S / Audio / Sensor-Bus & Timing Utilities
 
 - **TinyI2S (MCU)** — https://github.com/hathach/tinyusb  
   Free I²S drivers part of TinyUSB ecosystem.
@@ -2166,7 +2181,7 @@ Add entries under the correct category with a one-line description and official 
 - **High-Resolution Timer Libraries** — https://github.com/kayman-mk/embedded-time  
   Free timestamping and scheduling utilities for MCU sensor timing.
 
-### 14E. High-Speed & Modern Protocols (MIPI, SLVS-EC, I3C, HyperBus, SDIO...)
+#### V. High-Speed & Modern Protocols (MIPI, SLVS-EC, I3C, HyperBus, SDIO...)
 
 - **MIPI Alliance Resources (Free Specifications Overview)** — https://mipi.org/specifications  
   Free public documents and developer resources explaining CSI-2 (cameras), DSI (displays), I3C sensors, A-PHY automotive SerDes.
@@ -2228,7 +2243,7 @@ Add entries under the correct category with a one-line description and official 
 - **FPGA MIPI D-PHY Implementations (OSS/Permissive Licenses)** — https://github.com/xesscorp/mipi-dphy  
   Free FPGA D-PHY RX/TX implementation for CSI-2 experiments.
 
-### 14F. Protocol Simulators & Virtual Buses
+#### VI. Protocol Simulators & Virtual Buses
 
 - **Renode (Antmicro)** — https://github.com/antmicro/renode  
   Free full-system simulator for ARM, RISC-V, Cortex-M, NRF, STM32, ESP32. Supports UART, SPI, I2C, CAN, Ethernet and virtual sensors. Great for CI and Zephyr development.
@@ -2290,7 +2305,10 @@ Add entries under the correct category with a one-line description and official 
 - **Virtual Modem / PPP Emulator** — https://linux.die.net/man/8/pppd  
   Free PPP stack simulation for cellular modem firmware testing.
 
-### 15A. Logic Analyzers & Protocol Decoders
+### 15. Network & IoT Protocols  
+(MQTT, CoAP, HTTP, WebSockets, DDS, OPC-UA)
+
+#### I. Logic Analyzers & Protocol Decoders
 
 - **sigrok + PulseView** — https://sigrok.org  
   Free open-source logic analyzer software with 150+ protocol decoders (SPI, I2C, UART, CAN, LIN, Modbus, I²S, 1-Wire, SWD). Supports low-cost Saleae clones & FX2/FTDI devices.
@@ -2346,7 +2364,7 @@ Add entries under the correct category with a one-line description and official 
 - **UM232H/FT232H as logic analyzer** — https://sigrok.org/wiki/Hardware:FTDI  
   Free firmware/software to repurpose FTDI adapters for logic capture.
 
-### 15B. JTAG / SWD / ISP / Programming & Debug Probes
+#### II. JTAG / SWD / ISP / Programming & Debug Probes
 
 - **OpenOCD** — http://openocd.org  
   Free JTAG/SWD debug & flash server supporting STM32, ESP32, NRF, RISC-V, NXP, TI, GD32, and many probes. Works with GDB, VS Code, PlatformIO.
@@ -2417,7 +2435,7 @@ Add entries under the correct category with a one-line description and official 
 - **Bus Pirate (Open Hardware)** — https://github.com/BusPirate  
   Multi-protocol serial adapter usable for SPI/I2C/UART sniffing, bit-bang flashing, JTAG boundary scan.
 
-### 15C. Oscilloscopes, Signal Generators & Virtual Instruments
+#### III. Oscilloscopes, Signal Generators & Virtual Instruments
 
 - **sigrok-cli + PulseView (Free)** — https://sigrok.org  
   Free oscilloscope, logic analyzer, protocol decoder, pattern generator and MSO support. Works with many USB scopes (DSLogic, Hantek, etc.).
@@ -2485,7 +2503,7 @@ Add entries under the correct category with a one-line description and official 
 - **OpenWave (OpenHW / Free GUI)** — https://github.com/OpenWave  
   Free open-source oscilloscope GUI for multiple USB scopes.
 
-### 15D. RF / Wireless Analyzers, Sniffers & SDR Tools
+#### IV. RF / Wireless Analyzers, Sniffers & SDR Tools
 
 - **Wireshark (Free)** — https://www.wireshark.org  
   Free packet analyzer with dissectors for Wi-Fi, BLE, Zigbee, Thread, USB, Modbus, CAN, MQTT. Works with PCAP, USBPcap, nRF Sniffer.
@@ -2565,7 +2583,7 @@ Add entries under the correct category with a one-line description and official 
 - **Raspberry Pi as RF Analyzer** — https://github.com/raspberrypi/piscope  
   Free GPIO waveform + RF edge timing viewer; works as a simple low-cost analyzer.
 
-### 15E. PCB Test, Fault Analysis, Boundary Scan & ICT Tools
+#### V. PCB Test, Fault Analysis, Boundary Scan & ICT Tools
 
 - **FreeDFM (Free)** — https://www.4pcb.com/free-dfm-file-check  
   Free automated DFM/DRC check for Gerbers, detecting shorts, opens, spacing, soldermask issues before manufacturing.
@@ -2641,8 +2659,10 @@ Add entries under the correct category with a one-line description and official 
 
 - **LogiScope (Free)** — https://github.com/logiscope/  
   Free signal integrity and glitch capture on digital lines for hardware timing debug.
+  
+### 16. LPWAN / LoRa / Cellular IoT
 
-### 16A. Component Search Engines & Cross-Reference Tools
+#### I. Component Search Engines & Cross-Reference Tools
 
 - **Octopart** — https://octopart.com  
   Free global search engine for electronic components with pricing, stock, parametric filters and lifecycle info.
@@ -2716,7 +2736,7 @@ Add entries under the correct category with a one-line description and official 
 - **EEVblog Forum Component Cross-References** — https://www.eevblog.com/forum  
   Free expert-driven cross-reference suggestions, especially for obsolete parts.
 
-### 16B. Pricing, Distributors & Procurement Portals
+#### II. Pricing, Distributors & Procurement Portals
 
 - **Digi-Key** — https://www.digikey.in  
   Free part search with real-time pricing, stock, lead time, cut-tape orders and small-MOQ prototyping support worldwide.
@@ -2795,7 +2815,7 @@ Add entries under the correct category with a one-line description and official 
   - **IC-Source** — https://www.ic-source.com  
   Useful when parts are EOL/NRND/shortage.
 
-### 16C. BOM Validation, Alternates, Lifecycle & NRND Alerts
+#### III. BOM Validation, Alternates, Lifecycle & NRND Alerts
 
 - **Z2Data (Free Tier)** — https://z2data.com  
   Free access to lifecycle status, NRND/EOL warnings, PCN alerts, alternates and supply chain risk scoring (limited free access).
@@ -2869,81 +2889,7 @@ Add entries under the correct category with a one-line description and official 
 - **eBay/AliExpress Counterfeit Checklists (Free Community Guides)**  
   EEVBlog, Dangerous Prototypes, and Reddit electronics forums maintain free guides for spotting fake ICs.
 
-### 16C. BOM Validation, Alternates, Lifecycle & NRND Alerts
-
-- **Z2Data (Free Tier)** — https://z2data.com  
-  Free access to lifecycle status, NRND/EOL warnings, PCN alerts, alternates and supply chain risk scoring (limited free access).
-
-- **SiliconExpert Free Preview** — https://www.siliconexpert.com  
-  Free lifecycle & risk preview for many parts; shows EOL, RoHS, and compliance status. (Full alerts are paid.)
-
-- **PartsBox (Free Tier)** — https://partsbox.com  
-  Free BOM correctness check, vendor linking, footprint consistency, and pricing aggregation for prototypes & labs.
-
-- **Nexar API (Free Tier)** — https://nexar.com  
-  Automated BOM validation through API: lifecycle, alternates, pricing, parametric matching, stock alerts.
-
-- **Findchips BOM Tool** — https://www.findchips.com/bom  
-  Free BOM compare across distributors, pricing history and shortages. Highlights unavailability & alternates.
-
-- **Octopart BOM Tool** — https://octopart.com/bom  
-  Free BOM validator with lifecycle, compliance, stock aggregation and cross-reference suggestions.
-
-- **ComponentSearchEngine BOM Validator** — https://componentsearchengine.com  
-  Free checking of datasheets, footprints, STEP models, compliance and stock.
-
-- **SamacSys ECAD Model Checker (Free)** — https://www.samacsys.com  
-  Free verification of footprints, symbols and parametric correctness to avoid PCB footprint mismatches.
-
-- **FreeDFM (Advanced DFM Check for PCB)** — https://www.4pcb.com/free-dfm-file-check  
-  Free netlist check and manufacturability validation detecting shorts/opens and mismatches between schematic/PCB/BOM.
-
-- **KiCad BOM Tools & Scripts (Free)** — https://github.com/KiCad  
-  Free plugin ecosystem for BOM cleaning, distributor tagging, and footprint-to-orderable mapping.
-
-- **KiCad “Interactive BOM” Plugin** — https://github.com/openscopeproject/InteractiveHtmlBom  
-  Free open-source BOM + PCBA visual tool linking footprint-to-reference and PCB position.
-
-- **OpenBOM (Free Tier)** — https://www.openbom.com  
-  Free cloud BOM manager with change history, alternates and vendor price linking.
-
-- **Partstack (Free)** — https://www.partstack.ai  
-  Free BOM cleanup, price matching, alternates, lifecycle visibility and MOQ-based optimization.
-
-- **LibreBOM Tools (Open Source)** — https://github.com/search?q=librebom  
-  Free scripts to normalize part numbers, map vendor ordering codes, detect duplicates.
-
-- **BOMStorm (Free/Open Source)** — https://github.com/monostable/bomstorm  
-  Free CLI for mass BOM manipulation, search, cost summation, distributor tagging.
-
-- **BOMist (Free Tier)** — https://bomist.com  
-  Free cloud BOM and inventory manager for prototypes; PDF importer auto-detects part names.
-
-- **bom-builder (Open Source)** — https://github.com/eez-open/bom-builder  
-  Free BOM aggregator and formatting tool for KiCad/Altium/OrCAD.
-
-- **pytbom / BOM Tools for Python (Open Source)** — https://github.com/ldmberman/pytbom  
-  Free python BOM parser; detect mismatches, missing fields, alternate suggestions.
-
-- **Distributor Lifecycle Tags (Digikey/Mouser/RS)**  
-  Free lifecycle icons: Active, NRND, Last Time Buy, Obsolete; helpful in early risk screening.
-
-- **IPC-1752 Material Declaration (Free Standard)** — https://www.ipc.org  
-  Free standard for RoHS/REACH and environmental compliance for BOM submission.
-
-- **JLCPCB “Parts Status” Filters (Free)** — https://jlcpcb.com/parts  
-  Free flags: Basic, Extended, In Stock, To Be Discontinued — useful for low-cost assembly BOMs.
-
-- **LCSC EOL Alerts** — https://lcsc.com  
-  Free flag-based alerts on discontinuation and replacements for low-cost supply chains.
-
-- **Raspberry Pi Approved Reseller List** — https://www.raspberrypi.com resellers  
-  Free to remove fake/counterfeit risk for Pi modules in BOMs.
-
-- **eBay/AliExpress Counterfeit Checklists (Free Community Guides)**  
-  EEVBlog, Dangerous Prototypes, and Reddit electronics forums maintain free guides for spotting fake ICs.
-
-### 16E. Inventory Management, PLM & Part Databases
+#### IV. Inventory Management, PLM & Part Databases
 
 - **PartsBox (Free Tier)** — https://partsbox.com  
   Free cloud inventory + part tracking, vendor links, lot control, internal part numbers, BOM costing and multi-project stock management.
@@ -3004,7 +2950,7 @@ Add entries under the correct category with a one-line description and official 
 - **OpenPDM / Free PLM Community Projects**  
   Various open PLM initiatives for engineering file control and ECO workflows.
 
-### 16F. India-Specific Sourcing Platforms
+#### V. India-Specific Sourcing Platforms
 
 - **Mouser India** — https://www.mouser.in  
   India portal with GST billing, fast courier delivery, no minimum order, customs handled.
@@ -3048,7 +2994,7 @@ Add entries under the correct category with a one-line description and official 
 - **Electronics Bazaar** — https://electronicsbazaar.com  
   Marketplace for refurbished and surplus electronic components/modules, sometimes useful for legacy replacements.
 
-#### ✅ India PCB & Assembly
+#### VI. India PCB & Assembly
 
 - **JLCPCB India Shuttle (fast import)** — https://jlcpcb.com  
   Not India-based fabrication, but extremely fast and cost-effective imports with GST billing.
@@ -3071,7 +3017,7 @@ Add entries under the correct category with a one-line description and official 
 - **FabToLab / PCBToGoGo** — https://fabtolab.com  
   Prototyping, 3D printing, PCBs, hardware components.
 
-#### ✅ Enclosures, CNC, 3D Printing, Sheet Metal
+#### VII. Enclosures, CNC, 3D Printing, Sheet Metal
 
 - **Raspberry Pi / Arduino Cases – Robu.in / FabtoLab / Thingbits**  
   Large stock of off-the-shelf plastic and metal enclosures.
@@ -3085,7 +3031,7 @@ Add entries under the correct category with a one-line description and official 
 - **Enclosure Vendors on IndiaMart** — https://indiamart.com  
   Plastic injection molds, ABS enclosures, waterproof IP65/IP67 boxes, DIN-rail enclosures.
 
-#### ✅ Cables, Harness, Connectors & Antennas
+#### VIII. Cables, Harness, Connectors & Antennas
 
 - **Deltron Components India** — https://deltroncomponents.com  
   Indian manufacturer of connectors, cable assemblies, sockets, military-spec hardware.
@@ -3096,7 +3042,7 @@ Add entries under the correct category with a one-line description and official 
 - **RF Antennas & Coax – Sparkrf, Rhombus, Allied Electronics India**  
   Local sources for GSM/LTE/LoRa/NB-IoT antennas and RF cables.
 
-#### ✅ Batteries, Power, Chargers & Power Supplies
+#### IX. Batteries, Power, Chargers & Power Supplies
 
 - **Battery Packs & BMS – Robu.in / ElectronicsComp / IOTStore**  
   Cells, packs, 18650 holders, TP4056/MCP73831 boards, DC-DC modules.
@@ -3104,7 +3050,7 @@ Add entries under the correct category with a one-line description and official 
 - **SMPS / Chargers – MeanWell India distributors**  
   Local authorized partners listed on MeanWell website.
 
-#### ✅ Indian Marketplace Platforms
+#### X. Indian Marketplace Platforms
 
 - **IndiaMART** — https://indiamart.com  
   Free sourcing for vendors of PCBs, connectors, sheet metal, battery pack assembly, CNC machining, EMS.
@@ -3115,7 +3061,9 @@ Add entries under the correct category with a one-line description and official 
 - **IndustryBuying** — https://industrybuying.com  
   Components, tools, soldering equipment, power supplies and lab equipment.
 
-### 17A. Datasheet Repositories & Application Note Libraries
+### 17. Hardware Design Resources, Reference Designs & Free Samples
+
+#### I. Datasheet Repositories & Application Note Libraries
 
 - **Datasheet Archive (Free)** — https://www.datasheetarchive.com  
   Free archive of datasheets from 1970s to present, including obsolete and legacy parts.
@@ -3210,7 +3158,7 @@ Add entries under the correct category with a one-line description and official 
 - **IEEE Xplore Open Access (Free Section)** — https://ieeexplore.ieee.org/browse/  
   Free access to certain peer-reviewed papers on embedded, RF, power.
 
-### 17B. Reference Design Portals (MCUs, Wireless, Power, Sensors, IoT)
+#### II. Reference Design Portals (MCUs, Wireless, Power, Sensors, IoT)
 
 - **Texas Instruments Reference Designs (TI Designs)** — https://www.ti.com/reference-designs  
   Massive free library of verified PCB designs with schematics, Altium files, thermal, SI/PI data, and test reports (MCU, power, motor control, Wi-Fi, BLE, and industrial).
@@ -3302,7 +3250,7 @@ Add entries under the correct category with a one-line description and official 
 - **Hackaday.io Projects (Open Hardware)** — https://hackaday.io/projects  
   Thousands of free open-source designs, BOM, schematics & tips.
 
-### 17C. Evaluation Boards, Dev Kits & Free Sample Programs
+#### III. Evaluation Boards, Dev Kits & Free Sample Programs
 
 - **ST Nucleo / Discovery Boards** — https://www.st.com/en/evaluation-tools.html  
   Low-cost MCU boards with ST-LINK debugger, Arduino headers, and open hardware docs. Many come with free firmware examples and middleware.
@@ -3391,7 +3339,7 @@ Add entries under the correct category with a one-line description and official 
 - **Google Coral Dev Boards (Free Docs)** — https://coral.ai  
   Edge TPU boards; schematics freely published.
 
-#### ✅ Free Sample Programs (Semiconductors, Passives, RF)
+#### IV. Free Sample Programs (Semiconductors, Passives, RF)
 
 - **Texas Instruments Free Samples** — https://www.ti.com  
   Free samples for MCUs, op-amps, ADC/DAC, PMIC, power ICs, wireless chips (limited quantities).
@@ -3426,7 +3374,9 @@ Add entries under the correct category with a one-line description and official 
 - **Yageo / Vishay Samples (Passives)** —  
   Resistors, capacitors, RF passives samples offered through local reps.
 
-### 18A. Regulatory Certifications, Safety Standards & Compliance (CE, FCC, BIS, WPC, UL, RoHS, etc.)
+## D) Debugging, Testing & Measurement
+
+### 18. Regulatory Certifications, Safety Standards & Compliance (CE, FCC, BIS, WPC, UL, RoHS, etc.)
 
 - **CE Marking (Official EU Portal – Free)** — https://ec.europa.eu/growth/single-market/ce-marking  
   Free guidance on CE declaration of conformity, required test standards, technical files, risk analysis, user manuals.
@@ -3504,7 +3454,7 @@ Add entries under the correct category with a one-line description and official 
   - **OET Bulletins** — FCC test references  
   - **OpenEMI** (Github projects) — community EMI guides.
 
-### 18B. Compliance Testing Labs, RF Chambers & Pre-Compliance Tools
+#### I. Compliance Testing Labs, RF Chambers & Pre-Compliance Tools
 
 - **Sigrok + PulseView (Free)** — https://sigrok.org  
   Free protocol and signal analysis; useful for identifying noise, glitches, and EMI-related digital integrity issues.
@@ -3560,7 +3510,7 @@ Add entries under the correct category with a one-line description and official 
 - **R&S EMI Debug Notes (Free)** — https://www.rohde-schwarz.com  
   Free documentation for pre-compliance scanning and noise hunting.
 
-#### ✅ Directories & Databases for Accredited Test Labs
+#### II.Directories & Databases for Accredited Test Labs
 
 - **FCC Certified Labs Directory (Free Search)** — https://apps.fcc.gov  
   Free search of accredited EMC/RF/EMI/SAR labs worldwide.
@@ -3574,7 +3524,7 @@ Add entries under the correct category with a one-line description and official 
 - **TÜV Rheinland, TÜV SÜD, UL, Intertek, SGS, DEKRA Labs (Free Portals)**  
   Free contact & capability listings for compliance testing (RF, EMC, safety, battery, SAR, environmental).
 
-#### ✅ India-Specific Compliance Labs (Searchable, Public)
+#### III. India-Specific Compliance Labs (Searchable, Public)
 
 - **BIS Approved Labs (Free Listing)** — https://www.bis.gov.in  
   Free list of Indian NABL-accredited labs for electronics, safety, and RF.
@@ -3598,7 +3548,7 @@ Add entries under the correct category with a one-line description and official 
 
   All have free capability lists and PDF facility brochures.
 
-#### ✅ DIY & Open-Source EMC Debug Kits
+#### IV. DIY & Open-Source EMC Debug Kits
 
 - **Near-Field Probe Open-Hardware** — https://github.com/erikwilson/nf-probe  
   Free probes + PCB design for EMI hot-spot scanning with SDR or spectrum analyzer.
@@ -3615,9 +3565,9 @@ Add entries under the correct category with a one-line description and official 
   - airspy_fft  
   - hackrf_sweep
 
-### 18C. PCB Assembly Houses (Global & India), Turnkey EMS & Prototyping Services
+#### V. PCB Assembly Houses (Global & India), Turnkey EMS & Prototyping Services
 
-#### 🌍 Global PCB + PCBA (Fast, Low-Cost, MOQ-Friendly)
+##### Va. Global PCB + PCBA (Fast, Low-Cost, MOQ-Friendly)
 
 - **JLCPCB (China)** — https://jlcpcb.com  
   Ultra-low-cost PCB & turnkey SMT assembly, 2–6 layer boards, stencil, testing. Integrates LCSC parts library. Great for prototypes → small runs.
@@ -3661,7 +3611,7 @@ Add entries under the correct category with a one-line description and official 
 - **PCB Assembly India Shuttle via JLC/PCBWay**  
   GST invoicing + fast import using DHL/FedEx; most Indian startups use this method for prototypes.
 
-#### 🇮🇳 India PCB + PCBA (Local EMS, Prototype Friendly)
+##### Vb. India PCB + PCBA (Local EMS, Prototype Friendly)
 
 - **LionCircuits (India)** — https://lioncircuits.com  
   Online quoting, assembly, ICT, PCB fabrication, component sourcing, AoI inspection.
@@ -3689,7 +3639,7 @@ Add entries under the correct category with a one-line description and official 
 
 - **CDAC Techpark EMS Partnerships** — Advanced manufacturing partners for Indian deeptech startups.
 
-#### 🔌 Cable Harness, Battery Pack Assembly, Box Build
+##### Vc. Cable Harness, Battery Pack Assembly, Box Build
 
 - **Deltron Components (India)** — https://deltroncomponents.com  
   Cable harnesses, military connectors, custom cable assemblies.
@@ -3700,7 +3650,7 @@ Add entries under the correct category with a one-line description and official 
 - **Battery Pack Assemblers (India)**  
   Many local vendors support 18650/21700 pack design, BMS integration (via IndiaMART/TradeIndia).
 
-#### 🧪 Testing, AoI, ICT, Programming, Calibration
+##### Vd. Testing, AoI, ICT, Programming, Calibration
 
 Most global houses provide:
 - AoI (Automated Optical Inspection)
@@ -3712,7 +3662,7 @@ Most global houses provide:
 
 Local India EMS can also provide these with MOQ negotiation.
 
-### 18D. Hardware QA — HALT/HASS, Lifecycle, Environmental Testing & Traceability
+#### VI. Hardware QA — HALT/HASS, Lifecycle, Environmental Testing & Traceability
 
 - **HALT/HASS Fundamentals (Free Guides)**  
   - NASA Technical Reports on HALT/HASS  
@@ -3743,7 +3693,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **IPC-1601 Moisture Handling & Baking Rules (Free Summary)**  
   Free process guidance for MSD (moisture-sensitive devices) handling, MSL levels.
 
-#### ✅ Temperature, Humidity, Vibration & Stress Tests
+##### VIa.Temperature, Humidity, Vibration & Stress Tests
 
 - **DIY Temperature/Humidity Chamber (Open Hardware)** — https://github.com/topics/environmental-chamber  
   Free community mechanical + control designs for small pre-compliance chambers.
@@ -3762,7 +3712,7 @@ Local India EMS can also provide these with MOQ negotiation.
   - Free Python logging  
   Useful for temperature profiling and stress cycles.
 
-#### ✅ Environmental & Reliability Test Houses (Global)
+##### VIb.Environmental & Reliability Test Houses (Global)
 
 - **TÜV Rheinland / TÜV Süd / UL / Intertek / SGS**  
   All publish free capability lists and datasheets for:
@@ -3776,7 +3726,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **ILAC / A2LA Accredited Labs Search (Free)** — https://ilac.org / https://www.a2la.org  
   Free global directories for reliability & environmental labs.
 
-#### ✅ India-Specific Test Houses (Public Listings)
+##### VIc.India-Specific Test Houses (Public Listings)
 
 - **NABL Accredited Environmental Labs (Free Directory)** — https://nabl-india.org  
   Lists labs with environmental chambers, temperature/humidity, corrosion, drop, IP testing.
@@ -3787,7 +3737,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **CDAC, SAMEER & CEERI Labs**  
   Environmental and reliability testing for IoT, RF, industrial and consumer projects.
 
-#### ✅ Traceability, QA Documentation, Failure Analysis
+##### VId. Traceability, QA Documentation, Failure Analysis
 
 - **OpenBOM / PartsBox (Free Tier)** — https://openbom.com / https://partsbox.com  
   Free tracking of lots, serial numbers, test results and revisions.
@@ -3806,7 +3756,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **IPC-A-610 (Free Summary)** — Acceptability of PCB assemblies overview.
 
-#### ✅ IP / Waterproof / Dust Testing
+##### VIe. IP / Waterproof / Dust Testing
 
 - **Ingress Protection (IP) Free Guides**  
   Official IEC/EN standard overviews for IPX1–IPX8, IP5X/6X dust tests.
@@ -3814,9 +3764,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **DIY Splash/Immersion Test Fixtures**  
   Open mechanical designs on GitHub + GoPro-style submersion timing rigs.
 
-### 18E. Packaging, ESD Safety, Logistics & Export
+### VII. Packaging, ESD Safety, Logistics & Export
 
-#### ✅ ESD Safety & Handling (Free Guides / Tools)
+##### VIIa. ESD Safety & Handling (Free Guides / Tools)
 
 - **IPC/JEDEC Moisture Sensitivity (MSL) Guides — Free Summaries**  
   Official handling rules for moisture-sensitive ICs, baking conditions, packaging, humidity indicators.
@@ -3835,7 +3785,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Static Calculator Tools (Free)** — community Python scripts calculating discharge risks for plastics/packaging.
 
-#### ✅ Packaging Electronics & PCBs
+##### VIIb. Packaging Electronics & PCBs
 
 - **IPC-1601 Moisture Handling (Free Summary)**  
   Free rules for bagging, vacuum sealing, desiccants, MSL labels, baking before reflow.
@@ -3852,7 +3802,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Packing for Drop/Vibration**  
   Tektronix / Keysight free docs for foam, corrugated boxes, protective layers, shock sensors in shipping.
 
-#### ✅ Battery Shipping & Lithium Regulations (Free Resources)
+##### VIIc. Battery Shipping & Lithium Regulations (Free Resources)
 
 - **IATA Lithium Battery Guidance (Free)** — https://www.iata.org  
   Free rules for shipping Li-ion/Li-poly battery packs, UN38.3 test summary needs, packaging and quantity limits.
@@ -3866,7 +3816,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **DHL / FedEx Battery Shipping Guidelines (Free PDFs)**  
   Step-by-step packaging instructions for electronics with batteries.
 
-#### ✅ Export & Import for Electronics
+##### VIId. Export & Import for Electronics
 
 - **Harmonized System (HS) Codes Lookup — Free**  
   - https://www.wto.org  
@@ -3887,7 +3837,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Local GST Export Under LUT (Free Steps)**  
   Government portal offers free documentation steps for GST-free exports under LUT (Letter of Undertaking).
 
-#### ✅ Logistics Choices Used by Hardware Teams
+##### VIIe. Logistics Choices Used by Hardware Teams
 
 - **DHL Express (Fast and reliable)** — https://www.dhl.com  
   Preferred for shipping prototypes, PCBAs, modules, small batches internationally.
@@ -3904,12 +3854,12 @@ Local India EMS can also provide these with MOQ negotiation.
 - **India Post Speed Post**  
   Cost-effective option for domestic engineering shipments; slower but reliable.
 
-#### ✅ Special Packaging for RF / Antenna Products
+##### VIIf. Special Packaging for RF / Antenna Products
 
 - 3M free guidelines for RF-absorbing foam, shielding, Faraday bags for sensitive RF modules.
 - Digikey/Mouser app notes for antenna connectors, SMA cables, PCB-mounted antennas and protection covers.
 
-#### ✅ Protective Packaging for Production Units
+##### VIIg. Protective Packaging for Production Units
 
 - Free guidelines for:
   - Conformal coating protection during shipping  
@@ -3917,9 +3867,9 @@ Local India EMS can also provide these with MOQ negotiation.
   - Silica gel desiccants  
   - ShockWatch / Drop indicator stickers
 
-19. Secure Hardware Design, Cryptography, Secure Boot & MCU Security
+### 19. Secure Hardware Design, Cryptography, Secure Boot & MCU Security
 
-### 19A. Secure Boot, Firmware Encryption & OTA Security
+#### I. Secure Boot, Firmware Encryption & OTA Security
 
 - **MCUBoot (Open Source)** — https://github.com/mcu-tools/mcuboot  
   Widely used secure bootloader for ARM Cortex-M (STM32, NRF, NXP, ESP32 via ports). Supports image signing (RSA/ECDSA), rollback protection, anti-replay counters and OTA via BLE, LoRaWAN, HTTP, UART.
@@ -3987,7 +3937,7 @@ Local India EMS can also provide these with MOQ negotiation.
   - NXP: Secure JTAG challenge-response  
   Prevents firmware dumping and unsigned flashing.
 
-### 19B. Secure Elements, TPM/HSM & Crypto Co-processors
+#### II. Secure Elements, TPM/HSM & Crypto Co-processors
 
 - **Microchip ATECC608A / 608B (Trust&GO / TrustFLEX / TrustCUSTOM)** — https://www.microchip.com/en-us/solutions/security/authentication  
   I²C secure element for device identity, TLS client auth, secure boot keys, ECDSA/ECDH, AES, monotonic counters. Free Trust Platform tools, Arduino/C host libs, and PKCS#11.
@@ -4063,9 +4013,9 @@ Local India EMS can also provide these with MOQ negotiation.
   - **Zephyr**: PSA + MCUboot + SE05x/OPTIGA samples  
   - **Linux**: OpenSSL engine for TPM2 (tpm2-engine), pkcs11-engine, systemd-cryptsetup with TPM
 
-### 19C. Trusted Execution, Secure Debug/JTAG, Anti-Tamper & Physical Security
+#### III. Trusted Execution, Secure Debug/JTAG, Anti-Tamper & Physical Security
 
-#### ✅ Trusted Execution Environments (TEE) & Isolation
+##### IIIa. Trusted Execution Environments (TEE) & Isolation
 
 - **ARM TrustZone-M (Free Docs & Code)** — https://developer.arm.com  
   Hardware isolation on Cortex-M33/M23 enabling “Secure” vs “Non-secure” partitions, secure boot keys, protected crypto, secure GPIO/flash/RAM.
@@ -4088,7 +4038,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Zephyr “TrustZone + Secure Storage + MCUboot” (Free)** — https://zephyrproject.org  
   Ready-made secure execution reference for STM32L5, NRF5340, NXP LPC55Sxx, Silabs EFR32.
 
-#### ✅ Secure Debug, JTAG Lock, Flash Read-out Protection
+##### IIIb. Secure Debug, JTAG Lock, Flash Read-out Protection
 
 - **ESP32 Secure JTAG/eFuse Lock (Free Docs)** — https://docs.espressif.com  
   JTAG can be locked using challenge-response; anti-rollback and flash encryption integrated.
@@ -4111,7 +4061,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Segger J-Link Secure Flash Loader Templates (Free)** — https://www.segger.com  
   Protects production firmware from being read during programming.
 
-#### ✅ Anti-Tamper & Hardware Protection
+##### IIIc. Anti-Tamper & Hardware Protection
 
 - **Tamper Switches (Free Reference Designs)**  
   Open examples for micro-switch, membrane switch, Hall or light-sense tamper detection. Often tied to secure RTC or SE counter.
@@ -4132,7 +4082,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Secure Real-Time Clock with Tamper Inputs**  
   MCUs with RTC tamper pins can detect case opening or probing — free STM32/NXP examples.
 
-#### ✅ Key Management & Provisioning Security
+##### IIId. Key Management & Provisioning Security
 
 - **Provisioning Guides from Microchip/NXP/Infineon (Free)**  
   End-to-end provisioning, X.509 key injection, cert chaining, secure personalization at factory.
@@ -4146,7 +4096,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Open-Source PKCS#11 & mbedTLS Demos**  
   Offload key storage to secure elements; prevents extraction via flash dumping or debug attach.
 
-#### ✅ Anti-Cloning & Counterfeit Prevention
+##### IIIe. Anti-Cloning & Counterfeit Prevention
 
 - **Unique IDs (Free Examples)**  
   STM32 UID, ESP32 MAC/EFUSE, nRF FICR UID → used as part of key derivation or licensing.
@@ -4160,7 +4110,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Secure Boot Chains**  
   MCUboot, TF-M, U-Boot Verified Boot + OP-TEE → prevent cloned devices from running unsigned firmware.
 
-#### ✅ Production-Level Security Checklists (Free)
+##### IIIf. Production-Level Security Checklists (Free)
 
 - NXP, ST, Espressif, Microchip publish secure manufacturing checklists:
   - Disable debug & secure erase keys after programming  
@@ -4170,7 +4120,7 @@ Local India EMS can also provide these with MOQ negotiation.
   - Rotate certs, maintain revocation lists  
   - Protect serial ports/UART bootloaders in production
 
-### 19D. Post-Quantum Crypto (PQC) Libraries, Tooling & Patterns
+#### IV. Post-Quantum Crypto (PQC) Libraries, Tooling & Patterns
 
 - **PQClean** — https://github.com/PQClean/PQClean  
   Free, audited, portable C implementations of NIST PQC finalists/winners (Kyber/ML-KEM, Dilithium/ML-DSA, SPHINCS+), machine-generated bindings.
@@ -4205,12 +4155,12 @@ Local India EMS can also provide these with MOQ negotiation.
 - **CTest/Wycheproof (classical vectors)** — https://github.com/google/wycheproof  
   Free test vectors for classical crypto; use alongside liboqs test suites for regression.
 
-#### Practical patterns (production-friendly)
+##### IVa. Practical patterns (production-friendly)
 - **Hybrid TLS now:** do **X25519 + ML-KEM** key exchange and **ECDSA + ML-DSA** certs on gateways/SBCs (OQS-OpenSSL).  
 - **MCUs today:** keep **classical TLS** on constrained nodes; terminate **hybrid PQ** at your **gateway** (edge proxy).  
 - **Signing/OTA:** sign firmware with **ML-DSA** (or classical+PQC dual signatures) inside **COSE/SUIT**; verify on gateway/SMU or on MCU if budget allows.
 
-### 19D. Embedded TLS & Secure Transport (MCU-friendly, Free)
+#### V. Embedded TLS & Secure Transport (MCU-friendly, Free)
 
 - **Mbed TLS** — https://github.com/Mbed-TLS/mbedtls  
   Free, small TLS 1.2/1.3 with PSA Crypto; widely ported (Zephyr, FreeRTOS, ESP-IDF, MCUboot).
@@ -4230,7 +4180,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Noise Protocol Framework (C)** — https://github.com/rweather/noise-c  
   Free lightweight AKE for device-to-device links; classical today, easy to adapt to PQ KEMs in gateways.
 
-### 19D. IoT Security Frameworks, Manifests & Identity (Free)
+#### VI. IoT Security Frameworks, Manifests & Identity (Free)
 
 - **IETF SUIT Manifests (Firmware Updates)** — https://datatracker.ietf.org/wg/suit/  
   Free standard for signed firmware metadata (COSE/CBOR), rollback protection; works with MCUboot/Zephyr/Mender/RAUC.
@@ -4253,7 +4203,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OSCORE / EDHOC (IETF)** — https://datatracker.ietf.org/wg/lake/  
   Free object security for CoAP (OSCORE) and lightweight AKE (EDHOC); ideal for constrained nodes with CBOR/COSE.
 
-### 19D. Key Management, APIs & Secure Storage (Free)
+#### VII. Key Management, APIs & Secure Storage (Free)
 
 - **PKCS#11** — ubiquitous C API for keys/certs; vendor SE/TPM stacks provide free PKCS#11 modules.
 
@@ -4264,7 +4214,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Secure Elements (SE05x / OPTIGA / ATECC)** — free host libs & PKCS#11 adaptors; isolate TLS/PQC keys from MCU flash.
 
-### 19D. Migration Playbook (concise)
+#### VIII. Migration Playbook (concise)
 
 1) **Segment:** keep tiny MCUs on classical TLS; terminate **hybrid PQ TLS** at an **edge gateway**.  
 2) **Manifests:** move firmware signing to **COSE/SUIT**; pilot **ML-DSA** signatures alongside ECDSA.  
@@ -4274,9 +4224,9 @@ Local India EMS can also provide these with MOQ negotiation.
 6) **Rollout:** start with **gateway-only PQC**, then migrate higher-resource endpoints; retain rollback-safe classical fallback.  
 
 
-### 19D. Post-Quantum Cryptography (PQC), Secure Elements & Hardware Root-of-Trust
+#### IX. Post-Quantum Cryptography (PQC), Secure Elements & Hardware Root-of-Trust
 
-#### ✅ Post-Quantum Crypto Libraries (Free & Open-Source)
+##### IXa. Post-Quantum Crypto Libraries (Free & Open-Source)
 
 - **Open Quantum Safe (OQS) Project** — https://openquantumsafe.org  
   Open-source PQC algorithms (Dilithium, Kyber, Falcon) integrated with OpenSSL and liboqs for MCUs, Linux gateways and cloud backends.
@@ -4295,7 +4245,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 ---
 
-#### ✅ Secure Elements & Hardware Roots of Trust (Free SDKs)
+##### IXb. Secure Elements & Hardware Roots of Trust (Free SDKs)
 
 - **NXP SE050 & EdgeLock SE** — https://www.nxp.com  
   PQC-ready key storage, ECDSA/ECDH, AES/GCM, TLS offload. Free host libraries + reference firmware.
@@ -4314,7 +4264,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 ---
 
-#### ✅ Secure Bootloaders with PQC or Modern Crypto
+##### IXc. Secure Bootloaders with PQC or Modern Crypto
 
 - **MCUboot (Open Source)** — https://www.mcuboot.com  
   Image authentication, anti-rollback, RSA/ECC support; community PQC forks emerging.
@@ -4330,7 +4280,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 ---
 
-#### ✅ PQC in IoT Protocols (MQTT, CoAP, TLS/DTLS)
+##### IXd. PQC in IoT Protocols (MQTT, CoAP, TLS/DTLS)
 
 - **mosquitto + OQS-OpenSSL (Free)** — https://mosquitto.org  
   MQTT broker compiled with PQC-OpenSSL adds PQC-TLS for IoT device authentication.
@@ -4346,7 +4296,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 ---
 
-#### ✅ Device Attestation & Identity
+##### IXe. Device Attestation & Identity
 
 - **FIDO Device Onboard (FDO) Open Source** — https://fidoalliance.org  
   Secure onboarding for IoT devices without shared secrets. Free specs + reference stacks.
@@ -4359,7 +4309,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 ---
 
-#### ✅ Open Hardware HSM / Crypto Projects
+##### IXf. Open Hardware HSM / Crypto Projects
 
 - **Tillitis TKey (Open Hardware)** — https://tillitis.se  
   Open-source hardware security token with verifiable firmware.
@@ -4372,7 +4322,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 ---
 
-#### ✅ Reference Threat Models & Security Guidance (Free)
+##### IXg. Reference Threat Models & Security Guidance (Free)
 
 - **PSA Certified Threat Models** — https://www.psacertified.org  
   Free security models for IoT endpoints, gateways and industrial devices.
@@ -4387,7 +4337,7 @@ Local India EMS can also provide these with MOQ negotiation.
   Free guidance on secure boot, measured boot and recovery.
 
 
-### 20A. TinyML Frameworks & Libraries
+### 20. TinyML Frameworks & Libraries
 
 - **TensorFlow Lite for Microcontrollers (TFLM)** — https://www.tensorflow.org/lite/microcontrollers  
   Google’s ultra-light inference engine for MCUs (as low as ~16–32KB RAM). Free, open-source, supports CMSIS-NN, ESP32, NRF, STM32, RP2040.
@@ -4422,7 +4372,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Kendryte K210 / MaixPy AI Runtimes** — https://github.com/kendryte  
   RISC-V SoC with hardware KPU accelerator; free SDK, examples for face detection, KWS, object recognition.
 
-### 20C. AutoML, Edge Training, Quantization & Optimization Tools (Free tiers)
+#### I. AutoML, Edge Training, Quantization & Optimization Tools (Free tiers)
 
 - **Edge Impulse Studio (Free Tier)** — https://edgeimpulse.com  
   Cloud AutoML for signal processing + classification + regression. Free tier: unlimited projects, dataset tools, DSP blocks, on-device deployment (MCU, ESP32, K210, Linux).
@@ -4487,7 +4437,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **ST-AI Model Zoo + STM32 AIRunner (Free)** — https://www.st.com/en/embedded-software/x-cube-ai.html  
   Auto quantization + C code generator for STM32 MCUs. Free for ST hardware.
 
-### 20D. AI-Optimized Hardware / Accelerators (Free SDKs, Toolchains & Model Compilers)
+#### II. AI-Optimized Hardware / Accelerators (Free SDKs, Toolchains & Model Compilers)
 
 - **Google Coral Edge TPU (USB, PCIe, SOM)** — https://coral.ai  
   Ultra-low-power TPU for edge vision and NN inference. Free TensorFlow compiler + Python/C++ runtime.
@@ -4551,8 +4501,10 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **ENSEMBLE / Sipeed RVV Boards (RVV Vector AI)** — https://sipeed.com  
   RISC-V Vector ISA acceleration for ML. Free toolchains + demos.
+  
+### 21. Free & Open-Source Robotics, Motor Control, and Kinematics Ecosystem
 
-### 21A. Robotics Frameworks, OS & Control Stacks (Free / Open-Source)
+#### I. Robotics Frameworks, OS & Control Stacks (Free / Open-Source)
 
 - **ROS 2 (Robot Operating System)** — https://ros.org  
   Industry-standard robotics framework with navigation, SLAM, sensor fusion, path planning, ROS middleware (DDS). Free + open-source.
@@ -4605,7 +4557,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **NVIDIA Isaac ROS (Free Container Images)** — https://developer.nvidia.com/isaac-ros  
   Optimized ROS2 packages for Jetson robots: perception, depth mapping, SLAM, DNN inference acceleration.
 
-### 21B. Motor Drivers, BLDC/Stepper Control & FOC Libraries (Free / Open-Source)
+#### II. Motor Drivers, BLDC/Stepper Control & FOC Libraries (Free / Open-Source)
 
 - **SimpleFOC (Arduino + STM + ESP)** — https://simplefoc.com  
   Open-source FOC motor control for BLDC, gimbal and stepper motors. Free drivers for AS5600, MA730, and common motor drivers.
@@ -4670,7 +4622,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenModelica + Motor Simulation (Free)** — https://openmodelica.org  
   Simulate motor dynamics and control loops before firmware deployment.
 
-### 21C. Servo Control, Encoders, Kinematics & Trajectory Libraries (Free / Open-Source)
+#### III. Servo Control, Encoders, Kinematics & Trajectory Libraries (Free / Open-Source)
 
 - **ROS-Control & ros2_control** — https://github.com/ros-controls/ros2_control  
   Standardized hardware abstraction for servo drives, joint control, feedback loops, PID, and trajectory controllers. Free and widely used in robots/AMRs.
@@ -4729,7 +4681,11 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Robotics Toolbox for Python (Peter Corke)** — https://github.com/petercorke/robotics-toolbox-python  
   Kinematics, trajectory generation, dynamics, simulation. Free & research-grade.
 
-### 22A. IMU, AHRS, Orientation & Sensor Fusion (Free / Open-Source)
+## E) Cloud, Dashboards & DevOps
+
+### 22. Free & Open-Source Sensor, Vision, and Perception Ecosystem (IMU, Lidar, Radar, Camera, Calibration & Datasets)
+
+#### I. IMU, AHRS, Orientation & Sensor Fusion (Free / Open-Source)
 
 - **Madgwick AHRS Filter (MIT License)** — https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/  
   Ultra-lightweight quaternion-based AHRS for IMUs. Works on 8-bit/32-bit MCUs. Free source in C/C++/Python.
@@ -4788,7 +4744,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **IMU Calibration Tool (Free)** — https://github.com/zulns  
   Open-source IMU calibration scripts for bias, scale, alignment, magnetometer distortion.
 
-### 22B. Environmental, Air Quality, Gas, Industrial Sensors (Free SDKs, Docs, Tools)
+#### II. Environmental, Air Quality, Gas, Industrial Sensors (Free SDKs, Docs, Tools)
 
 - **Bosch BSEC Lite (Environmental Fusion)** — https://www.bosch-sensortec.com/software-tools  
   Free SDK for BME680/BME688 providing IAQ, CO2-equivalent, humidity, temperature, breath/VOC detection.
@@ -4853,7 +4809,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenLog Environmental Logging Tools** — https://github.com/sparkfun/OpenLog_Artemis  
   Free data logger firmware for PM + CO2 + weather sensors.
 
-### 22C. Vision, Depth Cameras & Edge CV SDKs (Free / Open-Source)
+#### III. Vision, Depth Cameras & Edge CV SDKs (Free / Open-Source)
 
 - **OpenCV (Computer Vision Library)** — https://opencv.org  
   The standard CV toolkit: object tracking, feature detection, SLAM building blocks, OCR, DNN. Free and open-source (C++/Python/MCU ports).
@@ -4918,9 +4874,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **CSI/USB Cameras with Python (OpenCV + Libcamera)**  
   Full open-source pipeline for embedded AI cameras on Pi/Jetson/AMD Xilinx edge boards.
 
-### 22D. Radar, ToF, Lidar & UWB Sensors (Free SDKs, Drivers & Tools)
+#### IV. Radar, ToF, Lidar & UWB Sensors (Free SDKs, Drivers & Tools)
 
-#### ✅ Lidar & 2D/3D Scanners
+##### IVa. Lidar & 2D/3D Scanners
 
 - **RPLIDAR (A1/A2/A3/S1) SDK** — https://github.com/Slamtec/rplidar_sdk  
   Free C++ SDK for 360° laser scanners used in robots, AMRs, mapping. Works on Linux, Windows, ROS, microcontrollers.
@@ -4944,7 +4900,7 @@ Local India EMS can also provide these with MOQ negotiation.
   Free C++/Python drivers for low-cost scanning Lidars used in robots and mapping bots.
 
 
-#### ✅ Time-of-Flight (ToF) Distance Sensors
+##### IVb.Time-of-Flight (ToF) Distance Sensors
 
 - **STM VL53L0X / VL53L1X / VL53L5CX ToF Drivers** — https://github.com/STMicroelectronics  
   Free C/C++ drivers and ranging algorithms for ToF distance & multi-zone sensors.
@@ -4956,7 +4912,7 @@ Local India EMS can also provide these with MOQ negotiation.
   Free open-source drivers for ToF ranging + ALS.
 
 
-#### ✅ UWB (Ultra-Wideband) Ranging & Localization
+##### IVc. UWB (Ultra-Wideband) Ranging & Localization
 
 - **Decawave / Qorvo DW1000 / DW3000 DWM1001 SDK (Free)** — https://github.com/Decawave  
   Free UWB ranging, TDoA/ToF, RTLS, and indoor positioning firmware.
@@ -4971,7 +4927,7 @@ Local India EMS can also provide these with MOQ negotiation.
   Free C++ libraries for ESP32-based UWB positioning modules.
 
 
-#### ✅ mmWave & Radar (Doppler / Range / Presence / Safety)
+##### IVd. mmWave & Radar (Doppler / Range / Presence / Safety)
 
 - **TI mmWave Radar (IWR/LWR series) SDK** — https://www.ti.com  
   Free mmWave Studio + SDK for presence detection, Doppler, range, angle estimation. Used in robotics, safety and industrial sensing.
@@ -4989,7 +4945,7 @@ Local India EMS can also provide these with MOQ negotiation.
   ROS1/ROS2 drivers for TI radar sensors.
 
 
-#### ✅ Automotive-Grade ADAS (Free Toolchains)
+##### IVe. Automotive-Grade ADAS (Free Toolchains)
 
 - **OpenPilot Radar Interfaces (Comma.ai)** — https://github.com/commaai/openpilot  
   Open-source ADAS stack, includes radar fusion, tracking and lane-level perception.
@@ -4998,7 +4954,7 @@ Local India EMS can also provide these with MOQ negotiation.
   Radar + IMU + GPS fusion for autonomous drones.
 
 
-#### ✅ Point Cloud Processing, SLAM & Visualization
+##### IVf. Point Cloud Processing, SLAM & Visualization
 
 - **PCL (Point Cloud Library)** — https://pointclouds.org  
   Free C++ library for filtering, segmentation, plane fitting, clustering and 3D SLAM.
@@ -5015,9 +4971,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Cartographer (Google SLAM)** — https://cartographer.io  
   free 2D/3D SLAM with IMU + Lidar fusion.
 
-### 22E. Calibration Tools, Datasets & Benchmark Suites (Free / Open-Source)
+#### V. Calibration Tools, Datasets & Benchmark Suites (Free / Open-Source)
 
-#### ✅ Sensor Calibration Tools (IMU, Lidar, Cameras, UWB)
+##### Va. Sensor Calibration Tools (IMU, Lidar, Cameras, UWB)
 
 - **Kalibr (Camera-IMU Calibration)** — https://github.com/ethz-asl/kalibr  
   Industry-standard calibration for camera intrinsics/extrinsics, IMU parameters, rolling shutter, time offsets. Free and open-source.
@@ -5046,9 +5002,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Lidar to IMU Extrinsic Calibration (Free)** — https://github.com/irapkaist/lidar_mapping  
   Used in drones and autonomous mapping robots.
 
----
-
-#### ✅ Open Datasets for TinyML, Robotics & IoT Sensors
+##### Vb. Open Datasets for TinyML, Robotics & IoT Sensors
 
 - **UCI Machine Learning Repository** — https://archive.ics.uci.edu  
   Hundreds of free datasets used for IMU classification, anomaly detection, industrial sensors, gas/VOC datasets.
@@ -5080,9 +5034,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **CMU Motion Capture Dataset** — http://mocap.cs.cmu.edu  
   Free human motion capture data for robotics/gesture models.
 
----
-
-#### ✅ Synthetic Data & Simulation Suites (Free)
+##### Vc. Synthetic Data & Simulation Suites (Free)
 
 - **Gazebo / Ignition Robotics** — https://gazebosim.org  
   Free physics + sensor simulation (Lidar, depth, IMU, radar) for robots and drones.
@@ -5099,9 +5051,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenRobotSimulation + Webots** — https://cyberbotics.com  
   Free data capture from virtual sensors for ML training and calibration.
 
----
-
-#### ✅ Benchmark Suites & Evaluation Kits (Free)
+##### Vd. Benchmark Suites & Evaluation Kits (Free)
 
 - **MLPerf Tiny Benchmark (Free)** — https://mlcommons.org  
   Free benchmark for MCUs and TinyML inference (audio, vision, anomaly detection).
@@ -5117,8 +5067,10 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **DVS Neuromorphic Datasets (Free)** — https://research.ibm.com  
   Event-based camera datasets for low-power vision.
+  
+### 23. Embedded Data Management, Streaming, and Visualization Stack for IoT & Edge Systems
 
-### 23A. Embedded & Local Databases (Free / Open-Source)
+#### I. Embedded & Local Databases (Free / Open-Source)
 
 - **SQLite (Public Domain)** — https://sqlite.org  
   Zero-config embedded SQL database used in millions of devices. Fits in <500KB, supports transactions, journaling, encryption extensions.
@@ -5168,7 +5120,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **File-backed MQTT Store (Mosquitto Persistence)** — https://mosquitto.org  
   Free built-in persistent offline storage for MQTT gateways and edge brokers.
 
-### 23B. Time-Series & IoT Databases / MQTT Query Engines (Free / Open-Source)
+#### II. Time-Series & IoT Databases / MQTT Query Engines (Free / Open-Source)
 
 - **InfluxDB (Open-Source Edition)** — https://www.influxdata.com  
   Popular time-series DB for sensor telemetry. Local edge installation is free, supports retention policies and dashboards.
@@ -5227,7 +5179,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **ReductStore (Open-Source TSDB)** — https://www.reduct.store  
   Simple time-series blob store for edge logging. Free to self-host.
 
-### 23C. Real-Time Streaming & Analytics on the Edge (Free / Open-Source)
+#### III. Real-Time Streaming & Analytics on the Edge (Free / Open-Source)
 
 - **Apache Kafka (Free Community Edition)** — https://kafka.apache.org  
   High-throughput event streaming platform for IoT gateways and industrial servers. Free Kafka Connect + KSQL for stream queries.
@@ -5286,7 +5238,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Eclipse Streamsheets (Free)** — https://www.eclipse.org/streamsheets  
   Excel-like real-time data processing for MQTT industrial systems.
 
-### 23D. Dashboards & Visualization Tools (Free / Open-Source)
+#### IV. Dashboards & Visualization Tools (Free / Open-Source)
 
 - **Grafana (Open-Source Edition)** — https://grafana.com  
   Industry-standard dashboard for timeseries, MQTT, InfluxDB, Prometheus, PostgreSQL. Free plugins and alerting.
@@ -5342,9 +5294,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Eclipse Streamsheets (Free)** — https://www.eclipse.org/streamsheets  
   Spreadsheet-style dashboard for MQTT, Kafka, Modbus. Runs on PCs and edge servers.
 
-## 24. Test Equipment, RF Analyzers & Open Hardware Tools
+### 24. Test Equipment, RF Analyzers & Open Hardware Tools
 
-### 24A. Logic Analyzers & Protocol Tools (Open Hardware / Free SDKs)
+#### I. Logic Analyzers & Protocol Tools (Open Hardware / Free SDKs)
 
 - **Sigrok + PulseView (Open-Source)** — https://sigrok.org  
   Free multi-platform logic analyzer UI with I2C/SPI/UART/CAN/LIN/1-Wire decoders. Supports dozens of USB analyzers.
@@ -5376,7 +5328,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Beagle USB/I2C Protocol Analyzers (Free SDK)** — https://www.totalphase.com  
   Commercial hardware, but free software & protocol analyzers usable without license.
 
-### 24B. Digital Oscilloscopes, Mixed-Signal Scopes & Open-Source Firmware / Tools
+#### II. Digital Oscilloscopes, Mixed-Signal Scopes & Open-Source Firmware / Tools
 
 - **OpenHantek (Open-Source Oscilloscope UI)** — https://github.com/OpenHantek  
   Free PC software for many Hantek USB scopes. Better UI, FFT, protocol decode without vendor software.
@@ -5442,9 +5394,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OscLogger / OscExport Tools** — https://github.com  
   Open-source utilities for exporting scope CSVs, converting to VCD, Matplotlib, Excel.
 
-### 24C. RF Spectrum Analyzers, SDR Platforms & RF Toolchains (Free / Open-Source)
+#### III. RF Spectrum Analyzers, SDR Platforms & RF Toolchains (Free / Open-Source)
 
-#### ✅ SDR Hardware (Open Hardware or Free SDK Support)
+##### IIIa. SDR Hardware (Open Hardware or Free SDK Support)
 
 - **RTL-SDR (USB SDR)** — https://www.rtl-sdr.com  
   Cheapest SDR platform (24 MHz – ~1700 MHz). Free drivers + support for GNU Radio, SDR#, GQRX.
@@ -5473,9 +5425,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **SatNOGS Ground Station (Open Hardware)** — https://satnogs.org  
   Free open-source satellite ground station SDR with antenna rotator, tracking, demodulation.
 
----
-
-#### ✅ RF & SDR Software (Free Tools)
+##### IIIb. RF & SDR Software (Free Tools)
 
 - **GNU Radio (Open-Source)** — https://gnuradio.org  
   Standard SDR toolkit. Modular blocks for FM/AM, ADS-B, GSM/LTE, satellite reception.
@@ -5504,9 +5454,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenWebRX (Web-based SDR Receiver)** — https://github.com/jketterl/openwebrx  
   Stream SDR radio over the web. Free, open-source.
 
----
-
-#### ✅ SDR Toolchains for SATCOM, GPS, Radio Astronomy
+##### IIIc. SDR Toolchains for SATCOM, GPS, Radio Astronomy
 
 - **Pypredict + GNURadio SATCOM** — https://github.com/EA4GPZ/pypredict  
   Free satellite modem + ground telemetry tooling.
@@ -5520,9 +5468,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Radio Astronomy with SDR (Open Tools)** — https://github.com/0xCoto/RadioSky  
   Free tools for hydrogen line, pulsar, and solar SDR experiments.
 
----
-
-#### ✅ Antenna Analysis, Network Tools, RF Calculators
+##### IIId. Antenna Analysis, Network Tools, RF Calculators
 
 - **RTLSDR Scanner** — https://github.com/EliasOenal/rtl-sdr-scanner  
   Free spectrum sweep and level measurement for cheap SDRs.
@@ -5545,9 +5491,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **PySDR (Free SDR Textbook)** — https://pysdr.org  
   Free digital signal processing lessons & code for SDR experiments.
 
----
-
-#### ✅ RF Gateware, FPGA & PHY Layers (Open-Source)
+##### IIIe. RF Gateware, FPGA & PHY Layers (Open-Source)
 
 - **Open5GS / srsRAN (LTE/NR Stack)** — https://open5gs.org / https://github.com/srsran/srsRAN  
   Full open-source 4G/5G core + PHY. Can run with SDR hardware (USRP/BladeRF/LimeSDR).
@@ -5561,9 +5505,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **FPGA-DSP SDR Cores (Free)** — https://github.com  
   Many free HDL building blocks: FIR filters, CIC decimators, mixers, FFT cores.
 
-### 24D. Network Analyzers, Antenna Tuning, Signal Generators & EMC Tools
+#### IV. Network Analyzers, Antenna Tuning, Signal Generators & EMC Tools
 
-#### ✅ Vector Network Analyzers (VNA) & Antenna Test Tools
+##### IVa. Vector Network Analyzers (VNA) & Antenna Test Tools
 
 - **NanoVNA (Open Firmware + Free PC Tools)** — https://nanovna.com  
   Ultra-low-cost VNA with open-source firmware + free PC software for S11/S21, antenna tuning, impedance, SWR plots.
@@ -5589,8 +5533,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **ADIF & Touchstone File Viewers (Free)** — https://github.com  
   Open-source antenna data visualizers compatible with NanoVNA/LimeSDR logs.
 
-
-#### ✅ Signal Generators, RF Sources & Calibration Tools
+##### IVb.Signal Generators, RF Sources & Calibration Tools
 
 - **RFSim99 (Free)** — https://rf-tools.com  
   Free RF circuit simulator for filters, matching networks, and impedance design.
@@ -5607,8 +5550,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Siglent/Rigol SCPI Control (Free)** — https://github.com/labters/labrador  
   Automate sine/square/RF sweeps with free Python libraries.
 
-
-#### ✅ Impedance, S-Parameters & RF Simulation
+##### IVc. Impedance, S-Parameters & RF Simulation
 
 - **QUCS / QucsStudio (Free RF Simulation)** — https://qucs.sourceforge.io  
   Free GNU RF circuit simulator for S-parameters, filters, Smith charts.
@@ -5622,8 +5564,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **RF Toolbox for Octave (Free)** — https://gnu.org/software/octave  
   Open MATLAB-like RF modeling for filters, antennas, and microwave elements.
 
-
-#### ✅ EMC / RF Compliance Test Utilities (Free)
+##### IVd. EMC / RF Compliance Test Utilities (Free)
 
 - **EMCview Free Edition (Tekbox)** — https://www.tekbox.com  
   Free near-field EMI scanning software with low-cost probes.
@@ -5640,8 +5581,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **KiCad RF Tools (Free)** — https://kicad.org  
   Includes free PCB impedance calculators, differential pair tuning, RF routing helpers.
 
-
-#### ✅ Open RF Test Projects / DIY Hardware
+##### IVe. Open RF Test Projects / DIY Hardware
 
 - **Red Pitaya (Open FPGA Oscilloscope/VNA/SA)** — https://redpitaya.com  
   Free open-source signal analyzer, VNA, and RF scope apps + FPGA code.
@@ -5658,8 +5598,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Open Hardware RF Switch/Attenuator** — https://github.com  
   Community-designed RF switch/step-attenuator boards for SDR test rigs.
 
-
-#### ✅ RF Reference Calculators (Free)
+##### IVf. RF Reference Calculators (Free)
 
 - **RF Tools Online Calculator Suite** — https://rf-tools.com  
   Free microstrip calculator, impedance, power, VSWR, LC filter design.
@@ -5669,9 +5608,9 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Microwave Office Student Tools (Free)** — academic free license available on request.
 
-### 24E. Power Analyzers, Battery Profiling, HIL Testing & Device Emulators (Free / Open-Source)
+#### V. Power Analyzers, Battery Profiling, HIL Testing & Device Emulators (Free / Open-Source)
 
-#### ✅ Power & Energy Measurement Tools (Free Software / Open Hardware)
+##### va. Power & Energy Measurement Tools (Free Software / Open Hardware)
 
 - **Monsoon Power Monitor (Free Software)** — https://www.msoon.com  
   Hardware is commercial, but software + APIs are free. Used for MCU and IoT power profiling (µA–A range).
@@ -5694,8 +5633,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **INA219/INA226 Open-Source Logs** — https://github.com/TheKitty  
   Free Python/Arduino tools for current logging and battery profiling.
 
-
-#### ✅ Battery Testing, Charge/Discharge Profiling, Fuel Gauges
+##### Vb. Battery Testing, Charge/Discharge Profiling, Fuel Gauges
 
 - **BQ Studio (Texas Instruments)** — https://www.ti.com  
   Free GUI for TI fuel gauges and battery monitor ICs. Data logging + cell optimization.
@@ -5709,8 +5647,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Adafruit Battery Tester Firmware (Free)** — https://github.com/adafruit  
   Arduino-based battery logging, capacity tests, curve plots.
 
-
-#### ✅ HIL (Hardware-In-the-Loop) Testing & Simulation
+##### Vc. HIL (Hardware-In-the-Loop) Testing & Simulation
 
 - **OpenSTF (Smartphone/Device Farm)** — https://github.com/openstf  
   Free device farm framework for testing embedded Android devices remotely.
@@ -5730,8 +5667,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Mbed Greentea (Free)** — https://os.mbed.com  
   Free automated firmware test framework for Cortex-M boards.
 
-
-#### ✅ Device Emulators & Virtual Boards
+##### Vd. Device Emulators & Virtual Boards
 
 - **ESP-IDF QEMU Emulator (Free)** — https://github.com/espressif/qemu  
   Free QEMU port for ESP32; runs firmware without hardware.
@@ -5742,8 +5678,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Linux User Mode Networking (Free)** — https://www.kernel.org  
   Test network code without real hardware. Good for gateway prototypes.
 
-
-#### ✅ Fault Injection, Fuzzing, Security Testing
+##### Ve. Fault Injection, Fuzzing, Security Testing
 
 - **PULP Platform (Open Hardware RISC-V)** — https://pulp-platform.org  
   Fault-tolerant RISC-V research cores with open test benches.
@@ -5757,8 +5692,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **MCUboot + Crypto Fuzz Tests (Free)** — https://github.com/mcuboot/mcuboot  
   Free fuzzing for bootloader image validation.
 
-
-#### ✅ Production & Regression Test Frameworks (Free)
+##### Vf. Production & Regression Test Frameworks (Free)
 
 - **pytest-embedded (Free)** — https://github.com/esp-rs/pytest-embedded  
   Automates embedded device tests via serial, JTAG, logging comparison.
@@ -5771,8 +5705,7 @@ Local India EMS can also provide these with MOQ negotiation.
   - PyTest with serial/CAN logs  
   - LabVIEW Community Edition for personal/educational use
 
-
-#### ✅ USB, BLE, Wi-Fi Testing
+##### Vg. USB, BLE, Wi-Fi Testing
 
 - **Wireshark (Free)** — https://wireshark.org  
   Free packet analyzer for Wi-Fi, BLE, Ethernet. With BLE decoders and USBCAP Wi-Fi capture.
@@ -5783,10 +5716,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **PacketSquirrel / USB Armory (Open Hardware)** — https://github.com/inversepath  
   Pen-test and traffic capture tools for embedded testing.
 
+#### VI. Production Jigs, Programming Tools, Boundary-Scan & Functional Test Rigs (Free / Open-Source)
 
-### 24F. Production Jigs, Programming Tools, Boundary-Scan & Functional Test Rigs (Free / Open-Source)
-
-#### ✅ Production Programming & Flashing Tools
+##### VIa. Production Programming & Flashing Tools
 
 - **OpenOCD (Open-Source Debug & Flash Tool)** — http://openocd.org  
   Free flashing/debugging for ARM Cortex-M, RISC-V, ESP32, STM32, NXP, Nordic with SWD/JTAG. Works on low-cost probes (ST-Link, J-Link EDU, FT2232).
@@ -5812,8 +5744,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Teensy Loader / TyCommander (Free)** — https://github.com/Koromix/tytools  
   Automates programming and serial log capture for PJRC Teensy in production.
 
-
-#### ✅ Boundary-Scan, JTAG Chains & Board Bring-Up
+##### VIb. Boundary-Scan, JTAG Chains & Board Bring-Up
 
 - **UrJTAG (Open-Source)** — http://urjtag.org  
   Open JTAG/boundary-scan for testing solder joints, reading IDCODE, toggling GPIO pins on many MCUs/FPGAs.
@@ -5827,8 +5758,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Boundary Scan with BSDL Files (Free)**  
   Many vendors provide BSDL files free for continuity & net testing (NXP, ST, TI, Microchip).
 
-
-#### ✅ Automated Production Test Frameworks
+##### VIc. Automated Production Test Frameworks
 
 - **OpenHTF (Google)** — https://github.com/google/OpenHTF  
   Python-based automated test stations for factories. Logging, USB/UART control, sensor verification, pass/fail reports.
@@ -5842,8 +5772,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **LabVIEW Community Edition (Free for Personal/Non-Commercial)** — https://www.ni.com  
   Full drag-and-drop test automation for hobby / non-profit labs.
 
-
-#### ✅ Bed-of-Nails, Test Fixtures & Probe Boards (Open Designs)
+##### VId. Bed-of-Nails, Test Fixtures & Probe Boards (Open Designs)
 
 - **Open Fixture Project** — https://github.com/OpenFixture  
   Open-source mechanical designs for spring-pin bed-of-nails jigs.
@@ -5857,8 +5786,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **3D-Printed Test Cages / Pogo Fixtures (Free CAD)** — https://github.com  
   Hundreds of open designs for alignment jigs, multi-board testing frames.
 
-
-#### ✅ Device Provisioning, Serial Numbering & Logging
+##### VIe. Device Provisioning, Serial Numbering & Logging
 
 - **OpenHTF + SQLite/CSV Logging (Free)**  
   Store serial numbers, MAC addresses, test results, firmware versions in local DB.
@@ -5874,8 +5802,7 @@ Local India EMS can also provide these with MOQ negotiation.
   - STM32: SBSFU + OTP programming via CubeProgrammer  
   - Microchip: CryptoAuthLib for ATECC secure element injection
 
-
-#### ✅ Firmware Validation, Golden Sample & Regression Testing
+##### VIf. Firmware Validation, Golden Sample & Regression Testing
 
 - **Serial Test Harness (Free)** — Python + PyTest + OpenHTF  
   Compare real device output vs. golden reference automatically.
@@ -5886,8 +5813,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **AteCC608A / SE05x Secure Element Test Kits (Free SDK)** — https://github.com/MicrochipTech / https://github.com/NXPMicro  
   Verify crypto signatures, cert chains, secure boot provisioning in production.
 
-
-#### ✅ Commercial Hardware Supported by Free Software
+##### VIg. Commercial Hardware Supported by Free Software
 
 - **SEGGER J-Link (Free J-Flash Lite)** — https://www.segger.com  
   Free programming tool (no license) for single-image flash on STM32, Nordic, NXP, etc.
@@ -5898,9 +5824,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **LibUSB Open Flashers (Free)** — https://libusb.info  
   Control USB programmers and load firmware in automated CI.
 
-## 25. Hobbyist-Friendly Prototyping Ecosystems
+### 25. Hobbyist-Friendly Prototyping Ecosystems
 
-### 25A. Rapid Prototyping Boards, Ecosystems & Kits (Free SDKs / IDEs / Tutorials)
+#### I. Rapid Prototyping Boards, Ecosystems & Kits (Free SDKs / IDEs / Tutorials)
 
 - **Arduino Ecosystem (Free IDE + Libraries)** — https://arduino.cc  
   Massive open-source ecosystem for rapid firmware prototyping. Free IDE, libraries, drivers, bootloaders, and examples.
@@ -5980,7 +5906,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **TinyPICO / FeatherS3 (Open Source)** — https://github.com/UnexpectedMaker  
   ESP32-S3 boards with open-source hardware, Arduino & ESP-IDF support.
 
-### 25B. Plug-and-Play HATs, Shields, Click Boards & Modular Sensor Ecosystems (Free Drivers/Libraries)
+#### II. Plug-and-Play HATs, Shields, Click Boards & Modular Sensor Ecosystems (Free Drivers/Libraries)
 
 - **Raspberry Pi HAT Ecosystem (Free Drivers)** — https://www.raspberrypi.com  
   Huge collection of open HATs for displays, sensors, motor control, PoE, LoRa, SDR. Free Linux drivers, Device Tree overlays.
@@ -6069,7 +5995,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **NCD Industrial I/O boards (Free Libraries)** — https://ncd.io  
   RS485, MQTT, I2C industrial sensor modules with free cloud dashboards.
 
-### 25C. Hobby-Grade Robotics Stacks & Maker-Friendly Robot Kits (Free Firmware / Libraries)
+#### III. Hobby-Grade Robotics Stacks & Maker-Friendly Robot Kits (Free Firmware / Libraries)
 
 - **TurtleBot 3 (Open-Source Robot)** — https://turtlebot3.robotis.com  
   Affordable modular ROS robot platform with LiDAR + SLAM. Free ROS1/ROS2 firmware, CAD, navigation stacks, teleop.
@@ -6146,9 +6072,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Open-Source Robotic Arm Kits (uArm, EEZYBotARM)** — https://github.com  
   3D printable robotic arms with free Python/Arduino/ROS control.
 
-### 25D. Multi-Sensor Data Loggers, Wearables & Maker-IoT Boards (Free Firmware / SDKs)
+#### IV. Multi-Sensor Data Loggers, Wearables & Maker-IoT Boards (Free Firmware / SDKs)
 
-#### ✅ Multi-Sensor Data Loggers (Environmental, Motion, GPS)
+##### IVa. Multi-Sensor Data Loggers (Environmental, Motion, GPS)
 
 - **OpenLog / OpenLog Artemis (SparkFun)** — https://github.com/sparkfun/OpenLog_Artemis  
   Low-power IMU/environmental data logger with free open-source firmware, CSV logging to microSD, Arduino IDE support.
@@ -6176,10 +6102,8 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Qwiic/Grove Sensor Loggers (Free)** — https://sparkfun.com / https://wiki.seeedstudio.com  
   One-line examples to log any I2C sensor to CSV/JSON using ESP32 or RP2040.
-
----
-
-#### ✅ GPS / GNSS / Tracker Boards
+  
+##### IVb. GPS / GNSS / Tracker Boards
 
 - **Adafruit Ultimate GPS + Datelogger (Free Libraries)** — https://learn.adafruit.com  
   Free Arduino/Python libraries, NMEA parsing, time stamping, SD storage.
@@ -6196,9 +6120,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenNTRIP / RTKLIB (Free)** — https://rtklib.com  
   Open-source RTK + GPS/GLONASS/Galileo correction logging for high-accuracy survey/robotics.
 
----
-
-#### ✅ Wearables & Health Sensor Platforms (Free Firmware)
+##### IVc. Wearables & Health Sensor Platforms (Free Firmware)
 
 - **Arduino Nicla Sense ME** — https://store.arduino.cc  
   Bosch environmental + IMU + pressure sensors with free Edge-ML examples and logging code.
@@ -6221,9 +6143,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Xsens DOT (Free SDK)** — https://www.xsens.com  
   Bluetooth inertial wearables with free mobile/PC SDK for IMU streaming and logging.
 
----
-
-#### ✅ BLE / Wireless IoT Boards for Field Logging
+##### IVd. BLE / Wireless IoT Boards for Field Logging
 
 - **ESP32-C3 / ESP32-S3 (Free ESP-IDF & Arduino)** — https://github.com/espressif  
   Wi-Fi+BLE logging, OTA updates, HTTPS cloud uploads, SD card data logging.
@@ -6237,9 +6157,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Helium/LoRa Tracker Nodes (Free Arduino/LMIC)** — https://github.com  
   Open-source LoRa trackers with GPS + IMU + SD card.
 
----
-
-#### ✅ Open-Source Wearable OS / Frameworks
+##### IVe. Open-Source Wearable OS / Frameworks
 
 - **FreeRTOS Wearable Templates** — https://github.com/FreeRTOS  
   Free RTOS + sensor + BLE logging templates.
@@ -6250,9 +6168,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Espruino (Free JavaScript on MCU)** — https://www.espruino.com  
   Wearable-friendly JavaScript firmware with free logging libraries.
 
----
-
-#### ✅ Companion Dashboards & Mobile Apps (Free)
+##### IVf. Companion Dashboards & Mobile Apps (Free)
 
 - **Blynk (Free Community Tier)** — https://blynk.io  
   Mobile dashboards for BLE/WiFi IoT loggers (ESP32, Arduino, STM).
@@ -6266,9 +6182,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Node-RED Dashboard (Free)** — https://nodered.org  
   Real-time charts for BLE/WiFi/GPS loggers.
 
-### 25E. DIY Electronics Essentials — Power Modules, Prototyping PCBs, Soldering & Lab Tools (Free/Open)
+#### V. DIY Electronics Essentials — Power Modules, Prototyping PCBs, Soldering & Lab Tools (Free/Open)
 
-#### ✅ Breadboard Power Modules & Safe Power Supplies
+##### Va. Breadboard Power Modules & Safe Power Supplies
 
 - **Open-Source Breadboard PSU (LM1117/AMS1117 designs)** — https://github.com  
   5V/3.3V regulated plug-in PSU modules; open PCB + BOM for beginners.
@@ -6288,9 +6204,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Open-Source Lithium Charging Boards (TP4056/MCP73831)** — https://github.com  
   Free PCB layouts and safe-charge firmware examples for IoT prototypes.
 
----
-
-#### ✅ Universal Prototyping PCBs & Adapter Boards
+##### Vb. Universal Prototyping PCBs & Adapter Boards
 
 - **Open-Source Breakout Boards (KiCad)** — https://github.com  
   Thousands of free footprints: QFN → DIP, QFP → DIP, SOIC → DIP for breadboard testing.
@@ -6307,9 +6221,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Solderable Breadboards (Stripboard/Perfboard CAD)** — https://github.com  
   Open Perfboard/Veroboard footprint files for planning production-ready prototypes.
 
----
-
-#### ✅ Soldering, Hot-Air, Reflow & Rework (Open Tools)
+##### Vc. Soldering, Hot-Air, Reflow & Rework (Open Tools)
 
 - **TS100 / TS80P Open Firmware (IronOS)** — https://github.com/Ralim/IronOS  
   Open-source firmware for portable soldering irons with PID control, sleep mode, OLED UI.
@@ -6326,9 +6238,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **USB Microscope Open-Source Software** — https://github.com  
   Free capture + measurement tools compatible with cheap USB microscopes.
 
----
-
-#### ✅ Hand Tools, Test Jigs, Fixtures & CAD
+##### Vd. Hand Tools, Test Jigs, Fixtures & CAD
 
 - **3D-Printed PCB Holders / Solder Jigs (Free STL)** — https://thingiverse.com  
   Open mechanical fixtures for soldering headers, pogo pins, programming connectors.
@@ -6345,9 +6255,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Open-Source Wire Strippers & Mini Tools (STL files)** — https://thingiverse.com  
   Printable cable cutters, wire gauges and dispensers.
 
----
-
-#### ✅ Open Multimeter & Instrument Firmware/Tools
+##### Ve. Open Multimeter & Instrument Firmware/Tools
 
 - **Sigrok Meter Support (Free)** — https://sigrok.org  
   Many low-cost DMMs supported for PC logging, CSV export, calibration UI.
@@ -6358,9 +6266,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **USB-to-UART/RS485 Breakouts (Free Designs)** — https://github.com  
   Open FT232/CH340/CP2102 adapter boards for breadboards and test rigs.
 
----
-
-#### ✅ Breadboard-Friendly Microcontrollers & ISP Tools
+##### Vf. Breadboard-Friendly Microcontrollers & ISP Tools
 
 - **CH552/CH32, ATTiny, STM32 “Blue Pill” Open Toolchains** — https://github.com  
   Free compilers, Arduino cores, USB bootloader scripts.
@@ -6371,9 +6277,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **AVR ISP + USBasp (Open Hardware)** — https://github.com/obdev/usbasp  
   Open-source USB programmer for AVR chips, widely used by hobbyists.
 
----
-
-#### ✅ Quick Prototyping Adapters & Debug Tools
+##### Vg. Quick Prototyping Adapters & Debug Tools
 
 - **Logic Level Shifter Boards (Open PCBs)** — https://github.com  
   Free PCBs for 1.8V ↔ 3.3V ↔ 5V I/O translation, open KiCad files.
@@ -6387,9 +6291,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **flashrom (Open-Source)** — https://flashrom.org  
   Free command-line flashing tool for SPI NOR chips using USB programmers.
 
-## 26. Open-Source Cloud Backend Templates for IoT
+### 26. IoT Backend, Device Management, and Analytics Stack for Edge & Cloud Systems
 
-### 26A. Ready-to-Deploy Open-Source IoT Backends (Self-Host / Free)
+#### I. Ready-to-Deploy Open-Source IoT Backends (Self-Host / Free)
 
 - **ThingsBoard Community Edition (Open-Source)** — https://thingsboard.io  
   Fully-featured IoT backend: MQTT/HTTP/CoAP ingestion, dashboards, OTA, alarms, rule engine, device provisioning. Free CE for self-host and on Raspberry Pi.
@@ -6502,9 +6406,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **IoTivity (Open-Source, OCF)** — https://iotivity.org  
   Secure IoT communication stack with free device identity & provisioning.
 
-### 26B. MQTT + Dashboards + Device Management Bundles (Free / Open-Source / Self-Host)
+#### II. MQTT + Dashboards + Device Management Bundles (Free / Open-Source / Self-Host)
 
-#### ✅ Complete IoT Bundles (MQTT + DB + Dashboards + Rules)
+##### IIa. Complete IoT Bundles (MQTT + DB + Dashboards + Rules)
 
 - **ThingsBoard CE (MQTT + OTA + Rules + Dashboards)** — https://thingsboard.io  
   Out-of-the-box IoT platform with MQTT, CoAP, HTTP ingestion, OTA, alarms, device provisioning, rule engine, dashboards. Free Community Edition.
@@ -6536,9 +6440,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Eclipse Kapua (MQTT + Device Mgmt + Analytics)** — https://www.eclipse.org/kapua  
   Free modular IoT cloud platform with messaging, dashboards, device registry, OTA options.
 
----
-
-#### ✅ Lightweight Bundles for Raspberry Pi / Gateways
+##### IIb. Lightweight Bundles for Raspberry Pi / Gateways
 
 - **Balena Sense (MQTT + InfluxDB + Grafana)** — https://github.com/balena-io-projects/balena-sense  
   Runs sensors → MQTT → time-series DB → dashboards. One-click install on Pi.
@@ -6561,9 +6463,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **MySensors Gateway (MQTT-first)** — https://www.mysensors.org  
   Arduino sensor mesh → MQTT → dashboards.
 
----
-
-#### ✅ Device Management, Provisioning & Twin Models (Free)
+##### IIc. Device Management, Provisioning & Twin Models (Free)
 
 - **Eclipse Ditto (Digital Twin)** — https://www.eclipse.dev/ditto  
   MQTT/HTTP/WS Digital twins with JSON shadow storage, rules, and real-time updates.
@@ -6580,9 +6480,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **NATS.io (MQTT-like Broker + Streaming)** — https://nats.io  
   High-speed lightweight messaging for IoT; free clustering, ACL, TLS.
 
----
-
-#### ✅ Docker-Compose Templates / Ready Deployments
+##### IId. Docker-Compose Templates / Ready Deployments
 
 - **Awesome IoT Stack (Free Templates)** — https://github.com/hobbyquaker/awesome-mqtt  
   Docker templates for MQTT + automation + visualization + storage.
@@ -6596,9 +6494,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Node-RED Boilerplates (Free)** — https://github.com/node-red/node-red-docker  
   Quick-deploy MQTT + HTTP ingestion + dashboards + user auth.
 
----
-
-#### ✅ Bonus: Free Cloud MQTT Brokers for Testing
+##### IIe. Bonus: Free Cloud MQTT Brokers for Testing
 
 - **Test.Mosquitto.org (Free Public Broker)** — https://test.mosquitto.org  
   Free public MQTT test broker for developers.
@@ -6615,9 +6511,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **flespi MQTT Broker (Free Tier)** — https://flespi.com  
   Free MQTT broker + REST API for up to limited messages/devices.
 
-### 26C. OTA Servers, Provisioning & Secure Firmware Distribution (Free / Open-Source)
+#### III. OTA Servers, Provisioning & Secure Firmware Distribution (Free / Open-Source)
 
-#### ✅ Open-Source OTA Servers (Self-Host)
+##### IIIa. Open-Source OTA Servers (Self-Host)
 
 - **Eclipse hawkBit (Free/Open-Source)** — https://www.eclipse.org/hawkbit  
   Production-ready OTA server for embedded Linux & MCU devices. Campaign management, staged rollouts, rollback, device groups. Self-host for free.
@@ -6643,9 +6539,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **ResinOS (Open) + balenaEngine** — https://github.com/balena-os  
   Open source OS enabling Docker OTA on embedded devices.
 
----
-
-#### ✅ MCU / RTOS-Level Secure OTA
+##### IIIb. MCU / RTOS-Level Secure OTA
 
 - **MCUboot (Open-Source)** — https://mcuboot.com  
   Cryptographically signed boot / OTA loader used by Zephyr, Mynewt, ESP32 ports, Nordic nRF Connect SDK.
@@ -6674,9 +6568,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Tuya Open-Source MCU OTA (Free)** — https://github.com/tuya  
   Free OTA firmware and tools for Tuya-ESP/Gateway MCUs.
 
----
-
-#### ✅ Linux-Based Device Management With OTA
+##### IIIc. Linux-Based Device Management With OTA
 
 - **MENDER-ARTIFACT (Free CLI)** — https://github.com/mendersoftware  
   Create signed OTA images for Mender CE. A/B and delta updates.
@@ -6693,9 +6585,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Debian APT + Repo-Signing (Free)** — https://wiki.debian.org/SecureApt  
   Fleet OTA through signed packages and private repos.
 
----
-
-#### ✅ Device Provisioning / Key Injection (Free Tools)
+##### IIId. Device Provisioning / Key Injection (Free Tools)
 
 - **mcumgr (Open-Source)** — https://github.com/apache/mynewt-mcumgr  
   Secure image management for MCUBoot, DFU, and key provisioning over UART/BLE.
@@ -6715,9 +6605,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **TPM2-TSS Tools (Free)** — https://github.com/tpm2-software  
   Secure key provisioning, sealed storage, signing for Linux gateways.
 
----
-
-#### ✅ Cloud + OTA (Free Tier Options)
+##### IIIe. Cloud + OTA (Free Tier Options)
 
 - **Particle Cloud (Free Tier)** — https://particle.io  
   Free OTA for small fleets, device diagnostics, logs, variables, functions.
@@ -6731,9 +6619,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Blynk (Free Community Tier)** — https://blynk.io  
   Free OTA for ESP32/Arduino via Blynk.Air (limited dev tier).
 
----
-
-#### ✅ Industrial / Fleet OTA (Open-Source Engines)
+##### IIIf. Industrial / Fleet OTA (Open-Source Engines)
 
 - **OTA Update with Kubernetes + balenaEngine** — https://github.com/balena-os  
   Container-based OTA for fleets of embedded Linux devices.
@@ -6744,9 +6630,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **SWUpdate + U-Boot Verified Boot**  
   Secure chain-of-trust + signed A/B OTA images for ECUs, robotics, gateways.
 
-### 26D. Low-Code / No-Code IoT Cloud Templates (Free / Open-Source / Free Tier)
+#### IV. Low-Code / No-Code IoT Cloud Templates (Free / Open-Source / Free Tier)
 
-#### ✅ Drag-and-Drop IoT Dashboards & Automation
+##### IVa. Drag-and-Drop IoT Dashboards & Automation
 
 - **Node-RED (Open-Source, Self-Host Free)** — https://nodered.org  
   Drag-and-drop flows for MQTT/HTTP/WebSockets/Modbus. Built-in dashboards, alerts, logging, APIs. Runs on Raspberry Pi, Docker.
@@ -6768,10 +6654,8 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **FRED – Cloud Node-RED (Free Tier)** — https://fred.sensetecnic.com  
   Node-RED hosted in the cloud with free tier for small flows and dashboards.
-
----
-
-#### ✅ Device-to-Dashboard “No-code” Cloud Platforms
+  
+##### IVb. Device-to-Dashboard “No-code” Cloud Platforms
 
 - **Thingspeak (Free)** — https://thingspeak.com  
   No-code dashboards + charts + MATLAB analytics. Free for academic/hobby use.
@@ -6793,9 +6677,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Tally + Webhooks + MQTT (Free Templates)** — https://tally.so  
   Zero-code dashboards & forms that ingest MQTT data through webhook adapters.
 
----
-
-#### ✅ Automation + Webhooks + Integrations
+##### IVc. Automation + Webhooks + Integrations
 
 - **IFTTT Maker Webhooks (Free Tier)** — https://ifttt.com  
   Trigger emails, SMS, Google Sheets, Telegram, based on sensor events.
@@ -6812,9 +6694,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Node-RED + Telegram Bot (Free)**  
   Chatbot control for IoT devices using no-code flow templates.
 
----
-
-#### ✅ No-code Apps / Visual Builders for Hardware
+##### IVd. No-code Apps / Visual Builders for Hardware
 
 - **Arduino Cloud Free Tier** — https://cloud.arduino.cc  
   No-code dashboards, widgets, OTA, variables, and charts for Arduino/ESP32.
@@ -6831,9 +6711,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Tuya Cloud (Free Tier)** — https://developer.tuya.com  
   Zero-code provisioning, dashboards, OTA for Tuya Wi-Fi/BLE devices.
 
----
-
-#### ✅ One-Click Deployable Templates (Docker Compose / Raspberry Pi)
+##### IVe. One-Click Deployable Templates (Docker Compose / Raspberry Pi)
 
 - **IOTstack (Free)** — https://github.com/gcgarner/IOTstack  
   One-click installer for Mosquitto, Node-RED, InfluxDB, Grafana, Zigbee2MQTT.
@@ -6847,9 +6725,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Mosquitto + Node-RED + Grafana Docker Bundle (Free)** — https://github.com  
   Community docker-compose templates for full IoT backend in one command.
 
----
-
-#### ✅ Mobile Dashboards for Sensors (Free)
+##### IVf. Mobile Dashboards for Sensors (Free)
 
 - **IoT MQTT Panel (Android — Free Tier)** — https://play.google.com  
   Live MQTT charts, gauges, controls for ESP32/RPi.
@@ -6860,9 +6736,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Ruffy / BLE Serial Apps (Free)** — https://github.com  
   Quick BLE dashboard for hobby IoT.
 
-### 26E. Self-Hostable Analytics & Visualization Bundles (Free / Open-Source)
+#### V. Self-Hostable Analytics & Visualization Bundles (Free / Open-Source)
 
-#### ✅ Time-Series Databases (IoT-Friendly / Free)
+##### Va. Time-Series Databases (IoT-Friendly / Free)
 
 - **InfluxDB Community Edition (Free & Open-Source)** — https://www.influxdata.com  
   High-performance time-series DB for sensor data. MQTT → Telegraf → Influx → Grafana is the classic free IoT stack.
@@ -6888,9 +6764,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **QuestDB (Free/Open-Source)** — https://questdb.io  
   SQL time-series engine with grafana support. Very fast ingestion.
 
----
-
-#### ✅ BI Dashboards & Visualization Tools (Self-Host Free)
+##### Vb. BI Dashboards & Visualization Tools (Self-Host Free)
 
 - **Grafana OSS (Free)** — https://grafana.com/oss  
   Industry-standard dashboarding for time-series. Free plugins, alerts, MQTT via Influx/Telegraf.
@@ -6919,9 +6793,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Streamlit (Open-Source)** — https://streamlit.io  
   Build custom IoT dashboards with Python. Free to run locally or Docker.
 
----
-
-#### ✅ Full “Analytics Bundles” (Plug-and-Play / Docker)
+##### Vc. Full “Analytics Bundles” (Plug-and-Play / Docker)
 
 - **TIG Stack (Telegraf + InfluxDB + Grafana)** — https://github.com/influxdata  
   Free IoT monitoring bundle: MQTT ingestion, dashboards, alerts. Runs on Pi, PC, servers.
@@ -6941,9 +6813,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Druid + Superset Bundle** — https://github.com/apache/druid  
   Open-source analytic engine + BI dashboard for billions of events.
 
----
-
-#### ✅ Self-Hosted MQTT + DB + Dashboard Starters
+##### Vd. Self-Hosted MQTT + DB + Dashboard Starters
 
 - **IOTstack (Free)** — https://github.com/gcgarner/IOTstack  
   Menu-based deployment for Mosquitto, Node-RED, Influx, Grafana, Zigbee2MQTT.
@@ -6956,9 +6826,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Mosquitto + Telegraf + TimescaleDB + Grafana** — free docker compose projects on GitHub.
 
----
-
-#### ✅ Data Science + ML Tooling (Self-Host Free)
+##### Ve. Data Science + ML Tooling (Self-Host Free)
 
 - **Jupyter Notebook/Lab (Free)** — https://jupyter.org  
   Local analytics, ML, visualization; can attach to MQTT and query DBs.
@@ -6968,10 +6836,8 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **MLFlow (Free/Open-Source)** — https://mlflow.org  
   Model training, versioning and experiment tracking for IoT data science.
-
----
-
-#### ✅ Embedded-Friendly Storage Options
+  
+##### Vf. Embedded-Friendly Storage Options
 
 - **SQLite (Free/Open-Source)** — https://sqlite.org  
   Lightweight DB ideal for gateways, SBCs, offline IoT data logging.
@@ -6981,10 +6847,12 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **RRDTool for SBC / MCU gateways** — https://oss.oetiker.ch/rrdtool  
   Extremely small logger for memory-constrained devices.
+  
+### 27. Industrial IoT, SCADA, and Edge Automation Frameworks
 
-### 27A. OPC-UA, Modbus, BACnet, PROFINET Free Stacks
+#### I. OPC-UA, Modbus, BACnet, PROFINET Free Stacks
 
-#### ✅ OPC-UA (Free / Open-Source)
+##### Ia. OPC-UA (Free / Open-Source)
 
 - **open62541 (Free & Open-Source C Stack)** — https://open62541.org  
   IEC62541-compliant OPC-UA SDK for embedded Linux and industrial gateways. Supports Client/Server, Pub/Sub, security, and address space modeling.
@@ -7001,9 +6869,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenDS-OPC (Java OPC-UA SDK)** — https://github.com/opends/opends-opc  
   OPC-UA tools and Java SDK with discovery, security and address model support.
 
----
-
-#### ✅ Modbus (RTU/TCP) — Free Stacks & Tools
+##### Ib. Modbus (RTU/TCP) — Free Stacks & Tools
 
 - **libmodbus (Free/Open-Source)** — https://libmodbus.org  
   C library for Modbus TCP/RTU. Runs on embedded Linux, RTOS and SBC gateways.
@@ -7020,9 +6886,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **FreeModbus (Embedded Master/Slave)** — https://github.com/armink/FreeModbus_Slave-Master-RTT-STM32  
   Lightweight Modbus RTU/TCP implementation for STM32 and RT-Thread RTOS.
 
----
-
-#### ✅ BACnet (Building Automation / HVAC)
+##### Ic. BACnet (Building Automation / HVAC)
 
 - **BACnet-Stack (Open-Source C)** — https://github.com/bacnet-stack/bacnet-stack  
   Full BACnet/IP stack in C for embedded controllers, HVAC and building automation.
@@ -7032,29 +6896,23 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **BACnet-SC Tools (Secure BACnet)** — https://github.com/bacnet-stack/bacnet-sc  
   Implements BACnet Secure Connect (BACnet/SC) with secure TLS tunnels for modern building automation.
-
----
-
-#### ✅ Wireless M-Bus / Smart Metering
+  
+##### Id. Wireless M-Bus / Smart Metering
 
 - **OpenMBUS (Free/Open-Source)** — https://www.openmbus.org  
   Wireless M-Bus (EN13757/OMS) open-source stack for smart metering, sub-GHz radios and gateways.
 
----
-
-#### ✅ Industrial MQTT (Sparkplug-B)
+##### Ie. Industrial MQTT (Sparkplug-B)
 
 - **Eclipse Tahu / Sparkplug-B (Free/Open-Source)** — https://github.com/eclipse/tahu  
   Industry-standard MQTT payload specification for SCADA/HMI data models and edge-to-cloud interoperability.
 
----
-
-#### ✅ PROFINET / PROFIBUS Tools
+##### If. PROFINET / PROFIBUS Tools
 
 - **PROFINET Packet Sniffer (Free)** — https://github.com/klonyyy/profinet-sniffer  
   Open-source PROFINET packet analyzer for debugging and industrial protocol diagnostics.
 
-### 27B. SCADA Dashboards (Free / Community Editions)
+#### II. SCADA Dashboards (Free / Community Editions)
 
 - **ScadaBR (Free/Open-Source)** — http://www.scadabr.com.br  
   Web-based SCADA built on Java. Supports Modbus, OPC, BACnet, MQTT and charts. Self-host friendly for industrial monitoring.
@@ -7101,7 +6959,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **PVServer / OpenEMS UI** — part of OpenEMS ecosystem  
   Web SCADA dashboard for DER, microgrid and industrial energy systems.
 
-### 27C. PLC Simulators, Ladder Logic & Virtual PLCs (Free / Open-Source)
+#### III. PLC Simulators, Ladder Logic & Virtual PLCs (Free / Open-Source)
 
 - **OpenPLC (Free/Open-Source Virtual PLC)** — https://www.openplcproject.com  
   Fully open-source IEC 61131-3 runtime supporting Ladder, ST, FBD, and Modbus. Works on Linux, Windows, Raspberry Pi and ESP32.
@@ -7148,9 +7006,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **ModRSsim2 (Free)** — https://sourceforge.net/projects/modrssim2  
   Modbus RTU/TCP slave simulator for testing PLC masters, HMIs and SCADA polling.
 
-### 27D. IIoT Edge Gateways & Industrial Protocol Tools (Free / Open-Source)
+#### IV. IIoT Edge Gateways & Industrial Protocol Tools (Free / Open-Source)
 
-#### ✅ Edge Gateway Frameworks (Linux / SBC / Industrial PCs)
+##### IVa. Edge Gateway Frameworks (Linux / SBC / Industrial PCs)
 
 - **EdgeX Foundry (Free/Open-Source)** — https://www.edgexfoundry.org  
   Full edge platform: device services, MQTT, Modbus, BACnet, REST, rules engine, storage and dashboards. Runs on Pi, x86, industrial gateways.
@@ -7176,9 +7034,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Home Assistant OS (Free/Open)** — https://www.home-assistant.io  
   Popular automation OS but also used in industrial labs: Modbus, BACnet, KNX, Zigbee, MQTT, dashboards.
 
----
-
-#### ✅ IIoT Protocol Adapters & Translators
+##### IVb. IIoT Protocol Adapters & Translators
 
 - **Node-RED (Free/Open-Source)** — https://nodered.org  
   Low-code automation, MQTT, Modbus, BACnet, OPC-UA, CAN, BLE. Most popular IIoT gateway tool.
@@ -7208,9 +7064,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **LoRaWAN Packet Forwarder (Free/Open)** — Semtech UDP forwarder + Chirpstack gateway OS for industrial LoRa gateways.
 
----
-
-#### ✅ Industrial Protocol Drivers (Free Stacks)
+##### IVc. Industrial Protocol Drivers (Free Stacks)
 
 - **libiec61850 (Free/Open)** — https://libiec61850.com/libiec61850  
   Free IEC 61850 stack for substation automation, IEDs, SCADA, GOOSE and MMS.
@@ -7223,26 +7077,20 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Open62541 + MQTT/Sparkplug Bridge Projects** — community repositories linking OPC-UA → SCADA brokers.
 
----
-
-#### ✅ Edge Database & Data Historian Tools (Free)
+##### IVd. Edge Database & Data Historian Tools (Free)
 
 - **InfluxDB OSS + Telegraf** — free time-series logging on edge gateways.  
 - **TimescaleDB Community Edition** — SQL historian for IIoT assets.  
 - **QuestDB OSS** — real-time time-series DB used in high-speed telemetry.
 
----
-
-#### ✅ Edge ML / Predictive Maintenance Tools (Free/Open)
+##### IVe. Edge ML / Predictive Maintenance Tools (Free/Open)
 
 - **TensorFlow Lite (Free/Open)** — edge on Linux gateways + MCUs.  
 - **OpenVINO Toolkit (Free/Open)** — Intel edge inference for cameras + industrial inspection.  
 - **Edge Impulse Self-Host** — free Docker deployment for small teams.  
 - **MLFlow (Free/Open)** — model versioning + inference pipelines on factories.
 
----
-
-#### ✅ Industrial Gateway OS & Firmware Platforms
+##### IVf. Industrial Gateway OS & Firmware Platforms
 
 - **ChirpStack Gateway OS (Free/Open)** — https://www.chirpstack.io  
   LoRaWAN gateway OS with MQTT, TLS and packet forwarders.
@@ -7257,9 +7105,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Industrial Doppelganger Images (Free)** — many vendors provide Yocto-built images with Modbus/MQTT drivers (Codesys, OpenPLC integration).
 
----
-
-#### ✅ Industrial Network Sniffers & Diagnostics (Free/Open)
+##### IVg. Industrial Network Sniffers & Diagnostics (Free/Open)
 
 - **Wireshark (Free/Open)** — https://wireshark.org  
   Decodes PROFINET, EtherCAT, Modbus, IEC104, DNP3, MQTT, BACnet and CAN.
@@ -7272,27 +7118,22 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenPOWERLINK Wireshark Plugins** — free to inspect POWERLINK traffic.
 
----
-
-#### ✅ Industrial Edge Automation / Rules Engines (Free)
+##### IVh. Industrial Edge Automation / Rules Engines (Free)
 
 - **Node-RED (Open-Source)** — flows, alarms, dashboards, MQTT/Modbus/OPC-UA.  
 - **Eclipse Kura (Free/Open)** — full industrial gateway stack with VPN, OPC-UA, watchdogs, mDNS, MQTT, digital IO.  
 - **ThingsBoard Rule Engine (Community)** — alarms, triggers, scripting at edge.
 
----
-
-#### ✅ Small Enterprise / Startup-Friendly Free Tiers
+##### IVi. Small Enterprise / Startup-Friendly Free Tiers
 
 - **Balena Cloud Free Tier** — deploy up to a few devices for free.  
 - **AWS IoT Greengrass (Free Tier)** — edge compute + ML inference.  
 - **Azure IoT Edge (Free Tier)** — containerized edge modules, OPC-UA, Modbus, MQTT connectors.  
 - **HiveMQ Edge (Free)** — OPC-UA → MQTT gateway.
 
----
-### 27E. MQTT Sparkplug-B, Industrial Data Historians & Asset Modeling (Free / Open-Source)
+#### V. MQTT Sparkplug-B, Industrial Data Historians & Asset Modeling (Free / Open-Source)
 
-#### ✅ MQTT Sparkplug-B Stacks & Gateways (Free/Open)
+##### Va. MQTT Sparkplug-B Stacks & Gateways (Free/Open)
 
 - **Eclipse Tahu (Sparkplug-B Reference Implementation)** — https://github.com/eclipse/tahu  
   Official Sparkplug-B payload + state model. Used by SCADA, historians, PLC gateways and IIoT platforms.
@@ -7311,9 +7152,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **MQTT-Engine for Ignition (Free Community)** — Adds intelligent Sparkplug-B tag handling on gateways and servers.
 
----
-
-#### ✅ Industrial Historians / Time-Series Storage (Free/Open)
+##### Vb. Industrial Historians / Time-Series Storage (Free/Open)
 
 - **InfluxDB OSS (Time-Series Historian)** — https://www.influxdata.com  
   Classic free historian for IIoT: MQTT/Modbus → Telegraf → Influx → Grafana.
@@ -7333,9 +7172,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenTSDB (Free/Open)** — https://github.com/OpenTSDB  
   Time-series on top of HBase for large utility/substation logging projects.
 
----
-
-#### ✅ Industrial Asset Models / Semantics (Free/Open)
+##### Vc. Industrial Asset Models / Semantics (Free/Open)
 
 - **Asset Administration Shell (AASX / Eclipse BaSyx)** — https://www.eclipse.org/basyx  
   Open-source Industry 4.0 digital asset modeling, OPC-UA, REST, dashboards and simulators.
@@ -7351,9 +7188,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenHAB Semantic Model** — https://www.openhab.org  
   Semantic tagging of industrial/building entities, alarms and automation flows.
 
----
-
-#### ✅ Industrial ETL / Telemetry Pipelines (Free)
+##### Vd. Industrial ETL / Telemetry Pipelines (Free)
 
 - **OpenTelemetry Collector (Free/Open)** — https://opentelemetry.io  
   Collect sensor data via MQTT/REST, transform and push to timeseries DBs. Free and self-hostable.
@@ -7370,9 +7205,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **NiFi (Free/Open)** — https://nifi.apache.org  
   Industrial ETL and streaming pipelines for high-volume telemetry and historian feeds.
 
----
-
-#### ✅ Industrial Analytics / Predictive Tools (Free/Open)
+##### Ve. Industrial Analytics / Predictive Tools (Free/Open)
 
 - **Grafana OSS** — https://grafana.com/oss  
   Free dashboards, alarms and drilling for historians.
@@ -7391,20 +7224,21 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Open-Source Predictive Maintenance Repos** — Python notebooks + models for vibration, anomaly detection, power quality forecasting (GitHub community).
 
----
-
-#### ✅ Complete IIoT Historian Bundles (Self-Host)
+##### Vf. Complete IIoT Historian Bundles (Self-Host)
 
 - **TIG Stack (Telegraf + InfluxDB + Grafana)** — free docker templates for SCADA historians.  
 - **Druid + Superset** — open-source analytics for grid, energy and utility telemetry.  
 - **QuestDB + Grafana** — high-speed historian with dashboards.  
 - **OpenTelemetry + Prometheus + Grafana** — free metric logging + visualization.
 
----
 
-### 28A. Digital Twin Frameworks (Open-Source / Free Cloud Tiers)
+## F) Simulation, Digital Twin & Documentation
 
-#### ✅ Full Digital Twin Platforms (Free / Open-Source)
+### 28. Digital Twin, Simulation, and Predictive Analytics Frameworks
+
+#### I. Digital Twin Frameworks (Open-Source / Free Cloud Tiers)
+
+##### Ia. Full Digital Twin Platforms (Free / Open-Source)
 
 - **Eclipse Ditto (Free/Open-Source)** — https://www.eclipse.org/ditto  
   Digital twin platform for IoT devices, sync state, commands, MQTT/HTTP/WS APIs. Used with Kubernetes and edge gateways.
@@ -7427,9 +7261,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Gazebo / Ignition Robotics (Free/Open-Source)** — https://gazebosim.org  
   High-fidelity physics simulation for robots, AGVs and mobile industrial systems – often used for digital twins of factories.
 
----
-
-#### ✅ Industrial Cloud Digital Twins (Free Community / Free Tiers)
+##### Ib. Industrial Cloud Digital Twins (Free Community / Free Tiers)
 
 - **Azure Digital Twins (Free Tier)** — https://azure.microsoft.com  
   Graph-based digital twin modeling for factories, sensors, telemetry and BACnet/OPC-UA ingestion. Free transactions/month.
@@ -7442,9 +7274,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Bosch IoT Things (Free Developer Tier)** — https://bosch-iot-suite.com  
   Digital twins, device registry, semantics and MQTT connectivity on a free developer account.
 
----
-
-#### ✅ Simulation + Digital Twin Integration (Free/Open)
+##### Ic. Simulation + Digital Twin Integration (Free/Open)
 
 - **Simulink Community Models (Free Examples)** — many open-source industrial models for co-simulation and digital twins.
 
@@ -7459,9 +7289,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenROAD / OpenEDA Twins** — open-source chip design digital twins for EDA workflows and hardware verification.
 
----
-
-#### ✅ AAS, Semantics, Industry 4.0 Digital Twin Tools
+##### Id. AAS, Semantics, Industry 4.0 Digital Twin Tools
 
 - **AASX Package Explorer (Free/Open)** — https://github.com/admin-shell-io/aasx-package-explorer  
   Create, edit and validate Industry 4.0 Asset Administration Shell digital twins.
@@ -7472,10 +7300,8 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **JPS Base Library (Knowledge Graph Twins)** — https://github.com/cambridge-cares/TheWorldAvatar  
   Knowledge-graph based digital twins for industrial plants and smart cities.
-
----
-
-#### ✅ Real-Time Co-Simulation (Free/Open)
+  
+##### Ie. Real-Time Co-Simulation (Free/Open)
 
 - **Open Simulation Platform (OSP)** — https://opensimulationplatform.com  
   Co-simulation for maritime, mechanical and cyber-physical digital twins.
@@ -7486,9 +7312,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **mosaik (Free/Open-Source)** — https://mosaik.offis.de  
   Large-scale co-simulation for energy grids and smart-factory digital twins.
 
----
-
-#### ✅ Physics-Based 3D Twin Engines (Free/Open)
+##### If. Physics-Based 3D Twin Engines (Free/Open)
 
 - **Bullet Physics (Free/Open)** — https://github.com/bulletphysics/bullet3  
   Real-time physics engine used in Gazebo, robotics and industrial digital twins.
@@ -7498,10 +7322,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenCascade (Free/Open)** — https://www.opencascade.com  
   3D CAD kernel used to simulate geometry and kinematics in mechanical twins.
 
----
-### 28B. Physics-Based Simulation Tools (Free / Open-Source)
+#### II. Physics-Based Simulation Tools (Free / Open-Source)
 
-#### ✅ Multi-Physics Simulation (Thermal, Mechanical, EM, Fluids)
+##### IIa. Multi-Physics Simulation (Thermal, Mechanical, EM, Fluids)
 
 - **OpenFOAM (Free/Open-Source CFD)** — https://openfoam.org  
   Industry-grade computational fluid dynamics for airflow, cooling, thermal simulations, aerodynamics and HVAC twins.
@@ -7518,9 +7341,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **SU2 (Free/Open)** — https://su2code.github.io  
   Aerospace-grade CFD + adjoint optimization. Used in academic/industrial design and digital twins of moving systems.
 
----
-
-#### ✅ Electromagnetic / RF / Power Systems Simulation (Free / Open)
+##### IIb. Electromagnetic / RF / Power Systems Simulation (Free / Open)
 
 - **ngspice (Free/Open-Source SPICE)** — http://ngspice.sourceforge.net  
   Circuit-level simulation for analog, power electronics, SMPS and EMI analysis.
@@ -7536,9 +7357,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **PowerFactory Education Edition (Free Academic)** — limited free edition for grid and power system studies.
 
----
-
-#### ✅ Robotics & Cyber-Physical Simulation
+##### IIc. Robotics & Cyber-Physical Simulation
 
 - **Gazebo / Ignition Robotics (Free/Open)** — https://gazebosim.org  
   3D physics engine with sensors, actuators, SLAM and robot control. Used for digital twins of AGVs and factory robots.
@@ -7552,9 +7371,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Open Dynamics Engine (Free/Open)** — http://www.ode.org  
   Rigid-body physics engine used in robotics, industrial twins and control algorithm prototyping.
 
----
-
-#### ✅ Mechanical & Kinematics Simulation
+##### IId. Mechanical & Kinematics Simulation
 
 - **MBDyn (Free/Open-Source)** — http://www.mbdyn.org  
   Multibody dynamics simulator for mechanical systems, linkages, vehicles, manipulators.
@@ -7567,10 +7384,8 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Dynawo (Free/Open)** — https://dynawo.github.io  
   Power system dynamic simulations for grid and industrial energy management twins.
-
----
-
-#### ✅ Real-Time Simulation / HIL (Free & Community)
+  
+##### IIe. Real-Time Simulation / HIL (Free & Community)
 
 - **OpenRTI (HLA RTI – Free/Open)** — https://github.com/open-rti/openrti  
   Real-time infrastructure for distributed co-simulation (HLA standard). Used for cyber-physical twin research.
@@ -7580,9 +7395,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **RT-LAB Community (Free Limited)** — real-time simulation for control and power electronics education.
 
----
-
-#### ✅ Digital Manufacturing / Factory Flow Simulation
+##### IIF. Digital Manufacturing / Factory Flow Simulation
 
 - **FlexSim Express (Free Edition)** — https://www.flexsim.com  
   Factory layout, conveyor flow, warehouse simulation — limited free but useful for prototyping twins.
@@ -7593,19 +7406,16 @@ Local India EMS can also provide these with MOQ negotiation.
 - **SimPy (Free/Open)** — https://simpy.readthedocs.io  
   Python discrete-event simulation for modeling industrial processes, queues, conveyors and AGVs.
 
----
-
-#### ✅ Thermal + Mechanical for Electronics
+##### IIg. Thermal + Mechanical for Electronics
 
 - **OpenRadioss (Free/Open)** — https://www.openradioss.org  
   Structural and crash simulation, used in mechanical shock/vibration digital twins.
 
 - **Thermal Desktop Lite / Open Source Heat Transfer Tools** — community tools for heat flow modeling in electronics & enclosures.
 
----
-### 28C. IT/OT Integration Tools (Open-Source / Free-Tier) for Digital Twins
+#### III. IT/OT Integration Tools (Open-Source / Free-Tier) for Digital Twins
 
-#### ✅ OT → IT Bridges (OPC-UA, Modbus, BACnet, CAN → Cloud)
+##### IIIa. OT → IT Bridges (OPC-UA, Modbus, BACnet, CAN → Cloud)
 
 - **Node-RED (Free/Open-Source)** — https://nodered.org  
   Industry-favorite low-code integration for Modbus, BACnet, OPC-UA, MQTT, Sparkplug-B, REST, SQL and dashboards.
@@ -7631,9 +7441,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Can-utils / SocketCAN (Free/Open)** — https://github.com/linux-can/can-utils  
   Linux CAN bus interface for logging, control, gateways and simulation.
 
----
-
-#### ✅ Data Pipelines for Telemetry → Digital Twins
+##### IIIb. Data Pipelines for Telemetry → Digital Twins
 
 - **OpenTelemetry Collector (Free/Open)** — https://opentelemetry.io  
   Moves telemetry from edge devices to cloud historians, Prometheus, Grafana, Timescale, etc.
@@ -7653,9 +7461,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **MQTT Sparkplug-B (Eclipse Tahu)** — https://github.com/eclipse/tahu  
   Standard payload for industrial telemetry, gateway health, alarms and digital twin state sync.
 
----
-
-#### ✅ Industrial Connectors & Middleware
+##### IIIc. Industrial Connectors & Middleware
 
 - **HiveMQ Edge (Free Edition)** — https://www.hivemq.com/editions/edge  
   OPC-UA → MQTT bridge, Sparkplug-B support, secure edge-to-cloud messaging.
@@ -7674,9 +7480,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Eclipse Mita / Edgex Device Services** — OT connectors for various sensors and PLCs.
 
----
-
-#### ✅ Industrial Identity, Registry, Digital Thread
+##### IIId. Industrial Identity, Registry, Digital Thread
 
 - **Eclipse Ditto (Free/Open)** — https://www.eclipse.org/ditto  
   Sync device shadows, commands and asset state; ideal twin integration from field data.
@@ -7689,9 +7493,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Asset Administration Shell Tooling (Free)** — Industry 4.0 AAS metadata exchange, OPC-UA gateways, REST endpoints.
 
----
-
-#### ✅ Cloud-Free / Air-Gapped IT/OT Integration
+##### IIIe. Cloud-Free / Air-Gapped IT/OT Integration
 
 - **Node-RED on Industrial SBCs / IPCs** — full offline workflows for Modbus → SQLite → Grafana dashboards.
 
@@ -7701,20 +7503,16 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenPBS / SLURM** — job scheduling and compute orchestration in private industrial clusters (HPC digital twins).
 
----
-
-#### ✅ Protocol Simulators for IT/OT Testing
+##### IIIf. Protocol Simulators for IT/OT Testing
 
 - **ModRSsim2 (Free)** — Modbus slave simulator for SCADA/PLC testing.  
 - **QModMaster (Free/Open)** — Modbus master simulator + register visualization.  
 - **open62541 Server/Client Simulators** — OPC-UA test servers for OT pipelines.  
 - **bacnet-stack tools** — BACnet/IP simulators and routers.
 
----
+#### IV. Cyber-Physical Modeling Tools (Free / Open-Source)
 
-### 28D. Cyber-Physical Modeling Tools (Free / Open-Source)
-
-#### ✅ Cyber-Physical Systems (CPS) Modeling & Co-Simulation
+##### IVa. Cyber-Physical Systems (CPS) Modeling & Co-Simulation
 
 - **OpenModelica (Free/Open-Source)** — https://openmodelica.org  
   Unified modeling of mechanics, electronics, thermal and control systems. Core CPS tool for co-simulation and real-time twins.
@@ -7740,9 +7538,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Webots (Free/Open)** — https://cyberbotics.com  
   Real-time robot + CPS simulations for automated handling, AMRs and cyber-physical factories.
 
----
-
-#### ✅ Control Systems Simulation (Free/Open)
+##### IVb. Control Systems Simulation (Free/Open)
 
 - **Scilab + Xcos (Free/Open-Source)** — https://www.scilab.org  
   Block-diagram control modeling similar to Simulink. Used to model CPS involving motors, drives, converters and PLC logic.
@@ -7755,9 +7551,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **FREEMAT (Free)** — MATLAB-like environment used in teaching control + CPS math.
 
----
-
-#### ✅ Discrete-Event & System-Level CPS Simulation
+##### IVc. Discrete-Event & System-Level CPS Simulation
 
 - **SimPy (Free/Open)** — https://simpy.readthedocs.io  
   Discrete-event CPS simulator for manufacturing flows, conveyor automation, machine coordination, transport & AGV fleets.
@@ -7774,9 +7568,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **SUMO (Free/Open)** — https://www.eclipse.org/sumo  
   Traffic and mobility simulator for autonomous cyber-physical systems, AV fleets and logistics twins.
 
----
-
-#### ✅ Energy Systems & Power Electronics CPS
+##### IVd. Energy Systems & Power Electronics CPS
 
 - **OpenDSS (Free/Open)** — https://github.com/dss-extensions/OpenDSS  
   Cyber-physical twin of distribution networks, DER, EVs, storage, microgrids and substations.
@@ -7788,9 +7580,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **PLECS Free Student Edition** — simplified CPS simulation for converters, inverters, SMPS, drives and controllers.
 
----
-
-#### ✅ CPS Security, Pen-Testing & Fault Simulation (Free/Open)
+##### IVe. CPS Security, Pen-Testing & Fault Simulation (Free/Open)
 
 - **Conpot (Free/Open-Source SCADA Honeypot)** — https://github.com/mushorg/conpot  
   Emulates PLC/SCADA devices for cyber-attack simulation, digital twin of industrial control systems.
@@ -7802,9 +7592,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenPLC + Attack Repos (Free)** — virtual PLC with cyber-security scenarios and CPS threat research.
 
----
-
-#### ✅ Hardware-in-the-Loop & Real-Time CPS (Community / Free)
+##### IVf. Hardware-in-the-Loop & Real-Time CPS (Community / Free)
 
 - **OpenRTI (Free/Open)** — https://github.com/open-rti/openrti  
   Real-time distributed CPS simulation based on HLA standard.
@@ -7813,10 +7601,9 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **FMI-based co-simulation with Python** — multiple open repositories connecting PLC logic <--> physics models <--> control loops.
 
----
-### 28E. Predictive Maintenance & Analytics (Free / Open-Source)
+#### V. Predictive Maintenance & Analytics (Free / Open-Source)
 
-#### ✅ Vibration, Fault Detection & Machine Health (Free/Open)
+##### Va. Vibration, Fault Detection & Machine Health (Free/Open)
 
 - **Edge Impulse (Self-Host Free Tier / Open Models)** — https://edgeimpulse.com  
   Build vibration and anomaly detection models for motors, pumps, compressors. Free tier + on-prem Docker for small teams.
@@ -7845,9 +7632,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenEIS (Open Energy Information System)** — https://github.com/openEIS/openEIS  
   Analytics for HVAC, industrial energy systems, fault detection and optimization.
 
----
-
-#### ✅ Data Pipelines: Ingestion → Feature Extraction → Models
+##### Vb. Data Pipelines: Ingestion → Feature Extraction → Models
 
 - **OpenTelemetry Collector (Free/Open)** — https://opentelemetry.io  
   Collect PLC/MQTT/REST sensor data and route to Prometheus, Influx, Kafka or ML services.
@@ -7861,9 +7646,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Fluent Bit (Free/Open)** — https://fluentbit.io  
   Lightweight log collector for embedded gateways and industrial PCs.
 
----
-
-#### ✅ Time-Series / Predictive Maintenance Databases (Free/Open)
+##### Vc. Time-Series / Predictive Maintenance Databases (Free/Open)
 
 - **InfluxDB OSS** — https://www.influxdata.com  
   Classic historian for vibration, thermal, current sensors with retention and queries.
@@ -7877,9 +7660,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Prometheus (Free/Open)** — https://prometheus.io  
   Metrics + alerts for process control, motors, compressors, valves.
 
----
-
-#### ✅ Analytics & Visualization for Maintenance
+##### Vd. Analytics & Visualization for Maintenance
 
 - **Grafana OSS (Free)** — https://grafana.com/oss  
   Dashboards, alarms, FFT plots, trends, thresholds for equipment monitoring.
@@ -7893,9 +7674,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Redash (Free/Open)** — https://redash.io  
   SQL visualizations for failure logs and SCADA telemetry.
 
----
-
-#### ✅ Asset Monitoring Frameworks (Free / Open-Source)
+##### Ve. Asset Monitoring Frameworks (Free / Open-Source)
 
 - **Eclipse Kapua (Free/Open)** — https://www.eclipse.org/kapua  
   Asset registry, telemetry ingestion, dashboards — supports offline plants and edge deployments.
@@ -7906,29 +7685,25 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenEMS (Free/Open)** — https://github.com/OpenEMS/openems  
   Predictive analytics for energy storage, inverters, microgrids, utility assets.
 
----
-
-#### ✅ Open Datasets & Research Repos (Free)
+##### Vf. Open Datasets & Research Repos (Free)
 
 - **NASA Bearing Vibration Datasets** — widely used for predictive maintenance research.  
 - **Case Western Reserve Bearing Dataset** — classic vibration failure dataset.  
 - **SEU Machine Fault Database** — motor/gearbox failure signals.  
 - **PHM Society Datasets** — turbofan, battery health, industrial failures.
 
----
-
-#### ✅ Edge ML Deployment (Free/Open)
+##### Vg. Edge ML Deployment (Free/Open)
 
 - **TensorFlow Lite** — deploy vibration & anomaly detection on SBCs.  
 - **ONNX Runtime (Free/Open)** — fast inference on ARM/Linux gateways.  
 - **OpenVINO Toolkit (Free/Open)** — Intel acceleration for cameras and defect inspection.  
 - **TFMicro (Free/Open)** — MCU-level inference for predictive sensors.
 
----
+### 29. Documentation, DevOps, and Quality Tools for Embedded & Hardware Systems
 
-### 29A. Documentation Generators & Technical Writing Tools (Free / Open-Source)
+#### I. Documentation Generators & Technical Writing Tools (Free / Open-Source)
 
-#### ✅ Code & API Documentation
+##### Ia. Code & API Documentation
 
 - **Doxygen (Free/Open-Source)** — https://www.doxygen.nl  
   Industry-standard documentation generator for C/C++/Python/Java. UML diagrams, call graphs, HTML/PDF output.
@@ -7954,9 +7729,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Rustdoc (Free/Open)** — built into Rust toolchain  
   Auto-generate docs from embedded Rust crates with examples, code snippets and search.
 
----
-
-#### ✅ Markdown → Documentation Sites (Free)
+##### Ib. Markdown → Documentation Sites (Free)
 
 - **GitBook Open-Source Templates** — community static site generators for Markdown docs (fully free self-host).  
 - **Docsify (Free/Open)** — https://docsify.js.org  
@@ -7967,10 +7740,8 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Hugo (Free/Open)** — https://gohugo.io  
   Large static site generator with themes for technical documentation.
-
----
-
-#### ✅ Architecture & Diagram Tools (Free/Open)
+  
+##### Ic. Architecture & Diagram Tools (Free/Open)
 
 - **Mermaid (Free/Open)** — https://mermaid.js.org  
   Generate diagrams from text: sequence, flowcharts, class diagrams, state machines, Gantt, ERD — embedded docs friendly.
@@ -7986,9 +7757,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Krocus / Mermaid for MkDocs** — plugins for embedding diagrams in static sites.
 
----
-
-#### ✅ Writing + Versioning Combo (Free/Open)
+##### Id. Writing + Versioning Combo (Free/Open)
 
 - **Obsidian (Free)** — https://obsidian.md  
   Markdown knowledge base for firmware and hardware docs, stored locally with Git sync.
@@ -7999,10 +7768,8 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Typora (Free Trial)** — visual Markdown editor for clean documentation.
 
 - **VSCode Markdown Preview / Mermaid** — write docs alongside code with live preview.
-
----
-
-#### ✅ Books, PDFs & Manuals (Static Output)
+  
+##### Ie. Books, PDFs & Manuals (Static Output)
 
 - **Pandoc (Free/Open)** — https://pandoc.org  
   Convert Markdown → PDF/Word/HTML/LaTeX for user manuals, datasheets and API guides.
@@ -8013,9 +7780,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **TeXstudio (Free/Open)** — https://www.texstudio.org  
   Popular LaTeX editor for structured reports.
 
----
-
-#### ✅ Documentation Site Hosting (Free Tiers)
+##### If. Documentation Site Hosting (Free Tiers)
 
 - **GitHub Pages (Free)** — static hosting of MkDocs, Sphinx, Doxygen and Markdown sites.
 
@@ -8023,9 +7788,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Vercel Free Tier** — deploy documentation websites with SSL + CDN.
 
----
-
-#### ✅ Bonus – Internal Hardware/Firmware Wiki (Free/Open)
+##### Ig. Bonus – Internal Hardware/Firmware Wiki (Free/Open)
 
 - **Wiki.js (Free/Open)** — https://wiki.js.org  
   Markdown-based wiki for engineering teams with Git integration and diagrams.
@@ -8036,10 +7799,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **MediaWiki (Free/Open)** — https://www.mediawiki.org  
   Same engine as Wikipedia; useful for deep technical knowledge bases in R&D teams.
 
----
-### 29B. Version Control, CI/CD for Embedded (Free / Open-Source)
+#### II. Version Control, CI/CD for Embedded (Free / Open-Source)
 
-#### ✅ Source Code Repositories (Free)
+##### IIa. Source Code Repositories (Free)
 
 - **GitHub Free Tier** — https://github.com  
   Unlimited public repos, private repos, GitHub Actions (CI), project boards, issues. Widely used for firmware/hardware projects.
@@ -8056,9 +7818,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **SourceHut (Free/Open Tier)** — https://sourcehut.org  
   Minimal Git hosting with CI and email-based patch workflows.
 
----
-
-#### ✅ CI/CD for Embedded (Free/Open)
+##### IIb. CI/CD for Embedded (Free/Open)
 
 - **GitHub Actions (Free Tier)** — Linux/Windows/macOS runners for building firmware, running unit tests, static analysis, building containers.
 
@@ -8081,9 +7841,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Zuul (Free/Open)** — https://zuul-ci.org  
   CI gate system used in telecom and cloud infrastructure; works well with complex hardware/firmware repos.
 
----
-
-#### ✅ Artifact Management & Firmware Distribution (Free/Open)
+##### IIc. Artifact Management & Firmware Distribution (Free/Open)
 
 - **JFrog Artifactory OSS** — https://jfrog.com/open-source  
   Host firmware binaries, Docker images, packages and artifacts. Free self-hosted OSS edition.
@@ -8094,10 +7852,8 @@ Local India EMS can also provide these with MOQ negotiation.
 - **GitHub Releases / Packages (Free Tier)** — distribute firmware artifacts, build logs and release notes.
 
 - **GitLab Packages / Container Registry (Free)** — store firmware packages, Docker images, OTA binaries.
-
----
-
-#### ✅ Code Review & Collaboration (Free/Open)
+  
+##### IId. Code Review & Collaboration (Free/Open)
 
 - **Gerrit (Free/Open-Source)** — https://www.gerritcodereview.com  
   Code review used extensively in Android, automotive and Linux kernel workflows.
@@ -8110,9 +7866,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **GitHub/GitLab code review tools (Free)** — comments, suggestions, PR approvals, branch protections.
 
----
-
-#### ✅ Build Automation & Tooling
+##### IIe. Build Automation & Tooling
 
 - **CMake (Free/Open)** — https://cmake.org  
   Standard build system for embedded C/C++ projects. Integrates with Ninja, GCC, Clang, etc.
@@ -8126,9 +7880,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Yocto Project BitBake (Free/Open)** — https://yoctoproject.org  
   Build system for embedded Linux, images, toolchains and custom packages.
 
----
-
-#### ✅ Self-Host CI/CD for Air-Gapped Labs
+##### IIf. Self-Host CI/CD for Air-Gapped Labs
 
 - **GitLab CE + Runners (Free/Open)** — complete DevOps with offline runners for manufacturing plants.
 
@@ -8137,10 +7889,8 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Jenkins (Free/Open)** — integrate hardware-in-loop test rigs, serial flashing, power-cycle testers.
 
 - **Buildbot (Free/Open)** — used for long hardware cycles (RF tests, functional QA, power tests).
-
----
-
-#### ✅ YAML-Pipeline Generators for Embedded
+  
+##### IIg. YAML-Pipeline Generators for Embedded
 
 - **Renovate (Free/Open)** — auto-update dependencies, docker images, toolchains.
 
@@ -8148,9 +7898,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **pre-commit (Free/Open)** — enforce code formatting, linting, commit scans before CI runs.
 
----
-
-#### ✅ Extras: Versioned Documentation & Releases
+##### IIh. Extras: Versioned Documentation & Releases
 
 - **MkDocs + GitHub Pages (Free)** — publish versioned docs per firmware release.
 
@@ -8158,11 +7906,9 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Changelogger / Conventional Commits (Free)** — structured release notes for embedded.
 
----
+#### III. Agile & Hardware Workflow Tools (Free / Open-Tier)
 
-### 29C. Agile & Hardware Workflow Tools (Free / Open-Tier)
-
-#### ✅ Agile / Kanban / Scrum for Hardware & Firmware Teams
+##### IIIa. Agile / Kanban / Scrum for Hardware & Firmware Teams
 
 - **Trello (Free Tier)** — https://trello.com  
   Visual Kanban boards for sprint planning, backlog, QA, release tracking. Useful for hardware BOM tasks, firmware tickets, PCB iterations.
@@ -8188,9 +7934,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **GitLab Boards (Free CE)** — https://gitlab.com  
   Integrated boards, issues, epics, dependencies for hardware-firmware workflows.
 
----
-
-#### ✅ Requirements / Specs / Traceability (Free/Open)
+##### IIIb. Requirements / Specs / Traceability (Free/Open)
 
 - **Doorstop (Free/Open-Source)** — https://doorstop.readthedocs.io  
   Requirements management stored as files in Git. Perfect for firmware specs, PCB requirements and traceability.
@@ -8205,9 +7949,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Mermaid in GitHub/GitLab (Free)** — requirements + workflows + pipelines in docs.
 
----
-
-#### ✅ BOM, Change Management & Hardware Workflows (Free/Open)
+##### IIIc. BOM, Change Management & Hardware Workflows (Free/Open)
 
 - **PartKeepr (Free/Open-Source)** — http://www.partkeepr.org  
   Inventory + parts tracking for PCB design and lab stock.
@@ -8219,9 +7961,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenPDN / OMT Tools** — community open hardware lifecycle management.
 
----
-
-#### ✅ Team Collaboration / Documentation (Free/Open)
+##### IIId. Team Collaboration / Documentation (Free/Open)
 
 - **Wiki.js (Free/Open)** — https://wiki.js.org  
   Internal engineering wiki with Markdown, diagrams and Git sync.
@@ -8235,9 +7975,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Obsidian (Free)** — https://obsidian.md  
   Markdown note-taking with Git for schematics, debug logs, test results.
 
----
-
-#### ✅ Sprint Reporting, Issues & QA
+##### IIIe. Sprint Reporting, Issues & QA
 
 - **Redmine (Free/Open-Source)** — https://www.redmine.org  
   Issue tracking, Gantt charts, wikis, release planning for hardware/testing cycles.
@@ -8250,9 +7988,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **GitHub Issues (Free)** — default option for firmware teams with Actions for CI, labeling, milestones.
 
----
-
-#### ✅ Hardware Change / Revision Control
+##### IIIf. Hardware Change / Revision Control
 
 - **Git + KiCad (Free/Open)** — diff-able hardware repo with revision tracking.
 
@@ -8260,9 +7996,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **GitLab Releases & Artifacts (Free)** — version hardware output files per commit.
 
----
-
-#### ✅ Cloud-Enabled Collaboration (Free Tier)
+##### IIIg. Cloud-Enabled Collaboration (Free Tier)
 
 - **Figma Free Tier** — mechanical enclosure collaboration diagrams and UI mockups for HMIs.
 
@@ -8270,11 +8004,9 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Google Docs/Sheets (Free)** — shareable design docs, BOMs and quality checklists.
 
----
+#### IV. Requirements Tracking, FMEA, Issue Tracking (Free / Open)
 
-### 29D. Requirements Tracking, FMEA, Issue Tracking (Free / Open)
-
-#### ✅ Requirements Management (Free / Open-Source / Free Tier)
+##### Iva. Requirements Management (Free / Open-Source / Free Tier)
 
 - **Doorstop (Free/Open-Source)** — https://doorstop.readthedocs.io  
   Store requirements as plain text in Git. Full traceability between specs, tests, firmware commits and releases.
@@ -8293,10 +8025,8 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Alloy (Formal Spec – Free/Open)** — https://alloytools.org  
   Model safety-critical requirements and system constraints formally.
-
----
-
-#### ✅ FMEA, Risk Analysis, Safety Tools (Free/Open)
+  
+##### IVb. FMEA, Risk Analysis, Safety Tools (Free/Open)
 
 - **Xfmea Free Templates (Community)** — community Excel/Sheets templates for FMEA & DFMEA workflows.
 
@@ -8313,9 +8043,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **FTA Tools in Python (Free/Open)** — multiple GitHub repos performing failure modeling and Monte-Carlo reliability analysis.
 
----
-
-#### ✅ Issue Tracking & Test Tracking (Free/Open)
+##### IVc. Issue Tracking & Test Tracking (Free/Open)
 
 - **Redmine (Free/Open-Source)** — https://www.redmine.org  
   Complete issue tracking, Gantt, wiki, release planning. Used in firmware labs and manufacturing QA.
@@ -8338,9 +8066,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Jira Free Plan** — https://www.atlassian.com/software/jira  
   Limited free tier for small teams with boards, epics and bug tracking.
 
----
-
-#### ✅ Traceability / Verification (Free/Open)
+##### IVd. Traceability / Verification (Free/Open)
 
 - **Robot Framework (Free/Open)** — https://robotframework.org  
   Test automation for embedded, REST APIs, UI, hardware-in-loop setups.
@@ -8354,9 +8080,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Check (C unit testing – Free/Open)** — https://libcheck.github.io/check  
   Unit test framework for C code in embedded projects.
 
----
-
-#### ✅ Safety / Compliance Documentation Generators (Free/Open)
+##### IVe. Safety / Compliance Documentation Generators (Free/Open)
 
 - **Pandoc + LaTeX** — generate compliance docs, safety manuals, hardware validation reports.
 
@@ -8364,11 +8088,9 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Sphinx + Breathe** — combine code/API docs with requirements for complete traceability.
 
----
+#### V. PCB & Firmware Quality, Linting, Static Analysis Tools (Free / Open-Source)
 
-### 29E. PCB & Firmware Quality, Linting, Static Analysis Tools (Free / Open-Source)
-
-#### ✅ Firmware Linting, Code Quality & Static Analysis (Free/Open)
+##### Va. Firmware Linting, Code Quality & Static Analysis (Free/Open)
 
 - **Cppcheck (Free/Open)** — http://cppcheck.sourceforge.net  
   Static analysis for C/C++: detects memory leaks, null dereferences, bounds issues. Widely used in embedded CI pipelines.
@@ -8395,9 +8117,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **ESLint / Pylint / Rust Clippy (Free/Open)** — free linters for embedded dashboards, Python scripts, Rust firmware.
 
----
-
-#### ✅ MISRA, CERT, Safety Compliance – Free Tools
+##### Vb. MISRA, CERT, Safety Compliance – Free Tools
 
 - **clang-tidy MISRA Profiles (Community Free)** — unofficial rule checks for MISRA-C.
 
@@ -8407,9 +8127,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Open-Source MISRA checkers in GitHub CI** — multiple action templates applying MISRA & CERT scans.
 
----
-
-#### ✅ Unit Testing Frameworks (Free/Open)
+##### Vc. Unit Testing Frameworks (Free/Open)
 
 - **Unity (Free/Open)** — http://www.throwtheswitch.org/unity  
   Microcontroller-focused C unit test framework. Works with CMock and Ceedling.
@@ -8425,10 +8143,8 @@ Local India EMS can also provide these with MOQ negotiation.
 - **CTest (Free/Open)** — part of CMake; CI-friendly test runner.
 
 - **PyTest (Free/Open)** — Python test automation for HAL simulators, hardware-in-loop scripts.
-
----
-
-#### ✅ Code Coverage & Profiling (Free/Open)
+  
+##### Vd. Code Coverage & Profiling (Free/Open)
 
 - **gcov / lcov (Free/Open)** — GCC code coverage and HTML reporting. Ideal for embedded unit tests.
 
@@ -8436,9 +8152,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Valgrind (Free/Open)** — detect memory corruption, leaks, undefined behavior in host builds.
 
----
-
-#### ✅ Hardware/PCB Quality & Rule Checking (Free/Open)
+##### Ve. Hardware/PCB Quality & Rule Checking (Free/Open)
 
 - **KiCad DRC/ERC (Free/Open)** — https://kicad.org  
   Electrical rule checking, net violations, clearances, differential pairs. Free for PCB design quality.
@@ -8458,9 +8172,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **KiCad StepUp (Free)** — mechanical clearance validation with FreeCAD.
 
----
-
-#### ✅ Hardware Test Automation (Free/Open)
+##### Vf. Hardware Test Automation (Free/Open)
 
 - **OpenHTF (Free/Open)** — https://google.github.io/openhtf  
   Production test automation for boards, fixtures, DUT stimulus, functional validation.
@@ -8469,9 +8181,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenAPS / Hardware-in-loop scripts** — community frameworks for automated device testing.
 
----
-
-#### ✅ Continuous Quality Dashboards (Free)
+##### Vg. Continuous Quality Dashboards (Free)
 
 - **SonarQube Community + GitHub Actions** — free quality gates for C/C++ firmware.
 
@@ -8481,10 +8191,11 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Coveralls Free Tier** — free code coverage for open-source firmware.
 
----
-### 30A. Free Embedded Books / PDFs / Online Material
+### 30. Free Learning, Research, and Simulation Resources for Embedded & IoT Systems
 
-#### ✅ MCU & Embedded Systems Books (Free/PDF)
+#### I. Free Embedded Books / PDFs / Online Material
+
+##### Ia. MCU & Embedded Systems Books (Free/PDF)
 
 - **“The Definitive Guide to ARM Cortex-M0/M3/M4” (Free PDFs online via vendors)**  
   Vendor-distributed editions covering architecture, registers, interrupts, firmware and RTOS basics.
@@ -8509,9 +8220,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **“Digital Design” (M. Mano) – University-provided PDFs**  
   Widely shared for logic design fundamentals.
 
----
-
-#### ✅ Linux, IoT & Networking Books (Free)
+##### Ib. Linux, IoT & Networking Books (Free)
 
 - **“Linux From Scratch (LFS)” (Free/Open)** — https://www.linuxfromscratch.org  
   Step-by-step instructions to build Linux from source. Perfect for embedded Linux developers.
@@ -8529,9 +8238,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **“Embedded Linux Primer” (Free excerpts)** — several free legally hosted chapters online.
 
----
-
-#### ✅ RTOS, Firmware Architecture & Drivers
+##### Ic. RTOS, Firmware Architecture & Drivers
 
 - **FreeRTOS Reference Manual (Free PDF)** — https://www.freertos.org  
   Official kernel API documentation, task scheduling, memory, MCU ports.
@@ -8548,9 +8255,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **STM32, NXP, TI, Renesas, Infineon Training PDFs (free vendor portals)**  
   Driver tutorials, HAL examples, power modes, bootloaders.
 
----
-
-#### ✅ Electronics, Power & PCB Design (Free)
+##### Id. Electronics, Power & PCB Design (Free)
 
 - **“All About Circuits” (Free Online Book)** — https://www.allaboutcircuits.com  
   Electronics fundamentals, circuits, microcontrollers and PCB basics.
@@ -8564,9 +8269,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Switching Power Supply Design (TI/NXP/ADI Free Guides)** — vendor reference books on SMPS, DC-DC, EMI.
 
----
-
-#### ✅ Robotics & Control (Free)
+##### Ie. Robotics & Control (Free)
 
 - **“Modern Robotics” (MIT Press) – Free PDF** — http://hades.mech.northwestern.edu/index.php/Modern_Robotics  
   Kinematics, dynamics, motion planning, control — gold standard.
@@ -8575,10 +8278,8 @@ Local India EMS can also provide these with MOQ negotiation.
   Full open robot middleware documentation.
 
 - **MIT Control Theory Notes (Free PDFs)** — openly hosted lecture collections.
-
----
-
-#### ✅ Cybersecurity, IoT Security & Cryptography (Free)
+  
+##### If. Cybersecurity, IoT Security & Cryptography (Free)
 
 - **“Crypto101” (Free/Open Book)** — https://crypto101.io  
   Introduction to cryptography, ciphers, MAC, hashes, crypto attacks.
@@ -8590,9 +8291,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **WolfSSL / MBedTLS Docs (Free/Open)** — embedded TLS, secure boot, crypto APIs.
 
----
-
-#### ✅ MCU Vendor Training Books & Handbooks
+##### Ig. MCU Vendor Training Books & Handbooks
 
 - **STM32 Blue Pill & Nucleo Labs (Free PDFs & Guides)** — community manuals & HAL tutorials.
 
@@ -8605,11 +8304,9 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Microchip Developer Help (Free)** — PIC/AVR/ARM tutorials, app notes, books.
 
----
+#### II. Free MCU Vendor Training / Learning Portals
 
-### 30B. Free MCU Vendor Training / Learning Portals
-
-#### ✅ ESP32 / ESP-IDF / RISC-V (Espressif)
+##### IIa. ESP32 / ESP-IDF / RISC-V (Espressif)
 
 - **Espressif ESP-IDF Docs & API Guides (Free)** — https://docs.espressif.com  
   Full SDK documentation, examples, Wi-Fi/BLE stacks, OTA, drivers, secure boot, partitioning.
@@ -8619,9 +8316,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **ESP Academy (Community Free)** — curated lectures + practical firmware labs for ESP32/ESP8266.
 
----
-
-#### ✅ STMicroelectronics (STM32 / STM8)
+##### IIb. STMicroelectronics (STM32 / STM8)
 
 - **STM32Cube MCU Training (Free)** — https://www.st.com/en/development-tools/stm32cubemx.html  
   HAL drivers, CubeMX, power modes, middleware, bootloaders, X-CUBE stacks.
@@ -8630,9 +8325,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **STM32 MOOC (Free)** — official free video courses on ARM Cortex-M, RTOS, connectivity and security.
 
----
-
-#### ✅ Nordic Semiconductor (nRF5x / nRF52 / BLE / Zephyr)
+##### IIc. Nordic Semiconductor (nRF5x / nRF52 / BLE / Zephyr)
 
 - **Nordic DevAcademy (Free Online Courses)** — https://academy.nordicsemi.com  
   BLE, Zephyr RTOS, power profiling, security, DFU/OTA, sensor integration.
@@ -8640,9 +8333,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **nRF Connect SDK Docs (Free)** — https://developer.nordicsemi.com  
   BLE Mesh, Thread/Matter, secure boot, OpenThread, LTE-M/NB-IoT examples.
 
----
-
-#### ✅ Texas Instruments (TI – MSP430, C2000, Sitara)
+##### IId. Texas Instruments (TI – MSP430, C2000, Sitara)
 
 - **TI “MCU Academy” (Free)** — https://dev.ti.com  
   Deep training for MSP430, C2000, real-time motor control, DSP, power systems.
@@ -8651,9 +8342,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Power Electronics Training (Free)** — reference designs & SMPS training for industrial/automotive.
 
----
-
-#### ✅ Microchip (PIC / AVR / SAM / PIC32)
+##### IIe. Microchip (PIC / AVR / SAM / PIC32)
 
 - **Microchip Developer Help (Free)** — https://microchipdeveloper.com  
   Tutorials for PIC, AVR, ARM SAM, Harmony, MPLAB X IDE, bootloaders, drivers.
@@ -8662,18 +8351,14 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Atmel Software Framework Legacy Docs (Free)** — still widely used for AVR and Cortex-M0+.
 
----
-
-#### ✅ NXP (Kinetis, LPC, i.MX, FreeRTOS)
+##### IIf. NXP (Kinetis, LPC, i.MX, FreeRTOS)
 
 - **NXP eLearning Portal (Free)** — https://nxp.com  
   Cortex-M firmware, security, Matter, MCUXpresso, FreeRTOS and USB stacks.
 
 - **MCUXpresso SDK + Examples (Free)** — device drivers, middleware, RTOS examples, power modes, TrustZone.
-
----
-
-#### ✅ Renesas (RL78, RX, RA, Synergy)
+  
+##### IIg. Renesas (RL78, RX, RA, Synergy)
 
 - **Renesas Online Training (Free)** — https://www.renesas.com  
   Modules on RTOS, security, power efficiency, toolchains, Bluetooth LE.
@@ -8682,44 +8367,34 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Renesas University Program (Free)** — slides, labs and teaching kits.
 
----
-
-#### ✅ Infineon (PSoC, XMC, Aurix, Wi-Fi/BLE)
+##### IIh. Infineon (PSoC, XMC, Aurix, Wi-Fi/BLE)
 
 - **Infineon Developer Training (Free)** — https://www.infineon.com/cms/en/training  
   PSoC, XMC motor control, Wi-Fi, BLE, Matter, hardware security.
 
 - **ModusToolbox Code Examples (Free)** — drivers, connectivity, OTA, cloud.
 
----
-
-#### ✅ Silicon Labs (EFR32, Zigbee, Matter)
+##### IIi. Silicon Labs (EFR32, Zigbee, Matter)
 
 - **Silabs Training Portal (Free)** — https://silabs.com  
   Zigbee, Matter, Thread, OpenThread, RTOS, Secure Boot, PSA-Level security.
 
 - **Simplicity Studio Labs (Free)** — onboarding for EFR32 with full examples.
 
----
-
-#### ✅ Raspberry Pi & RP2040 (Pico)
+##### IIj. Raspberry Pi & RP2040 (Pico)
 
 - **Pico C SDK Book (Free PDF)** — https://www.raspberrypi.com/documentation/microcontrollers  
   GPIO, PIO, DMA, C/C++ firmware development.
 
 - **Pico Python SDK Docs (Free)** — MicroPython training for beginners.
 
----
-
-#### ✅ STM32, ESP32, nRF & TI Community Labs (Free)
+##### Ik. STM32, ESP32, nRF & TI Community Labs (Free)
 
 - Thousands of open GitHub labs + tutorials teaching drivers, RTOS, MQTT, BLE, OTA and cloud integration.
 
----
+#### III. Free IoT Security Courses, Bootcamps & Certifications
 
-### 30C. Free IoT Security Courses, Bootcamps & Certifications
-
-#### ✅ Official / Government / Standards Bodies
+##### IIIa. Official / Government / Standards Bodies
 
 - **ENISA IoT Security Training (Free PDFs & Videos)** — https://www.enisa.europa.eu  
   Courses and guidelines on embedded security, secure update, key management, supply-chain risks.
@@ -8733,9 +8408,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **IoT Security Foundation (Free Resources)** — https://iotsecurityfoundation.org  
   Free rules, checklists, compliance overviews, secure design principles for embedded devices.
 
----
-
-#### ✅ Embedded Security Courses (Free / Open)
+##### IIIb. Embedded Security Courses (Free / Open)
 
 - **CyberSecurityBase (Free Course)** — University of Helsinki  
   Covers secure software development, threat modeling, crypto mistakes and mitigations.
@@ -8749,9 +8422,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Nordic Semiconductor Security Training (Free)** — pairing, bonding, BLE security, confidentiality and OTA DFU signing.
 
----
-
-#### ✅ Firmware & Reverse Engineering Training (Free)
+##### IIIc. Firmware & Reverse Engineering Training (Free)
 
 - **Ghidra Courses (Free/Open)** — https://ghidra-sre.org  
   Reverse engineering basics for firmware, ELF binaries, RTOS images.
@@ -8762,9 +8433,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Project Zero Write-ups (Free)** — deep dives into real firmware vulnerabilities, secure boot bypasses.
 
----
-
-#### ✅ Wireless Security (Free)
+##### IIId. Wireless Security (Free)
 
 - **HackRF & SDR Security Tutorials (Free/Open)** — replay attacks, protocol fuzzing, sub-GHz IoT traffic.
 
@@ -8772,9 +8441,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **BLE Security Tutorials (Free)** — MITM, pairing, bonding, GATT exploits, sniffer tools.
 
----
-
-#### ✅ Secure Boot, TPM, PQC (Free/Open)
+##### IIIe. Secure Boot, TPM, PQC (Free/Open)
 
 - **PQShield & NIST PQC Resources (Free)** — post-quantum crypto overviews, open reference code.
 
@@ -8784,19 +8451,15 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Trusted Firmware-M (Free/Open)** — PSA Certified security framework for Cortex-M.
 
----
-
-#### ✅ University-Level Cybersecurity Courses (Free/PDF)
+##### IIIf. University-Level Cybersecurity Courses (Free/PDF)
 
 - **Stanford CS155 Notes (Free)** — security engineering fundamentals.  
 - **MIT OCW Cybersecurity Courses (Free)** — threat modeling, crypto, secure coding.  
 - **Georgia Tech OMSCS “Intro to Information Security” (Free Videos)** — overview of applied security.
 
----
+#### IV. Free Academic Repositories & Research Papers (Embedded / IoT / Electronics)
 
-### 30D. Free Academic Repositories & Research Papers (Embedded / IoT / Electronics)
-
-#### ✅ University Research Paper Libraries (Free Access / Open Repos)
+##### IVa. University Research Paper Libraries (Free Access / Open Repos)
 
 - **arXiv (Free/Open)** — https://arxiv.org  
   World’s largest open repository of academic papers. Huge sections on embedded systems, IoT security, signal processing, robotics, ML on microcontrollers.
@@ -8815,9 +8478,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Stanford Online / CS Resources (Free Notes)** — free slides & PDFs on computer architecture, networks, security.
 
----
-
-#### ✅ IoT Security, Wireless & Protocol Research
+##### IVb. IoT Security, Wireless & Protocol Research
 
 - **IACR ePrint (Free/Open)** — https://eprint.iacr.org  
   Latest crypto research including PQC, ECC, secure boot, signatures for embedded devices.
@@ -8830,9 +8491,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenWSN Papers & Theses (Free)** — 6TiSCH, TSCH, low-power wireless stacks for industrial IoT.
 
----
-
-#### ✅ Robotics, SLAM & Digital Twin Research
+##### IVc. Robotics, SLAM & Digital Twin Research
 
 - **IEEE RAS Open Access Papers (Free)** — robotics algorithms, SLAM, kinematics, motion planning.
 
@@ -8842,9 +8501,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenDSS / GridLAB-D Papers** — energy digital twin research, smart grid control, forecasting.
 
----
-
-#### ✅ Embedded AI / TinyML Research & Datasets
+##### IVd. Embedded AI / TinyML Research & Datasets
 
 - **TinyML Foundation Resources (Free)** — presentations, whitepapers, model benchmarks, MCU case-studies.
 
@@ -8854,9 +8511,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **NASA Turbofan / Bearing Datasets (Free)** — classic predictive maintenance datasets.
 
----
-
-#### ✅ Hardware Security, Fault Injection & Side-Channel (Free Repos)
+##### IVe. Hardware Security, Fault Injection & Side-Channel (Free Repos)
 
 - **OpenTitan (Free/Open)** — https://opentitan.org  
   Open silicon root-of-trust; full research papers, hardware security architecture.
@@ -8868,9 +8523,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Trusted Firmware Docs (Free/Open)** — secure boot, PSA Certified architecture for Cortex-M.
 
----
-
-#### ✅ FPGA, VLSI & Open Hardware Research
+##### IVf. FPGA, VLSI & Open Hardware Research
 
 - **OpenROAD Project Papers (Free/Open)** — autonomous RTL-to-GDSII flow research.
 
@@ -8880,9 +8533,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Open-Core designs (Free/Open)** — academic CPU, AI accelerators, SoC papers.
 
----
-
-#### ✅ Archive Collectors & Search Engines (Free)
+##### IVg. Archive Collectors & Search Engines (Free)
 
 - **Semantic Scholar (Free)** — https://www.semanticscholar.org  
   AI-powered paper search, PDF links, citation graphs for embedded/IoT/robotics.
@@ -8892,11 +8543,9 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Directory of Open Access Journals (DOAJ)** — https://doaj.org  
   Journals with open-access electronics and engineering publications.
 
----
+#### V. Free Simulators & Sandboxes for Learning (Embedded, IoT, Networks)
 
-### 30E. Free Simulators & Sandboxes for Learning (Embedded, IoT, Networks)
-
-#### ✅ Microcontroller & Firmware Simulators (Free / Open)
+##### Va. Microcontroller & Firmware Simulators (Free / Open)
 
 - **Wokwi (Free Online MCU Simulator)** — https://wokwi.com  
   Browser-based simulation for Arduino, ESP32, STM32, sensors, displays, logic analyzers. Great for quick prototyping and teaching.
@@ -8917,9 +8566,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Tinkercad Circuits (Free)** — https://www.tinkercad.com  
   Beginner-friendly electronics + Arduino simulation with circuit editor.
 
----
-
-#### ✅ Industrial Protocol & SCADA Sandboxes (Free)
+##### VB. Industrial Protocol & SCADA Sandboxes (Free)
 
 - **Conpot (Free/Open)** — https://github.com/mushorg/conpot  
   SCADA/PLC honeypot for learning industrial protocols, cyber-security, Modbus, S7.
@@ -8933,9 +8580,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **nodered.org (Free)** — live browser sandbox for industrial flows, MQTT and dashboards.
 
----
-
-#### ✅ Networking & IoT Protocol Simulators (Free/Open)
+##### Vc. Networking & IoT Protocol Simulators (Free/Open)
 
 - **NS-3 (Free/Open-Source)** — https://www.nsnam.org  
   Network simulator for Wi-Fi, LTE, 5G, TCP/UDP, TSN and IoT protocols.
@@ -8950,9 +8595,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Riverbed Modeler Academic Edition (Free)** — network behavior modeling used in educational IoT labs.
 
----
-
-#### ✅ Robotics, Machine Vision & Digital Twin Sandboxes (Free/Open)
+##### vd. Robotics, Machine Vision & Digital Twin Sandboxes (Free/Open)
 
 - **Gazebo / Ignition Robotics (Free/Open)** — https://gazebosim.org  
   3D dynamic robot + sensor simulator with HD cameras, LiDAR, IMU. Perfect for AGVs, warehouse robots and twins.
@@ -8968,9 +8611,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenCV Playground (Free)** — online notebooks for beginner computer vision tasks.
 
----
-
-#### ✅ Embedded Linux & Cloud IoT Sandboxes
+##### Ve. Embedded Linux & Cloud IoT Sandboxes
 
 - **AWS Free Tier IoT Core sandbox** — MQTT, rules engine, shadow devices for IoT learning.
 
@@ -8982,9 +8623,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **QEMU (Free/Open)** — emulate ARM/RISC-V boards, Linux boot, kernel drivers, custom OS for embedded Linux learning.
 
----
-
-#### ✅ Power Electronics & Motor Control Simulators (Free)
+##### Vf. Power Electronics & Motor Control Simulators (Free)
 
 - **LTspice (Free)** — SMPS, converters, gate drivers, motor drivers, thermal analysis.
 
@@ -8992,9 +8631,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **EMotorSim (Free)** — basic motor models and inverter control for education.
 
----
-
-#### ✅ Drones & Wireless Labs (Free)
+##### Vg. Drones & Wireless Labs (Free)
 
 - **ArduPilot SITL (Free/Open)** — https://ardupilot.org  
   Drone flight controller simulation, sensor models, MAVLink telemetry.
@@ -9002,11 +8639,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **PX4 SITL (Free/Open)** — https://px4.io  
   UAV autopilot simulator supporting Gazebo and AirSim.
 
----
-
 ## G) Compliance & Certification
-
----
 
 ### 31. EMI/EMC Pre-Compliance Tools (Free / Open-Source / Free-Tier)
 
@@ -9041,8 +8674,6 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **MiniVNA / NanoVNA (Open Firmware Tools)** — calibration files + free software to test RF filters/antennas for spurious harmonics.
 
----
-
 ### 32. Safety Standards & Testing References (Free / Open)
 
 - **IEC, UL, ISO Summary Sheets (Free Public Summaries)**  
@@ -9069,8 +8700,6 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Medical Compliance Basics (Free PDFs)** — 60601-1 intro docs, leakage current examples, isolation standards.
 
----
-
 ### 33. Battery & Environmental Certification (Free Resources)
 
 - **UN38.3, IEC 62133 Quick Guides (Free PDFs)** — public labs and certification bodies publish step-by-step requirements.
@@ -9091,8 +8720,6 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Free SDS/MSDS Databases** — cell chemistry, electrolyte safety sheets, transport hazard classifications.
 
 - **Environmental Stress Testing Guides (Free)** — drop, humidity, thermal cycling tutorials from major labs.
-
----
 
 ### 34. RF Certification & Spectrum Resources (Free / Open)
 
@@ -9124,10 +8751,12 @@ Local India EMS can also provide these with MOQ negotiation.
 - **VSWR / Smith Chart Web Tools (Free)** — compute matching networks, S11, return loss.
 
 - **Rohde & Schwarz “EMI Debugging Guide” (Free)** — locating harmonics, board re-spin checklists.
+  
+## H) Edge AI, Robotics & Advanced Hardware
 
 ### 35. Automotive / ISO 26262 / Functional Safety (Free / Open Resources)
 
-#### ✅ Automotive Safety Standards & Guidance (Free/Public Docs)
+#### I. Automotive Safety Standards & Guidance (Free/Public Docs)
 
 - **ISO 26262 Public Overviews (Free Summaries)** — official summaries & safety lifecycle basics published by multiple certification labs.
 - **ASIL Determination Guides (Free PDFs)** — community spreadsheets & checklists for hazard analysis and risk classification.
@@ -9135,35 +8764,27 @@ Local India EMS can also provide these with MOQ negotiation.
 - **NHTSA Safety Publications (Free)** — US automotive safety guidelines, electronic subsystem safety notes.
 - **UNECE UN R155 / R156 Cybersecurity & OTA (Free PDFs)** — cybersecurity and OTA compliance requirements for automotive ECUs.
 
----
-
-#### ✅ Automotive Functional Safety Training (Free)
+#### II. Automotive Functional Safety Training (Free)
 
 - **MIT OpenCourseWare – Safety Engineering (Free)** — hazard reduction, redundancy, failure modeling.
 - **ISO 26262 Crash Courses (YouTube/University Free Lectures)** — lecture series walking through safety cases and safety goals.
 - **Texas Instruments Functional Safety Training (Free)** — automotive MCU safety, lockstep cores, ECC, watchdogs, diagnostics.
 - **NXP Safety Training (Free)** — SafeAssure training for safety-certified microcontrollers & automotive design.
 
----
-
-#### ✅ Safety-Certified MCU / SoC References (Free Docs)
+#### III. Safety-Certified MCU / SoC References (Free Docs)
 
 - **TI Hercules MCUs (Free Safety Manuals)** — lockstep ARM cores, ECC, diagnostics, BIST, safety app notes.
 - **Infineon AURIX Safety Docs (Free)** — automotive-grade MCUs with safety architecture whitepapers.
 - **NXP S32 Safety Guide (Free)** — safety mechanisms, fault responses, ASIL decomposition examples.
 - **Renesas RH850 Safety Pack (Free)** — safety features, memory protection, watchdog design.
 
----
-
-#### ✅ Automotive ECU Reference Designs & App Notes (Free)
+#### IV. Automotive ECU Reference Designs & App Notes (Free)
 
 - **TI / Infineon / NXP Automotive Reference Designs (Free PDFs)** — BMS, motor control, ADAS sensors, power rails, EMI.
 - **ST Automotive App Notes (Free)** — CAN-FD, LIN, FlexRay, diagnostics, high-voltage drivers.
 - **Microchip Automotive CAN/LIN Stacks (Free)** — application notes and driver examples.
 
----
-
-#### ✅ Open-Source Automotive Stacks
+#### V. Open-Source Automotive Stacks
 
 - **CANopenNode (Free/Open)** — https://github.com/CANopenNode/CANopenNode  
   CANopen stack used in automotive and industrial ECUs.
@@ -9178,9 +8799,8 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **AUTOSAR Open-Source Components (Community)** — limited open tooling and config generators for education/research.
 
----
 
-#### ✅ Diagnostic & Automotive Tools (Free/Open)
+#### VI. Diagnostic & Automotive Tools (Free/Open)
 
 - **UDS / ISO 14229 Open Repos (Free/Open)** — GitHub projects implementing diagnostic protocols for ECUs.
 - **OBD-II PID Libraries (Free/Open)** — used in vehicle monitoring and telematics.
@@ -9191,9 +8811,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **cangaroo / can-utils (Free/Open)** — Linux CAN utilities for replay/testing.
 
----
-
-#### ✅ Safety Analysis & Verification (Free/Open)
+#### VII. Safety Analysis & Verification (Free/Open)
 
 - **OpenFTA (Free/Open)** — https://www.openfta.com  
   Fault Tree Analysis for identifying safety failures and root causes.
@@ -9204,17 +8822,13 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **QEMU for ECU Emulation (Free/Open)** — test bootloaders, diagnostics, secure updates on emulated ARM cores.
 
----
-
-#### ✅ Automotive Cybersecurity (Free)
+#### VIII. Automotive Cybersecurity (Free)
 
 - **UN R155 Cybersecurity Docs (Free PDFs)** — official regulations for OEMs and ECU suppliers.
 - **ETSI EN 303 645 (Free Spec)** — IoT/automotive cybersecurity baseline requirements.
 - **OWASP Automotive Security Guidance (Free)** — threat modeling, ECU attack surface, secure boot.
 
----
-
-#### ✅ Compliance Checklists (Free)
+#### IX. Compliance Checklists (Free)
 
 - ISO 26262 Safety Case template (community shared)
 - ASIL determination spreadsheet
@@ -9222,20 +8836,16 @@ Local India EMS can also provide these with MOQ negotiation.
 - Safety Manual template
 - Safety requirements traceability matrix
 
----
-
 ### 36. Medical / IEC 60601 / FDA / Pharma Device Compliance (Free / Public Resources)
 
-#### ✅ Medical Safety & Electrical Standards (Free Summaries / Guides)
+#### I. Medical Safety & Electrical Standards (Free Summaries / Guides)
 
 - **IEC 60601 Overview Guides (Free PDFs)** — public summaries from certification bodies on electrical safety, leakage currents, insulation, creepage, touch current.
 - **IEC 62304 Software Lifecycle (Free Overviews)** — medical software development lifecycle, risk control, documentation requirements.
 - **IEC 61010 Public Summaries (Free)** — laboratory and measurement equipment safety fundamentals.
 - **AAMI / UL Quick Guides (Free)** — widely shared summaries for compliance basics in medical devices.
 
----
-
-#### ✅ FDA & Regulatory Guidance (Free Official Docs)
+#### II. FDA & Regulatory Guidance (Free Official Docs)
 
 - **FDA Medical Device Guidance (Free)** — https://www.fda.gov/medical-devices  
   510(k) submissions, quality systems (QSR), essential performance, cybersecurity, risk files, software validation.
@@ -9244,70 +8854,54 @@ Local India EMS can also provide these with MOQ negotiation.
 - **FDA Human Factors Guidance (Free)** — usability engineering and validation guidelines.
 - **FDA Cybersecurity Guidance (Free)** — secure boot, authentication, patching, vulnerability disclosure.
 
----
-
-#### ✅ Medical Quality & Risk Management
+#### III. Medical Quality & Risk Management
 
 - **ISO 14971 Risk Management (Free Summaries)** — hazard identification, risk control, benefit-risk analysis, residual risk.
 - **FMEA Templates (Free/Open)** — DFMEA/System-FMEA sheets tailored for medical devices.
 - **Fault Tree Analysis Tools (Free/Open)** — OpenFTA for identifying root causes in medical systems.
 - **Failure Reporting Databases (Free)** — MAUDE (FDA) for real-world device failure reports and lessons.
 
----
-
-#### ✅ Electrical & EMC for Medical Devices
+#### IV. Electrical & EMC for Medical Devices
 
 - **Rohde & Schwarz Medical EMC Guides (Free)** — pre-compliance testing for medical standards.
 - **Keysight Medical EMC Tutorials (Free)** — EMI/EMC design tips, shielding, isolation, filtering.
 - **3rd-Party Lab “Pre-Compliance Checklists” (Free PDFs)** — LISN setup, radiated immunity, ESD, conducted emissions.
 
----
-
-#### ✅ Medical Software & Firmware Validation (Free/Open)
+#### V. Medical Software & Firmware Validation (Free/Open)
 
 - **Open-Source IEC 62304 Checklists** — software requirements, traceability, test reports.
 - **Robot Framework (Free/Open)** — automate V&V testing for medical UI, Bluetooth, data logging.
 - **PyTest + USB/Serial/HIL scripts (Free/Open)** — validation of medical embedded firmware in simulated conditions.
 - **Open-Source Doxygen + Sphinx setups** — trace software requirements to implementation & tests.
 
----
-
-#### ✅ Cybersecurity for Medical Devices (Free)
+#### VI. Cybersecurity for Medical Devices (Free)
 
 - **UL 2900 Public Summaries (Free)** — cybersecurity requirements for connected medical systems.
 - **NIST Cybersecurity for IoT (Free)** — secure boot, crypto, key management for healthcare.
 - **OWASP IoT Top 10 (Free/Open)** — foundational vulnerability reference for medical device design.
 - **OpenTitan & TrustedFirmware-M (Free/Open)** — secure boot chain for medical wearables & patient data security.
 
----
-
-#### ✅ Documentation & Quality Systems (Free Access)
+#### VII. Documentation & Quality Systems (Free Access)
 
 - **ISO 13485 Guidance Documents (Free Summaries)** — quality management system for medical devices.
 - **QMS Templates (Free Community)** — SOPs, CAPA, change control, manufacturing checklists.
 - **Device Master Record / History Record Templates (Free)** — documentation structure for FDA submissions.
 
----
-
-#### ✅ Human Factors, Clinical & Usability (Free)
+#### VIII. Human Factors, Clinical & Usability (Free)
 
 - **FDA Human Factors Engineering Guidance (Free)** — user studies, UI errors, validation, labeling requirements.
 - **NIH & ISO Public Usability Guides (Free)** — clinical handling and risk reduction references.
 - **Free sample usability test protocols** — used in low-risk wearable medical devices.
 
----
-
-#### ✅ Useful Free Databases & Sandboxes
+#### IX. Useful Free Databases & Sandboxes
 
 - **FDA 510(k) Database (Free)** — compare similar approved products.
 - **Drugs & Devices Adverse Event Databases (Free)** — failure trends, recalls, safety bulletins.
 - **QEMU + Medical Device Firmware Emulation (Free)** — emulate firmware for cybersecurity testing.
 
----
-
 ### 37. Cybersecurity Certification (PSA Certified, ETSI EN 303 645, UL 2900, Common Criteria)
 
-#### ✅ Consumer & IoT Cybersecurity Standards (Free / Public Docs)
+#### I. Consumer & IoT Cybersecurity Standards (Free / Public Docs)
 
 - **ETSI EN 303 645 (Free Spec)** — https://www.etsi.org  
   The global baseline for IoT product security: passwords, secure update, crypto, data protection, lifecycle security.
@@ -9320,9 +8914,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **IoT Security Foundation Best Practices (Free)** — https://iotsecurityfoundation.org  
   Free guidance for secure design, secure provisioning, crypto, secure update, compliance checklists.
 
----
-
-#### ✅ PSA Certified (Arm Platform Security Architecture)
+#### II. PSA Certified (Arm Platform Security Architecture)
 
 - **PSA Certification Framework (Free Docs)** — https://www.psacertified.org  
   Open security model for MCUs and IoT SoCs—secure boot, attestation, crypto, isolation.
@@ -9334,9 +8926,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **PSA Attestation Samples (Free)** — MCU examples showing signed boot, attestation tokens and secure services.
 
----
-
-#### ✅ UL 2900 – Cybersecurity Standard (Free Public Summaries)
+#### III. UL 2900 – Cybersecurity Standard (Free Public Summaries)
 
 - **UL 2900-1 Public Overview (Free)** — software and network cybersecurity testing requirements.
 
@@ -9344,9 +8934,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **UL Secure Components Database (Free)** — search certifiable modules, Wi-Fi, BLE, secure MCUs.
 
----
-
-#### ✅ Common Criteria (CC) – Evaluation Assurance
+#### IV. Common Criteria (CC) – Evaluation Assurance
 
 - **Common Criteria Portal (Free)** — https://www.commoncriteriaportal.org  
   Public security targets, certification reports for secure MCUs, TPM, secure elements, smartcards.
@@ -9357,9 +8945,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **EAL1/EAL2 Guidance (Free Docs)** — how to build low-level CC submissions for IoT products.
 
----
-
-#### ✅ Firmware Security Testing & Hardening (Free / Open)
+#### V. Firmware Security Testing & Hardening (Free / Open)
 
 - **Ghidra (Free/Open)** — https://ghidra-sre.org  
   Reverse-engineering, binary analysis, symbol recovery, secure coding audits.
@@ -9375,9 +8961,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **OpenVAS / Greenbone (Free/Open)** — network vulnerability testing for gateways and IoT appliances.
 
----
-
-#### ✅ Secure Boot & Crypto Compliance (Free / Open)
+#### VI. Secure Boot & Crypto Compliance (Free / Open)
 
 - **MCUboot (Free/Open)** — https://mcuboot.com  
   Secure firmware signing, encryption, rollback protection. Fits PSA / ETSI update requirements.
@@ -9392,9 +8976,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Trusted Firmware-M (Free/Open)** — PSA-certified secure services on Cortex-M (crypto, attestation, secure partitions).
 
----
-
-#### ✅ Vulnerability Disclosure & Threat Modeling (Free)
+#### VII. Vulnerability Disclosure & Threat Modeling (Free)
 
 - **MITRE ATT&CK for ICS (Free)** — adversary techniques targeting OT/embedded systems.
 
@@ -9404,9 +8986,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Microsoft Threat Modeling Tool (Free)** — model trust boundaries, data flows, assets in IoT devices.
 
----
-
-#### ✅ Secure Update & SBOM (Free Tools)
+#### VIII. Secure Update & SBOM (Free Tools)
 
 - **Uptane (Free/Open)** — secure OTA system for automotive/IoT, metadata-based rollback and key protection.
 
@@ -9415,21 +8995,17 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Syft / Grype (Free/Open)** — generate SBOMs and scan firmware dependencies for CVEs.
 
 - **Sigstore (Free/Open)** — cryptographic signing of firmware/container images for secure update pipelines.
-
----
-
+  
 ### 38. Functional Safety Test Tools / SIL / PLC Safety (Free / Open-Source)
 
-#### ✅ Functional Safety Standards (Free Summaries / Guides)
+#### I. Functional Safety Standards (Free Summaries / Guides)
 
 - **IEC 61508 Quick Guides (Free PDFs)** — safety lifecycle for industrial control, PLCs, sensors and actuators.
 - **SIL Determination Spreadsheets (Free Community Templates)** — SIL 1–4 risk scoring, PFH/PFD calculations.
 - **EN ISO 13849-1 Public Summaries** — machinery safety, PL rating, MTTFd & DCavg calculation rules.
 - **ISA / TÜV Safety Checklists (Free)** — safety architecture, redundancy, diagnostics, fault handling.
 
----
-
-#### ✅ Soft PLC & Safety PLC Simulators (Free/Open)
+#### II. Soft PLC & Safety PLC Simulators (Free/Open)
 
 - **OpenPLC (Free/Open-Source)** — https://www.openplcproject.com  
   Full IEC 61131-3 runtime supporting ladder, structured text, function blocks. Run virtual PLCs for safety logic testing.
@@ -9440,9 +9016,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **LOGO! / Siemens Demo Tools (Free)** — basic safety logic training, virtual I/Os.
 
----
-
-#### ✅ Fault Injection & Reliability Tools (Free/Open)
+#### III. Fault Injection & Reliability Tools (Free/Open)
 
 - **OpenFTA (Free/Open)** — https://www.openfta.com  
   Fault tree analysis for identifying single-point faults, latent conditions and common cause failures.
@@ -9454,9 +9028,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **Renode (Free/Open)** — https://renode.io  
   Emulate multi-SoC systems to test firmware safety under fault conditions, message loss, bus failures.
 
----
-
-#### ✅ Industrial Protocol Safety (Free/Open)
+#### IV. Industrial Protocol Safety (Free/Open)
 
 - **OPC-UA Safety Profiles (Free Docs)** — public specifications for safe field-level communication.
 
@@ -9466,15 +9038,11 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **TSN / Real-Time Ethernet Open Repos** — test determinism & recovery in harsh industrial networks.
 
----
-
 - **Conpot (Free/Open)** — simulate PLC devices for cybersecurity & resilience testing.
 
 - **QModMaster / ModRSsim2 (Free)** — simulate safe communication / watchdog behavior in Modbus.
 
----
-
-#### ✅ Safety-Certified MCU Reference Material (Free)
+#### V. Safety-Certified MCU Reference Material (Free)
 
 - **TI Hercules Safety App Notes (Free PDFs)** — lockstep CPU, ECC, PBIST, LBIST, watchdogs, diagnostic libraries.
 
@@ -9484,9 +9052,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Renesas RH850 Safety Pack (Free)** — safety mechanisms and diagnostic features.
 
----
-
-#### ✅ SIL, MTTFd, PFH Calculation Tools (Free)
+#### VI. SIL, MTTFd, PFH Calculation Tools (Free)
 
 - **MTTFd Online Calculators (Free Web Tools)** — compute reliability for sensors, relays, contactors, e-stops.
 
@@ -9494,9 +9060,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Reliability Block Diagram Tools (Free/Open)** — online RBD editors to model redundancies and fault tolerance.
 
----
-
-#### ✅ HIL & Safety Testing (Free/Open)
+#### VII. HIL & Safety Testing (Free/Open)
 
 - **OpenHTF (Google) (Free/Open)** — production test automation for boards, sensors, safety relays and interlocks.
 
@@ -9506,9 +9070,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Renode + Zephyr + CANopen safety** — simulate multi-node safety systems.
 
----
-
-#### ✅ Documentation & Certification Support (Free)
+#### VIII. Documentation & Certification Support (Free)
 
 - **Safety Case Templates (Community)** — structure safety goals, hazards, mitigations, test evidence.
 
@@ -9518,11 +9080,9 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **CE & EU Machinery Directive Quick Guides (Free)** — documentation required for machine safety.
 
----
-
 ### 39. Automotive Diagnostic Tools & Telematics (Free / Open-Source / Free-Tier)
 
-#### ✅ Automotive Diagnostic Stacks (Free/Open)
+#### I. Automotive Diagnostic Stacks (Free/Open)
 
 - **SavvyCAN (Free/Open-Source)** — https://github.com/collin80/SavvyCAN  
   Powerful CAN bus analyzer supporting DBC files, sniffing, replay, reverse engineering vehicle ECUs.
@@ -9542,9 +9102,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OBD-II PID Libraries (Free/Open)** — https://github.com/brendan-w/obd  
   Read vehicle parameters using ELM327 or USB-CAN devices; works on Linux/Android.
 
----
-
-#### ✅ CAN, LIN, FlexRay Tools (Free/Open)
+#### II. CAN, LIN, FlexRay Tools (Free/Open)
 
 - **cantools (Free/Open)** — https://github.com/eerimoq/cantools  
   Parse, decode, encode DBC, KCD, ARXML automotive network files.
@@ -9561,9 +9119,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **CANtact Firmware + Tools (Free/Open)** — https://github.com/CANtact  
   Open-source hardware and firmware for low-cost CAN interfaces.
 
----
-
-#### ✅ GPS / GNSS / Telemetry Tools (Free/Open)
+#### III. GPS / GNSS / Telemetry Tools (Free/Open)
 
 - **gpsd (Free/Open)** — https://gpsd.gitlab.io/gpsd  
   Collect GNSS data and feed it to telematics systems. Supports USB GPS modules, NMEA, RTK modules.
@@ -9577,9 +9133,7 @@ Local India EMS can also provide these with MOQ negotiation.
 - **OpenStreetMap (Free/Open)** — https://www.openstreetmap.org  
   Open mapping data for routing, geofencing, fleet visualizations.
 
----
-
-#### ✅ Fleet / Telematics Platforms (Free-Tier / Open)
+#### IV Fleet / Telematics Platforms (Free-Tier / Open)
 
 - **ThingsBoard Community (Free/Open)** — https://thingsboard.io  
   Asset tracking, telemetry dashboards, rules engine, MQTT integrations for vehicle data.
@@ -9589,9 +9143,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Traccar + InfluxDB + Grafana (Open Stack)** — popular free self-host setup for vehicle fleets.
 
----
-
-#### ✅ Vehicle Reverse Engineering (Free/Open)
+#### V. Vehicle Reverse Engineering (Free/Open)
 
 - **Kayak (Free/Open)** — https://github.com/dschanoeh/Kayak  
   GUI CAN tool for sniffing, injecting, decoding and DBC editing.
@@ -9604,9 +9156,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **PyOBD / OBD Auto Doctor (Free Editions)** — basic OBD-II analysis.
 
----
-
-#### ✅ Vehicle-to-Everything (V2X) / DSRC / C-V2X (Free Resources)
+#### VI. Vehicle-to-Everything (V2X) / DSRC / C-V2X (Free Resources)
 
 - **OpenC2X (Free/Open)** — https://github.com/OpenC2X/openc2x  
   Open-source V2X stack for DSRC and ETSI ITS-G5 research.
@@ -9616,9 +9166,7 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **Open Source C-V2X Repos (Free)** — reference implementations from academia for V2X PHY/MAC.
 
----
-
-#### ✅ Telematics Hardware / Firmware (Free/Open)
+#### VII. Telematics Hardware / Firmware (Free/Open)
 
 - **OpenXC Vehicle Interface (Free/Open)** — https://github.com/openxc  
   Open hardware for capturing CAN data over USB/Bluetooth and exporting normalized metrics.
@@ -9629,31 +9177,23 @@ Local India EMS can also provide these with MOQ negotiation.
 
 - **TTGO/ESP32 CAN Modules (Open Firmware Projects)** — multiple community projects for BLE+CAN telemetry.
 
----
-
-#### ✅ Cloud Integrations for Telematics (Free-Tier)
+#### VIII. Cloud Integrations for Telematics (Free-Tier)
 
 - **AWS IoT Core Free Tier** — MQTT ingestion, rules, dynamodb/logging.
 - **GCP Pub/Sub & BI Free Tier** — pipeline for telematics data.
 - **Azure IoT Hub Free Tier** — registry, commands, digital twins.
 - **Balena (Free Tier)** — remote OTA for in-vehicle SBC gateway.
 
----
-
-#### ✅ Bonus — Automotive Dashboards (Free/Open)
+#### IX. Bonus — Automotive Dashboards (Free/Open)
 
 - **Grafana Map Panels (Free/Open)** — live GPS, fleet, route, idling analysis.
 - **InfluxDB + Chronograf (Free)** — telematics metrics, speed, fuel usage.
 - **OpenStreetMap Tile Servers (Free/Open)** — self-hostable maps for fleets.
 
----
-
-## 40. Open Hardware Security & Fault Injection Benches  
+### 40. Open Hardware Security & Fault Injection Benches  
 _Free and open-source tools, projects, and research frameworks for hardware security testing, side-channel analysis, and physical attack experimentation on embedded systems._
 
----
-
-#### ✅ Hardware Security Research Frameworks (Free / Open-Source)
+#### I. Hardware Security Research Frameworks (Free / Open-Source)
 
 - **OpenTitan (Free/Open)** — https://opentitan.org  
   Open silicon Root-of-Trust (RoT) project by Google & LowRISC. Includes reference design for secure boot, key management, crypto accelerators.
@@ -9670,9 +9210,7 @@ _Free and open-source tools, projects, and research frameworks for hardware secu
 - **Project Vault (Free/Open)** — https://github.com/google/project-vault  
   Google’s open hardware security token implementing secure storage and communication primitives.
 
----
-
-#### ✅ Side-Channel Analysis (SCA) Tools (Free/Open)
+#### II. Side-Channel Analysis (SCA) Tools (Free/Open)
 
 - **ChipWhisperer Analyzer (Free/Open)** — https://github.com/newaetech/chipwhisperer  
   Python toolkit for power trace capture, correlation power analysis (CPA), and differential power analysis (DPA).
@@ -9689,9 +9227,7 @@ _Free and open-source tools, projects, and research frameworks for hardware secu
 - **DPA Contest Datasets (Free/Open)** — https://www.dpacontest.org  
   Public datasets for power traces on AES/SHA implementations, used for benchmarking SCA tools.
 
----
-
-#### ✅ Fault Injection & Glitching (Free/Open)
+#### III. Fault Injection & Glitching (Free/Open)
 
 - **ChipWhisperer Glitch Module (Free/Open)** — included in ChipWhisperer hardware.  
   Used to perform voltage, clock, and EM glitching attacks on MCUs, SoCs, and smartcards.
@@ -9707,9 +9243,7 @@ _Free and open-source tools, projects, and research frameworks for hardware secu
 - **GlitchThis (Free/Open)** — https://github.com/AlessandroAU/GlitchThis  
   Minimal open-source power glitching and trigger control system.
 
----
-
-#### ✅ Reverse Engineering & Debug Tools (Free/Open)
+#### IV. Reverse Engineering & Debug Tools (Free/Open)
 
 - **Ghidra (Free/Open)** — https://ghidra-sre.org  
   Reverse-engineering tool from the NSA. Disassembles binaries for ARM, MIPS, RISC-V and more.
@@ -9729,9 +9263,7 @@ _Free and open-source tools, projects, and research frameworks for hardware secu
 - **OpenOCD (Free/Open)** — https://openocd.org  
   Debugger and flash programming tool for ARM, RISC-V, and other MCUs.
 
----
-
-#### ✅ Secure Element & TPM Research Tools (Free/Open)
+#### V. Secure Element & TPM Research Tools (Free/Open)
 
 - **tpm2-tools (Free/Open)** — https://github.com/tpm2-software/tpm2-tools  
   Utilities for interacting with TPM 2.0 chips. Used for attestation, keys, and PCR management.
@@ -9748,9 +9280,7 @@ _Free and open-source tools, projects, and research frameworks for hardware secu
 - **OpenSCA (Free/Open)** — https://github.com/OpenSCA  
   Open-source framework for developing secure hardware analysis tools.
 
----
-
-#### ✅ Hardware Forensics & Board Analysis Tools (Free/Open)
+#### VI. Hardware Forensics & Board Analysis Tools (Free/Open)
 
 - **sigrok / PulseView (Free/Open)** — https://sigrok.org  
   Logic analyzer suite with protocol decoders for UART, SPI, I²C, CAN — essential for hardware reverse-engineering.
@@ -9767,9 +9297,7 @@ _Free and open-source tools, projects, and research frameworks for hardware secu
 - **FreeCAD (Free/Open)** — https://www.freecad.org  
   Analyze mechanical design aspects of tamper-proof enclosures and physical security.
 
----
-
-#### ✅ Hardware Security Education & Labs (Free/Open)
+#### VII. Hardware Security Education & Labs (Free/Open)
 
 - **HardwareSecurity.training (Free)** — https://hardwaresecurity.training  
   Collection of open labs and resources for hardware hacking, side-channel, and tamper analysis.
@@ -9783,9 +9311,7 @@ _Free and open-source tools, projects, and research frameworks for hardware secu
 - **Cyber-Security Evaluation Lab (Free/Open)** — https://www.ciselab.com (academic repositories)  
   Reference frameworks for hardware trust and countermeasure validation.
 
----
-
-#### ✅ Bonus — Post-Quantum & Hardware Crypto Research (Free/Open)
+#### VIII. Bonus — Post-Quantum & Hardware Crypto Research (Free/Open)
 
 - **libOQS (Free/Open)** — https://openquantumsafe.org  
   Open quantum-safe crypto library for benchmarking hardware implementations.
@@ -9796,14 +9322,10 @@ _Free and open-source tools, projects, and research frameworks for hardware secu
 - **OpenCryptoHW (Free/Open)** — https://github.com/OpenCryptoProject  
   Collection of open-source hardware cryptography IP cores for FPGA/ASIC evaluation.
 
----
-
-## 41. Post-Silicon Validation & Chip Debug Tools  
+### 41. Post-Silicon Validation & Chip Debug Tools  
 _Free / open-source utilities for validating SoCs, MCUs, and processors after fabrication — covering JTAG/SWD, firmware loading, trace, boundary-scan, fault isolation and silicon bring-up._
 
----
-
-### ✅ Low-Level Debug & Bring-Up Tools (Free/Open)
+#### I. Low-Level Debug & Bring-Up Tools (Free/Open)
 
 - **OpenOCD (Free/Open-Source)** — https://openocd.org  
   Universal JTAG/SWD debugging for ARM, RISC-V, ESP32 and custom SoCs. Supports GDB, boundary-scan, flash programming and secure debug workflows.
@@ -9819,9 +9341,7 @@ _Free / open-source utilities for validating SoCs, MCUs, and processors after fa
 
 - **J-Link OpenOCD Interface (Free/Open)** — community drivers enabling J-LINK hardware with open debug stacks.
 
----
-
-### ✅ JTAG, Scan Chain & Boundary-Scan (Free/Open)
+#### II. JTAG, Scan Chain & Boundary-Scan (Free/Open)
 
 - **UrJTAG (Free/Open-Source)** — http://urjtag.org  
   Boundary-scan testing, flash programming, BSDL parsing — used for board-level post-silicon validation.
@@ -9834,9 +9354,7 @@ _Free / open-source utilities for validating SoCs, MCUs, and processors after fa
 
 - **BSV / Open Boundary-SCAN Viewers (Free)** — several GitHub projects letting you check BSDL nets for post-silicon faults.
 
----
-
-### ✅ Logic Analyzers & Trace (Free/Open)
+#### III. Logic Analyzers & Trace (Free/Open)
 
 - **sigrok + PulseView (Free/Open)** — https://sigrok.org  
   Open logic analyzer suite with 100+ protocol decoders. Used for validating SPI/I2C/UART timing, busses and bring-up.
@@ -9847,9 +9365,7 @@ _Free / open-source utilities for validating SoCs, MCUs, and processors after fa
 
 - **OpenTrace (Free/Open)** — open trace-capture tools for proprietary debug interfaces (community maintained).
 
----
-
-### ✅ Silicon-Level Fault Isolation (Free/Open)
+#### IV. Silicon-Level Fault Isolation (Free/Open)
 
 - **ChipWhisperer Analyzer (Free/Open)** — https://chipwhisperer.io  
   Useful during post-silicon security validation to detect timing glitches, power faults, or side-channel leakage.
@@ -9861,9 +9377,7 @@ _Free / open-source utilities for validating SoCs, MCUs, and processors after fa
 
 - **QEMU + Plugins (Free/Open)** — emulate ARM/MIPS/RISC-V for differential testing vs real silicon behavior.
 
----
-
-### ✅ RISC-V / Open Silicon Validation (Free/Open)
+#### V. RISC-V / Open Silicon Validation (Free/Open)
 
 - **RISC-V DV (Free/Open)** — https://github.com/google/riscv-dv  
   Random instruction generator + compliance suite for post-silicon CPU verification.
@@ -9876,9 +9390,7 @@ _Free / open-source utilities for validating SoCs, MCUs, and processors after fa
 
 - **riscv-compliance (Free/Open)** — official compliance suite for validating RISC-V ISA behavior on new silicon.
 
----
-
-### ✅ FPGA SoC Bring-Up (Free/Open)
+#### VI. FPGA SoC Bring-Up (Free/Open)
 
 - **LiteX (Free/Open)** — https://github.com/enjoy-digital/litex  
   Build FPGA SoCs + debug buses, logic analyzers, UART prints — excellent for early silicon prototyping.
@@ -9887,9 +9399,7 @@ _Free / open-source utilities for validating SoCs, MCUs, and processors after fa
 
 - **OpenFPGA Tools (Free/Open)** — SymbiFlow, Verilator, GHDL for validating soft-cores before tape-out.
 
----
-
-### ✅ Board-Level Post-Silicon Test (Free/Open)
+#### VII. Board-Level Post-Silicon Test (Free/Open)
 
 - **OpenHTF (Free/Open)** — https://google.github.io/openhtf  
   Production test automation for boards: power-on tests, UART/JTAG scriptable bring-up, functional validation.
@@ -9898,9 +9408,7 @@ _Free / open-source utilities for validating SoCs, MCUs, and processors after fa
 
 - **Open Manufacturing Bench Repos (Free)** — community Python fixtures to automate flashing, current measurement, thermal tests.
 
----
-
-### ✅ Manufacturing & Yield Debug (Free/Open)
+#### VIII. Manufacturing & Yield Debug (Free/Open)
 
 - **InfluxDB OSS + Grafana OSS (Free)** — capture yield metrics, flash failures, boot failures, calibration logs during silicon bring-up.
 
@@ -9908,9 +9416,7 @@ _Free / open-source utilities for validating SoCs, MCUs, and processors after fa
 
 - **Open Serial Loggers (Free)** — automatic logging of boot traces, crashes, panic dumps for lot screening.
 
----
-
-### ✅ Datasheet & Model Verification (Free)
+#### IX. Datasheet & Model Verification (Free)
 
 - **SVUnit (Free/Open)** — https://github.com/svunit/svunit  
   SystemVerilog unit testing for HDL — validate RTL fixes discovered during post-silicon bring-up.
@@ -9921,14 +9427,10 @@ _Free / open-source utilities for validating SoCs, MCUs, and processors after fa
 - **GHDL (Free/Open)** — https://github.com/ghdl/ghdl  
   VHDL simulator for verifying behavioral and gate-level issues.
 
----
-
-## 42. Open-Source Robotics / AGV / Warehouse Automation Stacks  
+### 42. Open-Source Robotics / AGV / Warehouse Automation Stacks  
 _Free and open-source software frameworks for autonomous robots, industrial AGVs/AMRs, warehouse automation, motion planning, perception and control._
 
----
-
-### ✅ Full Robotics Frameworks (Free / Open-Source)
+#### I. Full Robotics Frameworks (Free / Open-Source)
 
 - **ROS (Robot Operating System) (Free/Open)** — https://www.ros.org  
   Global standard robotics middleware: navigation, SLAM, mapping, drivers, hardware abstraction. Huge ecosystem.
@@ -9944,9 +9446,7 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 
 - **Player/Stage/Gazebo Stack (Free/Open)** — legacy but still used in education and research.
 
----
-
-### ✅ Motion Planning Libraries (Free/Open)
+#### II. Motion Planning Libraries (Free/Open)
 
 - **MoveIt (Free/Open)** — https://moveit.ros.org  
   Widely used motion-planning framework: kinematics, collision avoidance, trajectory generation, robot arms & manipulators.
@@ -9959,9 +9459,7 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 - **Tesseract (Free/Open)** — https://github.com/tesseract-robotics/tesseract  
   Industrial motion planning and environment modeling used in automation.
 
----
-
-### ✅ SLAM, Perception & Localization (Free/Open)
+#### III. SLAM, Perception & Localization (Free/Open)
 
 - **Cartographer (Google) (Free/Open)** — https://google-cartographer.readthedocs.io  
   Real-time indoor SLAM for AGVs and warehouse robots.
@@ -9981,9 +9479,7 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 - **Kalibr (Free/Open)** — https://github.com/ethz-asl/kalibr  
   Multi-sensor calibration for IMU + camera + LIDAR.
 
----
-
-### ✅ Navigation & AGV Stacks (Free/Open)
+#### IV. Navigation & AGV Stacks (Free/Open)
 
 - **ROS Navigation Stack (Free/Open)** — https://wiki.ros.org/navigation  
   Global planning, local planning, obstacle avoidance, costmaps for warehouse AGVs.
@@ -9999,9 +9495,7 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 
 - **Mobile Robot Programming Toolkit (MRPT) Datasets (Free)** — SLAM and localization benchmark data.
 
----
-
-### ✅ Low-Level Control, Kinematics, Dynamics
+#### V. Low-Level Control, Kinematics, Dynamics
 
 - **Orocos (RTT) (Free/Open)** — https://www.orocos.org  
   Real-time control framework for industrial manipulators and automation.
@@ -10015,9 +9509,7 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 - **Rigid Body Dynamics Library (RBDL) (Free/Open)** — https://rbdl.readthedocs.io  
   Efficient rigid-body dynamics for simulation and control.
 
----
-
-### ✅ Vision & Object Detection (Free/Open)
+#### VI. Vision & Object Detection (Free/Open)
 
 - **OpenCV (Free/Open)** — https://opencv.org  
   Full computer vision toolkit, used for barcode readers, object pick-and-place, conveyors, safety zones.
@@ -10028,9 +9520,7 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 - **OpenPTrack (Free/Open)** — https://openptrack.org  
   Multi-camera people tracking, used in warehouse and HMI robotics.
 
----
-
-### ✅ Simulators for Robot Labs (Free/Open)
+#### VII. Simulators for Robot Labs (Free/Open)
 
 - **Gazebo / Ignition Robotics (Free/Open)** — https://gazebosim.org  
   3D physics simulator with sensors, conveyors, forklifts, pallet movers, machine vision.
@@ -10044,9 +9534,7 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 - **CoppeliaSim (Free Student/Open)** — https://www.coppeliarobotics.com  
   Pick-and-place cells, robotic arms, conveyors, PLC links.
 
----
-
-### ✅ Multi-Robot Coordination / Warehouse Automation
+#### VIII. Multi-Robot Coordination / Warehouse Automation
 
 - **Open-RMF Dispatcher (Free/Open)** — https://openrmf.org  
   Orchestration for dozens of AMRs/AGVs, traffic control, shared resources, elevators and pathways.
@@ -10056,9 +9544,7 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 - **Rapyuta.io Free Tier (Cloud Robotics)** — https://rapyuta.io  
   Cloud-based fleet, teleop, logging, route planning (free developer tier).
 
----
-
-### ✅ AGV Hardware / Firmware (Free/Open)
+#### IX. AGV Hardware / Firmware (Free/Open)
 
 - **ROS-Control (Free/Open)** — motion control and actuator drivers for mobile robots.
 
@@ -10069,9 +9555,7 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 
 - **Open-Source LIDAR Stacks** — RPLIDAR, Slamtec, YDLIDAR ROS drivers.
 
----
-
-### ✅ Mapping / Geofencing / Dispatch Dashboards
+#### X. Mapping / Geofencing / Dispatch Dashboards
 
 - **RViz & RViz2 (Free/Open)** — ROS visualization of map, trajectories, LiDAR, obstacles.
 
@@ -10080,23 +9564,17 @@ _Free and open-source software frameworks for autonomous robots, industrial AGVs
 
 - **Grafana OSS + InfluxDB (Free/Open)** — live monitoring of fleet health, battery, uptime, missions.
 
----
-
-### ✅ Robotics Learning & Academic Repos (Free/Open)
+#### XI. Robotics Learning & Academic Repos (Free/Open)
 
 - **Modern Robotics (Free Online Course)** — kinematics, motion planning, dynamics.
 - **MIT OCW Robotics (Free)** — perception, control, SLAM.
 - **ETH Zurich Autonomous Systems Labs (Free Papers)** — advanced AMR/AGV work.
 - **OpenSLAM Paper Library (Free)** — collection of SLAM algorithms & datasets.
 
----
-
-## 43. Satellite & Space-Grade Hardware Tools  
+### 43. Satellite & Space-Grade Hardware Tools  
 _Free/open tools for space avionics, satellite communications, RF link planning, space-grade electronics design, radiation testing, orbital mechanics and mission simulation._
 
----
-
-### ✅ Satellite Mission Design & Orbital Mechanics (Free/Open)
+#### I. Satellite Mission Design & Orbital Mechanics (Free/Open)
 
 - **GMAT – General Mission Analysis Tool (Free/Open)** — https://gmat.gsfc.nasa.gov  
   NASA’s open-source mission design suite. Orbit propagation, spacecraft dynamics, maneuver planning, formation flying.
@@ -10115,9 +9593,7 @@ _Free/open tools for space avionics, satellite communications, RF link planning,
 - **OpenSpace (Free/Open)** — https://openspaceproject.com  
   NASA-backed visualization of spacecraft, planetary bodies, ground tracks.
 
----
-
-### ✅ Ground Stations & SDR for SatCom (Free/Open)
+#### II. Ground Stations & SDR for SatCom (Free/Open)
 
 - **GNU Radio (Free/Open)** — https://www.gnuradio.org  
   Build satellite modems, telemetry decoders, FSK/QPSK/FSK demodulators, ground station DSP pipelines.
@@ -10136,9 +9612,7 @@ _Free/open tools for space avionics, satellite communications, RF link planning,
 - **OpenLST (Free/Open)** — https://github.com/openlst/openlst  
   Long-range telemetry radio system used in NASA Ames’ small-sat missions (open hardware + firmware).
 
----
-
-### ✅ Space-Grade Electronics, Radiation & Reliability (Free/Public)
+#### III. Space-Grade Electronics, Radiation & Reliability (Free/Public)
 
 - **NASA EEE Parts Lists & Radiation Guides (Free)** — https://nepp.nasa.gov  
   Space-qualified parts databases, radiation effects, derating and reliability handbooks.
@@ -10156,9 +9630,7 @@ _Free/open tools for space avionics, satellite communications, RF link planning,
 
 - **Texas Instruments Space-Grade Guides (Free)** — radiation-tolerant power, data converters, logic, isolation.
 
----
-
-### ✅ Satellite SDR Demodulators (Free/Open)
+#### IV. Satellite SDR Demodulators (Free/Open)
 
 - **gr-satellites (Free/Open)** — https://github.com/daniestevez/gr-satellites  
   GNU Radio blocks for decoding dozens of CubeSat and amateur satellite telemetry formats.
@@ -10170,9 +9642,7 @@ _Free/open tools for space avionics, satellite communications, RF link planning,
 
 - **CSP + FreeRTOS Satellite Stacks (Open)** — real flight-ready nanosat firmware examples.
 
----
-
-### ✅ Flight Software, GNC & Satellite OS (Free/Open)
+#### V. Flight Software, GNC & Satellite OS (Free/Open)
 
 - **NASA cFS – Core Flight System (Free/Open)** — https://cfs.gsfc.nasa.gov  
   Flight-proven satellite flight software framework: commands, telemetry, apps, embedded OS abstraction.
@@ -10191,9 +9661,7 @@ _Free/open tools for space avionics, satellite communications, RF link planning,
 
 - **OREKIT + cFS combo examples (Open)** — flight dynamics + flight software integration.
 
----
-
-### ✅ Satellite Simulation & Digital Twins (Free/Open)
+#### VI. Satellite Simulation & Digital Twins (Free/Open)
 
 - **NOS Engine (Free/Open)** — open network-layer simulator for flight software testing.
 
@@ -10203,9 +9671,7 @@ _Free/open tools for space avionics, satellite communications, RF link planning,
 
 - **CSP-in-the-loop Simulators (Free/Open)** — simulate CubeSat comms networks and ground station telemetry.
 
----
-
-### ✅ Thermal, Power & Reliability Tools (Free/Public)
+#### VII. Thermal, Power & Reliability Tools (Free/Public)
 
 - **Thermal Desktop Free Samples (Docs)** — spacecraft thermal control whitepapers.
 
@@ -10215,9 +9681,7 @@ _Free/open tools for space avionics, satellite communications, RF link planning,
 
 - **ESA Propulsion & Power Handbooks (Free)** — thruster sizing, reaction wheels, momentum dumping.
 
----
-
-### ✅ Amateur Radio & Education (Free/Open)
+#### VIII. Amateur Radio & Education (Free/Open)
 
 - **AMSAT Resources (Free/Open)** — https://www.amsat.org  
   Educational satellites, telemetry formats, SDR tutorials.
@@ -10226,151 +9690,10 @@ _Free/open tools for space avionics, satellite communications, RF link planning,
 
 - **SatNOGS Ground Station Hardware (Open Hardware)** — 3D printed rotors, LNA designs, SDR builds.
 
----
-
-## 43. Satellite & Space-Grade Hardware Tools  
-_Free/open tools for space avionics, satellite communications, RF link planning, space-grade electronics design, radiation testing, orbital mechanics and mission simulation._
-
----
-
-### ✅ Satellite Mission Design & Orbital Mechanics (Free/Open)
-
-- **GMAT – General Mission Analysis Tool (Free/Open)** — https://gmat.gsfc.nasa.gov  
-  NASA’s open-source mission design suite. Orbit propagation, spacecraft dynamics, maneuver planning, formation flying.
-
-- **Orekit (Free/Open)** — https://www.orekit.org  
-  High-precision orbital mechanics in Java. Used in flight dynamics, GNSS, attitude control, Earth observation.
-
-- **POLARIS / Open Source Astrodynamics (Free)** — community orbital analysis and visualization tools.
-
-- **STK Free Version (Limited Free)** — https://www.agi.com/products/stk  
-  Popular aerospace modeling suite; free version supports basic orbit modeling, ground stations, coverage.
-
-- **JSatTrak (Free/Open)** — https://jsattrak.sourceforge.net  
-  Real-time orbit visualization, tracking, TLE import and mission planning.
-
-- **OpenSpace (Free/Open)** — https://openspaceproject.com  
-  NASA-backed visualization of spacecraft, planetary bodies, ground tracks.
-
----
-
-### ✅ Ground Stations & SDR for SatCom (Free/Open)
-
-- **GNU Radio (Free/Open)** — https://www.gnuradio.org  
-  Build satellite modems, telemetry decoders, FSK/QPSK/FSK demodulators, ground station DSP pipelines.
-
-- **SatNogs (Free/Open)** — https://satnogs.org  
-  Global open-source satellite ground station network. Antenna rotator designs, demodulators, dashboards.
-
-- **Gpredict (Free/Open)** — https://gpredict.oz9aec.net  
-  Live satellite tracking, Doppler correction, rotor control, radio control for receiving telemetry.
-
-- **CSP – CubeSat Space Protocol (Free/Open)** — https://github.com/libcsp/libcsp  
-  Lightweight space networking stack for nanosatellites and CubeSats.
-
-- **libtelemetry (Open)** — community modems and decoders for amateur satellites and CubeSats.
-
-- **OpenLST (Free/Open)** — https://github.com/openlst/openlst  
-  Long-range telemetry radio system used in NASA Ames’ small-sat missions (open hardware + firmware).
-
----
-
-### ✅ Space-Grade Electronics, Radiation & Reliability (Free/Public)
-
-- **NASA EEE Parts Lists & Radiation Guides (Free)** — https://nepp.nasa.gov  
-  Space-qualified parts databases, radiation effects, derating and reliability handbooks.
-
-- **NASA Radiation Effects Data (Free)** — SEE, SEL, TID test data for COTS components.
-
-- **ECSS Standards (Free PDFs)** — https://ecss.nl  
-  European Cooperation for Space Standardization — thermal, mechanical, software, electronics design requirements.
-
-- **ESA Space Engineering Docs (Free)** — https://escies.org  
-  Materials, components, failure analysis, derating rules, FPGA guidelines.
-
-- **NASA Lessons Learned Database (Free)** — https://llis.nasa.gov  
-  Failures, anomalies, design pitfalls from real missions.
-
-- **Texas Instruments Space-Grade Guides (Free)** — radiation-tolerant power, data converters, logic, isolation.
-
----
-
-### ✅ Satellite SDR Demodulators (Free/Open)
-
-- **gr-satellites (Free/Open)** — https://github.com/daniestevez/gr-satellites  
-  GNU Radio blocks for decoding dozens of CubeSat and amateur satellite telemetry formats.
-
-- **DireWolf (Free/Open)** — https://github.com/wb2osz/direwolf  
-  AX.25, APRS, telemetry decoding — used by amateur satellites.
-
-- **OpenLST Modem (Free/Open)** — open-source robust satcom modem (FSK/GFSK) with flight heritage.
-
-- **CSP + FreeRTOS Satellite Stacks (Open)** — real flight-ready nanosat firmware examples.
-
----
-
-### ✅ Flight Software, GNC & Satellite OS (Free/Open)
-
-- **NASA cFS – Core Flight System (Free/Open)** — https://cfs.gsfc.nasa.gov  
-  Flight-proven satellite flight software framework: commands, telemetry, apps, embedded OS abstraction.
-
-- **F Prime (NASA JPL) (Free/Open)** — https://fprime.jpl.nasa.gov  
-  Modular flight software framework used on Mars Helicopter, CubeSats, and deep space missions.
-
-- **NOS3 (Free/Open)** — https://github.com/nasa/nos3  
-  CubeSat simulation & avionics test framework: ground station links, environment models, virtual hardware.
-
-- **OpenSatKit (Free/Open)** — https://github.com/OpenSatKit  
-  Flight software + ground system + training + drivers for nanosats (built on NASA cFS).
-
-- **OpenMCT (Free/Open)** — https://github.com/nasa/openmct  
-  NASA’s open mission control dashboard: telemetry, command, timeline, events.
-
-- **OREKIT + cFS combo examples (Open)** — flight dynamics + flight software integration.
-
----
-
-### ✅ Satellite Simulation & Digital Twins (Free/Open)
-
-- **NOS Engine (Free/Open)** — open network-layer simulator for flight software testing.
-
-- **GMAT Mission Simulation (Free/Open)** — full dynamics modeling for thrusters, staging, attitude control.
-
-- **POLYSAT Sims (Free)** — open academic tools for small satellite bus simulation.
-
-- **CSP-in-the-loop Simulators (Free/Open)** — simulate CubeSat comms networks and ground station telemetry.
-
----
-
-### ✅ Thermal, Power & Reliability Tools (Free/Public)
-
-- **Thermal Desktop Free Samples (Docs)** — spacecraft thermal control whitepapers.
-
-- **NASA Thermal Control Handbook (Free PDFs)** — radiator, heater, coating models.
-
-- **CubeSat Power Budget Tools (Free Sheets)** — community spreadsheets for solar, battery, eclipse time.
-
-- **ESA Propulsion & Power Handbooks (Free)** — thruster sizing, reaction wheels, momentum dumping.
-
----
-
-### ✅ Amateur Radio & Education (Free/Open)
-
-- **AMSAT Resources (Free/Open)** — https://www.amsat.org  
-  Educational satellites, telemetry formats, SDR tutorials.
-
-- **CubeSat Design Spec (Free PDF)** — Cal Poly CubeSat specification for educational missions.
-
-- **SatNOGS Ground Station Hardware (Open Hardware)** — 3D printed rotors, LNA designs, SDR builds.
-
----
-
-## 44. FPGA / ASIC Open Toolchains  
+### 44. FPGA / ASIC Open Toolchains  
 _Free and open-source EDA flows, HDL tools, soft-core CPUs, simulation, synthesis, place-and-route, verification and post-silicon debug for FPGA & ASIC design._
 
----
-
-### ✅ Full FPGA Open Toolchains (RTL → Bitstream)
+#### I. Full FPGA Open Toolchains (RTL → Bitstream)
 
 - **Project Icestorm (Free/Open)** — https://github.com/YosysHQ/icestorm  
   Fully open-source toolchain for Lattice iCE40 FPGAs: synthesis, P&R, bitstream generation.
@@ -10390,9 +9713,7 @@ _Free and open-source EDA flows, HDL tools, soft-core CPUs, simulation, synthesi
 - **openFPGALoader (Free/Open)** — https://github.com/trabucayre/openFPGALoader  
   Flash/program a huge range of FPGAs with open drivers (Lattice, Xilinx, Intel, Microchip).
 
----
-
-### ✅ HDL Synthesis & Simulation (Free/Open)
+#### II. HDL Synthesis & Simulation (Free/Open)
 
 - **Yosys (Free/Open)** — https://github.com/YosysHQ/yosys  
   Gold-standard open-source Verilog synthesis for FPGA/ASIC, supports SystemVerilog subsets.
@@ -10412,9 +9733,7 @@ _Free and open-source EDA flows, HDL tools, soft-core CPUs, simulation, synthesi
 - **GTKWave (Free/Open)** — http://gtkwave.sourceforge.net  
   Waveform viewer for VCD/FST/LXT traces.
 
----
-
-### ✅ Open Soft-Core CPUs for FPGA & ASIC
+#### III. Open Soft-Core CPUs for FPGA & ASIC
 
 - **RISC-V Rocket Chip (Free/Open)** — https://github.com/chipsalliance/rocket-chip  
   Berkeley’s open RISC-V SoC generator — Linux-capable, used for ASIC tape-outs.
@@ -10431,9 +9750,7 @@ _Free and open-source EDA flows, HDL tools, soft-core CPUs, simulation, synthesi
 - **SERV (Free/Open)** — https://github.com/olofk/serv  
   “Smallest RISC-V CPU” — fits in tiny LUT counts for ultra-low-cost FPGAs.
 
----
-
-### ✅ Open ASIC Flows (RTL → GDS)
+#### IV. Open ASIC Flows (RTL → GDS)
 
 - **OpenROAD (Free/Open)** — https://theopenroadproject.org  
   Fully open RTL-to-GDSII flow using industry algorithms. One-click ASIC implementation.
@@ -10453,9 +9770,7 @@ _Free and open-source EDA flows, HDL tools, soft-core CPUs, simulation, synthesi
 - **Efabless MPW Shuttles (Free for Open Designs)** — https://efabless.com  
   Free ASIC fabrication runs funded by Google for open-source chips.
 
----
-
-### ✅ Physical Verification / Layout Tools (Free/Open)
+#### V. Physical Verification / Layout Tools (Free/Open)
 
 - **Magic VLSI (Free/Open)** — http://opencircuitdesign.com/magic  
   Classic open silicon layout + DRC/LVS — used in real tape-outs.
@@ -10469,9 +9784,7 @@ _Free and open-source EDA flows, HDL tools, soft-core CPUs, simulation, synthesi
 - **OpenSTA (Free/Open)** — https://github.com/The-OpenROAD-Project/OpenSTA  
   Static timing analysis for ASIC signoff.
 
----
-
-### ✅ FPGA SoC Frameworks
+#### VI. FPGA SoC Frameworks
 
 - **LiteX (Free/Open)** — https://github.com/enjoy-digital/litex  
   Build FPGA SoCs: CPUs, DDR, Ethernet, PCIe, HDMI, soft peripherals, Wishbone/AXI.
@@ -10483,9 +9796,7 @@ _Free and open-source EDA flows, HDL tools, soft-core CPUs, simulation, synthesi
 - **Amaranth HDL (Free/Open)** — https://github.com/amaranth-lang/amaranth  
   Python HDL successor to Migen, supports Yosys flows.
 
----
-
-### ✅ FPGA Debug / Post-Silicon (Free/Open)
+#### VII. FPGA Debug / Post-Silicon (Free/Open)
 
 - **Sigrok + PulseView (Free/Open)** — https://sigrok.org  
   Works with many USB logic analyzers for FPGA pinwave debugging.
@@ -10497,9 +9808,7 @@ _Free and open-source EDA flows, HDL tools, soft-core CPUs, simulation, synthesi
 - **OpenTAP (Free/Open)** — https://github.com/opentap/opentap  
   Automated testing for FPGA/ASIC bring-up and production.
 
----
-
-### ✅ Educational / Learning Repos
+#### VIII. Educational / Learning Repos
 
 - **FPGA4Student (Free/Open)** — Verilog/VHDL mini-projects, ALU, UART, VGA controllers.
 
@@ -10509,14 +9818,10 @@ _Free and open-source EDA flows, HDL tools, soft-core CPUs, simulation, synthesi
 
 - **Berkeley EECS RISC-V Classes (Free)** — open lecture notes + labs.
 
----
-
-## 45. Semiconductor Failure Analysis & Reliability Tools  
+### 45. Semiconductor Failure Analysis & Reliability Tools  
 _Free / open-source references for failure diagnosis, reliability modeling, thermal analysis, ESD/LU protection, PCB/component aging and silicon defect investigation._
 
----
-
-### ✅ Failure Analysis Frameworks & Databases (Free/Public)
+#### I. Failure Analysis Frameworks & Databases (Free/Public)
 
 - **NASA Lessons Learned Database (Free)** — https://llis.nasa.gov  
   Real-world spacecraft and electronics failures, root-cause break-downs, corrective actions.
@@ -10532,9 +9837,7 @@ _Free / open-source references for failure diagnosis, reliability modeling, ther
 
 - **JEDEC JESD Guides (Free Public Summaries)** — moisture sensitivity, reflow reliability, ESD/latch-up immunity basics.
 
----
-
-### ✅ Reliability Calculation Tools (Free/Open)
+#### II. Reliability Calculation Tools (Free/Open)
 
 - **Reliability Block Diagram Tools (Free/Open)** — online RBD editors for modeling redundant systems & single-point failures.
 
@@ -10544,9 +9847,7 @@ _Free / open-source references for failure diagnosis, reliability modeling, ther
 
 - **PARTSIM / LTspice (Free)** — thermal/electrical stress simulation of MOSFETs, gate drivers, SMPS to predict field failures.
 
----
-
-### ✅ Thermal, Stress & Aging Analysis (Free/Open)
+#### III. Thermal, Stress & Aging Analysis (Free/Open)
 
 - **OpenFOAM (Free/Open)** — https://openfoam.org  
   CFD simulation for PCB cooling, heatsinks, airflow inside enclosures, hotspot detection.
@@ -10560,9 +9861,7 @@ _Free / open-source references for failure diagnosis, reliability modeling, ther
 
 - **SimScale Community Edition (Free Tier)** — limited free CFD/thermal simulation for enclosures & PCBs.
 
----
-
-### ✅ Board-Level Testing & Fault Isolation (Free/Open)
+#### IV. Board-Level Testing & Fault Isolation (Free/Open)
 
 - **sigrok + PulseView (Free/Open)** — https://sigrok.org  
   Capture intermittent faults, bus glitches, marginal signal timing and decoupling failures.
@@ -10575,9 +9874,7 @@ _Free / open-source references for failure diagnosis, reliability modeling, ther
 - **Boundary Scan Tools (UrJTAG) (Free/Open)** — http://urjtag.org  
   Detect open BGA balls, shorts, incomplete assembly, trace faults without powered boot.
 
----
-
-### ✅ PCB Reliability & Material Guides (Free/Public)
+#### V. PCB Reliability & Material Guides (Free/Public)
 
 - **IPC-2221 / 9592 Public Summaries (Free)** — creepage, clearance, thermal relief, copper weight reliability.
 
@@ -10587,9 +9884,7 @@ _Free / open-source references for failure diagnosis, reliability modeling, ther
 
 - **Thermal Cycling & Vibration Testing Guides (Free)** — from ESA & NASA for PCB fatigue and solder joint cracking.
 
----
-
-### ✅ ESD, Latch-Up & Transient Protection (Free/Public)
+#### VI.ESD, Latch-Up & Transient Protection (Free/Public)
 
 - **ESD Association Public Articles (Free)** — best practices for ESD-safe design & manufacturing.
 
@@ -10599,9 +9894,7 @@ _Free / open-source references for failure diagnosis, reliability modeling, ther
 
 - **Open EMFI & glitch repos (Free/Open)** — used to detect silicon weak spots / reliability under transient stress.
 
----
-
-### ✅ Semiconductor Reliability Data (Free/Public)
+#### VII. Semiconductor Reliability Data (Free/Public)
 
 - **NASA Radiation Test Reports (Free)** — SEE, SEL, SEU results for COTS ICs.
 
@@ -10609,9 +9902,7 @@ _Free / open-source references for failure diagnosis, reliability modeling, ther
 
 - **NSIT/OEIS Public Reliability Data (Free)** — failure rate statistics for passives, ICs, connectors.
 
----
-
-### ✅ Failure Debug & Reverse Engineering (Free/Open)
+#### VIII. Failure Debug & Reverse Engineering (Free/Open)
 
 - **Binwalk (Free/Open)** — extract firmware dumps to study corrupted NVM or flash retention issues.
 
@@ -10621,9 +9912,7 @@ _Free / open-source references for failure diagnosis, reliability modeling, ther
 
 - **Ghidra (Free/Open)** — analyze crashes from firmware aging / memory corruption in long-life systems.
 
----
-
-### ✅ Checklists & Templates (Free)
+#### IX. Checklists & Templates (Free)
 
 - FMEA / DFMEA / PFMEA spreadsheets  
 - Stress test plan templates (thermal soak, vibration, HALT/HASS)  
@@ -10631,14 +9920,10 @@ _Free / open-source references for failure diagnosis, reliability modeling, ther
 - Burn-in & soak testing logs  
 - Failure reporting & corrective action (FRACAS) sheets  
 
----
-
-## 46. Space-Grade RF & Antenna Design Tools  
+### 46. Space-Grade RF & Antenna Design Tools  
 _Free / open-source modeling tools, antenna optimizers, RF link calculators, propagation simulators and space-rated RF references for satellite and deep-space missions._
 
----
-
-### ✅ RF & Antenna Simulation (Free/Open)
+#### I. RF & Antenna Simulation (Free/Open)
 
 - **OpenEMS (Free/Open-Source)** — https://www.openems.de  
   FDTD electromagnetic solver ideal for patch antennas, helical antennas, waveguides and space-probe RF design.
@@ -10656,9 +9941,7 @@ _Free / open-source modeling tools, antenna optimizers, RF link calculators, pro
 - **FEMM (Free/Open)** — https://www.femm.info  
   2D electromagnetic solver for coils, magnetics and RF shielding structures.
 
----
-
-### ✅ RF Link Budget & Propagation Tools (Free)
+#### II. RF Link Budget & Propagation Tools (Free)
 
 - **GNU Radio (Free/Open)** — https://www.gnuradio.org  
   Build satellite modems, telemetry decoders, digital downconverters, demodulators.
@@ -10675,9 +9958,7 @@ _Free / open-source modeling tools, antenna optimizers, RF link calculators, pro
 
 - **FCC / NTIA Free Databases** — satellite and RF spectrum allocations, permissible EIRP levels.
 
----
-
-### ✅ PCB Antenna Design & Tuning (Free/Open)
+#### III. PCB Antenna Design & Tuning (Free/Open)
 
 - **KiCad RF Tools (Free/Open)** — https://kicad.org  
   Impedance calculators, microstrip/CPW tuning, stack-up design for S-band/L-band PCBs.
@@ -10691,9 +9972,7 @@ _Free / open-source modeling tools, antenna optimizers, RF link calculators, pro
 - **Qucs-S (Free/Open)** — https://ra3xdh.github.io  
   RF circuit simulation with S-parameters, filters, LNAs.
 
----
-
-### ✅ Space-Grade RF / High-Rel Design (Free/Public)
+#### IV. Space-Grade RF / High-Rel Design (Free/Public)
 
 - **NASA RF Design Guidelines (Free PDFs)** — waveguides, S-band, X-band, Q/V-band links, low-noise amplifiers, radomes, filters.
 
@@ -10705,9 +9984,7 @@ _Free / open-source modeling tools, antenna optimizers, RF link calculators, pro
 
 - **Navy Antenna Handbook (Free)** — military-grade antenna design principles (reflectors, helical, log periodic).
 
----
-
-### ✅ SDR Tools for Satellite & Deep Space (Free/Open)
+#### V. SDR Tools for Satellite & Deep Space (Free/Open)
 
 - **gr-satellites (Free/Open)** — https://github.com/daniestevez/gr-satellites  
   GNU Radio modules for decoding CubeSat and amateur satellite telemetry.
@@ -10721,9 +9998,7 @@ _Free / open-source modeling tools, antenna optimizers, RF link calculators, pro
 - **OpenLST (Free/Open)** — https://github.com/openlst/openlst  
   Robust telemetry radio used on NASA small-sat missions.
 
----
-
-### ✅ Antenna Optimization & AI-Based Design (Free/Open)
+#### VI. Antenna Optimization & AI-Based Design (Free/Open)
 
 - **PyGMO (Free/Open)** — https://esa.github.io/pygmo2  
   ESA’s evolutionary optimization library — used by researchers for RF antenna shape optimization.
@@ -10732,9 +10007,7 @@ _Free / open-source modeling tools, antenna optimizers, RF link calculators, pro
 
 - **Meep + Python (Free/Open)** — run sweeps to minimize VSWR, maximize gain, and optimize dielectric patterns.
 
----
-
-### ✅ Manufacturing & Measurement (Free/Public)
+#### VII. Manufacturing & Measurement (Free/Public)
 
 - **NanoVNA + NanoVNA-Saver (Free/Open)** — https://github.com/NanoVNA-Saver/nanovna-saver  
   Open-source VNA software to measure return loss, S11, tuning space-grade patches, feeds and filters.
@@ -10745,14 +10018,10 @@ _Free / open-source modeling tools, antenna optimizers, RF link calculators, pro
 
 - **Hamlib (Free/Open)** — rig control for rotors and radios, often used with SatNOGS/Gpredict setups.
 
----
-
-## 47. Open-Source DSP / SDR ASIC Cores  
+### 47. Open-Source DSP / SDR ASIC Cores  
 _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC IP, and complete software-defined radio pipelines for communications, radar, and wireless PHY development._
 
----
-
-### ✅ Full SDR PHY Stacks (Free/Open)
+#### I. Full SDR PHY Stacks (Free/Open)
 
 - **GNU Radio (Free/Open)** — https://www.gnuradio.org  
   Gold-standard SDR DSP framework: modulation/demod, filters, OFDM, channel coding, telemetry, radar. Hardware agnostic.
@@ -10769,9 +10038,7 @@ _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC I
 - **srsRAN (Free/Open)** — https://github.com/srsran/srsRAN  
   Complete 4G/5G software radio stack with PHY/MAC/RLC/PDCP. Can run on embedded Linux + SDR.
 
----
-
-### ✅ Modem & Communication IP Cores (Open-Source)
+#### II. Modem & Communication IP Cores (Open-Source)
 
 - **OpenCores DSP & Modem Cores (Free/Open)** — https://opencores.org  
   OFDM, QPSK, QAM, CORDIC, FIR, FFT/IFFT, Viterbi decoders for FPGA/ASIC.
@@ -10786,9 +10053,7 @@ _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC I
 - **OpenLTE (Free/Open)** — https://github.com/EURECOM-SW/OpenAirInterface  
   LTE PHY + UE/eNodeB reference designs for FPGAs.
 
----
-
-### ✅ DSP Engines & Math Accelerators (Open IP)
+#### III. DSP Engines & Math Accelerators (Open IP)
 
 - **PicoRV32 + DSP Extensions (Free/Open)** — extremely small RISC-V core with multiply–accumulate units.
 
@@ -10801,9 +10066,7 @@ _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC I
 
 - **FFT/IFFT cores (Free/Open)** — multiple Verilog/VHDL implementations for radar, OFDM, audio DSP.
 
----
-
-### ✅ SDR Front-Ends & RF Gateware (Open)
+#### IV. SDR Front-Ends & RF Gateware (Open)
 
 - **LimeSDR Gateware (Free/Open)** — https://github.com/myriadrf  
   Complete FPGA signal chain for LimeSDR boards; AGC, mixers, DDC/DUC, filters.
@@ -10817,9 +10080,7 @@ _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC I
 - **gr-satellites (Free/Open)** — https://github.com/daniestevez/gr-satellites  
   GNU Radio blocks for decoding dozens of satellite waveforms.
 
----
-
-### ✅ Radar & Sensing DSP (Free/Open)
+#### V. Radar & Sensing DSP (Free/Open)
 
 - **pyUHD + GNU Radio Radar blocks (Free/Open)** — implement FMCW, pulse radar, doppler processing.
 
@@ -10830,9 +10091,7 @@ _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC I
 - **KFR DSP (Free/Open)** — https://github.com/kfrlib/kfr  
   High-performance DSP library for filtering, FFT, convolution (C++) suitable for embedded Linux SDR.
 
----
-
-### ✅ Audio / Voice DSP (Free/Open)
+#### VI. Audio / Voice DSP (Free/Open)
 
 - **SpeexDSP (Free/Open)** — high-efficiency audio processing: filters, AGC, echo cancel, noise suppression.
 
@@ -10842,9 +10101,7 @@ _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC I
 - **SoX DSP (Free/Open)** — https://sox.sourceforge.net  
   Filters, resampling, equalizers for embedded PCM pipelines.
 
----
-
-### ✅ Coding & FEC Engines (Free/Open)
+#### VII. Coding & FEC Engines (Free/Open)
 
 - **OpenFEC (Free/Open)** — https://openfec.org  
   Reed-Solomon and RaptorQ FEC for lossy RF links.
@@ -10853,9 +10110,7 @@ _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC I
 
 - **LDPC / Turbo Implementations (OpenCores/GitHub)** — modular HDL blocks for high-rate links.
 
----
-
-### ✅ DSP Simulation, Testing & Tooling (Free/Open)
+#### VIII. DSP Simulation, Testing & Tooling (Free/Open)
 
 - **GNU Octave (Free/Open)** — https://octave.org  
   MATLAB-compatible numerical computing for filters, modulation, signal analysis.
@@ -10869,9 +10124,7 @@ _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC I
 - **Scilab (Free/Open)** — https://www.scilab.org  
   Numerical DSP analysis/visualization environment.
 
----
-
-### ✅ Learning Repos & Academic Datasets (Free/Open)
+#### IX. Learning Repos & Academic Datasets (Free/Open)
 
 - **GNU Radio Tutorials & Courseware (Free/Open)** — official examples and university labs.
 
@@ -10881,14 +10134,10 @@ _Free and open-source digital signal processing blocks, modem cores, FPGA/ASIC I
 
 - **DSP-Related Kaggle/AIR datasets (Free)** — RF signal classification, radar echoes.
 
----
-
-## 48. High-Voltage & Power Electronics Simulation Tools  
+### 48. High-Voltage & Power Electronics Simulation Tools  
 _Free / open-source tools for SMPS design, HV converters, motor drives, insulation coordination, switch transients, magnetics and thermal-electrical co-simulation._
 
----
-
-### ✅ Power Electronics Circuit Simulation (Free/Open)
+#### I. Power Electronics Circuit Simulation (Free/Open)
 
 - **LTspice (Free)** — https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html  
   Industry-standard SMPS simulator. MOSFET drivers, DC-DC, PFC stages, thermal stress, transformer leakage, startup behavior.
@@ -10905,9 +10154,7 @@ _Free / open-source tools for SMPS design, HV converters, motor drives, insulati
 - **Ngspice (Free/Open)** — http://ngspice.sourceforge.net  
   Generic SPICE engine with transient simulation and custom models for IGBTs, MOSFETs, GaN.
 
----
-
-### ✅ Magnetics, Transformers & Inductors (Free/Open)
+#### II. Magnetics, Transformers & Inductors (Free/Open)
 
 - **FEMM (Free/Open)** — https://www.femm.info  
   2D FEM simulation for magnetics: transformer cores, inductors, flux leakage, saturation and eddy losses.
@@ -10921,9 +10168,7 @@ _Free / open-source tools for SMPS design, HV converters, motor drives, insulati
 - **PowerEsim (Free-Tier)** — https://www.poweresim.com  
   Online SMPS magnetics calculator, thermal checks, loss estimation, BOM suggestions.
 
----
-
-### ✅ High-Voltage Isolation, Creepage & Clearance (Free Resources)
+#### III. High-Voltage Isolation, Creepage & Clearance (Free Resources)
 
 - **Creepage/Clearance Calculators (Free Web Tools)** — map altitude, CTI, insulation classes to PCB spacing.
 
@@ -10933,9 +10178,7 @@ _Free / open-source tools for SMPS design, HV converters, motor drives, insulati
 
 - **Pulse/High-Voltage Transformer App Notes (Free PDFs)** — design rules for reinforced insulation windings.
 
----
-
-### ✅ Motor Drive & Inverter Simulation (Free/Open)
+#### IV. Motor Drive & Inverter Simulation (Free/Open)
 
 - **Motor Control Workbench (ST) (Free)** — generate FOC/BLDC code + motor models for STM32 MCUs.
 
@@ -10945,9 +10188,7 @@ _Free / open-source tools for SMPS design, HV converters, motor drives, insulati
 
 - **SimulIDE + MCU + Gate Drivers (Free/Open)** — small tool to simulate PWM control and inverter switching.
 
----
-
-### ✅ GaN/SiC & Fast Switching (Free/Public)
+#### V. GaN/SiC & Fast Switching (Free/Public)
 
 - **GaN Systems / Transphorm App Notes (Free)** — gate driver layout, EMI mitigation, ZVS/ZCS design.
 
@@ -10955,9 +10196,7 @@ _Free / open-source tools for SMPS design, HV converters, motor drives, insulati
 
 - **TI GaN Power Stages (Free)** — SPICE models and layout rules for high-frequency converters.
 
----
-
-### ✅ Power Integrity / EMI Pre-Compliance (Free/Open)
+#### VI. Power Integrity / EMI Pre-Compliance (Free/Open)
 
 - **OpenEMS (Free/Open)** — https://www.openems.de  
   FDTD electromagnetic simulation for radiated emissions, shielding, cable currents.
@@ -10966,9 +10205,7 @@ _Free / open-source tools for SMPS design, HV converters, motor drives, insulati
 
 - **LTspice + parasitic modeling (Free)** — simulate switch-node ringing, diode recovery, gate loops.
 
----
-
-### ✅ Thermal & Reliability (Free/Public)
+#### VII. Thermal & Reliability (Free/Public)
 
 - **OpenFOAM (Free/Open)** — PCB airflow and heatsink analysis for HV power supplies/chargers.
 
@@ -10976,9 +10213,7 @@ _Free / open-source tools for SMPS design, HV converters, motor drives, insulati
 
 - **PowerEsim Thermal (Free Tier)** — junction temperature, heatsink sizing, SOA stress.
 
----
-
-### ✅ Test Automation & HIL (Free/Open)
+#### VIII. Test Automation & HIL (Free/Open)
 
 - **OpenHTF (Free/Open)** — https://google.github.io/openhtf  
   Automate power-on tests, surge tests, calibration, efficiency logs for SMPS prototypes.
@@ -10987,9 +10222,7 @@ _Free / open-source tools for SMPS design, HV converters, motor drives, insulati
 
 - **Renode/QEMU (Free/Open)** — co-simulate power control firmware with virtual peripherals.
 
----
-
-### ✅ High Voltage Safety & Compliance (Free/Public)
+#### IX. High Voltage Safety & Compliance (Free/Public)
 
 - **IPC-2221 / UL Summaries (Free)** — PCB spacing & creepage design.
 
@@ -10997,14 +10230,10 @@ _Free / open-source tools for SMPS design, HV converters, motor drives, insulati
 
 - **NASA Power System Design Guides (Free PDFs)** — grounding, fault protection, radiation derating.
 
----
-
-## 49. Open Embedded Operating Systems for Space / Defense / Safety-Critical  
+### 49. Open Embedded Operating Systems for Space / Defense / Safety-Critical  
 _Free / open-source operating systems and RTOS frameworks used in aerospace, defense, satcom, nuclear, industrial safety, and mission-critical embedded systems._
 
----
-
-### ✅ Space-Grade Flight Software Frameworks (Free/Open)
+#### I. Space-Grade Flight Software Frameworks (Free/Open)
 
 - **NASA cFS – Core Flight System (Free/Open)** — https://cfs.gsfc.nasa.gov  
   Flight-proven satellite OS framework with modular apps, telemetry, command, data handling, fault management.
@@ -11018,9 +10247,7 @@ _Free / open-source operating systems and RTOS frameworks used in aerospace, def
 - **OpenSatKit (Free/Open)** — https://github.com/OpenSatKit  
   Hands-on flight software, ground station, telemetry viewer, training lab (built around cFS).
 
----
-
-### ✅ Real-Time Operating Systems for Aerospace & Safety (Free/Open)
+#### II. Real-Time Operating Systems for Aerospace & Safety (Free/Open)
 
 - **RTEMS (Free/Open)** — https://www.rtems.org  
   Real-time OS used in ESA/NASA missions. Deterministic, POSIX support, multi-core SMP, flight heritage.
@@ -11042,9 +10269,7 @@ _Free / open-source operating systems and RTOS frameworks used in aerospace, def
 
 - **ARINC 653 Open Repos (Open Educational Implementations)** — partitioned avionics OS reference projects.
 
----
-
-### ✅ Secure / Defense-Oriented OS & Middleware (Free/Open)
+#### III. Secure / Defense-Oriented OS & Middleware (Free/Open)
 
 - **OpenTitan Firmware Stack (Free/Open)** — https://opentitan.org  
   Secure boot chain, attestation, crypto services for defense/Aero MCUs.
@@ -11057,9 +10282,7 @@ _Free / open-source operating systems and RTOS frameworks used in aerospace, def
 
 - **AeroKernel (Free/Open)** — academic OS kernels for high-assurance systems.
 
----
-
-### ✅ High-Assurance Linux / Embedded Linux (Free/Open)
+#### IV. High-Assurance Linux / Embedded Linux (Free/Open)
 
 - **Buildroot (Free/Open)** — https://buildroot.org  
   Minimal secure Linux for aerospace SBCs. Reproducible builds, signed kernels, custom packages.
@@ -11072,9 +10295,7 @@ _Free / open-source operating systems and RTOS frameworks used in aerospace, def
 
 - **SELinux / AppArmor (Free/Open)** — MAC frameworks for critical Linux deployments.
 
----
-
-### ✅ Safety-Certified & Standards Alignment (Free/Public Docs)
+#### V. Safety-Certified & Standards Alignment (Free/Public Docs)
 
 - **MISRA-C Guidelines (Free Summaries)** — safe C coding rules used in avionics/defense.
 
@@ -11084,9 +10305,7 @@ _Free / open-source operating systems and RTOS frameworks used in aerospace, def
 
 - **ARINC 653 Public Guides (Free)** — time/space partitioning, inter-partition messaging.
 
----
-
-### ✅ Testing, Simulation & Fault Injection (Free/Open)
+#### VI. Testing, Simulation & Fault Injection (Free/Open)
 
 - **Renode (Free/Open)** — https://renode.io  
   Simulate satellite or defense nodes with RTOS + radios + sensors for pre-flight testing.
@@ -11098,10 +10317,8 @@ _Free / open-source operating systems and RTOS frameworks used in aerospace, def
 - **OpenHTF (Free/Open)** — automate hardware-in-loop tests for avionics boards and radios.
 
 - **Syft / Grype (Free/Open)** — generate SBOMs and scan firmware for security vulnerabilities.
-
----
-
-### ✅ Helpful Open Tools for Flight DevOps
+  
+#### VII. Helpful Open Tools for Flight DevOps
 
 - **OpenMCT (Free/Open)** — https://github.com/nasa/openmct  
   NASA’s modern mission control dashboard for telemetry and command.
@@ -11112,9 +10329,7 @@ _Free / open-source operating systems and RTOS frameworks used in aerospace, def
 
 - **cFS + COSMOS Ground Station Bundles (Free/Open)** — command/telemetry UI with scripting.
 
----
-
-### ✅ Academic & Learning Resources
+#### VIII. Academic & Learning Resources
 
 - **NASA FSW Training (Free)** — public lecture slides for space-grade software.
 
@@ -11122,14 +10337,10 @@ _Free / open-source operating systems and RTOS frameworks used in aerospace, def
 
 - **CubeSat Design Specification (Free)** — system-level avionics, radios, FSW expectations.
 
----
-
-## 50. Advanced Semiconductor Packaging & Assembly Tools  
+### 50. Advanced Semiconductor Packaging & Assembly Tools  
 _Free / open-source tools and reference resources for IC packaging, wirebonding, flip-chip, 2.5D/3D packaging, PCB assembly, thermal-mechanical modeling, and high-reliability electronic assembly._
 
----
-
-### ✅ Packaging Design / Layout / Footprint Tools (Free/Open)
+#### I. Packaging Design / Layout / Footprint Tools (Free/Open)
 
 - **KiCad (Free/Open)** — https://kicad.org  
   Full PCB + footprint + 3D package modeling. Supports BGA, QFN, CSP, wafer-level, stacked leadframes, HDI microvias.
@@ -11143,9 +10354,7 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 - **OpenBoardView (Free/Open)** — https://openboardview.org  
   Package pinout and pad-level reverse engineering of assembly faults (BGA shorts, open vias, pad voids).
 
----
-
-### ✅ Thermal-Mechanical & Warpage Simulation (Free/Open/Public)
+#### II. Thermal-Mechanical & Warpage Simulation (Free/Open/Public)
 
 - **OpenFOAM (Free/Open)** — https://openfoam.org  
   Thermal simulations for underfill, die attach, heatsink, spreader modeling and airflow on high-power ICs.
@@ -11158,9 +10367,7 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 
 - **ANSYS & COMSOL Academic Repos (Free Demos)** — public tutorials on solder fatigue, BGA reliability, thermal cycling.
 
----
-
-### ✅ Wirebond, Flip-Chip, BGA & HDI Reference (Free/Public)
+#### III. Wirebond, Flip-Chip, BGA & HDI Reference (Free/Public)
 
 - **IPC-7351B Public Summaries (Free)** — package footprint standards (QFN/BGA/CSP).
 
@@ -11173,9 +10380,7 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 
 - **“Tin Whisker Mitigation” NASA Guides (Free PDF)** — whisker suppression for long-life boards.
 
----
-
-### ✅ 2.5D / 3D Packaging, Interposers, TSV (Free/Open/Public)
+#### IV. 2.5D / 3D Packaging, Interposers, TSV (Free/Open/Public)
 
 - **Open3DFlow (Free/Open)** — research-level open 3D IC design flow (interposers, TSV routing).
 
@@ -11186,9 +10391,7 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 
 - **DARPA CHIPS Program Docs (Free PDFs)** — assembly, chiplets, interposers, thermal management.
 
----
-
-### ✅ Semiconductor Reliability & Aging (Free/Public)
+#### V. Semiconductor Reliability & Aging (Free/Public)
 
 - **MIL-HDBK-338 / 217 (Free PDFs)** — failure rate prediction for ICs, packaging, interconnects.
 
@@ -11200,9 +10403,7 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 
 - **Coffin-Manson & Miner Fatigue Calculators (Free Sheets)** — predict solder/joint fatigue over thermal cycling.
 
----
-
-### ✅ X-Ray, AOI & Manufacturing Debug (Free/Open)
+#### VI. X-Ray, AOI & Manufacturing Debug (Free/Open)
 
 - **OpenScanLab (Free/Open)** — datasets and algorithms for PCB/X-ray defect classification.
 
@@ -11213,9 +10414,7 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 
 - **PyVISA + SCPI (Free/Open)** — automate AOI, ICT and boundary-scan driven tests.
 
----
-
-### ✅ PCB/Package Co-Design & Co-Simulation (Free/Open)
+#### VII. PCB/Package Co-Design & Co-Simulation (Free/Open)
 
 - **OpenEMS (Free/Open)** — https://www.openems.de  
   Electromagnetic co-simulation for package + PCB transitions, controlled impedance, HF loss.
@@ -11224,9 +10423,7 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 
 - **Qucs-S (Free/Open)** — S-parameter simulation for package to board transitions.
 
----
-
-### ✅ SMT, Reflow, Soldering, Assembly Guides (Free/Public)
+#### VIII. SMT, Reflow, Soldering, Assembly Guides (Free/Public)
 
 - **J-STD-001 Summaries (Free)** — soldering workmanship for high-rel electronics.
 
@@ -11238,9 +10435,7 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 
 - **Fritzing (Free/Open)** — visualization of assembly, through-hole/SMD mixed boards.
 
----
-
-### ✅ Bonding / Die Attach / Underfill (Free/Public)
+#### IX. Bonding / Die Attach / Underfill (Free/Public)
 
 - **Henkel/Loctite Application Notes (Free)** — underfill, epoxy, die attach reliability.
 
@@ -11248,9 +10443,7 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 
 - **Nordson/Dage App Notes (Free PDFs)** — X-ray analysis, voiding, delamination.
 
----
-
-### ✅ Useful Checklists & Templates (Free)
+#### X. Useful Checklists & Templates (Free)
 
 - BGA escape routing checklist  
 - MSL storage + drying logs  
@@ -11258,14 +10451,10 @@ _Free / open-source tools and reference resources for IC packaging, wirebonding,
 - Reflow profiling templates  
 - Reliability qualification matrix (HTOL, HAST, TC, drop, vibration)
 
----
-
-## 51. Acoustic / Ultrasonic / Piezo Simulation Tools  
+### 51. Acoustic / Ultrasonic / Piezo Simulation Tools  
 _Free / open-source tools and reference material for designing ultrasonic sensors, piezo drivers, acoustic waveguides, MEMS microphones, sonar, NDT transducers, and acoustic lenses._
 
----
-
-### ✅ Acoustic Wave & Ultrasonic Simulation (Free/Open)
+#### I. Acoustic Wave & Ultrasonic Simulation (Free/Open)
 
 - **k-Wave (Free/Open)** — https://www.k-wave.org  
   Full acoustic wave simulation toolbox for MATLAB/Octave. Models ultrasound propagation, attenuation, transducer arrays, beamforming.
@@ -11282,9 +10471,7 @@ _Free / open-source tools and reference material for designing ultrasonic sensor
 - **FreeCAD + FEM Workbench (Free/Open)** — https://freecad.org  
   Design transducer housings, horns, and acoustic waveguides; link to FEM tools for modal analysis.
 
----
-
-### ✅ Piezoelectric Modeling (Free/Open)
+#### II. Piezoelectric Modeling (Free/Open)
 
 - **Elmer PZ Module (Free/Open)** — models piezo-actuated devices (ultrasonic cleaners, NDT probes, buzzers).
 
@@ -11293,9 +10480,7 @@ _Free / open-source tools and reference material for designing ultrasonic sensor
 
 - **OpenPZ / Piezoelectric GitHub Projects (Free/Open)** — open scripts and FEM models for PZT resonant tuning, beam/shell effects.
 
----
-
-### ✅ Acoustics for Speakers, MEMS Mics, Audio Devices (Free/Open)
+#### III. Acoustics for Speakers, MEMS Mics, Audio Devices (Free/Open)
 
 - **REW – Room EQ Wizard (Free)** — https://www.roomeqwizard.com  
   Acoustic response measurement, FFT, impulse response, echo/reflection analysis.
@@ -11307,9 +10492,7 @@ _Free / open-source tools and reference material for designing ultrasonic sensor
 - **Audacity (Free/Open)** — https://www.audacityteam.org  
   FFT, spectrograms, filtering, harmonic distortion checks for sonic/ultrasonic signals.
 
----
-
-### ✅ Filter, Beamforming & DSP (Free/Open)
+#### IV. Filter, Beamforming & DSP (Free/Open)
 
 - **GNU Octave (Free/Open)** — https://octave.org  
   Acoustic signal processing: FFT, FIR/IIR, beamforming, matched filters, STFT.
@@ -11321,9 +10504,7 @@ _Free / open-source tools and reference material for designing ultrasonic sensor
 
 - **MATLAB Online + Free Toolboxes (Limited)** — university-hosted acoustic and beamforming examples.
 
----
-
-### ✅ MEMS Microphones, Hydrophones & Transducers (Free/Public)
+#### V. MEMS Microphones, Hydrophones & Transducers (Free/Public)
 
 - **Analog Devices MEMS Mic App Notes (Free)** — beamforming arrays, noise filtering, ultrasonic drivers.
 
@@ -11333,9 +10514,7 @@ _Free / open-source tools and reference material for designing ultrasonic sensor
 
 - **Underwater Acoustics Free Texts (Public)** — sonar basics, hydrophone placement, propagation losses.
 
----
-
-### ✅ NDT / Industrial Ultrasonic (Free/Open)
+#### VI. NDT / Industrial Ultrasonic (Free/Open)
 
 - **OpenUT (Free/Open)** — community libraries for ultrasonic thickness and flaw detection systems.
 
@@ -11344,9 +10523,7 @@ _Free / open-source tools and reference material for designing ultrasonic sensor
 - **gprMax (Free/Open)** — https://www.gprmax.com  
   FDTD simulation tool for Ground Penetrating Radar—also applicable to ultrasonic inspection mediums.
 
----
-
-### ✅ Measurement, Visualization & Logging (Free/Open)
+#### VII. Measurement, Visualization & Logging (Free/Open)
 
 - **Sigrok + PulseView (Free/Open)** — https://sigrok.org  
   Capture transducer drive waveforms, PWM drivers, and resonant ringing.
@@ -11355,9 +10532,7 @@ _Free / open-source tools and reference material for designing ultrasonic sensor
 
 - **OpenMCT + Grafana OSS (Free)** — visualize long-term acoustic telemetry from sensor arrays.
 
----
-
-### ✅ Learning Resources (Free)
+#### VIII. Learning Resources (Free)
 
 - **MIT Acoustics Courseware (Free)** — fundamentals of sound waves, cavity modes, filters, microphones.
 
@@ -11365,14 +10540,10 @@ _Free / open-source tools and reference material for designing ultrasonic sensor
 
 - **Ultrasonic NDT PDFs (Free/Public)** — flaw detection, phased-array transducers.
 
----
-
-## 52. LiDAR / Radar Development Stacks (Free/Open)  
+### 52. LiDAR / Radar Development Stacks (Free/Open)  
 _Free and open-source tools for LiDAR / mmWave radar signal processing, point cloud handling, mapping, tracking, perception, SLAM and embedded radar DSP._
 
----
-
-### ✅ LiDAR Processing & Point Cloud Libraries (Free/Open)
+#### I. LiDAR Processing & Point Cloud Libraries (Free/Open)
 
 - **Point Cloud Library – PCL (Free/Open)** — https://pointclouds.org  
   Industry-standard library for filtering, segmentation, registration, clustering, object detection and 3D mapping.
@@ -11392,9 +10563,7 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 - **CloudCompare (Free/Open)** — https://www.cloudcompare.org  
   LiDAR point-cloud comparison, surface alignment, deviation analysis, industrial metrology.
 
----
-
-### ✅ LiDAR SLAM, Mapping & Perception (Free/Open)
+#### II. LiDAR SLAM, Mapping & Perception (Free/Open)
 
 - **Cartographer (Free/Open)** — https://google-cartographer.readthedocs.io  
   2D/3D SLAM for mobile robots and warehouse AMRs.
@@ -11411,9 +10580,7 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 - **ROS Navigation + Costmaps (Free/Open)** — https://wiki.ros.org/navigation  
   Use LiDAR for obstacle detection, path planning and collision avoidance.
 
----
-
-### ✅ LiDAR Visualization & Playback (Free/Open)
+#### III. LiDAR Visualization & Playback (Free/Open)
 
 - **RViz / RViz2 (Free/Open)** — part of ROS; visualize point clouds, maps, trajectories, IMU, LiDAR scans.
 
@@ -11422,9 +10589,7 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 
 - **ROSBAG (Free/Open)** — record & replay sensor data (LIDAR+IMU+Odom) for offline analysis.
 
----
-
-### ✅ Radar / mmWave DSP Frameworks (Free/Open)
+#### IV. Radar / mmWave DSP Frameworks (Free/Open)
 
 - **tiRadar / mmWave-TI Open SDK (Free)** — TI public SDK for IWR/ AWR mmWave sensors: FFT, range-Doppler, CFAR, tracking.
 
@@ -11437,9 +10602,7 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 
 - **pyUHD + USRP (Free/Open)** — build custom SDR radars for automotive, drone altimeters, proximity sensors.
 
----
-
-### ✅ Radar Tracking, Kalman Filtering, Sensor Fusion
+#### V. Radar Tracking, Kalman Filtering, Sensor Fusion
 
 - **Robot Localization (Free/Open)** — https://github.com/cra-ros-pkg/robot_localization  
   EKF/UKF sensor fusion for LiDAR + radar + wheel odom + IMU.
@@ -11452,9 +10615,7 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 
 - **OpenCV + Open3D Fusion (Free/Open)** — Combine camera + LiDAR for object detection and mapping.
 
----
-
-### ✅ Automotive & Robotics LiDAR Stacks (Free/Open)
+#### VI. Automotive & Robotics LiDAR Stacks (Free/Open)
 
 - **Autoware.AI / Autoware.Auto (Free/Open)** — https://www.autoware.org  
   AV perception stack: LiDAR detection, tracking, HD mapping, route planning.
@@ -11467,9 +10628,7 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 - **ROS2 Navigation2 (Free/Open)** — https://navigation.ros.org  
   Real-time LiDAR-based navigation and multi-robot fleet control.
 
----
-
-### ✅ Industrial Sensing / NDT / Robotics (Free/Open)
+#### VII. Industrial Sensing / NDT / Robotics (Free/Open)
 
 - **gprMax (Free/Open)** — https://www.gprmax.com  
   FDTD GPR simulator for subsurface radar; also used for ultrasonic & dielectric imaging.
@@ -11477,10 +10636,8 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 - **Open3D + ICP Pipelines** — robotic arm inspection, warehouse pallet picking, environment modeling.
 
 - **CloudCompare Deviation Maps** — compare scanned vs CAD to check mechanical tolerances.
-
----
-
-### ✅ LiDAR / Radar Hardware Drivers (Free/Open)
+  
+#### VIII. LiDAR / Radar Hardware Drivers (Free/Open)
 
 - **RPLIDAR / YDLIDAR ROS Drivers (Free/Open)** — ROS support for low-cost 360° LiDARs.
 
@@ -11490,9 +10647,7 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 
 - **Open IWR mmWave Drivers (Free/Open)** — TI mmWave demo visualizer + Python tools.
 
----
-
-### ✅ Tools for Data Logging, Analysis & Replay (Free/Open)
+#### IX. Tools for Data Logging, Analysis & Replay (Free/Open)
 
 - **ROS Bag / rosbag2 (Free/Open)** — record LiDAR + IMU + radar for regression testing.
 
@@ -11501,10 +10656,8 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 - **InfluxDB + Grafana OSS (Free)** — telemetry storage and dashboards for fleet sensing.
 
 - **OpenMCT (Free/Open)** — mission control dashboard for sensor telemetry.
-
----
-
-### ✅ Datasets for Testing & AI Models (Free/Open)
+  
+#### X. Datasets for Testing & AI Models (Free/Open)
 
 - **KITTI Vision Benchmark (Free)** — autonomous driving LiDAR, stereo, radar sets.
 
@@ -11514,14 +10667,10 @@ _Free and open-source tools for LiDAR / mmWave radar signal processing, point cl
 
 - **Ford Autonomous Dataset (Free)** — LiDAR + radar + GPS/IMU mapping data.
 
----
-
-## 53. Industrial Imaging / Computer Vision Toolkits (Free/Open)  
+### 53. Industrial Imaging / Computer Vision Toolkits (Free/Open)  
 _Free / open-source frameworks for machine vision, industrial inspection, barcode/QR, object tracking, defect detection, and production-line automation._
 
----
-
-### ✅ Core Computer Vision Libraries (Free/Open)
+#### I. Core Computer Vision Libraries (Free/Open)
 
 - **OpenCV (Free/Open)** — https://opencv.org  
   The most popular vision library: object detection, image filters, calibration, barcode/QR, OCR, ML, and hardware acceleration.
@@ -11538,9 +10687,7 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 - **Darknet / YOLO (Free/Open)** — https://github.com/AlexeyAB/darknet  
   Real-time object detection for conveyor lines, pallet detection, zone intrusion.
 
----
-
-### ✅ Industrial Inspection & SMT/PCB Vision (Free/Open)
+#### II. Industrial Inspection & SMT/PCB Vision (Free/Open)
 
 - **OpenPnP (Free/Open)** — https://openpnp.org  
   Open-source pick-and-place vision system: fiducial recognition, nozzle alignment, part inspection.
@@ -11554,9 +10701,7 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 
 - **BGA/QFN X-ray Dataset Repos (Free/Open)** — community datasets for solder joint defect training.
 
----
-
-### ✅ Barcode / OCR / Industrial Scanners (Free/Open)
+#### III. Barcode / OCR / Industrial Scanners (Free/Open)
 
 - **ZBar (Free/Open)** — https://github.com/mchehab/zbar  
   Reads QR, EAN, UPC, DataMatrix; used in warehouse scanners and traceability.
@@ -11567,9 +10712,7 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 - **Tesseract OCR (Free/Open)** — https://github.com/tesseract-ocr/tesseract  
   OCR for labels, part numbers, packaging, expiry dates.
 
----
-
-### ✅ Factory Robotics / Vision Pipelines (Free/Open)
+#### IV. Factory Robotics / Vision Pipelines (Free/Open)
 
 - **ROS + image_pipeline (Free/Open)** — https://wiki.ros.org/image_pipeline  
   Camera drivers, calibration, rectification, stereo depth for robotics.
@@ -11581,9 +10724,7 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 
 - **NVIDIA Jetson Multi-Camera (Free/Open Samples)** — object detection for conveyor belts, palletizers.
 
----
-
-### ✅ Edge Inference / ONNX Tooling (Free/Open)
+#### V. Edge Inference / ONNX Tooling (Free/Open)
 
 - **ONNX Runtime (Free/Open)** — https://onnxruntime.ai  
   Deploy models on embedded CPUs/NPUs/GPUs, production-ready, supports OpenCV integration.
@@ -11593,9 +10734,7 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 - **Edge Impulse Free Tier** — https://edgeimpulse.com  
   Train + deploy anomaly detection & CV models to MCUs/SBCs (free developer tier).
 
----
-
-### ✅ 3D Vision / Stereo / Depth Cameras (Free/Open)
+#### VI. 3D Vision / Stereo / Depth Cameras (Free/Open)
 
 - **Intel RealSense SDK (Free/Open)** — https://github.com/IntelRealSense/librealsense  
   Depth cameras for robotic picking, warehouse automation.
@@ -11604,9 +10743,7 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 
 - **ElasticFusion (Free/Open)** — real-time 3D reconstruction from RGB-D cameras.
 
----
-
-### ✅ Defect Detection / Quality Control (Free/Open)
+#### VII. Defect Detection / Quality Control (Free/Open)
 
 - **Anomalib (Free/Open)** — https://github.com/openvinotoolkit/anomalib  
   Industrial anomaly detection (scratches, dents, missing components) with SOTA deep learning models.
@@ -11617,9 +10754,7 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 
 - **Ultralytics YOLOv8 (Open)** — fast segmentation/defect detection models with free usage on local compute.
 
----
-
-### ✅ Annotation, Labeling & Dataset Tools (Free/Open)
+#### VIII. Annotation, Labeling & Dataset Tools (Free/Open)
 
 - **CVAT (Free/Open)** — https://cvat.org  
   Annotation tool from Intel. Label objects, polygons, defects, OCR zones, barcodes for training CV models.
@@ -11628,9 +10763,7 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 
 - **Roboflow Free Tier** — dataset management and augmentation for small industrial projects.
 
----
-
-### ✅ Visualization & Data Logging
+#### IX. Visualization & Data Logging
 
 - **OpenMCT (Free/Open)** — telemetry dashboards for cameras, robots, production sensors.
 
@@ -11638,9 +10771,7 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 
 - **Grafana OSS (Free/Open)** — runtime vision system monitoring (fps, latency, anomalies).
 
----
-
-### ✅ Learning Material
+#### X. Learning Material
 
 - **OpenCV Python Courses (Free)** — official samples + notebooks.
 
@@ -11648,14 +10779,10 @@ _Free / open-source frameworks for machine vision, industrial inspection, barcod
 
 - **Kaggle Industrial Vision Datasets (Free)** — PCB defects, metal surface scratches, product inspection.
 
----
-
-## 54. Autonomous Drones / UAV Firmware & Ground Systems  
+### 54. Autonomous Drones / UAV Firmware & Ground Systems  
 _Free / open-source autopilot stacks, flight controllers, simulators, ground stations, telemetry radios, swarm frameworks, and computer vision pipelines for UAVs._
 
----
-
-### ✅ Autopilot Firmware (Free/Open)
+#### I. Autopilot Firmware (Free/Open)
 
 - **ArduPilot (Free/Open)** — https://ardupilot.org  
   Industry-leading open-source autopilot: multirotor, fixed-wing, VTOL, rover, boat, sub, antenna tracking. Supports GPS, RTK, ADS-B, obstacle avoidance.
@@ -11669,10 +10796,8 @@ _Free / open-source autopilot stacks, flight controllers, simulators, ground sta
 - **LibrePilot (Free/Open)** — older but popular with hobby drones, F4 flight controllers.
 
 - **Cleanflight / Betaflight / iNav (Free/Open)** — FPV/racing flight stacks with PID tuning, telemetry, OSD, advanced filters.
-
----
-
-### ✅ Ground Control Stations (Free/Open)
+  
+#### II. Ground Control Stations (Free/Open)
 
 - **QGroundControl (Free/Open)** — http://qgroundcontrol.com  
   Mission planning, telemetry, parameter tuning, video streaming, companion computer integration.
@@ -11688,9 +10813,7 @@ _Free / open-source autopilot stacks, flight controllers, simulators, ground sta
 - **Foxglove Studio (Free/Open)** — https://foxglove.dev  
   Visualize telemetry, IMU, LiDAR, video, CAN/serial logs for autonomous drones.
 
----
-
-### ✅ Simulation & Digital Twins (Free/Open)
+#### III. Simulation & Digital Twins (Free/Open)
 
 - **Gazebo / Gazebo Garden (Free/Open)** — https://gazebosim.org  
   Physically accurate simulation with drone models, sensors, wind, payloads, PX4 plugins.
@@ -11702,9 +10825,7 @@ _Free / open-source autopilot stacks, flight controllers, simulators, ground sta
 
 - **jsbsim (Free/Open)** — flight dynamics engine used in FlightGear; PX4/ArduPilot integration.
 
----
-
-### ✅ Companion Computer / CV / Perception (Free/Open)
+#### IV. Companion Computer / CV / Perception (Free/Open)
 
 - **ROS + MAVROS (Free/Open)** — ROS → MAVLink bridge to control drones with onboard compute.
 
@@ -11714,9 +10835,7 @@ _Free / open-source autopilot stacks, flight controllers, simulators, ground sta
 
 - **Autoware Lite / Apollo (Free/Open)** — for ground robots; can be adapted for drone perception & autonomy.
 
----
-
-### ✅ Swarming, Fleet Control & UTM (Free/Open)
+#### V. Swarming, Fleet Control & UTM (Free/Open)
 
 - **Open-RMF (Free/Open)** — multi-robot fleet coordination; can adapt to UAV scheduling & routing.
 
@@ -11727,9 +10846,7 @@ _Free / open-source autopilot stacks, flight controllers, simulators, ground sta
 
 - **DroneCAN (Free/Open)** — CAN-bus ecosystem for UAV payloads, ESCs, GPS, airspeed sensors.
 
----
-
-### ✅ Telemetry, Radios, Links (Free/Open)
+#### VI. Telemetry, Radios, Links (Free/Open)
 
 - **MAVLink (Free/Open)** — https://mavlink.io  
   Lightweight messaging protocol used in PX4/ArduPilot.
@@ -11738,9 +10855,7 @@ _Free / open-source autopilot stacks, flight controllers, simulators, ground sta
 
 - **RTL-SDR + GNU Radio (Free/Open)** — receive ADS-B, telemetry, custom downlinks.
 
----
-
-### ✅ Flight Logs, Analysis & Replay (Free/Open)
+#### VII. Flight Logs, Analysis & Replay (Free/Open)
 
 - **Flight Review / Mavlink Flight Analyzer (Free/Open)** — online and local tools to analyze UAV logs (battery, PID, GPS, vibration).
 
@@ -11748,9 +10863,7 @@ _Free / open-source autopilot stacks, flight controllers, simulators, ground sta
 
 - **PX4 uLog + plot_juggler (Free/Open)** — real-time and replay dashboards for flight data.
 
----
-
-### ✅ Hardware Repos (Free/Open)
+#### VIII. Hardware Repos (Free/Open)
 
 - **OpenDroneID Project (Free/Open)** — standard for broadcast remote ID.
 
@@ -11758,9 +10871,7 @@ _Free / open-source autopilot stacks, flight controllers, simulators, ground sta
 
 - **Open-Hardware Flight Controllers (Free/Open)** — PX4/ArduPilot compatible boards on GitHub.
 
----
-
-### ✅ Learning Resources (Free)
+#### IX. Learning Resources (Free)
 
 - **PX4 Developer Guide (Free)** — architecture, autopilot internals, HITL, SITL.
 
@@ -11768,14 +10879,10 @@ _Free / open-source autopilot stacks, flight controllers, simulators, ground sta
 
 - **MIT / ETH UAV Lectures (Free)** — dynamics, control, SLAM, autonomy, multi-robot systems.
 
----
-
-## 55. Audio / Vibration Analysis & Condition Monitoring Stacks (Free/Open)  
+### 55. Audio / Vibration Analysis & Condition Monitoring Stacks (Free/Open)  
 _Free or open-source tools for machine health monitoring, FFT/Spectrogram analysis, rotational equipment diagnostics, acoustic anomaly detection, and predictive maintenance._
 
----
-
-### ✅ Core Signal Processing & Analysis (Free/Open)
+#### I. Core Signal Processing & Analysis (Free/Open)
 
 - **GNU Octave (Free/Open)** — https://octave.org  
   MATLAB-compatible environment for FFT, PSD, spectrograms, filters, order tracking & envelope detection.
@@ -11790,9 +10897,7 @@ _Free or open-source tools for machine health monitoring, FFT/Spectrogram analys
 
 - **PyWavelets (Free/Open)** — wavelet analysis for bearing failure detection and transient extraction.
 
----
-
-### ✅ Vibration Diagnostics (Free/Open)
+#### II. Vibration Diagnostics (Free/Open)
 
 - **VibrationData Suite (Free)** — https://www.vibrationdata.com  
   Massive library of scripts, tutorials and tools: PSD, SDOF/MDOF analysis, shock response spectrum, fatigue damage.
@@ -11804,9 +10909,7 @@ _Free or open-source tools for machine health monitoring, FFT/Spectrogram analys
 
 - **PyDSP / SigROS GitHub Tools (Free/Open)** — vibration FFT / PSD pipelines for rotating machines & motors.
 
----
-
-### ✅ Predictive Maintenance / Anomaly Detection (Free/Open)
+#### III. Predictive Maintenance / Anomaly Detection (Free/Open)
 
 - **Edge Impulse Free Tier** — https://edgeimpulse.com  
   Build ML anomaly detectors using vibration + sound on MCUs/SBCs. Supports FFT + MFCC features and on-device classification.
@@ -11819,9 +10922,7 @@ _Free or open-source tools for machine health monitoring, FFT/Spectrogram analys
 
 - **River ML (Free/Open)** — streaming ML for real-time maintenance dashboards on edge gateways.
 
----
-
-### ✅ Sensor Data Pipelines (Free/Open)
+#### IV. Sensor Data Pipelines (Free/Open)
 
 - **InfluxDB OSS + Grafana OSS (Free)** — telemetry storage, FFT trend charts, vibration heatmaps, alarms.
 
@@ -11831,9 +10932,7 @@ _Free or open-source tools for machine health monitoring, FFT/Spectrogram analys
 
 - **Node-RED (Free/Open)** — MQTT → DSP → dashboard pipelines for machine health.
 
----
-
-### ✅ Acoustic & Machine Sound Diagnostics (Free/Open)
+#### V. Acoustic & Machine Sound Diagnostics (Free/Open)
 
 - **Audacity (Free/Open)** — https://www.audacityteam.org  
   Spectrogram, harmonic analysis, noise profiling, high-speed FFT for acoustic fault recording.
@@ -11845,9 +10944,7 @@ _Free or open-source tools for machine health monitoring, FFT/Spectrogram analys
 
 - **TF-Lite + MicroPython Audio Classifiers (Free/Open)** — deploy tiny audio-based anomaly detectors to ESP32/MCUs.
 
----
-
-### ✅ IoT Gateways: Condition Monitoring (Free/Open)
+#### VI. IoT Gateways: Condition Monitoring (Free/Open)
 
 - **ThingsBoard Community Edition (Free/Open)** — telemetry, dashboards, ML rules.
 
@@ -11855,9 +10952,7 @@ _Free or open-source tools for machine health monitoring, FFT/Spectrogram analys
 
 - **Eclipse Kura (Free/Open)** — industrial IoT gateway with OPC-UA/MQTT logging from IMU/vibration sensors.
 
----
-
-### ✅ Specialized Toolkits (Free/Open)
+#### VII. Specialized Toolkits (Free/Open)
 
 - **gprMax (Free/Open)** — ground-penetrating radar simulator, also useful for acoustic/ultrasonic waves in solids.
 
@@ -11865,9 +10960,7 @@ _Free or open-source tools for machine health monitoring, FFT/Spectrogram analys
 
 - **OpenAcoustics / Acoular (Free/Open)** — beamforming, microphone arrays, noise source localization.
 
----
-
-### ✅ Data Logging & File Formats
+#### VIII. Data Logging & File Formats
 
 - **MCAP / ROS Bag (Free/Open)** — high-performance logging of vibration streams for offline FFT/ML.
 
@@ -11875,16 +10968,10 @@ _Free or open-source tools for machine health monitoring, FFT/Spectrogram analys
 
 - **Prometheus + Grafana (Free)** — scrape industrial sensors every second for degradation trend monitoring.
 
----
-
-### ✅ Learning Resources (Free)
+#### IX. Learning Resources (Free)
 
 - **MIT Vibration / Applied Mechanics Courseware** — rotating machinery, dampers, FFT fundamentals.
 
 - **NASA Machinery Diagnostics PDFs (Free)** — bearing/gearbox failure signatures and spectrum patterns.
 
 - **NIST Fault Datasets (Free)** — public vibration datasets for ML benchmarking.
-
----
-
-
