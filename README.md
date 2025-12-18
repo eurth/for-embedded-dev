@@ -5,7 +5,6 @@ A curated list of **free tools, resources and references** for Embedded, IoT and
 Community contributions are welcome.  
 Add entries under the correct category with a one-line description and official link.
 
----
 
 ##  A) Hardware Design
 1. **Schematic & PCB Design Tools**  
@@ -16,7 +15,6 @@ Add entries under the correct category with a one-line description and official 
 6. **Component Search & Datasheets**  
 7. **Reference Designs & Open Hardware**
 
----
 
 ##  B) Firmware & Embedded Software
 8. **MCU SDKs & Toolchains**  
@@ -26,15 +24,13 @@ Add entries under the correct category with a one-line description and official 
 12. **Bootloaders & OTA Update Systems**  
 13. **Memory / Flash / Filesystem Utilities**
 
----
 
 ##  C) Connectivity & Networking
 14. **On-Device Communication Protocols** (UART, I²C, SPI, CAN, Modbus, RS-485, BLE, etc.)  
 15. **Network & IoT Protocols** (MQTT, CoAP, HTTP, WebSockets, DDS, OPC-UA)  
 16. **LPWAN / LoRa / Cellular IoT**  
 17. **Hardware Design Resources, Reference Designs & Free Samples**
-
----
+    
 
 ##  D) Debugging, Testing & Measurement
 18. **Regulatory Certifications, Safety Standards & Compliance** (CE, FCC, BIS, WPC, UL, RoHS, etc.)  
@@ -59,15 +55,11 @@ Add entries under the correct category with a one-line description and official 
 29. **Documentation, DevOps & Quality Tools for Embedded & Hardware Systems**  
 30. **Free Learning, Research & Simulation Resources for Embedded & IoT Systems**
 
----
-
 ##  G) Compliance & Certification
 31. **EMI / EMC Pre-Compliance Tools** (Free / Open-Source / Free-Tier)  
 32. **Safety Standards & Testing References**  
 33. **Battery & Environmental Certification**  
 34. **RF Certification & Spectrum Resources**
-
----
 
 ##  H) Edge AI, Robotics & Advanced Hardware
 35. **Automotive / ISO 26262 / Functional Safety** (Free / Open Resources)  
@@ -92,7 +84,6 @@ Add entries under the correct category with a one-line description and official 
 54. **Autonomous Drones / UAV Firmware & Ground Systems**  
 55. **Audio / Vibration Analysis & Condition Monitoring Stacks** (Free / Open)
 
----
 
 ##  I) Learning & Reference Resources  
 *(This section is part of the 55 main topics; kept unnumbered for clarity)*  
