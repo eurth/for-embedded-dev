@@ -1,4 +1,4 @@
-# Free for Embedded
+# Free for Embedded Dev
 
 A curated list of **free tools, resources and references** for Embedded, IoT and Hardware Engineers.
 
