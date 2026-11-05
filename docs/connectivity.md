@@ -164,6 +164,21 @@ https://docs.zephyrproject.org/latest/connectivity/bluetooth
 
 ### 🛠️ BLE Development Tools
 
+#### **BLE Throughput & Transfer Planner** `[Platform: Browser]` `[Level: Intermediate]` `[Status: 🟢Production]`
+
+https://embeddednote.com/en/tools/ble-throughput-calculator/
+
+**Free BLE GATT throughput and transfer-time estimator**
+
+- ✅ Estimates transfer time using ATT MTU and protocol overhead.
+- ✅ Models link-layer fragmentation and PHY airtime.
+- ✅ Accounts for connection-event scheduling.
+- ✅ Useful for ESP32, IoT, and BLE data transfer planning.
+- ⚠️ Results are theoretical estimates, not measured device throughput.
+
+**Perfect for**: Embedded BLE developers planning GATT data transfers.
+
+---
 <details>
 <summary><b>BLE Testing & Debugging Tools</b></summary>
 
